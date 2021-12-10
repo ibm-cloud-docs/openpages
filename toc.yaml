@@ -1,0 +1,29 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: openpages
+    category: analytics
+    audience: service
+    href: https://cloud.ibm.com/docs/services/openpages/getting-started.html
+    release-level: experimental
+    console-page: /catalog/services/openpages-with-watson
+    path: openpages
+    label: OpenPages
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries: 
+  - navgroup: 
+      id: learn
+      topics:
+      - getting-started.md
+  - navgroup: 
+      id: howto
+      topics:
+      - securing-data.md
+  - navgroup: 
+      id: help
+      topics:
+      - release-notes.md
