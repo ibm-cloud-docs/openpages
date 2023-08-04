@@ -332,6 +332,7 @@ The following example is for assigning the `<Object Writer>` role for `<Cloud Ob
 
 Use `<programmatic_service_name>` for the service name.
 {: tip}
+
 <!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used when assigning access using Terraform.-->
 
 ```terraform
