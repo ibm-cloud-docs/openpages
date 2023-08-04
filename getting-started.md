@@ -71,4 +71,4 @@ During the OpenPages Lite trial, you can add up to 9 additional users so that th
 
 You can learn about using {{site.data.keyword.openpages_short}} from the following resources:
 
-* [OpenPages with Watson](https://www.ibm.com/docs/en/opw/8.3.0) documentation
+* [OpenPages with Watson](https://www.ibm.com/docs/en/opw/9.0.0) documentation
