@@ -1,0 +1,71 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: openpages
+    service-name: openpages
+    category: analytics
+    audience: service
+    href: /docs/openpages
+    release-level: beta
+    console-page: /catalog/services/openpages
+    product-page: https://www.ibm.com/products/openpages-with-watson
+    path: openpages
+    label: OpenPages
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - release-notes.md
+      - limitations.md
+  - navgroup:
+      id: howto
+      topics:
+       - iam.md
+       - topicgroup:
+           label: Administering
+           topics:
+              - administer.md
+              - provisioning.md
+       - topicgroup:
+           label: Enhancing security
+           topics:
+              - architecture-workload-isolation.md
+              - securing-data.md
+              - topic: service-endpoints.md
+                navtitle: Using service endpoints
+       - topicgroup:
+           label: High availability and disaster recovery
+           topics:
+              - ha.md
+              - dr.md
+       - topicgroup:
+           label: Logging and monitoring
+           topics:
+              - at-events.md
+  - navgroup:
+      id: help
+      topics:
+      - link:
+            label: Getting started with IBM Cloud
+            href: https://www.ibm.com/cloud/get-started
+  - navgroup:
+      id: reference
+      topics:
+      - responsibilities.md
+      - include: ../openpages-cli-plugin/openpages_cli.md
+      - link:
+            label: OpenPages REST API reference
+            href: https://public.dhe.ibm.com/software/data/cognos/documentation/openpages/en/8.3.0.2/OpenAPI/OpenPages_API-OpenAPI_Reference.html
+
+  - navgroup:
+      id: tutorial
+      topics:
+      - link:
+            label: "IBM Demos: Tutorials, videos, and hands-on labs"
+            href: https://www.ibm.com/products/openpages-with-watson
