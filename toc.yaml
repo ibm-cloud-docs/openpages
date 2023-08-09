@@ -61,7 +61,7 @@ toc:
       - include: ../openpages-cli-plugin/openpages_cli.md
       - link:
             label: OpenPages REST API reference
-            href: https://public.dhe.ibm.com/software/data/cognos/documentation/openpages/en/8.3.0.2/OpenAPI/OpenPages_API-OpenAPI_Reference.html
+            href: https://developer.ibm.com/apis/catalog/openpages--ibm-openpages-with-watson-rest-api-v2/Introduction
 
   - navgroup:
       id: tutorial

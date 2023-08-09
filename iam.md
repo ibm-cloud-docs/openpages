@@ -17,10 +17,12 @@ _Include this file in the **How to** nav group of your toc.yaml file_
 # Managing IAM access for {{site.data.keyword.openpages_short}}
 {: #iam-openpages}
 
-Access to {{site.data.keyword.openpages_short}} service instances for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Every user that accesses the {{site.data.keyword.openpages_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.openpages_short}}.
+Access to {{site.data.keyword.openpages_short}} service instances for users in your account is controlled by {{site.data.keyword.cloud}} Identity and Access Management (IAM). Further access controls are managed within {{site.data.keyword.openpages_short}}.
 {: shortdesc}
 
-The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by the {{site.data.keyword.openpages_short}} as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
+Every user that accesses the {{site.data.keyword.openpages_short}} service in your account must be assigned an access policy with an IAM role. Review the following roles, actions, and more to help determine the best way to assign access to {{site.data.keyword.openpages_short}}.
+
+The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by {{site.data.keyword.openpages_short}} as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
 If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles#custom-access-roles) and pick the actions to include.
 {: tip}
@@ -80,7 +82,7 @@ There are two common ways to assign access in the console:
 
 For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `<Object Writer>` role for `<Cloud Object Storage>`:
 
-Use `<programmatic_service_name>` for the service name. Also, use quotations around role names that are more than one word like the example here.
+Use `openpages` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
 
 <!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used to make an API call or run a CLI command.-->
@@ -88,7 +90,7 @@ Use `<programmatic_service_name>` for the service name. Also, use quotations aro
 <!-- Tailor this example to your service -->
 
 ```bash
-ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name cloud-object-storage --roles "Object Writer"
+ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name openpages --roles "Administrator"
 ```
 {: pre}
 
@@ -105,17 +107,15 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 | Operator               | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Operator`      |
 | Editor                 | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Editor`        |
 | Administrator          | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Administrator` |
-| Reader         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Reader`        |
-| Writer         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Writer`        |
-| Manager        | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Manager`       |
-| Object Writer | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter` |
+| openpages.service.login         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.login`        |
+| openpages.service.administer         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.administer`        |
 {: caption="Table 2. Role ID values for API use" caption-side="bottom"}
 
 <!-- Tailor this example to your service -->
 
-The following example is for assigning the `<Object Writer>` role for `<Cloud Object Storage>`:
+The following example is for assigning the `openpages.service.login` role for `openpages`:
 
-Use `<programmatic_service_name>` for the service name, and refer to the Role ID values table to ensure that you're using the correct value for the CRN.
+Use `openpages` for the service name, and refer to the Role ID values table to ensure that you're using the correct value for the CRN.
 {: tip}
 
 <!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used to make an API call.-->
@@ -123,7 +123,7 @@ Use `<programmatic_service_name>` for the service name, and refer to the Role ID
 ```curl
 curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $TOKEN' -H 'Content-Type: application/json' -d '{
   "type": "access",
-  "description": "Object Writer role for Cloud Object Storage",
+  "description": "Service login role for OpenPages",
   "subjects": [
     {
       "attributes": [
@@ -136,7 +136,7 @@ curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $
   ],
   "roles":[
     {
-      "role_id": "crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter"
+      "role_id": "crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.login"
     }
   ],
   "resources":[
@@ -148,7 +148,7 @@ curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $
         },
         {
           "name": "serviceName",
-          "value": "cloud-object-storage"
+          "value": "openpages"
         }
       ]
     }
@@ -169,7 +169,7 @@ PolicySubject policySubjects = new PolicySubject.Builder()
       .build();
 
 PolicyRole policyRoles = new PolicyRole.Builder()
-      .roleId("crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter")
+      .roleId("crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login")
       .build();
 
 ResourceAttribute accountIdResourceAttribute = new ResourceAttribute.Builder()
@@ -180,7 +180,7 @@ ResourceAttribute accountIdResourceAttribute = new ResourceAttribute.Builder()
 
 ResourceAttribute serviceNameResourceAttribute = new ResourceAttribute.Builder()
       .name("serviceName")
-      .value("cloud-object-storage")
+      .value("openpages")
       .operator("stringEquals")
       .build();
 
@@ -217,7 +217,7 @@ const policySubjects = [
 ];
 const policyRoles = [
   {
-    role_id: 'crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter',
+    role_id: 'crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login',
   },
 ];
 const accountIdResourceAttribute = {
@@ -227,7 +227,7 @@ const accountIdResourceAttribute = {
 };
 const serviceNameResourceAttribute = {
   name: 'serviceName',
-  value: 'cloud-object-storage',
+  value: 'openpages',
   operator: 'stringEquals',
 };
 const policyResources = [
@@ -258,11 +258,11 @@ iamPolicyManagementService.createPolicy(params)
 policy_subjects = PolicySubject(
   attributes=[SubjectAttribute(name='iam_id', value='IBMid-123453user')])
 policy_roles = PolicyRole(
-  role_id='crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter')
+  role_id='crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login')
 account_id_resource_attribute = ResourceAttribute(
   name='accountId', value='ACCOUNT_ID')
 service_name_resource_attribute = ResourceAttribute(
-  name='serviceName', value='cloud-object-storage')
+  name='serviceName', value='openpages')
 policy_resources = PolicyResource(
   attributes=[account_id_resource_attribute,
         service_name_resource_attribute])
@@ -288,7 +288,7 @@ policySubjects := &iampolicymanagementv1.PolicySubject{
   Attributes: []iampolicymanagementv1.SubjectAttribute{*subjectAttribute},
 }
 policyRoles := &iampolicymanagementv1.PolicyRole{
-  RoleID: core.StringPtr("crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ObjectWriter"),
+  RoleID: core.StringPtr("crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login"),
 }
 accountIDResourceAttribute := &iampolicymanagementv1.ResourceAttribute{
   Name:     core.StringPtr("accountId"),
@@ -297,7 +297,7 @@ accountIDResourceAttribute := &iampolicymanagementv1.ResourceAttribute{
 }
 serviceNameResourceAttribute := &iampolicymanagementv1.ResourceAttribute{
   Name:     core.StringPtr("serviceName"),
-  Value:    core.StringPtr("cloud-object-storage"),
+  Value:    core.StringPtr("openpages"),
   Operator: core.StringPtr("stringEquals"),
 }
 policyResources := &iampolicymanagementv1.PolicyResource{
@@ -328,9 +328,9 @@ fmt.Println(string(b))
 
 <!-- Tailor this example to your service -->
 
-The following example is for assigning the `<Object Writer>` role for `<Cloud Object Storage>`:
+The following example is for assigning the `openpages.service.login` role for `openpages`:
 
-Use `<programmatic_service_name>` for the service name.
+Use `openpages` for the service name.
 {: tip}
 
 <!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used when assigning access using Terraform.-->
@@ -338,10 +338,10 @@ Use `<programmatic_service_name>` for the service name.
 ```terraform
 resource "ibm_iam_user_policy" "policy" {
   ibm_id = "test@example.com"
-  roles  = ["Object Writer"]
+  roles  = ["openpages.service.login"]
 
   resources {
-    service = "cloud-object-storage"
+    service = "openpages"
   }
 }
 ```

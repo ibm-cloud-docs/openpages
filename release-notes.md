@@ -19,7 +19,7 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
-## 27 March 2023
+## 31 August 2023
 {: #subcollection-beta}
 {: release-note}
 
