@@ -80,17 +80,13 @@ There are two common ways to assign access in the console:
 {: #assign-access-cli}
 {: cli}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `<Object Writer>` role for `<Cloud Object Storage>`:
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `openpages.service.login` role for `openpages`:
 
 Use `openpages` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
 
-<!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used to make an API call or run a CLI command.-->
-
-<!-- Tailor this example to your service -->
-
 ```bash
-ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name openpages --roles "Administrator"
+ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name openpages --roles "openpages.service.login"
 ```
 {: pre}
 
@@ -103,12 +99,12 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 
 | Role name | Role CRN |
 |---------------|-----------------|
-| Viewer                 | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Viewer`        |
-| Operator               | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Operator`      |
-| Editor                 | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Editor`        |
-| Administrator          | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:Administrator` |
-| openpages.service.login         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.login`        |
-| openpages.service.administer         | `crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.administer`        |
+| Viewer                 | `crn:v1:bluemix:public:openpages::::serviceRole:Viewer`        |
+| Operator               | `crn:v1:bluemix:public:openpages::::serviceRole:Operator`      |
+| Editor                 | `crn:v1:bluemix:public:openpages::::serviceRole:Editor`        |
+| Administrator          | `crn:v1:bluemix:public:openpages::::serviceRole:Administrator` |
+| openpages.service.login         | `crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login`        |
+| openpages.service.administer         | `crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.administer`        |
 {: caption="Table 2. Role ID values for API use" caption-side="bottom"}
 
 <!-- Tailor this example to your service -->
@@ -136,7 +132,7 @@ curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $
   ],
   "roles":[
     {
-      "role_id": "crn:v1:bluemix:public:cloud-object-storage::::serviceRole:openpages.service.login"
+      "role_id": "crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login"
     }
   ],
   "resources":[
