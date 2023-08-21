@@ -1,0 +1,37 @@
+{
+    "title": "Product docs",
+    "lastupdated": "2023-08-21",
+    "introduction": "This is a description of what the user will be able to access or find content-wise for your product.",
+    "section_devtools": {
+      "api": "/apidocs/acme-test-v1/acme-test-v1.2.0",
+      "cli": "/docs/openpages-cli",
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_access_group"
+    },
+    "section_recommended": [
+      {
+        "title": "Getting started",
+        "description": "Create your first instance and log in to OpenPages.",
+        "href": "/docs/openpages/getting-started.md"
+      },
+      {
+        "title": "Release notes",
+        "description": "What's new and changed in OpenPages.",
+        "href": "/docs/openpages/release-notes.md"
+      },
+      {
+        "title": "Administering OpenPages",
+        "description": "Description of topic.",
+        "href": "/docs/openpages/adminiser.md"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/home"
+    },
+    "section_video": {
+        "description": "Explore the OpenPages YouTube playlist.",
+        "href": "https://www.youtube.com/playlist?list=PL_4RxtD-BL5vBhywcr0IJGGzAk8cxNBkn"
+    }
+  }
