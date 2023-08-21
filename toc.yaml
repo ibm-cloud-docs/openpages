@@ -21,8 +21,9 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - release-notes.md
       - limitations.md
+      - release-notes.md
+
   - navgroup:
       id: howto
       topics:
@@ -54,6 +55,7 @@ toc:
       - link:
             label: Getting started with IBM Cloud
             href: https://www.ibm.com/cloud/get-started
+      - help.md
   - navgroup:
       id: reference
       topics:
