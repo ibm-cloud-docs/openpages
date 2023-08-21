@@ -45,6 +45,7 @@ toc:
            topics:
               - ha.md
               - dr.md
+       - event-notifications-events.md
        - topicgroup:
            label: Logging and monitoring
            topics:
