@@ -14,14 +14,14 @@
         "href": "/docs/openpages/getting-started.md"
       },
       {
-        "title": "Release notes",
-        "description": "What's new and changed in OpenPages.",
-        "href": "/docs/openpages/release-notes.md"
-      },
-      {
         "title": "Administering OpenPages",
         "description": "Manage your OpenPages instances.",
         "href": "/docs/openpages/adminiser.md"
+      },
+      {
+        "title": "Release notes",
+        "description": "What's new and changed in OpenPages.",
+        "href": "/docs/openpages/release-notes.md"
       }
     ],
     "section_learn": {
@@ -30,4 +30,4 @@
       "training": "https://www.ibm.com/training/openpages",
       "community": "https://community.ibm.com/community/user/publiccloud/home"
     }
-}
+  }
