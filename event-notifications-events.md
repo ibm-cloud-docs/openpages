@@ -35,7 +35,7 @@ _List any additional detail about how your service collects events, the timing f
 ## Events for {{site.data.keyword.openpages_short}}
 {: #event-notifications-list}
 
-The following table lists the {{site.data.keyword.openpages_short}} events.
+The following table lists the {{site.data.keyword.openpages_short}} events. All events are under the `com.ibm.cloud.openpages.event` subtype.
 
 <!-- add a column for subtype, if you have need that level of detail -->
 
