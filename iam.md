@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years:  2017, 2023
-lastupdated: "2023-07-31"
+  years: 2023
+lastupdated: "2023-08-23"
 
-keywords:
+keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
 subcollection: openpages
 
@@ -12,7 +12,6 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-_Include this file in the **How to** nav group of your toc.yaml file_
 
 # Managing IAM access for {{site.data.keyword.openpages_short}}
 {: #iam-openpages}
@@ -33,7 +32,7 @@ IAM access policies enable access to be granted at different levels. Some of the
 * Access to an individual service instance in your account <!-- if this applies -->
  <!--* Access to a specific resource within an instance, _such as resource type `bucket`_ if this applies list what resoureceType attributes are supported, for example COS buckets or Kubernetes namespaces -->
 
-Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}} API. For information about the exact actions that are mapped to each role, see [<service_name>](_YourSubHeadingLink_).
+Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.openpages_short}}](_YourSubHeadingLink_).
 <!-- IMPORTANT: This link should go directly to your service's heading in https://cloud.ibm.com/docs/account?topic=account-iam-service-roles-actions, for example [<service-name>](/docs/account?topic=account-iam-service-roles-actions#certificate-manager) -->
 
 <!-- This is a high level view of what the platform roles allow users to do. Use a plain language description about what kind of tasks can be completed or the common jobs to be done that users can expect to accomplish when having each role assigned. -->
@@ -84,6 +83,8 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 
 Use `openpages` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
+
+<!-- Tailor this example to your service -->
 
 ```bash
 ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name openpages --roles "openpages.service.login"
