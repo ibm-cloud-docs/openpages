@@ -106,7 +106,7 @@ curl -X POST "https://{instance_id}.{region}.secrets-manager.appdomain.cloud/api
 {: codeblock}
 {: curl}
 
-A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/<service-api-docs-reponame>).
+A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the equired and optional request parameters, see the [API docs](/apidocs/openpages).
 
 ## Delivering notifications to select destinations
 {: #event-notifications-destinations}
