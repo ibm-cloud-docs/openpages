@@ -40,4 +40,4 @@ To provision your environment, complete the following steps:
 ## Next steps
 {: #next-steps-prov}
 
-To launch {{site.data.keyword.openpages_short}}, click **Launch {{site.data.keyword.openpages_short}} with Watson**.
+To launch {{site.data.keyword.openpages_short}}, click **Launch {{site.data.keyword.openpages_short}}**.
