@@ -67,27 +67,27 @@ The following table lists the actions in the Console that generate an event:
 
 | Action                                   | Description |
 |------------------------------------------|---------|
-| `openpages.services.list`                  | An event is generated when |
-| `openpages.services-filter.list`           | An event is generated when |
-| `openpages.services.get`                   | An event is generated when |
-| `openpages.services-configure.update`      | An event is generated when |
-| `openpages.services-eventnotification.update`| An event is generated when |
-| `openpages.services-transfer-host.update`  | An event is generated when you transfer a custom host name to another instance. |
+| `openpages.services.list`                  | ??? |
+| `openpages.services-filter.list`           | ??? |
+| `openpages.services.get`                   | ??? |
+| `openpages.services-configure.update`      | ??? |
+| `openpages.services-eventnotification.update`| An event is generated when the event notification settings for an instance are modified in the Console UI. |
+| `openpages.services-transfer-host.update`  | An event is generated when you transfer a custom host name to another instance by using the Console UI. |
 | `openpages.services-configure-host.update` | An event is generated when a custom host name is assigned to an instance by using the Console UI. |
-| `openpages.services.update`                | An event is generated when |
+| `openpages.services.update`                | ??? |
 | `openpages.services.delete`                | An event is generated when an instance is deleted. |
-| `openpages.services.upgrade`               | An event is generated when an instance is upgraded.|
-| `openpages.service-allow-list.update`       | An event is generated when the allow list for an instance is updated. |
-| `openpages.service-cpu-metrics.get`       | An event is generated when CPU metrics are retrieved and displayed on the Utilization tab in the Console UI. |
-| `openpages.service-user-metrics.get`      | An event is generated when user metrics are retrieved and displayed on the Utilization tab in the Console UI. |
-| `openpages.service-storage-metrics.get`   | An event is generated when storage metrics are retrieved and displayed on the Utilization tab in the Console UI. |
-| `openpages.service-custom-resource.update`      | An event is generated when |
+| `openpages.services.upgrade`               | An event is generated when an instance is upgraded. |
+| `openpages.service-allow-list.update`       | An event is generated when the allow list for an instance is updated by using the Console UI. |
+| `openpages.service-cpu-metrics.get`       | An event is generated when CPU metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-user-metrics.get`      | An event is generated when user metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-storage-metrics.get`   | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-custom-resource.update`      | ??? |
 | `openpages.services-sol-usage.update`      | An event is generated when solution usage data is updated. |
 | `openpages.services.add`                   | An event is generated when you add an instance. |
 | `openpages.services.update`                | An event is generated when you update the properties of an instance. |
 | `openpages.services.delete`                | An event is generated when an instance is deleted. |
-| `openpages.services-status.enabled`       | An event is generated when |
-| `openpages.services-promoted-component-version.get`  | An event is generated when |
+| `openpages.services-status.enabled`       | ??? |
+| `openpages.services-promoted-component-version.get`  | ??? |
 {: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
 
 
@@ -109,9 +109,9 @@ User Management:
 - `openpages.user.enable`   An event is generated when a user account is enabled.
 - `openpages.user.disable`  An event is generated when a user account is disabled.
 - `openpages.user.lock`    An event is generated when a user account is locked.
-- `openpages.user.unlock`    An event is generated when a user account is unlocked.
-- `openpages.user-locale.update`
-- `openpages.user-current-profile.update`
+- `openpages.user.unlock`   An event is generated when a user account is unlocked.
+- `openpages.user-locale.update`   An event is generated when a user switches locales in {{site.data.keyword.openpages_short}}.
+- `openpages.user-current-profile.update`   An event is generated when a user switches profiles in {{site.data.keyword.openpages_short}}.
 - `openpages.user-password.update`
 - `openpages.user-preference.set`
 - `openpages.user-association.add`
@@ -139,13 +139,13 @@ Group Management:
 Audit trail:
 
 - `openpages.resource-activity.list`
-- `openpages.resource-activity.get`   An event is generated when the Activity tab in a view is displayed.
+- `openpages.resource-activity.get`   An event is generated when the **Activity** tab of a view is displayed.
 
 Currencies:
 
 - `openpages.currency.list`
 - `openpages.currency.update`
-- `openpages.currency.enable`
+- `openpages.currency.enable`   An event is generated when a currency is enabled.
 - `openpages.currency.disable`   An event is generated when a currency is disabled.
 - `openpages.currency-history.list`
 - `openpages.currency.upload`   An event is generated when currencies are updated by uploading a file.
@@ -170,7 +170,7 @@ Localization \(object text and application text\):
 - `openpages.object-text.list`
 - `openpages.object-text.update`   An event is generated when an object text string is updated.
 - `openpages.application-text.update`   An event is generated when an application text string is updated.
-- `openpages.application-text-key.list`
+- `openpages.application-text-key.list`   An event is generated when a user-defined application text key is created.
 - `openpages.object-text-key.list`
 - `openpages.application-text.list`
 
@@ -202,8 +202,8 @@ Reporting periods:
 
 Role templates:
 
-- `openpages.role.assign`
-- `openpages.role.revoke`
+- `openpages.role.assign`   An event is generated when a role template is assigned to a user or group.
+- `openpages.role.revoke`   An event is generated when a role template is removed from a user or group.
 - `openpages.role-template.get`
 - `openpages.role-template.list`
 - `openpages.role-template.delete`   An event is generated when a role template is deleted.
@@ -237,7 +237,7 @@ Settings:
 
 - `openpages.setting.get`
 - `openpages.setting.update`   An event is generated when the value of a setting is modified.
-- `openpages.setting.create`   An event is generated when a custom setting is created.
+- `openpages.setting.create`
 - `openpages.settiing.list`
 - `openpages.setting.add-folder`   An event is generated when a custom folder is created on the Settings page.
 - `openpages.setting.copy`
@@ -279,37 +279,37 @@ Field groups, fields, and schema:
 
 - `openpages.solution.get`
 - `openpages.field-group.list`
-- `openpages.field-group.create`
-- `openpages.field-group.update`
+- `openpages.field-group.create`   An event is generated when a field group is created.
+- `openpages.field-group.update`   An event is generated when a field group is modified.
 - `openpages.field-group.delete`
-- `openpages.field-group.add`
-- `openpages.field-group.remove`
+- `openpages.field-group.add`   An event is generated when a field group is added to an object type.
+- `openpages.field-group.remove`   An event is generated when a field group is removed from an object type.
 - `openpages.field.list`
-- `openpages.field.create`
-- `openpages.field.update`
+- `openpages.field.create`   An event is generated when a field is created.
+- `openpages.field.update`   An event is generated when a field is modified.
 - `openpages.filters.list`
 - `openpages.solution-profile.list`
 - `openpages.object-type.list`
-- `openpages.object-type.update`
+- `openpages.object-type.update`   An event is generated when the properties of an object type are modified.
 
 Filters:
 
 - `openpages.object-filter.list`
 - `openpages.object-filter.get`
-- `openpages.object-filter.create`
-- `openpages.object-filter.delete`
+- `openpages.object-filter.create`   An event is generated when a public filter is defined for an object type.
+- `openpages.object-filter.delete`   An event is generated when a public filter is deleted.
 
 Profiles:
 
 - `openpages.profile.list`
 - `openpages.profile.get`
-- `openpages.profile.update`
-- `openpages.profile.create`
-- `openpages.profile.enable`
-- `openpages.profile.delete`
+- `openpages.profile.update`   An event is generated when a profile is modified.
+- `openpages.profile.create`   An event is generated when a profile is created.
+- `openpages.profile.enable`   An event is generated when a profile is enabled.
+- `openpages.profile.delete`   An event is generated when a profile is deleted.
 - `openpages.profile-object-type.list`
-- `openpages.profile-object-type.delete`
-- `openpages.profile-object-type.add`
+- `openpages.profile-object-type.delete`   An event is generated when an object type is removed from a profile
+- `openpages.profile-object-type.add`   An event is generated when an object type is added to a profile.
 - `openpages.profile-actor.list`
 - `openpages.profile.remove`
 - `openpages.profile.add`
@@ -318,11 +318,11 @@ Profiles:
 - `openpages.profile-report.enable`
 - `openpages.profile-object-type.get`
 - `openpages.profile-object-field.list`
-- `openpages.profile-object-field.delete`
-- `openpages.profile-object-field.add`
+- `openpages.profile-object-field.delete`   An event is generated when an field is removed from a profile.
+- `openpages.profile-object-field.add`   An event is generated when an field is added to a profile.
 - `openpages.profile-object-field.update`
-- `openpages.profile-object-filter.delete`
-- `openpages.profile-object-filter.add`
+- `openpages.profile-object-filter.delete`   An event is generated when a public filter is removed from a profile.
+- `openpages.profile-object-filter.add`   An event is generated when a public filter is added to a profile.
 
 Objects:
 
