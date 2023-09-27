@@ -236,18 +236,18 @@ Security rules:
 Settings:
 
 - `openpages.setting.get`
-- `openpages.setting.update`
-- `openpages.setting.create`
+- `openpages.setting.update`   An event is generated when the value of a setting is modified.
+- `openpages.setting.create`   An event is generated when a custom setting is created.
 - `openpages.settiing.list`
-- `openpages.setting.add-folder`
+- `openpages.setting.add-folder`   An event is generated when a custom folder is created on the Settings page.
 - `openpages.setting.copy`
 - `openpages.setting.delete`
 - `openpages.setting.list`
 
 System admin mode:
 
-- `openpages.system-admin-mode.enable`
-- `openpages.system-admin-mode.disable`
+- `openpages.system-admin-mode.enable`   An event is generated when System Admin Mode is enabled.
+- `openpages.system-admin-mode.disable`   An event is generated when System Admin Mode is disabled.
 
 System files:
 
@@ -269,7 +269,6 @@ System files:
 
 Field dependencies:
 
-- `openpages.user-dashboard.update`
 - `openpages.field-dependency.list`
 - `openpages.field-dependency.create`
 - `openpages.field-dependency.update`
@@ -393,21 +392,23 @@ Calculations:
 
 Dashboards:
 
+
 - `openpages.admin-dashboard.list`
-- `openpages.admin-dashboard.create`
+- `openpages.admin-dashboard.create`   An event is generated when a dashboard is created by using the **Solution Configuration > Dashboards** UI.
 - `openpages.admin-dashboard.get`
-- `openpages.admin-dashboard.update`
-- `openpages.admin-dashboard.publish`
-- `openpages.admin-dashboard.discard-draft`
-- `openpages.admin-dashboard.delete`
-- `openpages.admin-dashboard.enable`
-- `openpages.user-dashboard.load`
-- `openpages.user-dashboard.update`
+- `openpages.admin-dashboard.update`   An event is generated when a dashboard is modified by using the **Solution Configuration > Dashboards** UI.
+- `openpages.admin-dashboard.publish`   An event is generated when a dashboard is published by using the **Solution Configuration > Dashboards** UI.
+- `openpages.admin-dashboard.discard-draft`   An event is generated when the unsaved changes to a dashboard in the **Solution Configuration > Dashboards** UI are discarded.
+- `openpages.admin-dashboard.delete`   An event is generated when a dashboard is deleted by using the **Solution Configuration > Dashboards** UI.
+- `openpages.admin-dashboard.enable`   An event is generated when a dashboard is set to **Active** by using the **Solution Configuration > Dashboards** UI.
+- `openpages.user-dashboard.load`   An event is generated when a user Dashboard is accessed.
+- `openpages.user-dashboard.update`   An event is generated when a user updates the Dashboard, for example by adding or modifying panels.
+
 
 FastMap:
 
-- `openpages.fastmap.validate`
-- `openpages.fastmap.import`
+- `openpages.fastmap.validate`   An event is generated when an import file is validated by FastMap.
+- `openpages.fastmap.import`   An event is generated when a FastMap import is started.
 
 File attachments:
 
@@ -434,7 +435,7 @@ Folders:
 Net Promoter Score \(NPS\):
 
 - `openpages.nps-settings.get`
-- `openpages.nps-settings.update`
+- `openpages.nps-settings.update`   An event is generated when the settings for Net Promoter Score (NPS) are updated.
 
 Questionnaires:
 
@@ -450,42 +451,42 @@ Questionnaires:
 Rules \(Rules Engine\):
 
 - `openpages.rule.get`
-- `openpages.rule.create`
-- `openpages.rule.update`
-- `openpages.rule.delete`
-- `openpages.rule.enable`
+- `openpages.rule.create`   An event is generated when a rule is created in the **Regulatory Event Rules** UI.
+- `openpages.rule.update`   An event is generated when a rule in the **Regulatory Event Rules** UI is modified.
+- `openpages.rule.delete`   An event is generated when a rule in the **Regulatory Event Rules** UI is deleted.
+- `openpages.rule.enable`   An event is generated when a rule in the **Regulatory Event Rules** UI is enabled.
 - `openpages.rule.list`
 
 Scheduler jobs:
 
 - `openpages.scheduler-job.get`
-- `openpages.scheduler-job-log.list`
+- `openpages.scheduler-job-log.list`   An event is generated when a job execution log is viewed.
 - `openpages.scheduler-job.list`
 - `openpages.scheduled-job.create`
-- `openpages.scheduled-job.update`
-- `openpages.scheduled-job.enable`
-- `openpages.scheduled-job.start`
-- `openpages.scheduled-job.delete`
+- `openpages.scheduled-job.update`  An event is generated when a job definition is updated.
+- `openpages.scheduled-job.enable`  An event is generated when a job is deleted.
+- `openpages.scheduled-job.start`   An event is generated when a job starts.
+- `openpages.scheduled-job.delete`   An event is generated when a job is deleted.
 
 Tags:
 
 - `openpages.tag.list`
-- `openpages.tag.create`
-- `openpages.tag.update`
-- `openpages.tag.enable`
+- `openpages.tag.create`  An event is generated when a tag is created.
+- `openpages.tag.update`  An event is generated when the properties of a tag are modified.
+- `openpages.tag.enable`  An event is generated when a tag is enabled.
 - `openpages.tag-association.get`
-- `openpages.tag-association.add`
-- `openpages.tag-association.delete`
+- `openpages.tag-association.add`  An event is generated when an object type is added to the list of enabled object types for tags.
+- `openpages.tag-association.delete`  An event is generated when an object type is removed from the list of enabled object types for tags.
 - `openpages.tag-association.update`
 
 Themes:
 
 - `openpages.theme.list`
-- `openpages.theme.create`
+- `openpages.theme.create`  An event is generated when a theme is created.
 - `openpages.theme.get`
-- `openpages.theme.update`
-- `openpages.theme.delete`
-- `openpages.theme.enable`
+- `openpages.theme.update`  An event is generated when a theme is updated.
+- `openpages.theme.delete`  An event is generated when a theme is deleted.
+- `openpages.theme.enable`  An event is generated when a theme is enabled.
 
 Workflows:
 
@@ -510,14 +511,14 @@ Views:
 
 - `openpages.view.list`
 - `openpages.view.get`
-- `openpages.view.create`
-- `openpages.view.update`
+- `openpages.view.create`  An event is generated when a view is created.
+- `openpages.view.update`  An event is generated when a view is modified.
 - `openpages.view.validate`
-- `openpages.view.publish`
-- `openpages.view.delete`
-- `openpages.view.discard-draft`
-- `openpages.view.enable`
-- `openpages.admin-view.create`
+- `openpages.view.publish`  An event is generated when a view is published.
+- `openpages.view.delete`  An event is generated when a view is deleted.
+- `openpages.view.discard-draft`  An event is generated when the unsaved changes to a view are discarded.
+- `openpages.view.enable`  An event is generated when a view is enabled.
+- `openpages.admin-view.create`  An event is generated when an admin view is created.
 
 <!--## Loss Event Entry
 {: #Loss-event-entry}
@@ -620,15 +621,14 @@ Wolters Kluwer:
 - `openpages.application-text.list`
 - `openpages.app-permission.get`
 - `openpages.app-permission.list`
-- `openpages.base-currency.get` <!--- `openpages.cognos.integrate`-->
+- `openpages.base-currency.get`  Get the base currency of an instance.
 - `openpages.configuration.decrypt`
 - `openpages.configuration.encrypt`
 - `openpages.currency.get`
-- `openpages.currency.list`
+- `openpages.currency.list`   Get a list of currencies.
 - `openpages.currency.update`
-- `openpages.current-reporting-period.get`
-- `openpages.exchange-rate.bulk-update`
-- `openpages.exchange-rate.list`
+- `openpages.exchange-rate.bulk-update`  Update currencies in bulk.
+- `openpages.exchange-rate.list`   Get a list of exchange rates.
 - `openpages.exchange-rate.update`
 - `openpages.file-resource.get`
 - `openpages.file-resource.update`
@@ -671,9 +671,6 @@ Wolters Kluwer:
 - `openpages.profile-object-field.list`
 - `openpages.query.execute`
 - `openpages.questionnaire.get`
-- `openpages.report-fragment.execute`
-- `openpages.reporting-period.get`
-- `openpages.reporting-period.list`
 - `openpages.resource.add`
 - `openpages.resource.associate`
 - `openpages.resource.copy`
@@ -722,6 +719,15 @@ Wolters Kluwer:
 - `openpages.user-role-assignment.add`
 - `openpages.user-role-assignment.delete`
 - `openpages.user-role-assignment.list`
+
+ <!---
+`openpages.cognos.integrate
+`openpages.current-reporting-period.get`
+`openpages.report-fragment.execute`
+`openpages.reporting-period.get`
+`openpages.reporting-period.list`
+
+ `-->
 
 ## Viewing events
 {: #at_ui}
