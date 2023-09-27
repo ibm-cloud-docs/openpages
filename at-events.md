@@ -60,20 +60,13 @@ The following lists describe {{site.data.keyword.openpages_short}} auditable eve
 <!--
 When we get descriptions, convert lists to tables:-->
 
-<!--
 ## List of platform events
 {: #at_actions_platform}
 
 The following table lists the actions in the Console that generate an event:
 
 | Action                                   | Description |
-
 |------------------------------------------|---------|
-| `<service-name>.instance.create`           | An event is generated when you provision a service instance. |
-| `<service-name>.instance.update`           | An event is generated when you rename a service instance or when you change the service plan. |
-| `<service-name>.instance.delete`           | An event is generated when a service instance is deleted. |
-| `<service-name>.instance.schedule_reclaim` | An event is generated when a service instance is pending_reclamation. |
-| `<service-name>.instance.restore`          | An event is generated when a service instance is restored. |
 | `openpages.services.list`                  | An event is generated when |
 | `openpages.services-filter.list`           | An event is generated when |
 | `openpages.services.get`                   | An event is generated when |
@@ -84,46 +77,19 @@ The following table lists the actions in the Console that generate an event:
 | `openpages.services.update`                | An event is generated when |
 | `openpages.services.delete`                | An event is generated when |
 | `openpages.services.upgrade`               | An event is generated when |
-| `openpages.services-cidr.update`           | An event is generated when |
-| `openpages.services-cpu-metrics.get`       | An event is generated when |
-| `openpages.services-user-metrics.get`      | An event is generated when |
-| `openpages.services-storage-metrics.get`   | An event is generated when |
-| `openpages.services-promoted-component-version.get`  | An event is generated when |
-| `openpages.promoted-component-version.add` | An event is generated when |
-| `openpages.promoted-component-version.delete`  | An event is generated when |
-| `openpages.component-details.list`         | An event is generated when |
-| `openpages.component-details.add`          | An event is generated when |
-| `openpages.component-details.delete`       | An event is generated when |
-
-{: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
-
-The following table lists the API actions that generate an event:
-
-| Action                                   | Description |
-
-|------------------------------------------|---------|
-| `openpages.services-aifactsheets-configuration.update`  | An event is generated when |
-| `openpages.services-aifactsheets-configuration.delete`  | An event is generated when |
-| `openpages.services-aifactsheets-configuration.get`     | An event is generated when |
-| `openpages.services-aifactsheets-configuration-test.update`  | An event is generated when |
-| `openpages.services-meter-collect.update`  | An event is generated when |
-| `openpages.services-meter-submit.update`   | An event is generated when |
-| `openpages.services-patch-cr.update`       | An event is generated when |
+| `openpages.service-allow-list.update`       | An event is generated when the allow list is updated. |
+| `openpages.service-cpu-metrics.get`       | An event is generated when |
+| `openpages.service-user-metrics.get`      | An event is generated when |
+| `openpages.service-storage-metrics.get`   | An event is generated when |
+| `openpages.service-custom-resource.update`      | An event is generated when |
 | `openpages.services-sol-usage.update`      | An event is generated when |
-| `openpages.services.restore`               | An event is generated when |
-| `openpages.catalog.get`                    | An event is generated when |
 | `openpages.services.add`                   | An event is generated when you add an instance. |
 | `openpages.services.update`                | An event is generated when |
 | `openpages.services.delete`                | An event is generated when |
-| `openpages.services-last-operation.get`    | An event is generated when |
-| `openpages.services-status.get`            | An event is generated when |
-| `openpages.services-status.enabled`        | An event is generated when |
-| `openpages.services-status.disabled`       | An event is generated when |
-| `openpages.promoted-component-version.get` | An event is generated when |
+| `openpages.services-status.enabled`       | An event is generated when |
+| `openpages.services-promoted-component-version.get`  | An event is generated when |
+{: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
 
-{: caption="Table 1. Actions that generate platform events (API)" caption-side="bottom"}
-
--->
 
 ## Users, groups, login, and logout events
 {: #users-groups}
