@@ -83,7 +83,7 @@ The following table lists the actions in the Console that generate an event:
 | `openpages.service-storage-metrics.get`   | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
 | `openpages.service-custom-resource.update`      | ??? |
 | `openpages.services-sol-usage.update`      | An event is generated when solution usage data is updated. |
-| `openpages.services.add`                   | An event is generated when you add an instance. |
+| `openpages.services.add`                   | An event is generated when you provision an instance. |
 | `openpages.services.update`                | An event is generated when you update the properties of an instance. |
 | `openpages.services.delete`                | An event is generated when an instance is deleted. |
 | `openpages.services-status.enabled`       | ??? |
@@ -270,10 +270,10 @@ System files:
 Field dependencies:
 
 - `openpages.field-dependency.list`
-- `openpages.field-dependency.create`
-- `openpages.field-dependency.update`
-- `openpages.field-dependency.enable`
-- `openpages.field-dependency.delete`
+- `openpages.field-dependency.create`   An event is generated when a field dependency is created.
+- `openpages.field-dependency.update`   An event is generated when a field dependency is modified.
+- `openpages.field-dependency.enable`   An event is generated when a field dependency is enabled.
+- `openpages.field-dependency.delete`   An event is generated when a field dependency is deleted.
 
 Field groups, fields, and schema:
 
@@ -328,8 +328,8 @@ Objects:
 
 - `openpages.resource.get`
 - `openpages.file-resource-version.list`
-- `openpages.resource.update`
-- `openpages.resource.bulk-update`
+- `openpages.resource.update`   An event is generated when an object instance is modified.
+- `openpages.resource.bulk-update`   An event is generated when object instances are updated by a bulk operation.
 - `openpages.file-resource.update`
 - `openpages.resource.create`
 - `openpages.file-resource.create`
