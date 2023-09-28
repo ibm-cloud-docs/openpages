@@ -67,27 +67,27 @@ The following table lists the actions in the Console that generate an event:
 
 | Action                                   | Description |
 |------------------------------------------|---------|
-| `openpages.services.list`                  | ??? |
-| `openpages.services-filter.list`           | ??? |
-| `openpages.services.get`                   | ??? |
-| `openpages.services-configure.update`      | ??? |
+| `openpages.services.list`                  | An event is generated when the list of service instances is displayed in the Console UI. |
+| `openpages.services-filter.list`           | An event is generated when the list of service instances in the Console UI is filtered. |
+| `openpages.services.get`                   | An event is generated when service instance details are displayed in the Console UI. |
+| `openpages.services-configure.update`      | An event is generated when the configuration settings of a service instance are modified in the Console UI. |
 | `openpages.services-eventnotification.update`| An event is generated when the event notification settings for an instance are modified in the Console UI. |
 | `openpages.services-transfer-host.update`  | An event is generated when you transfer a custom host name to another instance by using the Console UI. |
 | `openpages.services-configure-host.update` | An event is generated when a custom host name is assigned to an instance by using the Console UI. |
-| `openpages.services.update`                | ??? |
+| `openpages.services.update`                | An event is generated when an instance is updated. |
 | `openpages.services.delete`                | An event is generated when an instance is deleted. |
 | `openpages.services.upgrade`               | An event is generated when an instance is upgraded. |
 | `openpages.service-allow-list.update`       | An event is generated when the allow list for an instance is updated by using the Console UI. |
 | `openpages.service-cpu-metrics.get`       | An event is generated when CPU metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
 | `openpages.service-user-metrics.get`      | An event is generated when user metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
 | `openpages.service-storage-metrics.get`   | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
-| `openpages.service-custom-resource.update`      | ??? |
-| `openpages.services-sol-usage.update`      | An event is generated when solution usage data is updated. |
-| `openpages.services.add`                   | An event is generated when you provision an instance. |
+| `openpages.service-custom-resource.update`      | An event is generated when a service instance is patched. |
+| `openpages.services-sol-usage.update`      | An event is generated when the solution configuration for a service instance is updated. |
+| `openpages.services.add`                   | An event is generated when an instance is provisioned. |
 | `openpages.services.update`                | An event is generated when you update the properties of an instance. |
 | `openpages.services.delete`                | An event is generated when an instance is deleted. |
-| `openpages.services-status.enabled`       | ??? |
-| `openpages.services-promoted-component-version.get`  | ??? |
+| `openpages.services-status.enabled`,`disabled`   | An event is generated when a service instance is enabled or disabled, for example, when an instance is deleted by using the Console UI or when an instance is restored by reclamation.  |
+| `openpages.services-promoted-component-version.get`  | An event is generated when retrieving the most recent promoted version of a service instance. |
 {: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
 
 
@@ -333,11 +333,11 @@ Objects:
 - `openpages.file-resource.update`
 - `openpages.resource.create`
 - `openpages.file-resource.create`
-- `openpages.resource.delete`
-- `openpages.resource.lock`
-- `openpages.resource.unlock`
+- `openpages.resource.delete`   An event is generated when an object instance is deleted.
+- `openpages.resource.lock`   An event is generated when an object instance is locked.
+- `openpages.resource.unlock`   An event is generated when an object instance is unlocked.
 - `openpages.resource.search`
-- `openpages.resource.move`
+- `openpages.resource.move`   An event is generated when an object instance is moved.
 - `openpages.resource.list`
 - `openpages.resource.export`
 
