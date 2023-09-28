@@ -725,9 +725,7 @@ Wolters Kluwer:
 `openpages.current-reporting-period.get`
 `openpages.report-fragment.execute`
 `openpages.reporting-period.get`
-`openpages.reporting-period.list`
-
- `-->
+`openpages.reporting-period.list``-->
 
 ## Viewing events
 {: #at_ui}
