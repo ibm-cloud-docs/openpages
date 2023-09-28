@@ -63,7 +63,7 @@ When we get descriptions, convert lists to tables:-->
 ## List of platform events
 {: #at_actions_platform}
 
-The following table lists the actions in the Console that generate an event:
+The following table lists the actions on service instances that generate an event:
 
 | Action                                   | Description |
 |------------------------------------------|---------|
@@ -93,6 +93,8 @@ The following table lists the actions in the Console that generate an event:
 
 ## Users, groups, login, and logout events
 {: #users-groups}
+
+The following tables list events that are generated when users log in, users log out, and when user management actions occur.
 
 Login, Logout, Session, Authentication:
 
