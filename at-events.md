@@ -450,7 +450,7 @@ Questionnaires:
 - `openpages.questionnaire.upload-attachment`
 - `openpages.questionnaire.get`
 
-Rules \(Rules Engine\):
+Rules \(Regulatory Event rules\):
 
 - `openpages.rule.get`
 - `openpages.rule.create`   An event is generated when a rule is created in the **Regulatory Event Rules** UI.
@@ -578,7 +578,7 @@ Microsoft Office:
 - `openpages.msoffice-resource.edit`
 - `openpages.msoffice-resource.save`
 
-Watson Assistant:
+watsonx Assistant:
 
 - `openpages.watson-assistant.get`
 - `openpages.watson-assistant.validate`
