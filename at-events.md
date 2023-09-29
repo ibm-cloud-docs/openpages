@@ -96,6 +96,8 @@ The following table lists the actions on service instances that generate an even
 
 The following tables list events that are generated when users log in, users log out, and when user management actions occur.
 
+<!-- Saba, please convert these lists into tables. Put x if a description is blank. -->
+
 Login, Logout, Session, Authentication:
 
 - `openpages.user.logoff`   An event is generated when a user logs out of {{site.data.keyword.openpages_short}}.
