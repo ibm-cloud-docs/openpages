@@ -12,10 +12,6 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-_Name your file `architecture-workload-isolation.md` and include it in the **How to** nav group in the **Enhancing security** topic group in your `toc.yaml` file. See https://test.cloud.ibm.com/docs/writing?topic=writing-security-content-guidance_
-
-_Make sure that you use the following title for your topic._
-
 # Learning about {{site.data.keyword.openpages_short}} as a Service architecture and workload isolation
 {: #compute-isolation}
 
