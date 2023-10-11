@@ -32,6 +32,7 @@ toc:
            label: Administering
            topics:
               - administer.md
+              - admin-backup-restore.md
               - provisioning.md
        - topicgroup:
            label: Enhancing security
