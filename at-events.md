@@ -171,7 +171,7 @@ Currencies:
 | `openpages.currency.upload`       | An event is generated when currencies are updated by uploading a file. |
 {: caption="Table 6. Actions that generate currency events (UI)" caption-side="bottom"}
 
-Encryption keystore:
+Encryption keystore: 
 
 | Action:                              | Description:                                             |
 | ------------------------------------ | -------------------------------------------------------- |
