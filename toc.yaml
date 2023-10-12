@@ -33,6 +33,7 @@ toc:
            label: Administering
            topics:
               - administer.md
+              - admin-provisioning.md
               - admin-updating-software.md
               - admin-backup-restore.md
               - provisioning.md
