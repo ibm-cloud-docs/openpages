@@ -16,7 +16,7 @@ Here's how to provision your {{site.data.keyword.openpages_short}} environment.{
 
 1. Log in to https://cloud.ibm.com/login by using your IBMid. 
 2. On the **Dashboard**, click **Create resource**.
-3. On the **Catalog** page, in the search bar, type **openpages**` and select **IBM OpenPages**. 
+3. On the **Catalog** page, in the search bar, type **openpages** and select **IBM OpenPages**. 
 4. Select the **Essentials** plan or the **Standard** plan. 
 5. Do the following steps:
     - Type a **Service Name** for your {{site.data.keyword.openpages_short}} instance. This will be the name of the first (dev) environment created for you. 
