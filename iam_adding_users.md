@@ -19,12 +19,17 @@ subcollection: openpages
 After you provision your service instance of {{site.data.keyword.openpages_short}}, you can invite additional users to access it.
 {: shortdesc}
 
-The provisioning process requires two steps. First, you invite users to your {{site.data.keyword.Bluemix_notm}} account by using IAM. Next, you grant them access within {{site.data.keyword.openpages_short}}.
+You can also create access groups. For more information, see [Setting up access groups](/docs/account?topic=account-groups&interface=ui).
 
-This topic shows you how to set up an individual access policy for a user. You can also create groups. For more information, see Adding groups to your IBM Cloud account.
+The provisioning process requires two steps: 
+1. Invite users to your {{site.data.keyword.Bluemix_notm}} account by using IAM. 
+2. Grant the users access within {{site.data.keyword.openpages_short}}.
+
+To learn more about IBM Cloud Identity and Access Management (IAM), see [the IAM overview](/docs/account?topic=account-iamoverview) or the [Best practices for assigning access](/docs/account?topic=account-account_setup).
+{: tip}
 
 To invite users to your {{site.data.keyword.Bluemix_notm}} account, do the following steps:
-1. In the IBM Cloud menu bar, click **Manage** > **Access (IAM)**.
+1. In the {{site.data.keyword.Bluemix_notm}} menu bar, click **Manage** > **Access (IAM)**.
 2. Click **Invite Users**.
 3. Enter the users’ email addresses into the text box.
 4. Configure the users’ access policy.
@@ -44,4 +49,6 @@ To invite users to your {{site.data.keyword.Bluemix_notm}} account, do the follo
 8. Click **Invite**. The users that you selected receive an email from `noreply <no-reply@cloud.ibm.com>`, inviting them to access your {{site.data.keyword.Bluemix_notm}} account. Users need to accept this invitation before they can access the {{site.data.keyword.openpages_short}} instance.
 
 Users are synchronized to {{site.data.keyword.openpages_short}} after they accept your invitation to join your account. For more information, see User and group synchronization from {{site.data.keyword.Bluemix_notm}} to {{site.data.keyword.openpages_short}}.
+
+
 
