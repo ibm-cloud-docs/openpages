@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-12"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -318,33 +318,6 @@ fmt.Println(string(b))
 ```
 {: go}
 {: codeblock}
-
-## Assigning access to {{site.data.keyword.openpages_short}} by using Terraform
-{: #assign-access-terraform}
-{: terraform}
-
-<!-- Tailor this example to your service -->
-
-The following example is for assigning the `openpages.service.login` role for `openpages`:
-
-Use `openpages` for the service name.
-{: tip}
-
-<!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used when assigning access using Terraform.-->
-
-```terraform
-resource "ibm_iam_user_policy" "policy" {
-  ibm_id = "test@example.com"
-  roles  = ["openpages.service.login"]
-
-  resources {
-    service = "openpages"
-  }
-}
-```
-{: codeblock}
-
-For more information, see [ibm_iam_user_policy](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/iam_user_policy){: external}.
 
 ## Synchronizing users and groups
 {: #synch-users-groups}

@@ -28,6 +28,7 @@ toc:
       id: howto
       topics:
        - iam.md
+       - iam_adding_users.md
        - topicgroup:
            label: Administering
            topics:
