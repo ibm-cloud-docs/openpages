@@ -36,7 +36,6 @@ toc:
               - admin-provisioning.md
               - admin-updating-software.md
               - admin-backup-restore.md
-              - provisioning.md
        - topicgroup:
            label: Enhancing security
            topics:
