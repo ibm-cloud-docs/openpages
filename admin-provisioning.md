@@ -12,7 +12,7 @@ subcollection: openpages
 # Provisioning your {{site.data.keyword.openpages_short}} as a Service environment
 {: #provisioning_environment}
 
-Here's how to provision your OpenPages environment.{: shortdesc}
+Here's how to provision your {{site.data.keyword.openpages_short}} environment.{: shortdesc}
 
 1. Log in to https://cloud.ibm.com/login by using your IBMid. 
 2. On the **Dashboard**, click **Create resource**.
@@ -30,6 +30,6 @@ Here's how to provision your OpenPages environment.{: shortdesc}
 
 Your instance is listed twice because {{site.data.keyword.openpages_short}} is associated with two categories in the {{site.data.keyword.Bluemix_notm}} catalog.
 
-You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: tip} 
+   You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: tip} 
 
 9. Click the name of your {{site.data.keyword.openpages_short}} instance. The overview page for the {{site.data.keyword.openpages_short}} instance is displayed. 

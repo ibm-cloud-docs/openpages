@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-03-08"
+lastupdated: "2023-10-12"
 
 ---
 {{site.data.keyword.attribute-definition-list}}
@@ -15,7 +15,7 @@ lastupdated: "2023-03-08"
 ## Accessing the {{site.data.keyword.openpages_short}} Walkme tutorials
 {: #step1}
 
-1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [provisioning](provisioning.md).
+1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment&interface=api).
 
 2. When the provisioning process is done, click **Go to IBM OpenPages**.
 
