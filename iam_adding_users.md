@@ -49,6 +49,3 @@ To invite users to your {{site.data.keyword.Bluemix_notm}} account, do the follo
 8. Click **Invite**. The users that you selected receive an email from `noreply <no-reply@cloud.ibm.com>`, inviting them to access your {{site.data.keyword.Bluemix_notm}} account. Users need to accept this invitation before they can access the {{site.data.keyword.openpages_short}} instance.
 
 Users are synchronized to {{site.data.keyword.openpages_short}} after they accept your invitation to join your account. For more information, see User and group synchronization from {{site.data.keyword.Bluemix_notm}} to {{site.data.keyword.openpages_short}}.
-
-
-
