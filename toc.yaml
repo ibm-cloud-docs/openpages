@@ -28,7 +28,6 @@ toc:
       id: howto
       topics:
        - iam.md
-       - iam-adding-users.md
        - iam-assigning-access-openpages.md
        
        - topicgroup:
