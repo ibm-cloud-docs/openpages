@@ -18,6 +18,10 @@ subcollection: openpages
 Users and groups that you create in {{site.data.keyword.Bluemix_notm}} are synchronized to {{site.data.keyword.openpages_short}}. Users are synchronized to {{site.data.keyword.openpages_short}} after they accept an invitation to join your account.
 {: shortdesc}
 
+A cron job synchronizes the users and groups from {{site.data.keyword.cloud}} to {{site.data.keyword.openpages_short}}. This synchronization process is a one-way operation.
+
+When a user logs in to {{site.data.keyword.openpages_short}} for the first time, the user is added to the user and group registry in {{site.data.keyword.openpages_short}}. They do not need to wait for the synchronization job to run.
+
 All the groups that are created in {{site.data.keyword.Bluemix_notm}} are created in {{site.data.keyword.openpages_short}} with the prefix "Cloud IAM -" added to the name of the group.
 
 Users are assigned the profiles that are associated with their group. Administrators can associate groups to one or more profiles in {{site.data.keyword.openpages_short}}. If a user has no enabled profiles available, the fallback profile is used. The fallback profile allows a user who is either not associated with any profile, or whose profile is disabled or deleted, to log in to {{site.data.keyword.openpages_short}}.
@@ -158,6 +162,8 @@ The group associations in {{site.data.keyword.openpages_short}} change to match 
 
 **Outcome in {{site.data.keyword.openpages_short}}** 
 
+The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved from the "Workflow, Reporting and Others" group to be a subgroup of the "Standalone Users and Group" group.
+
 Users associated with the deleted group that are members of other groups are no longer associated with the deleted group.
 
 If a user associated with the deleted group is not associated with other groups and the user has roles set in {{site.data.keyword.Bluemix_notm}}, they are removed from the group.
@@ -185,5 +191,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 ### In {{site.data.keyword.Bluemix_notm}}, re-creating  a group that was previously deleted
 
 **Outcome in {{site.data.keyword.openpages_short}}** 
+
+The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved back to be a  subgroup under the "Workflow, Reporting and Others" group.
 
 If any users exist in this new group, they are associated with the re-created group.
