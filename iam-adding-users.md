@@ -21,6 +21,7 @@ After you provision your service instance of {{site.data.keyword.openpages_short
 
 Adding users requires the following steps: 
 1. Invite users to your {{site.data.keyword.Bluemix_notm}} account by using IAM. For more information, see [Inviting users to an account](/docs/account?topic=account-iamuserinv&interface=ui).
-   Users are synchronized to {{site.data.keyword.openpages_short}} after they accept your invitation to join your account. For more information, see User and group synchronization from {{site.data.keyword.Bluemix_notm}} to {{site.data.keyword.openpages_short}}.
+
+   Users are synchronized to {{site.data.keyword.openpages_short}} after they accept your invitation to join your account. For more information, see [User and group synchronization from {{site.data.keyword.Bluemix_notm}} to {{site.data.keyword.openpages_short}}](/docs-draft/openpages?topic=openpages-iam-openpages-synchronization&interface=api).
 2. Grant the users access within {{site.data.keyword.openpages_short}}.
   
