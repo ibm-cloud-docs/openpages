@@ -21,6 +21,7 @@ toc:
       id: learn
       topics:
       - getting-started.md
+      - choosing-a-plan.md
       - limitations.md
       - release-notes.md
 
