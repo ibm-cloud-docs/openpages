@@ -319,9 +319,3 @@ fmt.Println(string(b))
 {: go}
 {: codeblock}
 
-## Synchronizing users and groups
-{: #synch-users-groups}
-
-A cron job synchronizes the users and groups from {{site.data.keyword.cloud}} to {{site.data.keyword.openpages_short}}. This synchronization process is a one-way operation.
-
-When a user logs in to {{site.data.keyword.openpages_short}} for the first time, the user is added to the user and group registry in {{site.data.keyword.openpages_short}}. You do not need to wait for the synchronization job to run.
