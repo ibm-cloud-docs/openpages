@@ -20,4 +20,7 @@ The following is a list of features that are currently not supported in {{site.d
 - Global Search
 - Integration with Cognos Analytics
 - Custom code including custom workflow actions, custom triggers, custom helpers (JSPs), and custom jobs in the Scheduler
-- Db2
+- Notification Manager
+- Loss Event Entries
+- SDI Connectors
+
