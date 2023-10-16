@@ -12,7 +12,7 @@ lastupdated: "2023-10-12"
 # Getting started with {{site.data.keyword.openpages_short}}
 {: #gettingstartedtutorial}
 
-## Accessing the {{site.data.keyword.openpages_short}} Walkme tutorials
+## Accessing the {{site.data.keyword.openpages_short}} tutorials
 {: #step1}
 
 1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment&interface=api).
@@ -25,7 +25,8 @@ lastupdated: "2023-10-12"
 
 5. Click **Launch OpenPages**. Your instance of {{site.data.keyword.openpages_short}} opens.
 
-6. If the WalkMe doesn't start when {{site.data.keyword.openpages_short}} opens, click the WalkMe icon ![WalkMe icon](walkme_icon.png) in the banner.
+6. If the tutorials don't start when {{site.data.keyword.openpages_short}} opens, click the WalkMe icon ![WalkMe icon](walkme_icon.png) in the banner.
+
 7. Choose a tutorial.
 
 ## Next steps
