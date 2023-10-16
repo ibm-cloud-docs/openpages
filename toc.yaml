@@ -41,6 +41,11 @@ toc:
               - admin-provisioning.md
               - admin-updating-software.md
               - admin-backup-restore.md
+              - admin-customize-hostname.md 
+              - admin-add-remove-solutions.md
+              - admin-view-UI-utilization.md
+              - admin-change-plan.md
+              - admin-deprovisioning-instances.md 
        - topicgroup:
            label: Enhancing security
            topics:
