@@ -23,14 +23,12 @@ For information about {{site.data.keyword.openpages_short}} plan pricing, see th
 ## Essentials plan
 {: #plan_essentials}
 
-The Essentials plan is intended for users who want to try out {{site.data.keyword.openpages_short}} or build a proof-of-concept. Do not use the Essentials plan for production use. It offers shared access to a multi-tenant {{site.data.keyword.openpages_short}} cluster.
+The Essentials plan is ideal for small organizations or departments within a larger organization who are looking to get started with a GRC solution. It can also be used as a non-production environment.
 
 ## Standard plan
 {: #plan_standard}
 
-The Standard plan is appropriate for production use. The Standard plan offers shared access to a multi-tenant {{site.data.keyword.openpages_short}} cluster that seamlessly autoscales as you increase the number of partitions you are using for your workload.
-
-The architecture is highly available by default. The service is distributed across three availability zones, which means that the cluster is resilient to the failure of a single zone or any component within that zone.
+The Standard plan is ideal for small to medium sized organizations or departments in larger organization who are looking for expanded use of GRC solutions.
 
 ## What is supported by the Essentials and Standard plans
 {: #what_is_supported}
@@ -48,4 +46,4 @@ The following table summarizes what is supported by the plans:
 | Number of permitted workflows    | 1 per object                  | 1 per object                  |
 | Number of permitted Calculations | 2 per object                  | 10 per object                 |
 | Number of permitted Operations   | 10 operations per calculation | 30 operations per calculation |
-{: caption="Table 1. Plan comparison table" caption-side="bottom"}
+{: caption="Values in the preceding table are maximums." caption-side="bottom"}
