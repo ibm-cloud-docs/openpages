@@ -33,7 +33,7 @@ The Standard plan is ideal for small to medium sized organizations or department
 ## What is supported by the Essentials and Standard plans
 {: #what_is_supported}
 
-The following table summarizes what is supported by the plans:
+The following table summarizes what is supported by each plan. The values in the table are maximums.
 
 | Category                         | Essentials Plan               | Standard Plan                 |
 | -------------------------------- | ----------------------------- | ----------------------------- |
@@ -46,4 +46,4 @@ The following table summarizes what is supported by the plans:
 | Number of permitted workflows    | 1 per object                  | 1 per object                  |
 | Number of permitted Calculations | 2 per object                  | 10 per object                 |
 | Number of permitted Operations   | 10 operations per calculation | 30 operations per calculation |
-{: caption="Values in the preceding table are maximums." caption-side="bottom"}
+{: caption="Table 1: What is supported by each plan." caption-side="bottom"}
