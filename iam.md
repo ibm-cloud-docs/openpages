@@ -45,7 +45,7 @@ To find the role_id values, run the `ibmcloud iam roles` command or go to the Ma
 | Viewer                 |  As a Viewer, you can log in to the {{site.data.keyword.openpages_short}} application. You can view {{site.data.keyword.openpages_short}} service instances, but you can't modify them. |
 | Operator               |  As an operator, you can complete platform actions that are required to configure and operate {{site.data.keyword.openpages_short}} service instances. You can log in to {{site.data.keyword.openpages_short}}.            |
 | Editor                 |  As an Editor, you can create, modify, and delete {{site.data.keyword.openpages_short}} service instances, but you can't assign access policies to other users. You can log in to the {{site.data.keyword.openpages_short}} application.            |
-| Administrator          |  As an administrator, you can complete all platform actions for {{site.data.keyword.openpages_short}}, including the ability to assign access policies to other users. You can log in to the {{site.data.keyword.openpages_short}} application.            |
+| Administrator          |  As an administrator, you can complete all platform actions for {{site.data.keyword.openpages_short}}, including the ability to assign access policies to other users. You can log in to the {{site.data.keyword.openpages_short}} application as an Administrator.            |
 {: row-headers}
 {: class="simple-tab-table"}
 {: caption="Table 1. IAM platform roles" caption-side="bottom"}
@@ -79,7 +79,7 @@ There are two common ways to assign access in the console:
 {: #assign-access-cli}
 {: cli}
 
-For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `openpages.service.login` role for `openpages`:
+For step-by-step instructions for assigning, removing, and reviewing access, see [Assigning access to resources by using the CLI](/docs/account?topic=account-assign-access-resources&interface=cli#access-resources-cli). The following example shows a command for assigning the `GRCUser` role for `openpages`:
 
 Use `openpages` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
@@ -104,8 +104,7 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 | Operator               | `crn:v1:bluemix:public:openpages::::serviceRole:Operator`      |
 | Editor                 | `crn:v1:bluemix:public:openpages::::serviceRole:Editor`        |
 | Administrator          | `crn:v1:bluemix:public:openpages::::serviceRole:Administrator` |
-| openpages.service.login         | `crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.login`        |
-| openpages.service.administer         | `crn:v1:bluemix:public:openpages::::serviceRole:openpages.service.administer`        |
+| OpenPages User         | `crn:v1:bluemix:public:openpages::::serviceRole:GRCUser`       |
 {: caption="Table 2. Role ID values for API use" caption-side="bottom"}
 
 <!-- Tailor this example to your service -->
