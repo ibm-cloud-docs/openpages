@@ -77,7 +77,7 @@ toc:
       - include: ../openpages-cli-plugin/openpages_cli.md
       - link:
             label: OpenPages REST API reference
-            href: https://developer.ibm.com/apis/catalog/openpages--ibm-openpages-with-watson-rest-api-v2/Introduction
+            href: /apidocs/openpages
 
   - navgroup:
       id: tutorial
