@@ -62,7 +62,7 @@ toc:
        - topicgroup:
            label: Logging and monitoring
            topics:
-              - logging_in_openpages.md
+              - logging-in-openpages.md
               - at-events.md
   - navgroup:
       id: help
