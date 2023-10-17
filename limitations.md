@@ -23,4 +23,5 @@ The following is a list of features that are currently not supported in {{site.d
 - Notification Manager
 - Loss Event Entries
 - SDI Connectors
+- Connector for Thomson Reuters Regulatory Intelligence (TRRI)
 
