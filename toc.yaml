@@ -78,7 +78,7 @@ toc:
       - include: ../openpages-cli-plugin/openpages_cli.md
       - link:
             label: OpenPages REST API reference
-            href: /apidocs/openpages
+            href: ../apidocs/openpages
 
   - navgroup:
       id: tutorial

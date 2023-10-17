@@ -45,7 +45,7 @@ To find the role_id values, run the `ibmcloud iam roles` command or go to the Ma
 | Viewer                 |  As a Viewer, you can log in to the {{site.data.keyword.openpages_short}} application. You can view {{site.data.keyword.openpages_short}} service instances, but you can't modify them. |
 | Operator               |  As an operator, you can complete platform actions that are required to configure and operate {{site.data.keyword.openpages_short}} service instances. You can log in to {{site.data.keyword.openpages_short}}.            |
 | Editor                 |  As an Editor, you can create, modify, and delete {{site.data.keyword.openpages_short}} service instances, but you can't assign access policies to other users. You can log in to the {{site.data.keyword.openpages_short}} application.            |
-| Administrator          |  As an administrator, you can complete all platform actions for {{site.data.keyword.openpages_short}}, including the ability to assign access policies to other users. You can log in to the {{site.data.keyword.openpages_short}} application as an Administrator.            |
+| Administrator          |  As an administrator, you can complete all platform actions for {{site.data.keyword.openpages_short}}, including the ability to assign access policies to other users. As an application administrator, you have complete access to all objects, folders, application permissions and security groups and users in {{site.data.keyword.openpages_short}}. You can log in to the {{site.data.keyword.openpages_short}} application as an Administrator.            |
 {: row-headers}
 {: class="simple-tab-table"}
 {: caption="Table 1. IAM platform roles" caption-side="bottom"}
@@ -56,7 +56,6 @@ To find the role_id values, run the `ibmcloud iam roles` command or go to the Ma
 | Service role   |  Description of actions |
 |----------------|------------------------|
 | OpenPages User | Can log in to the {{site.data.keyword.openpages_short}} application. Can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
-| openpages.service.administer         | Is the super administrator for the {{site.data.keyword.openpages_short}} application. A Super Administrator is a user who has complete access to all objects, folders, role templates, and groups in {{site.data.keyword.openpages_short}}. A deployment can have one or more Super Administrators.              |
 {: row-headers}
 {: class="simple-tab-table"}
 {: caption="Table 1. IAM service access roles" caption-side="bottom"}
