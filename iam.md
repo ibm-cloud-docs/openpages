@@ -53,9 +53,9 @@ To find the role_id values, run the `ibmcloud iam roles` command or go to the Ma
 {: tab-title="Platform roles"}
 {: tab-group="IAM"}
 
-| Service role |  Description of actions |
-|--------------|------------------------|
-| openpages.service.login         | Can log in to the {{site.data.keyword.openpages_short}} application. Can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
+| Service role   |  Description of actions |
+|----------------|------------------------|
+| OpenPages User | Can log in to the {{site.data.keyword.openpages_short}} application. Can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
 | openpages.service.administer         | Is the super administrator for the {{site.data.keyword.openpages_short}} application. A Super Administrator is a user who has complete access to all objects, folders, role templates, and groups in {{site.data.keyword.openpages_short}}. A deployment can have one or more Super Administrators.              |
 {: row-headers}
 {: class="simple-tab-table"}
