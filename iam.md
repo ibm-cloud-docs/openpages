@@ -35,10 +35,6 @@ IAM access policies enable access to be granted at different levels. Some of the
 Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.openpages_short}}](_YourSubHeadingLink_).
 <!-- IMPORTANT: This link should go directly to your service's heading in https://cloud.ibm.com/docs/account?topic=account-iam-service-roles-actions, for example [<service-name>](/docs/account?topic=account-iam-service-roles-actions#certificate-manager) -->
 
-<!-- This is a high level view of what the platform roles allow users to do. Use a plain language description about what kind of tasks can be completed or the common jobs to be done that users can expect to accomplish when having each role assigned. -->
-
-<!-- Include any service-specific custom roles that your service has registered.
-To find the role_id values, run the `ibmcloud iam roles` command or go to the Manage>Access (IAM)>Roles console page. Select your service, then use the List of Actions icon for the row of the role that you want to get the ID value for, and click Details. It is part of the CRN. For example, in crn:v1:bluemix:public:cloud-object-storage::::serviceRole:ContentReader, ContentReader is the ID value. -->
 
 | Platform role |  Description of actions |
 |---------------|-------------------------|
