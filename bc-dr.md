@@ -17,11 +17,6 @@ subcollection: openpages
 # Understanding business continuity and disaster recovery for {{site.data.keyword.openpages_short}}
 {: #bc-dr}
 
-<!-- The title of your H1 should be Understanding business continuity and disaster recover for _service-name_, where _service-name_ is the non-trademarked short version keyref. Include your service name as a search keyword at the top of your Markdown file. See the example keywords above. -->
-
-<!-- The short description should be a single, concise paragraph that contains one or two sentences and no more than 50 words. Summarize your offering's strategy for BCDR. The following is a suggested short description._
-{: shortdesc} -->
-
 [Disaster recovery](#x2113280){: term} involves a set of policies, tools, and procedures for returning a system, an application, or an entire data center to full operation after a catastrophic interruption. It includes procedures for copying and storing an installed system's essential data in a secure location, and for recovering that data to restore normalcy of operation.
 {: shortdesc}
 
@@ -49,8 +44,3 @@ The service is restored to another region based on the following table. The appl
 |---|---|
 |  AWS US East (Northern Virginia) | AWS US East (Ohio)  |
 {: caption="Table 2. Regions for {{site.data.keyword.openpages_short}}" caption-side="bottom"}
-
-## Locations
-{: #dr-locations}
-
-For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region).
