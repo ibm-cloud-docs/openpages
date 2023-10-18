@@ -15,7 +15,7 @@ lastupdated: "2023-10-18"
 ## Accessing {{site.data.keyword.openpages_short}} and the tutorials
 {: #step1}
 
-1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment&interface=api).
+1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment&interface=api).
 
 2. You are automatically taken to the **Resource list**.
 
