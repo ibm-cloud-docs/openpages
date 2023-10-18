@@ -3,7 +3,8 @@ copyright:
   years: 2023
 lastupdated: "2023-03-08"
 
-keywords:
+keywords: customer responsibilities, IBM responsibilities, terms and conditions
+
 subcollection: openpages
 
 content-type: reference
@@ -14,94 +15,73 @@ content-type: reference
 # Understanding your responsibilities when using {{site.data.keyword.openpages_short}}
 {: #Responsibility}
 
-Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.openpages_full}}. For a high-level view of the service types in {{site.data.keyword.cloud}} and the breakdown of responsibilities between the customer and {{site.data.keyword.IBM_notm}} for each type, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} offerings](/docs/overview?topic=overview-shared-responsibilities).
+Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.openpages_full}}. For a high-level view of the service types in {{site.data.keyword.cloud_notm}} and the breakdown of responsibilities between the customer and {{site.data.keyword.IBM_notm}} for each type, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} offerings](/docs/overview?topic=overview-shared-responsibilities).
 {: shortdesc}
 
-Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use _yourproduct-full-notm-keyref_. For the overall terms of use, see [{{site.data.keyword.cloud}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
+Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use {{site.data.keyword.openpages_full_notm}}. For the overall terms of use, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
 
-<!-- If you plan to list resource (see resources listed in each table in the platform shared responsibilities topic linked above) responsibility instead of individual tasks, you do not need to include rows for Hypervisor, Physical Servers and memory, Physical storage, Physical network and devices, and Facilities and data centers unless you need to indicate a 'Shared' or 'Customer' responsibility for one of the areas within those Resources. -->
 
 ## Incident and operations management
 {: #incident-and-ops}
 
-<!-- Use this section description exactly as worded. -->
-<!-- If there is a task that is the customer's responsibility and you have associated docs for how a customer completes that task, link to it from the Your responsibilities column. -->
 
-Incident and operations management includes tasks such as monitoring, event management, high availability, problem determination, recovery, and full state backup and recovery.
-
-|  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|----------|-----------------------|--------|
-|Task 1| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 2| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 3| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-{: row-headers}
-{: caption="Table 1. Responsibilites for incident and operations" caption-side="bottom"}
-{: summary="The rows are read from left to right. The first column describes the task that a the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
+| Task              | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
+|-------------------|-------------------------------------------------|-----------------------|
+| Incident and operations management   | Maintain {{site.data.keyword.openpages_full_notm}} service instances and infrastructure workloads. | Maintain incident and operations management of your data. |
+| Monitor incidents    | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set preferences to [receive emails about platform notifications](/docs/overview?topic=overview-ui#email-prefsl).  \n Monitor the [IBM Cloud status page](https://{DomainName}/status?selected=announcement) for general announcements. |
+| Maintain {{site.data.keyword.cloud_notm}} high availability SLA    | Provide Cloud Service across hosts.  \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Plan for and create new instances of the service. Reference to content?|
+| Monitor logs    | [Participating Cloud services](/docs/log-analysis?topic=log-analysis-cloud_services) publish relevant log data to their subscribing clients. {{site.data.keyword.openpages_full_notm}} provides clients with the ability to receive the logs once the client configures their instance. | [Create an {{site.data.keyword.openpages_full_notm}} instance](/docs/log-analysis?topic=log-analysis-provision) in each region where Cloud service subscriptions publish logs.  \n [Configure 1 instance in each of those regions to received the published logs](/docs/log-analysis?topic=log-analysis-config_svc_logs). |
+| Monitor logs collected by logging agents     | Provide images and instructions for how to install logging agents in environments that you want to monitor, such as Kubernetes, Linux, Openshift. | [Install and configure logging agents](/docs/log-analysis?topic=log-analysis-config_agent_kube_cluster).  \n Monitor that the agents are running in your environment. |
+| Archive logs    | Provide the ablity to archive to a client configured Cloud Object Storage (COS) location and archive data hourly. | [Configure Cloud Object Storage per your requirements.](/docs/log-analysis?topic=log-analysis-archiving#archiving_step3)  \n [Enable archiving of the logging instance.](/docs/log-analysis?topic=log-analysis-archiving) |
+| Configuring exclusion rules for {{site.data.keyword.atracker_short}} hosted event search offerings   |  | Verify that each exclusion rule that you add behaves as expected. Inproper configured exclusion rules can result in data and cost spikes. For more information on how to use exclusion rules, see [Excluding data by using exclusion rules](/docs/log-analysis?topic=log-analysis-exclusion_rules), [Configuring conditional streaming](/docs/log-analysis?topic=log-analysis-streaming-conditional) and [Configuring usage quota exclusion rules](/docs/log-analysis?topic=log-analysis-control_usage_quotas#rules_usage_quota). |
+{: caption="Table 1. Responsibilities for incident and operations" caption-side="top"}
 
 ## Change management
 {: #change-management}
 
-<!-- Use this section description exactly as worded. -->
-<!-- If there is a task that is the customer's responsibility and you have associated docs for how a customer completes that task, link to it from the Your responsibilities column. -->
+| Task                                                    | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
+|---------------------------------------------------------|-----------------------|--------|
+| Update the {{site.data.keyword.openpages_full_notm}} service   | Provide major, minor, and patch version updates for {{site.data.keyword.openpages_full_notm}} interfaces.  \n Document changes in the [logging release notes](https://docs.mezmo.com/changelog){: external} | Ensure that any logging agents that you have deployed are kept current. |
+| Track versions of custom views, dashboards, screens, parsing templates, and alerts      | `N/A` | Use your own change management process to control versions of logging resources such as views, dashboards, screens, parsing templates, and alerts.  \n To learn how to export metadata, see [Export the configuration of resources in a logging instance](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#export_config_res).|
+{: caption="Table 2. Responsibilities for change management" caption-side="top"}
 
-Change management includes tasks such as deployment, configuration, upgrades, patching, configuration changes, and deletion.
-
-|  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|----------|-----------------------|--------|
-|Task 1| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 2| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 3| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-{: row-headers}
-{: caption="Table 2. Responsibilites for change management" caption-side="bottom"}
-{: summary="The rows are read from left to right. The first column describes the task that a the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
 
 ## Identity and access management
 {: #iam-responsibilities}
 
-<!-- Use this section description exactly as worded. -->
-<!-- If there is a task that is the customer's responsibility and you have associated docs for how a customer completes that task, link to it from the Your responsibilities column. -->
 
-Identity and access management includes tasks such as authentication, authorization, access control policies, and approving, granting, and revoking access.
-
-|  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|----------|-----------------------|--------|
-|Task 1| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 2| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 3| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-{: row-headers}
-{: caption="Table 3. Responsibilites for identity and access management" caption-side="bottom"}
-{: summary="The rows are read from left to right. The first column describes the task that a the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
+| Task                           | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
+|--------------------------------|-------------------------------------------------|-----------------------|
+| Manage permissions             | Provide the ability to restrict access to resouces.  \n {{site.data.keyword.IBM_notm}} is responsible for the security and compliance of {{site.data.keyword.openpages_full_notm}}. | Restrict access to resources by using Cloud IAM access policies by defining IAM policies to control which users within your account have access to the logging data.  \n [Learn more about controlling access through IAM](/docs/log-analysis?topic=log-analysis-work_iam)
+. |
+{: caption="Table 3. Responsibilities for identity and access management" caption-side="top"}
 
 ## Security and regulation compliance
 {: #security-compliance}
 
-<!-- Use this section description exactly as worded. -->
-<!-- If there is a task that is the customer's responsibility and you have associated docs for how a customer completes that task, link to it from the Your responsibilities column. -->
-
-Security and regulation compliance includes tasks such as security controls implementation and compliance certification.
-
-|  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|----------|-----------------------|--------|
-|Task 1| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 2| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 3| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-{: row-headers}
-{: caption="Table 4. Responsibilites for security and regulation compliance" caption-side="bottom"}
-{: summary="The rows are read from left to right. The first column describes the task that a the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
+| Task                                       | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
+|--------------------------------------------|-------------------------------------------------|-----------------------|
+| Encrypt data    | Operate the Cloud Service encrypting data in motion and at rest per compliance specifications. | Ensure encryption of archived data by configuring a COS bucket that has full control over the data encryption keys that are used. [{{site.data.keyword.cos_full}} provides several options to encrypt your data.](/docs/cloud-object-storage?topic=cloud-object-storage-encryption) |
+| Meet security and compliance objectives    | Maintain controls that are commensurate to various industry compliance standards such as SOC2, PCI, HIPAA and Privacy Shield. | Set up and maintain security and regulation compliance for your apps and data.  This includes:  \n [Defining the account management strategy](/docs/log-analysis?topic=log-analysis-adoption#adoption_account)  \n [Configuring the accounts settings for compliance](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)  \n Define IAM Strategy  \n [Define the notification strategy](/docs/log-analysis?topic=log-analysis-adoption#adoption_alerts) |
+{: caption="Table 4. Responsibilities for security and regulation compliance" caption-side="top"}
 
 ## Disaster recovery
 {: #disaster-recovery}
 
-<!-- Use this section description exactly as worded. -->
-<!-- If there is a task that is the customer's responsibility and you have associated docs for how a customer completes that task, link to it from the Your responsibilities column. -->
+| Task                                                            | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
+|-----------------------------------------------------------------|-------------------------------------------------|-----------------------|
+| Restore the service `[*]`        |Automatically recover and restart service components after any disaster event.  | `N/A` |
+| Backup the {{site.data.keyword.openpages_full_notm}} key resources that are provided by the service          | Daily backup of the {{site.data.keyword.openpages_full_notm}} infrastructure and components. | `N/A` |
+| Backup logging agents                                            | `N/A`  | Backup each logging agent YAML file that is deployed in your organization. |
+| Recovery of logging agents                                       | `N/A` | [Reinstall](/docs/log-analysis?topic=log-analysis-logdna_agent#logdna_agent_configure) the logging agent in the event of any disaster event that impacts the agent runtime. |
+| Backup the metadata of a logging instance                            | Backup metadata that is used by the service.  | [Backup the metadata such as views, dashboards, screens, parsing templates, and alerts for each logging instance.](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#export_config_res) |
+| Restore the metadata of a logging instance                           | Restore metadata that is used by the service. | [Restore the metadata such as views, dashboards, screens, parsing templates, and alerts for each logging instance.](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#import_config) |
+| Backup of the data   | `N/A` | [Configure archiving to retain a backup copy of the data.](/docs/log-analysis?topic=log-analysis-archiving) |
+{: caption="Table 5. Responsibilities for disaster recovery" caption-side="top"}
 
-Disaster recovery includes tasks such as providing dependencies on disaster recovery sites, provision disaster recovery environments, data and configuration backup, replicating data and configuration to the disaster recovery environment, and failover on disaster events.
 
-|  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|----------|-----------------------|--------|
-|Task 1| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 2| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-|Task 3| {{site.data.keyword.IBM_notm}} responsibility description  | Customer responsibility description |
-{: row-headers}
-{: caption="Table 5. Responsibilites for disaster recovery" caption-side="bottom"}
-{: summary="The rows are read from left to right. The first column describes the task that a the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
+`[*]` Recovered and restarted service components will not have customer data reloaded.
+{: note}
+
+To plan and prepare in the event of a DR scenario, see [Recovering from a disaster region](/docs/log-analysis?topic=log-analysis-ha_dr_steps).
+{: important}
