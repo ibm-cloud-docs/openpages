@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-12"
+lastupdated: "2023-10-18"
 
 ---
 {{site.data.keyword.attribute-definition-list}}
