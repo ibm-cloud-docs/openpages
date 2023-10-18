@@ -14,7 +14,7 @@ subcollection: openpages
 
 Learn how to manage your {{site.data.keyword.openpages_short}} instance.{: shortdesc}
 
-1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment&interface=api).
+1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment&interface=api).
 
 2. You are automatically taken to the **Resource list**.
 
