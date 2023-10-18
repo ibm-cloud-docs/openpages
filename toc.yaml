@@ -29,6 +29,7 @@ toc:
       id: howto
       topics:
        - logging-in.md
+       - manage-instance.md 
 
        - topicgroup:
            label: Managing access
