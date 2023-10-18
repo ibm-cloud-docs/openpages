@@ -45,30 +45,17 @@ To view {{site.data.keyword.openpages_short}} logs, complete the following steps
 
     For more information about searching and filtering logs, check out the [{{site.data.keyword.la_short}} documentation](/docs/log-analysis?topic=log-analysis-monitor_logs).
 
-
 ## Analyzing logs
 {: #analyze-logs-ui}
 
 You can create views and alerts from all of your {{site.data.keyword.openpages_short}} instances, or from a specific instance.
-  
-To target a specific instance, replace `host:secrets-manager` with `app:{INSTANCE_CRN}`.
-
-### Query for finding all errors from all instances
-{: #query-all-logs}
-
-Run the following query to find all errors from all of your instances.
-
-```sh
-host:secrets-manager
-```
 
 ### Query for finding all errors from a specific instance
 {: #query-instance-logs}
 
-Run the following query to find all errors from a specific instance.
-
-```sh
-app:crn:v1:bluemix:public:secrets-manager:au-syd:a/9add8f16c5a24a6ea8ce5d8b89b15b28:ee536f33-48ce-4125-ae4a-37b46cdc802d::
+To find all errors from a specific instance, run a query with `host:op-{INSTANCE_GUID}` filter. For example:
+```
+host:op-d1319025-5308-4168-b2d8-75bdc9e69af3
 ```
 
 To learn more about creating [views](/docs/log-analysis?topic=log-analysis-view_logs) and [alerts](/docs/log-analysis?topic=log-analysis-create_alert_ui), see the {{site.data.keyword.logs_full_notm}} documentation.
