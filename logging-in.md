@@ -23,4 +23,4 @@ You can also launch {{site.data.keyword.openpages_short}} by copying the URL:
 2. Under **Fixed URL**, click the **Copy** icon.
 3. Paste the URL in your browser.
 
-You can change the hostname of your instance. For more information, see [Customizing the hostname in the OpenPages URL](admin-customize-hostname.md). {: tip}
+You can change the hostname of your instance. For more information, see [Customizing the hostname in the OpenPages URL](admin-customize-hostname.md). {: tip} <!--how to link to internal file-->

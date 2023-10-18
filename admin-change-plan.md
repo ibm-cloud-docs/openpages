@@ -15,7 +15,7 @@ subcollection: openpages
 When you provision an instance, you select an IBM Cloud plan. You can change the plan later, if
 needed.
 
-For the Beta, two plans are available: Essentials and Standard {: shortdesc}
+The following plans are available: Essentials and Standard {: shortdesc}
 
 1. Go to the **Resource list**.
 2. In the search box, type **openpages**.
