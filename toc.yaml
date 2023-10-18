@@ -57,11 +57,6 @@ toc:
               - data-security.md
               - topic: service-endpoints.md
                 navtitle: Using service endpoints
-       - topicgroup:
-           label: High availability and disaster recovery
-           topics:
-              - ha.md
-              - dr.md
        - event-notifications-events.md
        - topicgroup:
            label: Logging and monitoring
@@ -78,6 +73,8 @@ toc:
   - navgroup:
       id: reference
       topics:
+      - ha.md
+      - bc-dr.md
       - responsibilities.md
       - include: ../openpages-cli-plugin/openpages_cli.md
       - link:

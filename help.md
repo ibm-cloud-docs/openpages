@@ -16,10 +16,10 @@ subcollection: openpages
 
 <!-- Use your product short name in the title to help search results, and use a nav title in the toc.yaml to shorten it to Getting help and support in the left nav-->
 
-# Getting help and support for {{site.data.keyword.openpages_short}}
+# Getting help and support for {{site.data.keyword.openpages_full}}
 {: #help-and-support}
 
-If you experience an issue or have questions when using {{site.data.keyword.openpages_short}}, you can use the following resources before you open a support case.
+If you experience an issue or have questions when using {{site.data.keyword.openpages_full_notm}}, you can use the following resources before you open a support case.
 {: shortdesc}
 
 <!-- * Review the [FAQs](/docs/linktoyourfaqtopic) in the product documentation.-->
