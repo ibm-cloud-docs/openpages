@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-13"
+lastupdated: "2023-10-17"
 
 keywords: logging in OpenPages, IBM OpenPages as a Service
 subcollection: openpages
