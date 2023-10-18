@@ -48,7 +48,7 @@ Identity and access management includes tasks such as authentication, authorizat
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any service roles that you create for your instances.|
+| Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any user access that you create for your instances.\n This includes security rules, roles, users,and groups in IBM Cloud IAM and OpenPages application security.|
 {: caption="Table 3.Identity and access management" caption-side="bottom"}
 
 ## Security and regulation compliance
@@ -58,7 +58,7 @@ Security and regulation compliance includes tasks such as security controls impl
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS/SSH (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.lakehouse_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.lakehouse_short}} instances.|
+| General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.openpages_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.openpages_short}} instances.|
 {: caption="Table 4.Security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
@@ -66,5 +66,5 @@ Security and regulation compliance includes tasks such as security controls impl
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| General| * Restore or rebuild the provisioning environments in the affected regions. \n * Restore existing {{site.data.keyword.lakehouse_short}} instances, where possible. | * Track instance state. \n * Provision new {{site.data.keyword.lakehouse_short}} instances in alternatively available regions.\n * Ensure that the {{site.data.keyword.lakehouse_short}} instance is stateless by making sure that all data, metadata and applications reside outside of the cluster. This activity must be completed before disaster recovery can be initiated.\n * Provision a new service instance in an alternatively available region if the current instances can't be accessed.|
+| General| * Restore or rebuild the service instances in alternatively available regions. \n * Restore existing {{site.data.keyword.openpages_short}} instances, where possible. | * Track instance state. \n * Configure external integrations, if they exist, with a newly assigned application URL.|
 {: caption="Table 5.Disaster recovery" caption-side="bottom"}
