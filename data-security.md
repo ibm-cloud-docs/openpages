@@ -35,8 +35,6 @@ In addition to the storage level encryption, {{site.data.keyword.openpages_short
 ## Protecting your sensitive data in {{site.data.keyword.openpages_short}}
 {: #data-encryption}
 
-You can add a higher level of encryption control to your data at rest (when it is stored) by enabling integration with a key management service.
-
 The {{site.data.keyword.openpages_short}} service stores personal data, such as a user's email address, first name, and last name, on Amazon Relational Database Service (RDS). The data is replicated automatically from the {{site.data.keyword.Bluemix_notm}} account in the IAM service. After the data replication, the user can log in to the {{site.data.keyword.openpages_short}} service, and they can view the user selector object fields.
 
 Credentials and API keys for external integration, such as Watson NLU and Regulatory change feeds, are further encrypted before they are stored to the relational database.
@@ -59,9 +57,6 @@ The {{site.data.keyword.openpages_short}} data retention policy describes how lo
 {: #service-delete}
 
 If you no longer need an instance of {{site.data.keyword.openpages_short}}, you can delete the service instance and any data that is stored. Your instance enters a disabled state, and after 7 days its data is permanently deleted. You can also choose to delete your service instance by using the console.
-
-During the 7-day reclamation period, do not delete authorizations between {{site.data.keyword.openpages_short}} and other integrated services, such as {{site.data.keyword.keymanagementserviceshort}}. {{site.data.keyword.openpages_short}} uses the authorization to unregister your instance from any associated resources in those services. After the instance is permanently deleted, the authorization is also deleted by IAM.
-{: important}
 
 1. Delete the service and place it in a reclamation period of 7 days.
 
