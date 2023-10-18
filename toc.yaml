@@ -50,7 +50,7 @@ toc:
            label: Enhancing security
            topics:
               - architecture-workload-isolation.md
-              - securing-data.md
+              - data-security.md
               - topic: service-endpoints.md
                 navtitle: Using service endpoints
        - topicgroup:

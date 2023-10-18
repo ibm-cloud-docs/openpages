@@ -12,32 +12,26 @@ lastupdated: "2023-10-12"
 # Getting started with {{site.data.keyword.openpages_short}}
 {: #gettingstartedtutorial}
 
-## Provisioning your instance
+## Accessing {{site.data.keyword.openpages_short}} and the tutorials
 {: #step1}
 
 1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment&interface=api).
 
 2. You are automatically taken to the **Resource list**.
 
-## Open the console to manage your {{site.data.keyword.openpages_short}} instance
-{: #step2}
-
-1. Under **AI / Machine Learning**, you should see the {{site.data.keyword.openpages_short}} instance that you provisioned. 
+3. Under **AI / Machine Learning**, you should see the {{site.data.keyword.openpages_short}} instance that you provisioned. 
 
    When the **Status** of the instance is set to **Active**, your instance has been provisioned.
 
-2. Click the **Name** of the instance.
+4. Click the **Name** of the instance.
    
    The console where you manage your {{site.data.keyword.openpages_short}} instance is displayed.
 
-## Accessing {{site.data.keyword.openpages_short}} and the tutorials
-{: #step3}
+5. Click **Launch OpenPages**. Your instance of {{site.data.keyword.openpages_short}} opens.
 
-1. Click **Launch OpenPages**. Your instance of {{site.data.keyword.openpages_short}} opens.
+6. If the tutorials don't start when {{site.data.keyword.openpages_short}} opens, click the WalkMe icon ![WalkMe icon](walkme_icon.png) in the banner.
 
-2. If the tutorials don't start when {{site.data.keyword.openpages_short}} opens, click the WalkMe icon ![WalkMe icon](walkme_icon.png) in the banner.
-
-3. Choose a tutorial.
+7. Choose a tutorial.
 
 ## Next steps
 {: #next-steps}
