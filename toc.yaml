@@ -78,9 +78,9 @@ toc:
       - bc-dr.md
       - responsibilities.md
       - include: ../openpages-cli-plugin/openpages_cli.md
-      - link:
-            label: OpenPages REST API reference
-            href: ../apidocs/openpages
+     - link:
+            label: IBM OpenPages as a Service REST API V2 reference
+            href: https://cloud.ibm.com/apidocs/openpages
 
   - navgroup:
       id: tutorial
