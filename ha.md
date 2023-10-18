@@ -10,7 +10,6 @@ subcollection: openpages
 
 ---
 {{site.data.keyword.attribute-definition-list}}
-<!--Name your file `ha.md` and include it in the **Reference** nav group in your `toc.yaml` file.-->
 
 # Understanding high availability for {{site.data.keyword.openpages_short}}
 {: #ha}
@@ -18,17 +17,15 @@ subcollection: openpages
 [High availability](#x2284708){: term} (HA) is a core discipline in an IT infrastructure to keep your apps up and running, even after a partial or full site failure. The main purpose of high availability is to eliminate potential points of failures in an IT infrastructure.
 {: shortdesc}
 
+{{site.data.keyword.openpages_long}} is a highly available, multi-tenant, regional service. The service workload is distributed across multiple availability zones in a region, so single data center outage does not impact overall service availability. Data that is stored in {{site.data.keyword.openpages_short}} is replicated over the availability zones synchronously and is replicated to separate region asynchronously.
+
+In addition to synchronous data replication across zones in one region, the underlying relational database takes full snapshot backup daily automatically and it is stored to regional S3 storage. The daily snapshot backup is kept for up to 35 days along with transaction logs, which is utilized by the service instance restore operation with point-in-time data. For more information on the restore operation, see [Backing up and restoring the database and configuration settings for IBM OpenPages](/docs/openpages?topic=openpages-backing_up_and_restoring&interface=ui).
+
+
 ## Responsibilities
 {: #ha-responsibilities}
 
-<!-- If there is specific responsibility documentation for the product , comment the next paragraph-->
-<!-- To find out more about responsibility ownership for using {{site.data.keyword.cloud}} products between {{site.data.keyword.IBM_notm}} and the customer, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} products](/docs/overview?topic=overview-shared-responsibilities).-->
-
-<!-- If there is specific responsibility documentation available for the product, provide a linked reference on the following paragraph or elaborate on the current document-->
-
 See [Shared responsibilities for IBM products.](/docs/overview?topic=overview-shared-responsibilities) for details on responsibility ownership between {{site.data.keyword.IBM_notm}} and the customer when using {{site.data.keyword.openpages_short}}.
-
-{{site.data.keyword.openpages_long}} is a highly available, multi-tenant, regional service. The service workload is distributed across multiple availability zones in a region, so single data center outage does not impact overall service availability. Data that is stored in {{site.data.keyword.openpages_short}} is replicated over the availability zones synchronously and is replicated to separate region asynchronously.
 
 ## What level of availability does {{site.data.keyword.cloud_notm}} offer?
 {: #ha-service}
