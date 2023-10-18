@@ -31,9 +31,6 @@ Review the following sections for the specific responsibilities for you and for 
 | Monitor incidents    | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set preferences to [receive emails about platform notifications](/docs/overview?topic=overview-ui#email-prefsl).  \n Monitor the [IBM Cloud status page](https://{DomainName}/status?selected=announcement) for general announcements. |
 | Maintain {{site.data.keyword.cloud_notm}} high availability SLA    | Provide Cloud Service across hosts.  \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Plan for and create new instances of the service. For more information, see[Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment).|
 | Monitor logs    | [L](/docs-draft/openpages?topic=openpages-service-logs) publish relevant log data to their subscribing clients. {{site.data.keyword.openpages_full_notm}} provides clients with the ability to receive the logs once the client configures their instance. | [Logging in IBM OpenPages](/docs-draft/openpages?topic=openpages-service-logs) |
-| Monitor logs collected by logging agents     | Provide images and instructions for how to install logging agents in environments that you want to monitor, such as Kubernetes, Linux, Openshift. | [Install and configure logging agents](/docs/log-analysis?topic=log-analysis-config_agent_kube_cluster).  \n Monitor that the agents are running in your environment. |
-| Archive logs    | Provide the ablity to archive to a client configured Cloud Object Storage (COS) location and archive data hourly. | [Configure Cloud Object Storage per your requirements.](/docs/log-analysis?topic=log-analysis-archiving#archiving_step3)  \n [Enable archiving of the logging instance.](/docs/log-analysis?topic=log-analysis-archiving) |
-| Configuring exclusion rules for {{site.data.keyword.atracker_short}} hosted event search offerings   |  | Verify that each exclusion rule that you add behaves as expected. Inproper configured exclusion rules can result in data and cost spikes. For more information on how to use exclusion rules, see [Excluding data by using exclusion rules](/docs/log-analysis?topic=log-analysis-exclusion_rules), [Configuring conditional streaming](/docs/log-analysis?topic=log-analysis-streaming-conditional) and [Configuring usage quota exclusion rules](/docs/log-analysis?topic=log-analysis-control_usage_quotas#rules_usage_quota). |
 {: caption="Table 1. Responsibilities for incident and operations" caption-side="top"}
 
 ## Change management
@@ -41,47 +38,33 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task                                                    | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |---------------------------------------------------------|-----------------------|--------|
-| Update the {{site.data.keyword.openpages_full_notm}} service   | Provide major, minor, and patch version updates for {{site.data.keyword.openpages_full_notm}} interfaces.  \n Document changes in the [logging release notes](https://docs.mezmo.com/changelog){: external} | Ensure that any logging agents that you have deployed are kept current. |
-| Track versions of custom views, dashboards, screens, parsing templates, and alerts      | `N/A` | Use your own change management process to control versions of logging resources such as views, dashboards, screens, parsing templates, and alerts.  \n To learn how to export metadata, see [Export the configuration of resources in a logging instance](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#export_config_res).|
+| Update the {{site.data.keyword.openpages_full_notm}} service   | Provide major, minor, and patch version updates for {{site.data.keyword.openpages_full_notm}} interfaces.  \n Document changes in the release notes. | Keep your IBM OpenPages software up to date. \n For more information, see [Updating your instance of IBM OpenPages to the latest software version](/docs-draft/openpages?topic=openpages-updating-openpages).|
 {: caption="Table 2. Responsibilities for change management" caption-side="top"}
 
-
 ## Identity and access management
-{: #iam-responsibilities}
+{: #idnt_access_mgt}
 
+Identity and access management includes tasks such as authentication, authorization, access control policies, and approving, granting, and revoking access.
 
-| Task                           | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|--------------------------------|-------------------------------------------------|-----------------------|
-| Manage permissions             | Provide the ability to restrict access to resouces.  \n {{site.data.keyword.IBM_notm}} is responsible for the security and compliance of {{site.data.keyword.openpages_full_notm}}. | Restrict access to resources by using Cloud IAM access policies by defining IAM policies to control which users within your account have access to the logging data.  \n [Learn more about controlling access through IAM](/docs/log-analysis?topic=log-analysis-work_iam)
-. |
-{: caption="Table 3. Responsibilities for identity and access management" caption-side="top"}
+| Task | IBM responsibilities |Your responsibilities |
+|--------------------------|----------------|----------------|
+| Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any service roles that you create for your instances.|
+{: caption="Table 3.Identity and access management" caption-side="bottom"}
 
 ## Security and regulation compliance
-{: #security-compliance}
+{: #security_comp}
 
-| Task                                       | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|--------------------------------------------|-------------------------------------------------|-----------------------|
-| Encrypt data    | Operate the Cloud Service encrypting data in motion and at rest per compliance specifications. | Ensure encryption of archived data by configuring a COS bucket that has full control over the data encryption keys that are used. [{{site.data.keyword.cos_full}} provides several options to encrypt your data.](/docs/cloud-object-storage?topic=cloud-object-storage-encryption) |
-| Meet security and compliance objectives    | Maintain controls that are commensurate to various industry compliance standards such as SOC2, PCI, HIPAA and Privacy Shield. | Set up and maintain security and regulation compliance for your apps and data.  This includes:  \n [Defining the account management strategy](/docs/log-analysis?topic=log-analysis-adoption#adoption_account)  \n [Configuring the accounts settings for compliance](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)  \n Define IAM Strategy  \n [Define the notification strategy](/docs/log-analysis?topic=log-analysis-adoption#adoption_alerts) |
-{: caption="Table 4. Responsibilities for security and regulation compliance" caption-side="top"}
+Security and regulation compliance includes tasks such as security controls implementation and compliance certification.
+
+| Task | IBM responsibilities |Your responsibilities |
+|--------------------------|----------------|----------------|
+| General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS/SSH (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.lakehouse_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.lakehouse_short}} instances.|
+{: caption="Table 4.Security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
-{: #disaster-recovery}
+{: #security_comp}
 
-| Task                                                            | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
-|-----------------------------------------------------------------|-------------------------------------------------|-----------------------|
-| Restore the service `[*]`        |Automatically recover and restart service components after any disaster event.  | `N/A` |
-| Backup the {{site.data.keyword.openpages_full_notm}} key resources that are provided by the service          | Daily backup of the {{site.data.keyword.openpages_full_notm}} infrastructure and components. | `N/A` |
-| Backup logging agents                                            | `N/A`  | Backup each logging agent YAML file that is deployed in your organization. |
-| Recovery of logging agents                                       | `N/A` | [Reinstall](/docs/log-analysis?topic=log-analysis-logdna_agent#logdna_agent_configure) the logging agent in the event of any disaster event that impacts the agent runtime. |
-| Backup the metadata of a logging instance                            | Backup metadata that is used by the service.  | [Backup the metadata such as views, dashboards, screens, parsing templates, and alerts for each logging instance.](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#export_config_res) |
-| Restore the metadata of a logging instance                           | Restore metadata that is used by the service. | [Restore the metadata such as views, dashboards, screens, parsing templates, and alerts for each logging instance.](/docs/log-analysis?topic=log-analysis-reuse_resource_definitions#import_config) |
-| Backup of the data   | `N/A` | [Configure archiving to retain a backup copy of the data.](/docs/log-analysis?topic=log-analysis-archiving) |
-{: caption="Table 5. Responsibilities for disaster recovery" caption-side="top"}
-
-
-`[*]` Recovered and restarted service components will not have customer data reloaded.
-{: note}
-
-To plan and prepare in the event of a DR scenario, see [Recovering from a disaster region](/docs/log-analysis?topic=log-analysis-ha_dr_steps).
-{: important}
+| Task | IBM responsibilities |Your responsibilities |
+|--------------------------|----------------|----------------|
+| General| * Restore or rebuild the provisioning environments in the affected regions. \n * Restore existing {{site.data.keyword.lakehouse_short}} instances, where possible. | * Track instance state. \n * Provision new {{site.data.keyword.lakehouse_short}} instances in alternatively available regions.\n * Ensure that the {{site.data.keyword.lakehouse_short}} instance is stateless by making sure that all data, metadata and applications reside outside of the cluster. This activity must be completed before disaster recovery can be initiated.\n * Provision a new service instance in an alternatively available region if the current instances can't be accessed.|
+{: caption="Table 5.Disaster recovery" caption-side="bottom"}
