@@ -64,6 +64,7 @@ toc:
            topics:
               - logging-in-openpages.md
               - at-events.md
+              - logging-in.md 
   - navgroup:
       id: help
       topics:
