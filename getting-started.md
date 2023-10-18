@@ -25,7 +25,7 @@ lastupdated: "2023-10-18"
 
 4. Click the **Name** of the instance.
    
-   The console where you manage your {{site.data.keyword.openpages_short}} instance is displayed.
+   The UI where you manage your {{site.data.keyword.openpages_short}} instance is displayed.
 
 5. Click **Launch OpenPages**. Your instance of {{site.data.keyword.openpages_short}} opens.
 
