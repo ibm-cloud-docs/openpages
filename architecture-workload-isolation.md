@@ -23,8 +23,7 @@ subcollection: openpages
 
 The following image shows main components of {{site.data.keyword.openpages_short}} as a Service.
 
-![Tenant isolation architecture](op_saas_isolation.png "Tenant isolation architecture")
-{: caption="Figure 1. Main components of {{site.data.keyword.openpages_short}} as a Service" caption-side="bottom"}
+![Tenant isolation architecture](op_saas_isolation.png "Tenant isolation architecture") {: caption="Figure 1. Main components of OpenPages as a Service" caption-side="bottom"}
 
 - A service instance of {{site.data.keyword.openpages_short}} uses dedicated RDMS service instance and dedicated S3 bucket document storage at the data layer.
 - Application pods on OpenShift cluster is allocated in dedicated fashion for {{site.data.keyword.openpages_short}} service instance as well.
