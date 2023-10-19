@@ -30,11 +30,8 @@ IAM access policies enable access to be granted at different levels. Some of the
 
 * Access across all instances of the service in your account
 * Access to an individual service instance in your account <!-- if this applies -->
- <!--* Access to a specific resource within an instance, _such as resource type `bucket`_ if this applies list what resoureceType attributes are supported, for example COS buckets or Kubernetes namespaces -->
 
-Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API. For information about the exact actions that are mapped to each role, see [{{site.data.keyword.openpages_short}}](_YourSubHeadingLink_).
-<!-- IMPORTANT: This link should go directly to your service's heading in https://cloud.ibm.com/docs/account?topic=account-iam-service-roles-actions, for example [<service-name>](/docs/account?topic=account-iam-service-roles-actions#certificate-manager) -->
-
+Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API. 
 
 | Platform role |  Description of actions |
 |---------------|-------------------------|
@@ -51,7 +48,7 @@ Review the following tables that outline what types of tasks each role allows fo
 
 | Service role   |  Description of actions |
 |----------------|------------------------|
-| OpenPages User | Can log in to the {{site.data.keyword.openpages_short}} application. Can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
+| OpenPages User | As a User, you can log in to the {{site.data.keyword.openpages_short}} application. You can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
 {: row-headers}
 {: class="simple-tab-table"}
 {: caption="Table 1. IAM service access roles" caption-side="bottom"}
@@ -77,8 +74,6 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 Use `openpages` for the service name. Also, use quotations around role names that are more than one word like the example here.
 {: tip}
 
-<!-- Tailor this example to your service -->
-
 ```bash
 ibmcloud iam user-policy-create USER@EXAMPLE.COM --service-name openpages --roles "openpages.service.login"
 ```
@@ -100,14 +95,10 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 | OpenPages User         | `crn:v1:bluemix:public:openpages::::serviceRole:GRCUser`       |
 {: caption="Table 2. Role ID values for API use" caption-side="bottom"}
 
-<!-- Tailor this example to your service -->
-
 The following example is for assigning the `openpages.service.login` role for `openpages`:
 
 Use `openpages` for the service name, and refer to the Role ID values table to ensure that you're using the correct value for the CRN.
 {: tip}
-
-<!--The `<programmatic_service_name` in the note above is important to include because the service name in the UI often doesn't match the service name that should be used to make an API call.-->
 
 ```curl
 curl -X POST 'https://iam.cloud.ibm.com/v1/policies' -H 'Authorization: Bearer $TOKEN' -H 'Content-Type: application/json' -d '{
