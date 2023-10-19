@@ -50,10 +50,9 @@ To view {{site.data.keyword.openpages_short}} logs, complete the following steps
 
 You can create views and alerts from all of your {{site.data.keyword.openpages_short}} instances, or from a specific instance.
 
-To find all errors from a specific instance, run a query with `host:op-{INSTANCE_GUID}` filter. For example:
-```
-host:op-d1319025-5308-4168-b2d8-75bdc9e69af3
-```
+To find all errors from a specific instance, run a query with `host:op-{INSTANCE_GUID}` filter. 
+
+For example: `host:op-d1319025-5308-4168-b2d8-75bdc9e69af3`
 
 To learn more about creating [views](/docs/log-analysis?topic=log-analysis-view_logs) and [alerts](/docs/log-analysis?topic=log-analysis-create_alert_ui), see the {{site.data.keyword.logs_full_notm}} documentation.
 {: note}

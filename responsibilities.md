@@ -67,4 +67,4 @@ Security and regulation compliance includes tasks such as security controls impl
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
 | General| * Restore or rebuild the service instances in alternatively available regions. \n * Restore existing {{site.data.keyword.openpages_short}} instances, where possible. | * Track instance state. \n * Configure external integrations, if they exist, with a newly assigned application URL.|
-{: caption="Table 5.Disaster recovery" caption-side="bottom"}
+{: caption="Table 5. Disaster recovery" caption-side="bottom"}

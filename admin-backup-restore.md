@@ -28,13 +28,14 @@ To restore a backup, do the following steps:
 7. Choose one of the following options:
    - Select **Latest restorable time** if you want the most recent backup to be restored.
    - Select **Custom date and time** if you want to choose a particular backup to be restored.
+   
       - Click **Choose a date** and select a date.
       - Click **Choose a time** and enter a time.
 
 **Important:**
+
 - The backup you choose must have been created at an earlier date and time
 than the latest backup.
 - Ensure that you choose a date and time at least one hour after your instance
 was provisioned, or your instance might fail to restore.
 When the restore is complete, the new instance is available for you to access.
-

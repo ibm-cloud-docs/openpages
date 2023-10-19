@@ -35,11 +35,13 @@ If you create users in {{site.data.keyword.openpages_short}} directly, they are 
 {: note}
 
 ## Properties that are overwritten in {{site.data.keyword.openpages_short}} by the user synchronization job
+{: #properties-overwritten}
 
 Because users and groups are synchronized from {{site.data.keyword.Bluemix_notm}}, if you change the following
 properties in {{site.data.keyword.openpages_short}}, your changes are overwritten when the synchronization job runs.
 
 ### User properties
+{: #user-properties}
 
 - User Name
 - First Name
@@ -49,6 +51,7 @@ properties in {{site.data.keyword.openpages_short}}, your changes are overwritte
 - All fields in Password and Security Group properties
 
 ### Group properties
+{: #group-properties}
 
 - Description
 
@@ -57,30 +60,35 @@ IAM – ", the synchronization job will remove those users from the group so tha
 in the group matches the list of users for the group in {{site.data.keyword.Bluemix_notm}}.
 
 ## Adding and changing users and groups
+{: #changing-users-groups}
 
 The following scenarios show what happens when you create and modify users and groups.
 
 ### Creating a non-administrator group in {{site.data.keyword.Bluemix_notm}}
+{: #change1}
 
 Create a group with the following settings:
 - Service: {{site.data.keyword.openpages_short}}
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} User, Viewer, Editor, or Operator
    
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome1}
 
 If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}.
    
 The group name is always prefixed by "Cloud IAM – " and is a subgroup under the "Workflow, Reporting and Others" group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
 
 ### Creating a administrator group in {{site.data.keyword.Bluemix_notm}}
+{: #change2}
 
 Create a group with the following settings:
 - Service: {{site.data.keyword.openpages_short}}
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: Administrator
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome2}
 
 If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}. The group name is always prefixed by "Cloud IAM - " and is a subgroup under "Workflow, Reporting and Others" group.
 
@@ -89,13 +97,15 @@ IAM are members of the group in {{site.data.keyword.openpages_short}} and the
 OPAdministrators group. As members of the OPAdministrators group, users have administrative privileges in {{site.data.keyword.openpages_short}}.
 
 ### Creating a non-administrator user in {{site.data.keyword.Bluemix_notm}}
+{: #change3}
 
 Create a user with the following settings:
 - Service: {{site.data.keyword.openpages_short}}
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} User, Viewer, Editor, or Operator
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome3}
 
 In {{site.data.keyword.openpages_short}}, the user is not a member of any groups by default.
 
@@ -112,13 +122,15 @@ When you are provisioning the service, you select the solutions you want from a 
 Users are assigned role templates through their group associations.
 
 ### Creating an administrator user in {{site.data.keyword.Bluemix_notm}}
+{: #change4}
 
 Create a user with the following settings:
 - Service: {{site.data.keyword.openpages_short}}
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} Administrator
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome4}
 
 In {{site.data.keyword.openpages_short}}, the user is a member of the "OPAdministrators" group by default.
 
@@ -138,29 +150,37 @@ fallback profile.
 Users are added to the OPAdministrators group and they are assigned the SaaS Administrator role template. Users also have role templates assigned through their group associations, if the associated groups have role template assignments.
 
 ### Changing the name of a group in {{site.data.keyword.Bluemix_notm}}
+{: #change5}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome5}
 
 A new group is created in {{site.data.keyword.openpages_short}} with the new name in the "Workflow, Reporting and Others" group. Users are disassociated from the old group and associated with new group.
 
 The status of the old group is set to **Inactive**.
 
 ### Changing the description of a group in {{site.data.keyword.Bluemix_notm}}
+{: #change6}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome6}
 
 The description of the group is updated in {{site.data.keyword.openpages_short}} to
 match the description in {{site.data.keyword.Bluemix_notm}}.
 
 ### Changing the groups that a user is associated with in {{site.data.keyword.Bluemix_notm}}
+{: #change7}
 
-**Outcome in {{site.data.keyword.openpages_short}}**
- 
+#### Outcome in {{site.data.keyword.openpages_short}}**
+ {: #outcome7}
+
 The group associations in {{site.data.keyword.openpages_short}} change to match {{site.data.keyword.Bluemix_notm}}.
 
 ### Deleting a group in {{site.data.keyword.Bluemix_notm}}
+{: #change8}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome8}
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved from the "Workflow, Reporting and Others" group to be a subgroup of the "Standalone Users and Group" group.
 
@@ -171,26 +191,34 @@ If a user associated with the deleted group is not associated with other groups 
 If a user associated with the deleted group is not associated with other groups and the user doesn’t have roles set in {{site.data.keyword.Bluemix_notm}}, they are set to **Inactive**.
 
 ### Deleting a user in {{site.data.keyword.Bluemix_notm}}
+{: #change9}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome9}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
 
 ### In {{site.data.keyword.Bluemix_notm}}, removing a user from the list of users that can access the OpenPages instance
+{: #change10}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome10}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
 
 ### In {{site.data.keyword.Bluemix_notm}}, re-creating a user that was previously deleted
+{: #change11}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome11}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Active**.
 
 ### In {{site.data.keyword.Bluemix_notm}}, re-creating  a group that was previously deleted
+{: #change12}
 
-**Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}** 
+{: #outcome12}
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved back to be a  subgroup under the "Workflow, Reporting and Others" group.
 
