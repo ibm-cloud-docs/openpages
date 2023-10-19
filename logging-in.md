@@ -3,16 +3,16 @@ copyright:
   years: 2023
 lastupdated: "2023-10-19"
 
-keywords: logging in OpenPages, IBM OpenPages as a Service
+keywords: starting IBM OpenPages
 subcollection: openpages
 
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Starting {{site.data.keyword.openpages_short}} and logging in
+# Starting {{site.data.keyword.openpages_short}}
 {: #log_in}
 
-You can log in to {{site.data.keyword.openpages_short}} by using one of three methods.
+You can start {{site.data.keyword.openpages_short}} by using one of the following methods.
 {: shortdesc}
 
 ## {{site.data.keyword.openpages_short}} UI 
@@ -33,7 +33,7 @@ You can log in to {{site.data.keyword.openpages_short}} by using one of three me
 ## Creating custom URL 
 {: #method3}
 
-You can change the hostname of your instance. For more information, see [Customizing the hostname in the OpenPages URL](/docs-draft/openpages?topic=openpages-customizing_hostname).
+You can change the hostname of your instance. For more information, see [Customizing the hostname in the OpenPages URL](/docs/openpages?topic=openpages-customizing_hostname).
 
 You can give access to your instance to others by sharing the custom URL.
 
