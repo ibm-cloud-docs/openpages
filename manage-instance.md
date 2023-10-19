@@ -9,7 +9,7 @@ subcollection: openpages
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# How to manage your {{site.data.keyword.openpages_short}} instance
+# Managing your {{site.data.keyword.openpages_short}} instance
 {: #manage_op_instance}
 
 Learn how to manage your {{site.data.keyword.openpages_short}} instance.{: shortdesc}
@@ -18,9 +18,7 @@ Learn how to manage your {{site.data.keyword.openpages_short}} instance.{: short
 
 2. You are automatically taken to the **Resource list**.
 
-3. Under **AI / Machine Learning**, you should see the {{site.data.keyword.openpages_short}} instance that you provisioned. 
-
-   When the **Status** of the instance is set to **Active**, your instance has been provisioned.
+3. Click **Settings**. 
 
 4. Click the **Name** of the instance.
    
