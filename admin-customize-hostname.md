@@ -14,7 +14,7 @@ subcollection: openpages
 
 By default, instances have a system-generated hostname in the URL. You can change the hostname to create a more user-friendly URL. {: shortdesc}
 
-You can also transfer a custom hostname fomr one instance to another. 
+You can also transfer a custom hostname from one instance to another. 
 
 ## Changing the hostname of an instance 
 {: #changing_hostname_instance}

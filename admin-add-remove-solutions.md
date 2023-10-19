@@ -15,9 +15,7 @@ subcollection: openpages
 You can add one or more solutions to your {{site.data.keyword.openpages_short}} instance. When you add a solution, you can use the object types that belong to the solution. You’re billed for the solutions that you use. {: shortdesc}
 
 To add a solution:
-1. Go to the **Resource list**.
-2. In the search box, type **openpages**.
-3. Click the name of your {{site.data.keyword.openpages_short}} instance.
+1. Go to the console where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
 4. On the **Manage** page, click **Manage Solutions**.
 5. To learn about a solution, click its name.
 6. To add a solution, click the toggle.
@@ -26,9 +24,7 @@ To add a solution:
 It can take several minutes for the process to complete. When the update is complete, the {{site.data.keyword.openpages_short}} overview page is displayed.
 
 To remove a solution:
-1. Go to the **Resource list**.
-2. In the search field, type **openpages**.
-3. Click the name of your {{site.data.keyword.openpages_short}} instance.
+1. Go to the console where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 4. On the **Manage** page, click **Manage Solutions**.
 5. Click the toggle of the solution that you want to remove.
 
