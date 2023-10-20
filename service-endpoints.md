@@ -5,7 +5,7 @@ copyright:
 
 lastupdated: "2023-10-20"
 
-keywords: managing IP addresses OpenPages, IP addresses
+keywords: Managing IP addresses OpenPages, IP addresses, IBM Cloud
 
 subcollection: openpages
 
@@ -26,7 +26,7 @@ To ensure that you have enhanced control and security over your data when you us
 
 By default, all IP addresses can be used to log in to {{site.data.keyword.openpages_short}} and access the API.
 
-Document any customer data that goes over public routes even with the {{site.data.keyword.Bluemix_notm}} service endpoints feature enabled that uses a connection over private routes. For example, if your service sends customer data to a data-service that uses a public route or sends customer logs that uses public routes to LogDNA that should be documented. {:requirement: .requirement}
+<!--Document any customer data that goes over public routes even with the {{site.data.keyword.Bluemix_notm}} service endpoints feature enabled that uses a connection over private routes. For example, if your service sends customer data to a data-service that uses a public route or sends customer logs that uses public routes to LogDNA that should be documented.-->
 
 ## Before you begin
 {: #prereq-service-ip}
@@ -39,7 +39,6 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 ## Setting up allowed IP addresses
 {: #add-service-ip}
 
-<!--is it the web browser like Chrome or FIrefox or does it mean find the Resource list in the OP UI?-->
 1. In your web browser, go to the **Resource List**.
 2. Under **AI / Machine Learning**, click the **Name** of the instance.
 3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
@@ -51,4 +50,11 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 ## Removing IP addresses from the allow-list
 {: #endpoint-disable}
 
-<!--anything to note here?--> 
+You can remove IP addresses from the **IP Allowlisting** table by following the next steps:
+
+1. In your web browser, go to the **Resource List**.
+2. Under **AI / Machine Learning**, click the **Name** of the instance.
+3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
+4. In the **IP Allowlisting** table, click the **Delete** icon in the **Actions** column. 
+    
+    The IP address is removed from the **IP Allowlisting** table. 
