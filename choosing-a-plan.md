@@ -12,7 +12,7 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Choosing your plan
+# How does {{site.data.keyword.openpages_short}} calculate pricing?
 {: #openpages-choose-plan}
 
 {{site.data.keyword.openpages_short}} is available in an Essentials plan or a Standard plan depending on your requirements.
