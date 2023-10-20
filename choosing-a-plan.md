@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-15"
+lastupdated: "2023-10-20"
 
 keywords: choosing a plan
 
@@ -37,13 +37,13 @@ The following table summarizes what is supported by each plan. The values in the
 
 | Category                         | Essentials Plan               | Standard Plan                 |
 | -------------------------------- | ----------------------------- | ----------------------------- |
-| Concurrent Users                 | 10                            | 200                           |
-| Number of Solutions              | 1                             | 5                             |
+| Concurrent users                 | 10                            | 200                           |
+| Number of solutions              | 1                             | 5                             |
 | Ability to configure OpenPages   | Yes                           | Yes                           |
 | Initial number of objects        | 10,000                        | 50,000                        |
 | Number of objects per year       | 25,000                        | 100,000                       |
-| Security Rules Limitations       | Intra-object only             | Intra-object only             |
+| Security rules limitations       | Intra-object only             | Intra-object only             |
 | Number of permitted workflows    | 1 per object                  | 1 per object                  |
-| Number of permitted Calculations | 2 per object                  | 10 per object                 |
-| Number of permitted Operations   | 10 operations per calculation | 30 operations per calculation |
+| Number of permitted calculations | 2 per object                  | 10 per object                 |
+| Number of permitted operations   | 10 operations per calculation | 30 operations per calculation |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
