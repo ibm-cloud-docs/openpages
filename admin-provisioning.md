@@ -21,7 +21,6 @@ Do the following steps to provision your {{site.data.keyword.openpages_short}} e
 4. Select the **Essentials** plan or the **Standard** plan. 
 5. Do the following steps:
     - Type a **Service Name** for your {{site.data.keyword.openpages_short}} instance. This will be the name of the first (dev) environment created for you. 
-      - For the beta, your **AWS region** is automatically set to **US East (Virginia)** and cannot be changed.
       - You can change the base currency or use the default value.
       - You can choose to include sample data.
     - Click **Solutions** and choose at least one.
