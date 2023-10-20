@@ -3,9 +3,9 @@
 copyright:
   years: 2020, 2023
 
-lastupdated: "2023-03-08"
+lastupdated: "2023-10-20"
 
-keywords:
+keywords: managing IP addresses OpenPages, IP addresses
 
 subcollection: openpages
 
@@ -18,7 +18,7 @@ IMPORTANT:
 * If your service supports only service endpoints, include it in the **How to** nav group in the **Enhancing security** topic group in your `toc.yaml` file.
 * If your service supports both service endpoints and VPE for VPC, then refer to the guidance about placement in a nested topic group within the Enhancing security topic group: https://test.cloud.ibm.com/docs/writing?topic=writing-security-content-guidance-->
 
-# Managing an allowed IP list for {{site.data.keyword.openpages_short}}
+# Managing IP addresses for {{site.data.keyword.openpages_short}}
 {: #service-endpoints}
 
 To ensure that you have enhanced control and security over your data when you use {{site.data.keyword.openpages_short}}, you have the option of specifying the IP addresses that are allowed to connect to your {{site.data.keyword.openpages_short}} service instance.
@@ -26,21 +26,23 @@ To ensure that you have enhanced control and security over your data when you us
 
 By default, all IP addresses can be used to log in to {{site.data.keyword.openpages_short}} and access the API.
 
-_Required: Document any customer data that goes over public routes even with the IBM Cloud service endpoints feature enabled using a connection over private routes. For example, if your service sends customer data to a data-service using a public route or sends customer logs using public routes to LogDNA that should be documented._
+Document any customer data that goes over public routes even with the {{site.data.keyword.Bluemix_notm}} service endpoints feature enabled that uses a connection over private routes. For example, if your service sends customer data to a data-service that uses a public route or sends customer logs that uses public routes to LogDNA that should be documented. {:requirement: .requirement}
 
 ## Before you begin
 {: #prereq-service-ip}
 
-You have an {{site.data.keyword.openpages_short}} instance.
+Ensure that you have an {{site.data.keyword.openpages_short}} instance.
 
-_any other prerequisities?_
+If you need to create an {{site.data.keyword.openpages_short}} instance, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment&interface=api)
+<!-- any other prerequisities?-->
 
 ## Setting up allowed IP addresses
 {: #add-service-ip}
 
+<!--is it the web browser like Chrome or FIrefox or does it mean find the Resource list in the OP UI?-->
 1. In your web browser, go to the **Resource List**.
 2. Under **AI / Machine Learning**, click the **Name** of the instance.
-3. On the {{site.data.keyword.openpages_short}} Overview tab, go to the **Administrative Actions** section.
+3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
 4. In the **IP Allowlisting** table, click **New**.
 5. Enter an IP address (IPv4, IPv6, or CIDR) and a description, then click **Save**.
 
@@ -49,4 +51,4 @@ _any other prerequisities?_
 ## Removing IP addresses from the allow-list
 {: #endpoint-disable}
 
-_anything to note here?_
+<!--anything to note here?--> 
