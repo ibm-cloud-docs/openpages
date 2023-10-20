@@ -67,9 +67,6 @@ toc:
   - navgroup:
       id: help
       topics:
-      - link:
-            label: Getting started with IBM Cloud
-            href: https://www.ibm.com/cloud/get-started
       - help.md
   - navgroup:
       id: reference
