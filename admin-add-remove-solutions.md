@@ -15,7 +15,7 @@ subcollection: openpages
 You can add one or more solutions to your {{site.data.keyword.openpages_short}} instance. When you add a solution, you can use the object types that belong to the solution. You’re billed for the solutions that you use. {: shortdesc}
 
 To add a solution:
-1. Go to the console where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
 4. On the **Manage** page, click **Manage Solutions**.
 5. To learn about a solution, click its name.
 6. To add a solution, click the toggle.

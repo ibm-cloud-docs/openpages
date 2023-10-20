@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-20"
 
 keywords: viewing admin UI, IBM OpenPages as a Service, utilization
 subcollection: openpages
@@ -9,13 +9,11 @@ subcollection: openpages
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-# Viewing the admin UI (utilization) 
+# Viewing the system usage of {{site.data.keyword.openpages_short}} 
 {: #view_admin_ui}
 
-You can view information about your instance, such as CPU utilization.
+You can view the historical system resource usage information about your instance, such as CPU utilization and database IO.
 {: shortdesc}
 
-1. Go to the **Resource list**.
-2. In the search box, type **openpages**.
-3. Click the name of an {{site.data.keyword.openpages_short}} instance that doesn’t have a custom hostname.
-4. Click **Usage**.
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Getting to the UI to manage your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
+2. Click **Usage**.

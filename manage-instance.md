@@ -12,14 +12,12 @@ subcollection: openpages
 # Managing your {{site.data.keyword.openpages_short}} instance
 {: #manage_op_instance}
 
-Learn how to manage your {{site.data.keyword.openpages_short}} instance.{: shortdesc}
+Use the UI to manage your {{site.data.keyword.openpages_short}} instance.
+{: shortdesc}
 
-1. Create an instance of the {{site.data.keyword.openpages_short}} service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment&interface=api).
-
-2. You are automatically taken to the **Resource list**.
-
-3. Click **Settings**. 
-
+1. Log in to [{{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/) by using your IBMid.
+2. Go to the **Resource list**.
+3. Locate your {{site.data.keyword.openpages_short}} instance in the **AI / Machine Learning** or **Analytics** category. 
 4. Click the **Name** of the instance.
    
-   The console where you manage your {{site.data.keyword.openpages_short}} instance is displayed.
+   The UI where you manage your {{site.data.keyword.openpages_short}} instance is displayed.
