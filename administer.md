@@ -15,7 +15,7 @@ subcollection: openpages
 Administering {{site.data.keyword.openpages_short}} includes managing users and groups, administering databases, managing environments, and other administrative actions.
 {: shortdesc}
 
-IBM maintains one set of documentation serving both cloud and on-premises {{site.data.keyword.openpages_short}} deployments. The {{site.data.keyword.openpages_short}} documentation describes certain features and functions which might not be available in {{site.data.keyword.openpages_full}} as a Service.
+IBM maintains one set of documentation serving both cloud and on-premises {{site.data.keyword.openpages_short}} deployments. The {{site.data.keyword.openpages_short}} documentation describes certain features and functions which might not be available in {{site.data.keyword.openpages_full}}.
 
 If you have any questions about the functionality available in the product version that you are using, contact IBM OpenPages Support
 
