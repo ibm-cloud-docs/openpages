@@ -22,11 +22,11 @@ You can also transfer a custom hostname from one instance to another.
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**. 
 3. In the **Custom hostname** section, click the **Edit** icon. 
-4. Type a name, and then click **Save**. Wait a few minutes for the change to take effect
+4. Type a name, and then click **Save**. Wait a few minutes for the change to take effect.
 
-The last character in the hostname must not be a minus sign or a period. {:note: .note}
+   The last character in the hostname must not be a minus sign or a period. {:note: .note}
 
-You can now launch OpenPages by using the **Custom hostname** URL or the **Fixed URL**.
+You can now launch {{site.data.keyword.openpages_short}} by using the **Custom hostname** URL or the **Fixed URL**.
 
 ## Transferring a hostname to another instance
 {: #transferring_hostname_instance}

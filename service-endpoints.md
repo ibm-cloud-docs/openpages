@@ -40,9 +40,9 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 {: #add-service-ip}
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
-3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
-4. In the **IP Allowlisting** table, click **New**.
-5. Enter an IP address (IPv4, IPv6, or CIDR) and a description, then click **Save**.
+2. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
+3. In the **IP Allowlisting** table, click **New**.
+4. Enter an IP address (IPv4, IPv6, or CIDR) and a description, then click **Save**.
 
      The IP addresses listed in the **IP Allowlisting** table are the only ones from which clients can access {{site.data.keyword.openpages_short}}.
 
@@ -52,7 +52,7 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 You can remove IP addresses from the **IP Allowlisting** table by following the next steps:
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
-3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
-4. In the **IP Allowlisting** table, click the **Delete** icon in the **Actions** column. 
+2. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
+3. In the **IP Allowlisting** table, click the **Delete** icon in the **Actions** column. 
     
     The IP address is removed from the **IP Allowlisting** table. 

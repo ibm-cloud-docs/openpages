@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-20"
 
 keywords: change OpenPages plan, IBM OpenPages as a Service
 subcollection: openpages
@@ -24,4 +24,4 @@ The plan change operation shuts down and restarts the {{site.data.keyword.openpa
 3. Click the plan that you want to use.
 4. Click **Save**.
 
-The plan change is not reflected in the {{site.data.keyword.cloud_notm}} user interface for approximately 30 minutes.
+The plan change is not reflected in the {{site.data.keyword.Bluemix_notm}} user interface for approximately 30 minutes. {: .note}

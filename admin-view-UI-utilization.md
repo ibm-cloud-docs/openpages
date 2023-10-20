@@ -15,5 +15,5 @@ subcollection: openpages
 You can view the historical system resource usage information about your instance, such as CPU utilization and database IO.
 {: shortdesc}
 
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Getting to the UI to manage your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Usage**.

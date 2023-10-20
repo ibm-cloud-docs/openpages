@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-18"
+lastupdated: "2023-10-20"
 
 keywords: managing OpenPages instance, IBM OpenPages as a Service
 subcollection: openpages

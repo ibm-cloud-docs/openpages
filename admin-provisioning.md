@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-13"
+lastupdated: "2023-10-20"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages

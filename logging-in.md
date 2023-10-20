@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-19"
+lastupdated: "2023-10-20"
 
 keywords: starting IBM OpenPages
 subcollection: openpages
@@ -19,15 +19,15 @@ You can start {{site.data.keyword.openpages_short}} by using one of the followin
 {: #method1}
 
 1.  Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
-4. Click **Manage**, and then click **Launch OpenPages**. 
+2. Click **Manage**, and then click **Launch OpenPages**. 
 
 ## Fixed URL 
 {: #method2}
 
 1.  Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
-2. Under **Fixed URL**, click the **Copy** icon.
-3. Paste the URL in your browser.
+3. Under **Fixed URL**, click the **Copy** icon.
+4. Paste the URL in your browser.
 
 ## Creating custom URL 
 {: #method3}
