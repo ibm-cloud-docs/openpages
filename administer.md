@@ -17,12 +17,12 @@ Administering {{site.data.keyword.openpages_short}} includes managing users and 
 
 IBM maintains one set of documentation serving both cloud and on-premises {{site.data.keyword.openpages_short}} deployments. The {{site.data.keyword.openpages_short}} documentation describes certain features and functions which might not be available in {{site.data.keyword.openpages_full}}.
 
-If you have any questions about the functionality available in the product version that you are using, contact IBM OpenPages Support
+If you have any questions about the functionality available in the product version that you are using, contact IBM OpenPages Support.
 
 ## Administration tasks unique to {{site.data.keyword.openpages_short}} as a Service
 {: #Administer_service}
 
-Most administration tasks are common between {{site.data.keyword.openpages_short}} as a Service and {{site.data.keyword.openpages_short}} on-premises. However, some tasks such as quota monitoring, environment management, and some aspects of database management, are unique to {{site.data.keyword.openpages_short}} as a Service.
+Most administration tasks are common between {{site.data.keyword.openpages_short}} as a Service and {{site.data.keyword.openpages_short}} on-premises. However, some tasks such as quota monitoring, environment management, and some aspects of database management, are unique to {{site.data.keyword.openpages_full}}.
 
 - Adding GRC solutions
 - Updating resouce allocation
@@ -39,13 +39,13 @@ Most administration tasks are common between {{site.data.keyword.openpages_short
 
     You can also use security rules, if needed, to further refine access.
 
-    For more information, see [Security](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_granting_access_control_using_role_templates.html)
+    For more information, see [Security](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_granting_access_control_using_role_templates.html).
 
 - Setting up the application for users
 
     Administrators set up {{site.data.keyword.openpages_short}} for users by creating views, workflows, calculations, dashboards, and more.
 
-    For more information, see [Setting up the UI](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/t_adm_configuring_newui_overview.html)
+    For more information, see [Setting up the UI](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/t_adm_configuring_newui_overview.html).
 
 - Profiles
 
