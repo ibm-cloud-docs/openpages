@@ -80,7 +80,7 @@ toc:
       - include: ../openpages-cli-plugin/openpages_cli.md
       - link:
             label: IBM OpenPages as a Service REST API V2 reference
-            href: https://cloud.ibm.com/apidocs/openpages
+            href: https://test.cloud.ibm.com/apidocs/openpages
 
   - navgroup:
       id: tutorial
