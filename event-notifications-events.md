@@ -12,7 +12,7 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-_Include your file in the How to nav group in your toc.yaml file._
+<!--Include your file in the How to nav group in your toc.yaml file.-->
 
 # Enabling event notifications for {{site.data.keyword.openpages_short}}
 {: #event-notifications-events}
