@@ -3,7 +3,7 @@
     "lastupdated": "2023-08-21",
     "introduction": "This is a description of what the user will be able to access or find content-wise for your product.",
     "section_devtools": {
-      "api": "/docs/openpages-api",
+      "api": "https://test.cloud.ibm.com/apidocs/openpages",
       "cli": "/docs/openpages-cli-plugin"
     },
     "section_recommended": [
