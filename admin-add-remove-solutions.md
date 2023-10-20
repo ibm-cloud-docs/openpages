@@ -24,7 +24,7 @@ To add a solution:
 It can take several minutes for the process to complete. When the update is complete, the {{site.data.keyword.openpages_short}} overview page is displayed.
 
 To remove a solution:
-1. Go to the console where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 4. On the **Manage** page, click **Manage Solutions**.
 5. Click the toggle of the solution that you want to remove.
 
