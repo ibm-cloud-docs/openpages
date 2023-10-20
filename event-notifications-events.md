@@ -4,7 +4,7 @@ copyright:
   years: 2023
 lastupdated: "2023-10-20"
 
-keywords: Enabling event notifications OpenPages, IBM Cloud, 
+keywords: Enabling event notifications OpenPages, IBM Cloud,
 
 subcollection: openpages
 
@@ -70,15 +70,15 @@ Connect {{site.data.keyword.openpages_short}} to the  {{site.data.keyword.en_sho
 
 <!-- There is a common component that is used by service dev teams to allow connections from the source service (your service) to Event Notifications, which is what the preceding sentence is referring to. Add a screen capture of this location if you'd like. If for some reason your service does not have this capability, then you should link to the Event Notifications docs for the how to steps for connecting from Event Notifications to your service-->
 
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 2. In the {{site.data.keyword.openpages_short}} navigation, click **Settings**.
 3. In the {{site.data.keyword.en_short}} section, click **Connect**.
 4. In the **Event Notification instances** section, click **Event Notifications service instance** and select the {{site.data.keyword.en_short}} that you created.
 5. To confirm the connection, click **Save**.
-   The Event Notifications section shows the connection between the {{site.data.keyword.openpages_short}} instance and the Event Notifications instance. 
+   The Event Notifications section shows the connection between the {{site.data.keyword.openpages_short}} instance and the Event Notifications instance.
 6. You can verify that a topic and subscription are created for your {{site.data.keyword.openpages_short}} instance in the **Event Notification** settings by clicking on the **Review** link.
 
-Your {{site.data.keyword.openpages_short}} instance is ready to send notifications.  
+Your {{site.data.keyword.openpages_short}} instance is ready to send notifications.
 
 ### Connecting to {{site.data.keyword.en_short}} with the API
 {: #event-notifications-enable-api}
@@ -131,10 +131,8 @@ An email from {{site.data.keyword.cloud_notm}} that contains information about a
 Subject: IBM OpenPages - Run Test Plan calculation completed
 From: noreply <no-reply@ibmcloud.com>
 ```
-! [email body](event_email.png)
+![email body](event_email.png "Email body"){: caption="Figure 1. Sample email body" caption-side="bottom"}
 {: screen}
-
-
 
 To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
 {: tip}
