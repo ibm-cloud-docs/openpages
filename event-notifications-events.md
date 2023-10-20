@@ -19,7 +19,7 @@ subcollection: openpages
 
 <!-- The title of your H1 should be Enabling event notifications for _service-name_, where _service-name_ is the non-trademarked short version conref. -->
 
-As an administrator of {{site.data.keyword.openpages_short}}, you might want to send notifications of events in {{site.data.keyword.openpages_short}} to other users, or human destinations, by using email, SMS, or other supported delivery channels. Additionally, you might want to send these notifications of events to other applications to build logic by using event-driven programming using webhooks, for example. This is made possible by the integration between {{site.data.keyword.openpages_short}} and {{site.data.keyword.en_full}}.
+As an administrator of {{site.data.keyword.openpages_short}}, you might want to send notifications of events in {{site.data.keyword.openpages_short}} to other users, or human destinations, by using email, SMS, or other supported delivery channels. Additionally, you might want to send these notifications of events to other applications to build logic by using event-driven programming that uses webhooks, for example. This is made possible by the integration between {{site.data.keyword.openpages_short}} and {{site.data.keyword.en_full}}.
 {: shortdesc}
 
 To send information to {{site.data.keyword.en_short}}, you must connect your {{site.data.keyword.openpages_short}} instance to {{site.data.keyword.en_short}}. For more information about working with {{site.data.keyword.en_short}}, see [Getting started with {{site.data.keyword.en_short}}](/docs/event-notifications?topic=event-notifications-getting-started).
@@ -71,7 +71,7 @@ Connect {{site.data.keyword.openpages_short}} to the  {{site.data.keyword.en_sho
 
 <!-- There is a common component that is used by service dev teams to allow connections from the source service (your service) to Event Notifications, which is what the preceding sentence is referring to. Add a screen capture of this location if you'd like. If for some reason your service does not have this capability, then you should link to the Event Notifications docs for the how to steps for connecting from Event Notifications to your service-->
 
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
 2. In the {{site.data.keyword.openpages_short}} navigation, click **Settings**.
 3. In the {{site.data.keyword.en_short}} section, click **Connect**.
 4. In the **Event Notification instances** section, click **Event Notifications service instance** and select the {{site.data.keyword.en_short}} that you created.
@@ -132,9 +132,10 @@ An email from {{site.data.keyword.cloud_notm}} that contains information about a
 Subject: IBM OpenPages - Run Test Plan calculation completed
 From: noreply <no-reply@ibmcloud.com>
 ```
+! [email body](event_email.png)
 {: screen}
 
-! [email body](openpages/event_email.png)
+
 
 To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
 {: tip}
