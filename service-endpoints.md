@@ -34,13 +34,12 @@ By default, all IP addresses can be used to log in to {{site.data.keyword.openpa
 Ensure that you have an {{site.data.keyword.openpages_short}} instance.
 
 If you need to create an {{site.data.keyword.openpages_short}} instance, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment&interface=api)
-<!-- any other prerequisities?-->
+
 
 ## Setting up allowed IP addresses
 {: #add-service-ip}
 
-1. In your web browser, go to the **Resource List**.
-2. Under **AI / Machine Learning**, click the **Name** of the instance.
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
 3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
 4. In the **IP Allowlisting** table, click **New**.
 5. Enter an IP address (IPv4, IPv6, or CIDR) and a description, then click **Save**.
@@ -52,8 +51,7 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 
 You can remove IP addresses from the **IP Allowlisting** table by following the next steps:
 
-1. In your web browser, go to the **Resource List**.
-2. Under **AI / Machine Learning**, click the **Name** of the instance.
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance). 
 3. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
 4. In the **IP Allowlisting** table, click the **Delete** icon in the **Actions** column. 
     
