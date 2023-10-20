@@ -12,7 +12,7 @@ content-type: learn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Product Limitations
+# Product limitations
 {: #product_limitations}
 
 The following is a list of features that are currently not supported in {{site.data.keyword.openpages_full}}.
@@ -24,4 +24,3 @@ The following is a list of features that are currently not supported in {{site.d
 - Loss Event Entries
 - SDI Connectors
 - Connector for Thomson Reuters Regulatory Intelligence (TRRI)
-
