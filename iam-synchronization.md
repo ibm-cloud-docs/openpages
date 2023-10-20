@@ -152,7 +152,7 @@ Users are added to the OPAdministrators group and they are assigned the SaaS Adm
 ### Changing the name of a group in {{site.data.keyword.Bluemix_notm}}
 {: #change5}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}} 
 {: #outcome5}
 
 A new group is created in {{site.data.keyword.openpages_short}} with the new name in the "Workflow, Reporting and Others" group. Users are disassociated from the old group and associated with new group.
@@ -162,7 +162,7 @@ The status of the old group is set to **Inactive**.
 ### Changing the description of a group in {{site.data.keyword.Bluemix_notm}}
 {: #change6}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}} 
 {: #outcome6}
 
 The description of the group is updated in {{site.data.keyword.openpages_short}} to
@@ -171,7 +171,7 @@ match the description in {{site.data.keyword.Bluemix_notm}}.
 ### Changing the groups that a user is associated with in {{site.data.keyword.Bluemix_notm}}
 {: #change7}
 
-#### Outcome in {{site.data.keyword.openpages_short}}**
+#### Outcome in {{site.data.keyword.openpages_short}}
  {: #outcome7}
 
 The group associations in {{site.data.keyword.openpages_short}} change to match {{site.data.keyword.Bluemix_notm}}.
@@ -179,7 +179,7 @@ The group associations in {{site.data.keyword.openpages_short}} change to match 
 ### Deleting a group in {{site.data.keyword.Bluemix_notm}}
 {: #change8}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}} 
 {: #outcome8}
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved from the "Workflow, Reporting and Others" group to be a subgroup of the "Standalone Users and Group" group.
@@ -193,7 +193,7 @@ If a user associated with the deleted group is not associated with other groups 
 ### Deleting a user in {{site.data.keyword.Bluemix_notm}}
 {: #change9}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}} 
 {: #outcome9}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
@@ -201,7 +201,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 ### In {{site.data.keyword.Bluemix_notm}}, removing a user from the list of users that can access the OpenPages instance
 {: #change10}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}} 
 {: #outcome10}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
@@ -209,7 +209,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 ### In {{site.data.keyword.Bluemix_notm}}, re-creating a user that was previously deleted
 {: #change11}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome11}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Active**.
@@ -217,7 +217,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 ### In {{site.data.keyword.Bluemix_notm}}, re-creating  a group that was previously deleted
 {: #change12}
 
-#### Outcome in {{site.data.keyword.openpages_short}}** 
+#### Outcome in {{site.data.keyword.openpages_short}}*
 {: #outcome12}
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved back to be a  subgroup under the "Workflow, Reporting and Others" group.
