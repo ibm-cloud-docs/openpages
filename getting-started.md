@@ -29,9 +29,6 @@ lastupdated: "2023-10-20"
 
 5. Click **Launch OpenPages**. Your instance of {{site.data.keyword.openpages_short}} opens.
 
-6. If the tutorials don't start when {{site.data.keyword.openpages_short}} opens, click the WalkMe icon ![WalkMe icon](walkme_icon.png) in the banner.
-
-7. Choose a tutorial.
 
 ## Next steps
 {: #next-steps}
