@@ -14,7 +14,7 @@ subcollection: openpages
 # Getting started with {{site.data.keyword.openpages_short}}
 {: #getting-started}
 
-In this getting started tutorial, we'll take you through what you need to do to begin managing your {{site.data.keyword.openpages_short}} service."
+In this getting started tutorial, we'll take you through what you need to do to begin managing your {{site.data.keyword.openpages_short}} service.
 {: shortdesc}
 
 ## Before you begin
