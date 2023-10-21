@@ -16,13 +16,13 @@ Incremental backups run automatically when there is a change to the database or 
 configuration settings. These backups are retained for 35 days.
 {: shortdesc}
 
-A restore creates a new OpenPages instance that is a copy of the backed-up instance.
+A restore creates a new {{site.data.keyword.openpages_short}} instance that is a copy of the backed-up instance.
 
 To restore a backup, do the following steps:
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
 3. Click **Backup and restore**.
-4. Enter a **Service name** for the new OpenPages instance.
+4. Enter a **Service name** for the new {{site.data.keyword.openpages_short}} instance.
 5. Choose one of the following options:
    - Select **Latest restorable time** if you want the most recent backup to be restored.
    - Select **Custom date and time** if you want to choose a particular backup to be restored.

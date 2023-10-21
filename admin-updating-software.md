@@ -28,6 +28,6 @@ date and time.
  
 When the software update begins to run, you can’t schedule or run another update for a few
 minutes. While the update is running, the instance is offline for 30 minutes to an hour. Ensure
-that you inform your end users to avoid accessing the OpenPages instance until the software
+that you inform your end users to avoid accessing the {{site.data.keyword.openpages_short}} instance until the software
 update is complete.
 

@@ -37,24 +37,24 @@ another.
 This feature enables you to provision a new instance without the need to give users a different
 URL.
 
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
 
-   The **Transfer hostname** section lists the custom hostnames of your other OpenPages instances. 
+   The **Transfer hostname** section lists the custom hostnames of your other {{site.data.keyword.openpages_short}} instances. 
 3. Click a custom hostname, and then click **Transfer**.
 4. Click **Transfer** to confirm the change. 
 
 When users go to the URL with the custom hostname, they are now using the instance that you
 selected in step 3. 
 
-## Providing users with the OpenPages URL
+## Providing users with the {{site.data.keyword.openpages_short}} URL
 {: #provide_users_OP_url}
 
 As an administrator, you can provide the {{site.data.keyword.openpages_short}} URL to your user community. To get that URL, do the following steps:
 
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Choose one of the following options:
    - If you customized the hostname, click the **Copy** button of the **Custom hostname** URL.
-   - If you didn't customized the hostname, click **Environment**. Under **Fixed URL**, click the **Copy** button. 
+   - If you didn't customize the hostname, click **Environment**. Under **Fixed URL**, click the **Copy** button. 
 
 
