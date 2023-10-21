@@ -21,6 +21,7 @@ Pricing for {{site.data.keyword.openpages_short}} is based on the plan you choos
 For more information about {{site.data.keyword.openpages_short}} plan pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
 
 ## Plan types
+{: #plan-types}
 
 You can choose a plan based on your requirements. The service offers two pricing plans. 
 
