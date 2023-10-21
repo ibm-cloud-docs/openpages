@@ -8,13 +8,11 @@ keywords: openpages, tutorial, managing openpages instance
 
 subcollection: openpages
 
-content-type: tutorial
-
 ---
 {{site.data.keyword.attribute-definition-list}}
 
 # Getting started with {{site.data.keyword.openpages_short}}
-{: #getting-started} {: toc-content-type="tutorial"} 
+{: #getting-started}
 
 In this getting started tutorial, we'll take you through what you need to do to begin managing your {{site.data.keyword.openpages_short}} service."
 {: shortdesc}
