@@ -1,9 +1,10 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-03-08"
+lastupdated: "2023-10-20"
 
-keywords:
+keywords: openpages features, limitations
+
 subcollection: openpages
 
 content-type: learn
