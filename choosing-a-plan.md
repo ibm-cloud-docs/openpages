@@ -2,9 +2,9 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-20"
+lastupdated: "2023-10-21"
 
-keywords: choosing a plan
+keywords: choosing a plan, pricing plans
 
 subcollection: openpages
 
@@ -15,17 +15,21 @@ subcollection: openpages
 # How does {{site.data.keyword.openpages_short}} calculate pricing?
 {: #openpages-choose-plan}
 
-{{site.data.keyword.openpages_short}} is available in an Essentials plan or a Standard plan depending on your requirements.
+Pricing for {{site.data.keyword.openpages_short}} is based on the pricing plan you choose. 
 {: shortdesc}
 
-For information about {{site.data.keyword.openpages_short}} plan pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
+For more information about {{site.data.keyword.openpages_short}} plan pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
 
-## Essentials plan
+## Plan types
+
+You can choose a plan based on your requirements. The service offers two pricing plans. 
+
+### Essentials
 {: #plan_essentials}
 
 The Essentials plan is ideal for small organizations or departments within a larger organization who are looking to get started with a GRC solution. It can also be used as a non-production environment.
 
-## Standard plan
+### Standard
 {: #plan_standard}
 
 The Standard plan is ideal for small to medium sized organizations or departments in larger organization who are looking for expanded use of GRC solutions.
@@ -35,7 +39,7 @@ The Standard plan is ideal for small to medium sized organizations or department
 
 The following table summarizes what is supported by each plan. The values in the table are maximums.
 
-| Category                         | Essentials Plan               | Standard Plan                 |
+| Category                         | Essentials plan               | Standard plan                 |
 | -------------------------------- | ----------------------------- | ----------------------------- |
 | Concurrent users                 | 10                            | 200                           |
 | Number of solutions              | 1                             | 5                             |
