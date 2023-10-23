@@ -17,7 +17,7 @@ subcollection: openpages
 
 When you make changes to users and groups in {{site.data.keyword.Bluemix_notm}}, those changes are synchronized to {{site.data.keyword.openpages_short}}. The following scenarios show what happens in {{site.data.keyword.openpages_short}} when you create and modify users and groups in {{site.data.keyword.Bluemix_notm}}.
 
-## Creating a non-administrator group in {{site.data.keyword.Bluemix_notm}}
+## Creating a non-administrator group
 {: #change1}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -35,7 +35,7 @@ If the group has users, it is created with the name and description you specifie
    
 The group name is always prefixed by "Cloud IAM – " and is a subgroup under the "Workflow, Reporting and Others" group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
 
-## Creating a administrator group in {{site.data.keyword.Bluemix_notm}}
+## Creating a administrator group
 {: #change2}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -55,7 +55,7 @@ Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}}
 IAM are members of the group in {{site.data.keyword.openpages_short}} and the
 OPAdministrators group. As members of the OPAdministrators group, users have administrative privileges in {{site.data.keyword.openpages_short}}.
 
-## Creating a non-administrator user in {{site.data.keyword.Bluemix_notm}}
+## Creating a non-administrator user
 {: #change3}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -83,7 +83,7 @@ When you are provisioning the service, you select the solutions you want from a 
 
 Users are assigned role templates through their group associations.
 
-## Creating an administrator user in {{site.data.keyword.Bluemix_notm}}
+## Creating an administrator user
 {: #change4}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -114,7 +114,7 @@ fallback profile.
 
 Users are added to the OPAdministrators group and they are assigned the SaaS Administrator role template. Users also have role templates assigned through their group associations, if the associated groups have role template assignments.
 
-## Changing the name of a group in {{site.data.keyword.Bluemix_notm}}
+## Changing the name of a group
 {: #change5}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -129,7 +129,7 @@ A new group is created in {{site.data.keyword.openpages_short}} with the new nam
 
 The status of the old group is set to **Inactive**.
 
-## Changing the description of a group in {{site.data.keyword.Bluemix_notm}}
+## Changing the description of a group
 {: #change6}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -143,7 +143,7 @@ Change the description of an existing group.
 The description of the group is updated in {{site.data.keyword.openpages_short}} to
 match the description in {{site.data.keyword.Bluemix_notm}}.
 
-## Changing the groups that a user is associated with in {{site.data.keyword.Bluemix_notm}}
+## Changing the groups that a user is associated with
 {: #change7}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -156,7 +156,7 @@ Assign a user to groups or remove them from groups.
 
 The group associations in {{site.data.keyword.openpages_short}} change to match {{site.data.keyword.Bluemix_notm}}.
 
-## Deleting a group in {{site.data.keyword.Bluemix_notm}}
+## Deleting a group
 {: #change8}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -175,7 +175,7 @@ If a user associated with the deleted group is not associated with other groups 
 
 If a user associated with the deleted group is not associated with other groups and the user doesn’t have roles set in {{site.data.keyword.Bluemix_notm}}, they are set to **Inactive**.
 
-## Deleting a user in {{site.data.keyword.Bluemix_notm}}
+## Deleting a user
 {: #change9}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -188,7 +188,7 @@ Delete a user.
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
 
-## In {{site.data.keyword.Bluemix_notm}}, removing a user from the list of users that can access the OpenPages instance
+## Removing a user from the list of users that can access the OpenPages instance
 {: #change10}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -201,7 +201,7 @@ Remove all {{site.data.keyword.openpages_short}} roles from a user.
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
 
-## In {{site.data.keyword.Bluemix_notm}}, re-creating a user that was previously deleted
+## Re-creating a user that was previously deleted
 {: #change11}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
@@ -214,7 +214,7 @@ Add a user that had been deleted.
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Active**.
 
-## In {{site.data.keyword.Bluemix_notm}}, re-creating a group that was previously deleted
+## Re-creating a group that was previously deleted
 {: #change12}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
