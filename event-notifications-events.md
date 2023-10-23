@@ -131,7 +131,7 @@ An email from {{site.data.keyword.cloud_notm}} that contains information about a
 Subject: IBM OpenPages - Run Test Plan calculation completed
 From: noreply <no-reply@ibmcloud.com>
 ```
-![email body](event_email.png "Email body"){: caption="Figure 1. Sample email body" caption-side="bottom"}
+![email body](images/event_email.png "Email body"){: caption="Figure 1. Sample email body" caption-side="bottom"}
 {: screen}
 
 To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
