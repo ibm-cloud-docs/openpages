@@ -1,1 +1,897 @@
-<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><clipPath id="clip0"><rect x="0" y="0" width="866775" height="847725"/></clipPath><image width="60" height="59" xlink:href="data:image/jpeg;base64,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" preserveAspectRatio="none" id="img1"></image><clipPath id="clip2"><rect x="0" y="0" width="862093" height="847725"/></clipPath><clipPath id="clip3"><rect x="0" y="0" width="361950" height="361950"/></clipPath><clipPath id="clip4"><rect x="0" y="0" width="361950" height="355918"/></clipPath><clipPath id="clip5"><rect x="0" y="0" width="871780" height="857250"/></clipPath><clipPath id="clip6"><rect x="0" y="0" width="361950" height="361950"/></clipPath><clipPath id="clip7"><rect x="0" y="0" width="361950" height="355918"/></clipPath><clipPath id="clip8"><rect x="4.65661e-10" y="-5.82077e-11" width="371475" height="361950"/></clipPath><clipPath id="clip9"><rect x="0" y="0" width="368085" height="361950"/></clipPath><clipPath id="clip10"><rect x="0" y="0" width="361950" height="352425"/></clipPath><image width="47" height="46" xlink:href="data:image/jpeg;base64,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" preserveAspectRatio="none" id="img11"></image><clipPath id="clip12"><rect x="0" y="0" width="360086" height="352425"/></clipPath><clipPath id="clip13"><rect x="-4.65661e-10" y="0" width="342900" height="342900"/></clipPath><image width="43" height="43" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDIvvEOqi+ugNTvABK4AE7cDcfeoW8Qauigtqd6ARkEzNyPzqzYaDc+I9cvbW0aP7T5kjJHI4XfhjkAniu48K+AdQ8Z+F7W2v4odPtLe5dIL3H76YY5iUdCAcncePev2idSnSScrH5pGE6j0OHvtQ1/TTELq/vYTKnmJmduV9etVm1/V0bDaneqeuDMw/rXoeveHdNi1+CC61Wf7fp6rsstWgCLcIvOxTHnOema5K80jUvE02q61PFDp1rE/wA/mfII/wC6ir1PGBnFKnUhJXaHKEouyZ7r8EfhLZ/ELwJDq+patqYummeM+XcMBgYx396K7r9lX/kklt/19S/+y0V8TjMXXhiJxjKyTZ9RhsPSlRhKUdbHyXYeHDq//CQajJP9ms9NYvI/8RZnIQD8a+nPhHo/h/xNJ4hk1nU1h8J2dtBpdo0MrRlTtWWQBh0BZ2B9a+cfDutWELeItF1R2gstUkC/alGTAySFlJHoT19q9B+FfiKD4XzXkI8T+Ftb0e8wZ9OvTIY3IOQ33Dg9K+lx0KlSm4xbT6fh177nh4WUKck3t1/H8DqP2gLK38IaHoHiLwvbyRaY5fS4ZNUQSysoJfehbJA7A9a8p8N6rJ8Rpp9D1lY5J3gkntr1UCvE8aF8Ej7wIXHPrXbfGPxpL8YrmyW78X+GtO02yH+j2MEkuxDjGc7PTivPtOutM8A+feWmqQ6xrTxPDA1qCYIlYFWJJAySpOOKWFhKOHUZL958/ld/mOvJOs3F+5/XT8j6e/ZVz/wqS2yMH7VL/wCy0Ufsq/8AJJLb/r6l/wDZaK+Qx3+9VPVn0eF/gQ9EeT/DX4M+HfGmgzalqK3RuWuZFPlTbV+8e2K6z/hm3wd/cvv/AAIH/wATRRX0tatUjUaUn954dKnBwTcUH/DNvg7+5ff+BA/+Jpf+GbfB39y+/wDAj/61FFY+3q/zv72a+yp/yr7j2H4UeDbDwj4XbTdPaYWsdwxUSMGPIUnnFFFFfL4iTdWTb6nt0VanFI//2Q==" preserveAspectRatio="none" id="img14"></image><clipPath id="clip15"><rect x="0" y="-0.0625" width="342900" height="342900"/></clipPath><image width="61" height="60" xlink:href="data:image/jpeg;base64,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" preserveAspectRatio="none" id="img16"></image><clipPath id="clip17"><rect x="0" y="0" width="987742" height="971550"/></clipPath><clipPath id="clip18"><rect x="0" y="0" width="981075" height="962025"/></clipPath><clipPath id="clip19"><rect x="0" y="0" width="978059" height="962025"/></clipPath></defs><g><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/><rect x="2" y="40" width="233" height="290" stroke="#BE9432" stroke-width="6" stroke-miterlimit="8" fill="#FFFFFF"/><g clip-path="url(#clip0)" transform="matrix(0.000104987 0 0 0.000104987 72 139)"><g clip-path="url(#clip2)" transform="matrix(1.00543 0 0 1 -0.0625 -0.125)"><use width="100%" height="100%" xlink:href="#img1" transform="scale(14368.2 14368.2)"></use></g></g><g clip-path="url(#clip3)" transform="matrix(0.000104987 0 0 0.000104987 8 44)"><g clip-path="url(#clip4)" transform="scale(1 1.01695)"><use width="100%" height="100%" xlink:href="#img1" transform="scale(6032.5 6032.5)"></use></g></g><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="21" transform="translate(49.993 74)">Tenant A account</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(56.014 262)">Users, API call</text><rect x="2" y="359" width="233" height="290" stroke="#BE9432" stroke-width="6" stroke-miterlimit="8" fill="#FFFFFF"/><g transform="matrix(0.000104987 0 0 0.000104987 71 458)"><g clip-path="url(#clip5)" transform="scale(1.00519 1)"><use width="100%" height="100%" xlink:href="#img1" transform="scale(14529.7 14529.7)"></use></g></g><g clip-path="url(#clip6)" transform="matrix(0.000104987 0 0 0.000104987 8 363)"><g clip-path="url(#clip7)" transform="scale(1 1.01695)"><use width="100%" height="100%" xlink:href="#img1" transform="scale(6032.5 6032.5)"></use></g></g><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="21" transform="translate(49.8246 393)">Tenant B account</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(57.8666 580)">Users, API call</text><rect x="359" y="44" width="912" height="607" stroke="#BE9432" stroke-width="6" stroke-miterlimit="8" fill="#FFFFFF"/><g clip-path="url(#clip8)" transform="matrix(0.000104987 0 0 0.000104987 364 48)"><g clip-path="url(#clip9)" transform="matrix(1.00921 0 0 1 -0.25 0)"><use width="100%" height="100%" xlink:href="#img1" transform="scale(6134.75 6134.75)"></use></g></g><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="21" transform="translate(406.218 77)">Service account on AWS</text><rect x="411" y="96" width="659" height="526" stroke="#316CE5" stroke-width="4" stroke-miterlimit="8" fill="none"/><g clip-path="url(#clip10)" transform="matrix(0.000104987 0 0 0.000104987 446 143)"><g clip-path="url(#clip12)" transform="scale(1.00518 1)"><use width="100%" height="100%" xlink:href="#img11" transform="scale(7661.41 7661.41)"></use></g></g><rect x="444" y="145" width="421" height="457" stroke="#316CE5" stroke-width="4" stroke-miterlimit="8" fill="none"/><g clip-path="url(#clip13)" transform="matrix(0.000104987 0 0 0.000104987 409 95)"><g clip-path="url(#clip15)"><use width="100%" height="100%" xlink:href="#img14" transform="matrix(7974.42 0 0 7974.42 0 -0.0625)"></use></g></g><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="21" transform="translate(453.544 122)">VPC</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="21" transform="translate(489.923 171)">OpenShift cluster</text><path d="M549.5 195.834C549.5 191.231 553.231 187.5 557.834 187.5L784.167 187.5C788.769 187.5 792.5 191.231 792.5 195.834L792.5 229.166C792.5 233.769 788.769 237.5 784.167 237.5L557.834 237.5C553.231 237.5 549.5 233.769 549.5 229.166Z" stroke="#FF972F" stroke-width="3" stroke-miterlimit="8" stroke-opacity="0.933333" fill="#FFE6CC" fill-rule="evenodd"/><path d="M546.5 327.5C546.5 314.798 556.798 304.5 569.5 304.5L768.5 304.5C781.202 304.5 791.5 314.798 791.5 327.5L791.5 419.5C791.5 432.202 781.202 442.5 768.5 442.5L569.5 442.5C556.798 442.5 546.5 432.202 546.5 419.5Z" stroke="#FF972F" stroke-width="3" stroke-miterlimit="8" stroke-opacity="0.933333" fill="#FFE6CC" fill-rule="evenodd"/><path d="M547.5 476C547.5 463.022 558.022 452.5 571 452.5L769 452.5C781.979 452.5 792.5 463.022 792.5 476L792.5 570C792.5 582.979 781.979 593.5 769 593.5L571 593.5C558.022 593.5 547.5 582.979 547.5 570Z" stroke="#FF972F" stroke-width="3" stroke-miterlimit="8" stroke-opacity="0.933333" fill="#FFE6CC" fill-rule="evenodd"/><path d="M912.5 188.5C912.5 195.127 939.139 200.5 972 200.5 1004.86 200.5 1031.5 195.127 1031.5 188.5L1031.5 260.5C1031.5 267.127 1004.86 272.5 972 272.5 939.139 272.5 912.5 267.127 912.5 260.5Z" fill="#D5E8D4" fill-rule="evenodd"/><path d="M912.5 188.5C912.5 181.873 939.139 176.5 972 176.5 1004.86 176.5 1031.5 181.873 1031.5 188.5 1031.5 195.127 1004.86 200.5 972 200.5 939.139 200.5 912.5 195.127 912.5 188.5Z" fill="#E6F1E5" fill-rule="evenodd"/><path d="M1031.5 188.5C1031.5 195.127 1004.86 200.5 972 200.5 939.139 200.5 912.5 195.127 912.5 188.5 912.5 181.873 939.139 176.5 972 176.5 1004.86 176.5 1031.5 181.873 1031.5 188.5L1031.5 260.5C1031.5 267.127 1004.86 272.5 972 272.5 939.139 272.5 912.5 267.127 912.5 260.5L912.5 188.5" stroke="#74B371" stroke-width="3" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/><path d="M911.5 400.5C911.5 407.128 937.915 412.5 970.5 412.5 1003.08 412.5 1029.5 407.128 1029.5 400.5L1029.5 472.5C1029.5 479.127 1003.08 484.5 970.5 484.5 937.915 484.5 911.5 479.127 911.5 472.5Z" fill="#D5E8D4" fill-rule="evenodd"/><path d="M911.5 400.5C911.5 393.873 937.915 388.5 970.5 388.5 1003.08 388.5 1029.5 393.873 1029.5 400.5 1029.5 407.128 1003.08 412.5 970.5 412.5 937.915 412.5 911.5 407.128 911.5 400.5Z" fill="#E6F1E5" fill-rule="evenodd"/><path d="M1029.5 400.5C1029.5 407.128 1003.08 412.5 970.5 412.5 937.915 412.5 911.5 407.128 911.5 400.5 911.5 393.873 937.915 388.5 970.5 388.5 1003.08 388.5 1029.5 393.873 1029.5 400.5L1029.5 472.5C1029.5 479.127 1003.08 484.5 970.5 484.5 937.915 484.5 911.5 479.127 911.5 472.5L911.5 400.5" stroke="#74B371" stroke-width="3" stroke-miterlimit="8" fill="none" fill-rule="evenodd"/><g transform="matrix(0.000104987 0 0 0.000104987 1082 174)"><g clip-path="url(#clip17)" transform="scale(1.00289 1)"><use width="100%" height="100%" xlink:href="#img16" transform="scale(16192.5 16192.5)"></use></g></g><g clip-path="url(#clip18)" transform="matrix(0.000104987 0 0 0.000104987 1074 405)"><g clip-path="url(#clip19)" transform="matrix(1.00308 0 0 1 0 -0.25)"><use width="100%" height="100%" xlink:href="#img16" transform="scale(16033.7 16033.7)"></use></g></g><path d="M564.5 363.5C564.5 356.873 569.873 351.5 576.5 351.5L761.5 351.5C768.127 351.5 773.5 356.873 773.5 363.5L773.5 411.5C773.5 418.127 768.127 423.5 761.5 423.5L576.5 423.5C569.873 423.5 564.5 418.127 564.5 411.5Z" stroke="#FF972F" stroke-width="4.66667" stroke-miterlimit="8" stroke-opacity="0.933333" fill="#FFE6CC" fill-rule="evenodd"/><path d="M565.5 512.5C565.5 505.873 570.873 500.5 577.5 500.5L757.5 500.5C764.127 500.5 769.5 505.873 769.5 512.5L769.5 560.5C769.5 567.127 764.127 572.5 757.5 572.5L577.5 572.5C570.873 572.5 565.5 567.127 565.5 560.5Z" stroke="#FF972F" stroke-width="4.66667" stroke-miterlimit="8" stroke-opacity="0.933333" fill="#FFE6CC" fill-rule="evenodd"/><path d="M536 214C536 206.268 542.716 200 551 200 559.284 200 566 206.268 566 214 566 221.732 559.284 228 551 228 542.716 228 536 221.732 536 214Z" stroke="#172C51" stroke-width="2" stroke-miterlimit="8" fill="#326CE5" fill-rule="evenodd"/><path d="M549.5 387.5C549.5 379.768 556.216 373.5 564.5 373.5 572.784 373.5 579.5 379.768 579.5 387.5 579.5 395.232 572.784 401.5 564.5 401.5 556.216 401.5 549.5 395.232 549.5 387.5Z" stroke="#172C51" stroke-width="2.66667" stroke-miterlimit="8" fill="#326CE5" fill-rule="evenodd"/><path d="M550.5 536C550.5 527.992 557.216 521.5 565.5 521.5 573.784 521.5 580.5 527.992 580.5 536 580.5 544.008 573.784 550.5 565.5 550.5 557.216 550.5 550.5 544.008 550.5 536Z" stroke="#172C51" stroke-width="2.66667" stroke-miterlimit="8" fill="#326CE5" fill-rule="evenodd"/><path d="M578.5 292.5C578.5 284.768 584.992 278.5 593 278.5 601.008 278.5 607.5 284.768 607.5 292.5 607.5 300.232 601.008 306.5 593 306.5 584.992 306.5 578.5 300.232 578.5 292.5Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M723.5 246.5C723.5 238.768 729.992 232.5 738 232.5 746.008 232.5 752.5 238.768 752.5 246.5 752.5 254.232 746.008 260.5 738 260.5 729.992 260.5 723.5 254.232 723.5 246.5Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M959.5 284C959.5 275.992 966.216 269.5 974.5 269.5 982.784 269.5 989.5 275.992 989.5 284 989.5 292.008 982.784 298.5 974.5 298.5 966.216 298.5 959.5 292.008 959.5 284Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M961.5 494.5C961.5 486.768 967.992 480.5 976 480.5 984.008 480.5 990.5 486.768 990.5 494.5 990.5 502.232 984.008 508.5 976 508.5 967.992 508.5 961.5 502.232 961.5 494.5Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M1134.5 286C1134.5 277.992 1141.22 271.5 1149.5 271.5 1157.78 271.5 1164.5 277.992 1164.5 286 1164.5 294.008 1157.78 300.5 1149.5 300.5 1141.22 300.5 1134.5 294.008 1134.5 286Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M1125.5 514.5C1125.5 506.768 1132.22 500.5 1140.5 500.5 1148.78 500.5 1155.5 506.768 1155.5 514.5 1155.5 522.232 1148.78 528.5 1140.5 528.5 1132.22 528.5 1125.5 522.232 1125.5 514.5Z" stroke="#B80000" stroke-width="2.66667" stroke-miterlimit="8" fill="#FF0000" fill-rule="evenodd"/><path d="M163.5 182 336.982 182 336.982 386.882 335.482 385.382 536.406 385.382 536.406 388.382 333.982 388.382 333.982 183.5 335.482 185 163.5 185ZM534.906 379.382 549.906 386.882 534.906 394.382Z" fill="#4472C4"/><path d="M162.5 507 335.056 507 335.056 536.219 333.556 534.719 537.596 534.719 537.596 537.719 332.056 537.719 332.056 508.5 333.556 510 162.5 510ZM536.096 528.719 551.096 536.219 536.096 543.719Z" fill="#4472C4"/><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(455.939 209)">Internet</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(453.025 231)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(261.366 128)">HTTPS</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(271.613 150)">over</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(254.28 172)">Interne</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(320.28 172)">t</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(611.456 219)">Control plane</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(763.084 258)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(755.004 280)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(503.211 275)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(495.131 297)">endpoint</text><path d="M594 235.5 594 264.274 591 264.274 591 235.5ZM600 262.774 592.5 277.774 585 262.774Z" fill="#FF0000"/><path d="M1.5-3.51519e-06 1.50007 31.3-1.49993 31.3-1.5 3.51519e-06ZM7.50007 29.8 0.000104987 44.8-7.49993 29.8Z" fill="#FF0000" transform="matrix(1 0 0 -1 738.5 305.3)"/><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(587.67 334)">Data plane Tenant A</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(586.408 486)">Data plane Tenant B</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(601.518 383)">Service instance</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(582.852 405)">Tenant A application</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(601.35 535)">Service instance</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(582.85 557)">Tenant B application</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(471.939 414)">Internet</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(469.025 436)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(472.949 562)">Internet</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(470.036 584)">endpoint</text><path d="M0-1.5 201.244-1.5 201.244 47.0544 198.244 47.0544 198.244 0 199.744 1.5 0 1.5ZM207.244 45.5544 199.744 60.5544 192.244 45.5544Z" fill="#FF0000" transform="matrix(1 0 0 -1 774.5 359.054)"/><path d="M0-1.5 376.065-1.5 376.065 60.3667 373.065 60.3667 373.065 0 374.565 1.5 0 1.5ZM382.065 58.8667 374.565 73.8667 367.065 58.8667Z" fill="#FF0000" transform="matrix(1 0 0 -1 774.5 374.367)"/><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(918.195 220)">RDB service</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(933.276 242)">instance</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(931.442 264)">Tenant A</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(919.038 431)">RDB service</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(934.118 453)">instance</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(932.451 475)">Tenant B</text><path d="M0-1.5 206.588-1.5 206.588 26.5316 203.588 26.5316 203.588 0 205.088 1.5 0 1.5ZM212.588 25.0316 205.088 40.0316 197.588 25.0316Z" fill="#FF0000" transform="matrix(1 0 0 -1 770.5 548.532)"/><path d="M0-1.5 371.97-1.5 371.97 21.3212 368.97 21.3212 368.97 0 370.47 1.5 0 1.5ZM377.97 19.8212 370.47 34.8212 362.97 19.8212Z" fill="#FF0000" transform="matrix(1 0 0 -1 769.5 563.321)"/><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(993.316 293)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(985.236 315)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(997.358 503)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(989.278 525)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(1161.91 527)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(1153.83 549)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(1172.01 297)">Private</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="400" font-size="19" transform="translate(1163.93 319)">endpoint</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1158.5 168)">Documents</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1177.75 190)">bucket</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1168.75 212)">Tenant A</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1149.24 399)">Documents</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1168.48 421)">bucket</text><text font-family="IBM Plex Sans,IBM Plex Sans_MSFontService,sans-serif" font-weight="700" font-size="19" transform="translate(1159.65 443)">Tenant B</text></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1277"
+   height="632"
+   overflow="hidden"
+   version="1.1"
+   id="svg284"
+   sodipodi:docname="op_saas_isolation.svg"
+   style="overflow:hidden"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata288">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     id="namedview286"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1"
+     inkscape:cx="641"
+     inkscape:cy="301"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg284" />
+  <defs
+     id="defs62">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="866775"
+         height="847725"
+         id="rect10" />
+    </clipPath>
+    <image
+       width="60"
+       height="59"
+       xlink:href="data:image/jpeg;base64,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"
+       preserveAspectRatio="none"
+       id="img1" />
+    <clipPath
+       id="clip2">
+      <rect
+         x="0"
+         y="0"
+         width="862093"
+         height="847725"
+         id="rect14" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="361950"
+         id="rect17" />
+    </clipPath>
+    <clipPath
+       id="clip4">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="355918"
+         id="rect20" />
+    </clipPath>
+    <clipPath
+       id="clip5">
+      <rect
+         x="0"
+         y="0"
+         width="871780"
+         height="857250"
+         id="rect23" />
+    </clipPath>
+    <clipPath
+       id="clip6">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="361950"
+         id="rect26" />
+    </clipPath>
+    <clipPath
+       id="clip7">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="355918"
+         id="rect29" />
+    </clipPath>
+    <clipPath
+       id="clip8">
+      <rect
+         x="4.6566101e-10"
+         y="-5.8207703e-11"
+         width="371475"
+         height="361950"
+         id="rect32" />
+    </clipPath>
+    <clipPath
+       id="clip9">
+      <rect
+         x="0"
+         y="0"
+         width="368085"
+         height="361950"
+         id="rect35" />
+    </clipPath>
+    <clipPath
+       id="clip10">
+      <rect
+         x="0"
+         y="0"
+         width="361950"
+         height="352425"
+         id="rect38" />
+    </clipPath>
+    <image
+       width="47"
+       height="46"
+       xlink:href="data:image/jpeg;base64,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"
+       preserveAspectRatio="none"
+       id="img11" />
+    <clipPath
+       id="clip12">
+      <rect
+         x="0"
+         y="0"
+         width="360086"
+         height="352425"
+         id="rect42" />
+    </clipPath>
+    <clipPath
+       id="clip13">
+      <rect
+         x="-4.6566101e-10"
+         y="0"
+         width="342900"
+         height="342900"
+         id="rect45" />
+    </clipPath>
+    <image
+       width="43"
+       height="43"
+       xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAkACQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDIvvEOqi+ugNTvABK4AE7cDcfeoW8Qauigtqd6ARkEzNyPzqzYaDc+I9cvbW0aP7T5kjJHI4XfhjkAniu48K+AdQ8Z+F7W2v4odPtLe5dIL3H76YY5iUdCAcncePev2idSnSScrH5pGE6j0OHvtQ1/TTELq/vYTKnmJmduV9etVm1/V0bDaneqeuDMw/rXoeveHdNi1+CC61Wf7fp6rsstWgCLcIvOxTHnOema5K80jUvE02q61PFDp1rE/wA/mfII/wC6ir1PGBnFKnUhJXaHKEouyZ7r8EfhLZ/ELwJDq+patqYummeM+XcMBgYx396K7r9lX/kklt/19S/+y0V8TjMXXhiJxjKyTZ9RhsPSlRhKUdbHyXYeHDq//CQajJP9ms9NYvI/8RZnIQD8a+nPhHo/h/xNJ4hk1nU1h8J2dtBpdo0MrRlTtWWQBh0BZ2B9a+cfDutWELeItF1R2gstUkC/alGTAySFlJHoT19q9B+FfiKD4XzXkI8T+Ftb0e8wZ9OvTIY3IOQ33Dg9K+lx0KlSm4xbT6fh177nh4WUKck3t1/H8DqP2gLK38IaHoHiLwvbyRaY5fS4ZNUQSysoJfehbJA7A9a8p8N6rJ8Rpp9D1lY5J3gkntr1UCvE8aF8Ej7wIXHPrXbfGPxpL8YrmyW78X+GtO02yH+j2MEkuxDjGc7PTivPtOutM8A+feWmqQ6xrTxPDA1qCYIlYFWJJAySpOOKWFhKOHUZL958/ld/mOvJOs3F+5/XT8j6e/ZVz/wqS2yMH7VL/wCy0Ufsq/8AJJLb/r6l/wDZaK+Qx3+9VPVn0eF/gQ9EeT/DX4M+HfGmgzalqK3RuWuZFPlTbV+8e2K6z/hm3wd/cvv/AAIH/wATRRX0tatUjUaUn954dKnBwTcUH/DNvg7+5ff+BA/+Jpf+GbfB39y+/wDAj/61FFY+3q/zv72a+yp/yr7j2H4UeDbDwj4XbTdPaYWsdwxUSMGPIUnnFFFFfL4iTdWTb6nt0VanFI//2Q=="
+       preserveAspectRatio="none"
+       id="img14" />
+    <clipPath
+       id="clip15">
+      <rect
+         x="0"
+         y="-0.0625"
+         width="342900"
+         height="342900"
+         id="rect49" />
+    </clipPath>
+    <image
+       width="61"
+       height="60"
+       xlink:href="data:image/jpeg;base64,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"
+       preserveAspectRatio="none"
+       id="img16" />
+    <clipPath
+       id="clip17">
+      <rect
+         x="0"
+         y="0"
+         width="987742"
+         height="971550"
+         id="rect53" />
+    </clipPath>
+    <clipPath
+       id="clip18">
+      <rect
+         x="0"
+         y="0"
+         width="981075"
+         height="962025"
+         id="rect56" />
+    </clipPath>
+    <clipPath
+       id="clip19">
+      <rect
+         x="0"
+         y="0"
+         width="978059"
+         height="962025"
+         id="rect59" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath292">
+      <rect
+         style="fill:#000000"
+         id="rect294"
+         width="1282"
+         height="632"
+         x="-6"
+         y="29" />
+    </clipPath>
+  </defs>
+  <g
+     id="g282"
+     clip-path="url(#clipPath292)"
+     transform="translate(1,-29)">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       id="rect64"
+       style="fill:#ffffff" />
+    <rect
+       x="2"
+       y="40"
+       width="233"
+       height="290"
+       stroke-miterlimit="8"
+       id="rect66"
+       style="fill:#ffffff;stroke:#be9432;stroke-width:6;stroke-miterlimit:8" />
+    <g
+       clip-path="url(#clip0)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,72,139)"
+       id="g72">
+      <g
+         clip-path="url(#clip2)"
+         transform="matrix(1.00543,0,0,1,-0.0625,-0.125)"
+         id="g70">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(14368.2)"
+           id="use68"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip3)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,8,44)"
+       id="g78">
+      <g
+         clip-path="url(#clip4)"
+         transform="scale(1,1.01695)"
+         id="g76">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(6032.5)"
+           id="use74"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <text
+       font-weight="700"
+       font-size="21"
+       transform="translate(49.993,74)"
+       id="text80"
+       style="font-weight:700;font-size:21px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant A account</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(56.014,262)"
+       id="text82"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Users, API call</text>
+    <rect
+       x="2"
+       y="359"
+       width="233"
+       height="290"
+       stroke-miterlimit="8"
+       id="rect84"
+       style="fill:#ffffff;stroke:#be9432;stroke-width:6;stroke-miterlimit:8" />
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,71,458)"
+       id="g90">
+      <g
+         clip-path="url(#clip5)"
+         transform="scale(1.00519,1)"
+         id="g88">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(14529.7)"
+           id="use86"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip6)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,8,363)"
+       id="g96">
+      <g
+         clip-path="url(#clip7)"
+         transform="scale(1,1.01695)"
+         id="g94">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(6032.5)"
+           id="use92"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <text
+       font-weight="700"
+       font-size="21"
+       transform="translate(49.8246,393)"
+       id="text98"
+       style="font-weight:700;font-size:21px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant B account</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(57.8666,580)"
+       id="text100"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Users, API call</text>
+    <rect
+       x="359"
+       y="44"
+       width="912"
+       height="607"
+       stroke-miterlimit="8"
+       id="rect102"
+       style="fill:#ffffff;stroke:#be9432;stroke-width:6;stroke-miterlimit:8" />
+    <g
+       clip-path="url(#clip8)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,364,48)"
+       id="g108">
+      <g
+         clip-path="url(#clip9)"
+         transform="matrix(1.00921,0,0,1,-0.25,0)"
+         id="g106">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img1"
+           transform="scale(6134.75)"
+           id="use104"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <text
+       font-weight="700"
+       font-size="21"
+       transform="translate(406.218,77)"
+       id="text110"
+       style="font-weight:700;font-size:21px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Service account on AWS</text>
+    <rect
+       x="411"
+       y="96"
+       width="659"
+       height="526"
+       stroke-miterlimit="8"
+       id="rect112"
+       style="fill:none;stroke:#316ce5;stroke-width:4;stroke-miterlimit:8" />
+    <g
+       clip-path="url(#clip10)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,446,143)"
+       id="g118">
+      <g
+         clip-path="url(#clip12)"
+         transform="scale(1.00518,1)"
+         id="g116">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img11"
+           transform="scale(7661.41)"
+           id="use114"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <rect
+       x="444"
+       y="145"
+       width="421"
+       height="457"
+       stroke-miterlimit="8"
+       id="rect120"
+       style="fill:none;stroke:#316ce5;stroke-width:4;stroke-miterlimit:8" />
+    <g
+       clip-path="url(#clip13)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,409,95)"
+       id="g126">
+      <g
+         clip-path="url(#clip15)"
+         id="g124">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img14"
+           transform="matrix(7974.42,0,0,7974.42,0,-0.0625)"
+           id="use122"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <text
+       font-weight="700"
+       font-size="21"
+       transform="translate(453.544,122)"
+       id="text128"
+       style="font-weight:700;font-size:21px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">VPC</text>
+    <text
+       font-weight="700"
+       font-size="21"
+       transform="translate(489.923,171)"
+       id="text130"
+       style="font-weight:700;font-size:21px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">OpenShift cluster</text>
+    <path
+       d="m 549.5,195.834 c 0,-4.603 3.731,-8.334 8.334,-8.334 h 226.333 c 4.602,0 8.333,3.731 8.333,8.334 v 33.332 c 0,4.603 -3.731,8.334 -8.333,8.334 H 557.834 c -4.603,0 -8.334,-3.731 -8.334,-8.334 z"
+       stroke-miterlimit="8"
+       id="path132"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe6cc;fill-rule:evenodd;stroke:#ff972f;stroke-width:3;stroke-miterlimit:8;stroke-opacity:0.93333297" />
+    <path
+       d="m 546.5,327.5 c 0,-12.702 10.298,-23 23,-23 h 199 c 12.702,0 23,10.298 23,23 v 92 c 0,12.702 -10.298,23 -23,23 h -199 c -12.702,0 -23,-10.298 -23,-23 z"
+       stroke-miterlimit="8"
+       id="path134"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe6cc;fill-rule:evenodd;stroke:#ff972f;stroke-width:3;stroke-miterlimit:8;stroke-opacity:0.93333297" />
+    <path
+       d="m 547.5,476 c 0,-12.978 10.522,-23.5 23.5,-23.5 h 198 c 12.979,0 23.5,10.522 23.5,23.5 v 94 c 0,12.979 -10.521,23.5 -23.5,23.5 H 571 c -12.978,0 -23.5,-10.521 -23.5,-23.5 z"
+       stroke-miterlimit="8"
+       id="path136"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe6cc;fill-rule:evenodd;stroke:#ff972f;stroke-width:3;stroke-miterlimit:8;stroke-opacity:0.93333297" />
+    <path
+       d="m 912.5,188.5 c 0,6.627 26.639,12 59.5,12 32.86,0 59.5,-5.373 59.5,-12 v 72 c 0,6.627 -26.64,12 -59.5,12 -32.861,0 -59.5,-5.373 -59.5,-12 z"
+       id="path138"
+       inkscape:connector-curvature="0"
+       style="fill:#d5e8d4;fill-rule:evenodd" />
+    <path
+       d="m 912.5,188.5 c 0,-6.627 26.639,-12 59.5,-12 32.86,0 59.5,5.373 59.5,12 0,6.627 -26.64,12 -59.5,12 -32.861,0 -59.5,-5.373 -59.5,-12 z"
+       id="path140"
+       inkscape:connector-curvature="0"
+       style="fill:#e6f1e5;fill-rule:evenodd" />
+    <path
+       d="m 1031.5,188.5 c 0,6.627 -26.64,12 -59.5,12 -32.861,0 -59.5,-5.373 -59.5,-12 0,-6.627 26.639,-12 59.5,-12 32.86,0 59.5,5.373 59.5,12 v 72 c 0,6.627 -26.64,12 -59.5,12 -32.861,0 -59.5,-5.373 -59.5,-12 v -72"
+       stroke-miterlimit="8"
+       id="path142"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#74b371;stroke-width:3;stroke-miterlimit:8" />
+    <path
+       d="m 911.5,400.5 c 0,6.628 26.415,12 59,12 32.58,0 59,-5.372 59,-12 v 72 c 0,6.627 -26.42,12 -59,12 -32.585,0 -59,-5.373 -59,-12 z"
+       id="path144"
+       inkscape:connector-curvature="0"
+       style="fill:#d5e8d4;fill-rule:evenodd" />
+    <path
+       d="m 911.5,400.5 c 0,-6.627 26.415,-12 59,-12 32.58,0 59,5.373 59,12 0,6.628 -26.42,12 -59,12 -32.585,0 -59,-5.372 -59,-12 z"
+       id="path146"
+       inkscape:connector-curvature="0"
+       style="fill:#e6f1e5;fill-rule:evenodd" />
+    <path
+       d="m 1029.5,400.5 c 0,6.628 -26.42,12 -59,12 -32.585,0 -59,-5.372 -59,-12 0,-6.627 26.415,-12 59,-12 32.58,0 59,5.373 59,12 v 72 c 0,6.627 -26.42,12 -59,12 -32.585,0 -59,-5.373 -59,-12 v -72"
+       stroke-miterlimit="8"
+       id="path148"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#74b371;stroke-width:3;stroke-miterlimit:8" />
+    <g
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,1082,174)"
+       id="g154">
+      <g
+         clip-path="url(#clip17)"
+         transform="scale(1.00289,1)"
+         id="g152">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img16"
+           transform="scale(16192.5)"
+           id="use150"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <g
+       clip-path="url(#clip18)"
+       transform="matrix(1.04987e-4,0,0,1.04987e-4,1074,405)"
+       id="g160">
+      <g
+         clip-path="url(#clip19)"
+         transform="matrix(1.00308,0,0,1,0,-0.25)"
+         id="g158">
+        <use
+           width="100%"
+           height="100%"
+           xlink:href="#img16"
+           transform="scale(16033.7)"
+           id="use156"
+           x="0"
+           y="0" />
+      </g>
+    </g>
+    <path
+       d="m 564.5,363.5 c 0,-6.627 5.373,-12 12,-12 h 185 c 6.627,0 12,5.373 12,12 v 48 c 0,6.627 -5.373,12 -12,12 h -185 c -6.627,0 -12,-5.373 -12,-12 z"
+       stroke-miterlimit="8"
+       id="path162"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe6cc;fill-rule:evenodd;stroke:#ff972f;stroke-width:4.66666985;stroke-miterlimit:8;stroke-opacity:0.93333297" />
+    <path
+       d="m 565.5,512.5 c 0,-6.627 5.373,-12 12,-12 h 180 c 6.627,0 12,5.373 12,12 v 48 c 0,6.627 -5.373,12 -12,12 h -180 c -6.627,0 -12,-5.373 -12,-12 z"
+       stroke-miterlimit="8"
+       id="path164"
+       inkscape:connector-curvature="0"
+       style="fill:#ffe6cc;fill-rule:evenodd;stroke:#ff972f;stroke-width:4.66666985;stroke-miterlimit:8;stroke-opacity:0.93333297" />
+    <path
+       d="m 536,214 c 0,-7.732 6.716,-14 15,-14 8.284,0 15,6.268 15,14 0,7.732 -6.716,14 -15,14 -8.284,0 -15,-6.268 -15,-14 z"
+       stroke-miterlimit="8"
+       id="path166"
+       inkscape:connector-curvature="0"
+       style="fill:#326ce5;fill-rule:evenodd;stroke:#172c51;stroke-width:2;stroke-miterlimit:8" />
+    <path
+       d="m 549.5,387.5 c 0,-7.732 6.716,-14 15,-14 8.284,0 15,6.268 15,14 0,7.732 -6.716,14 -15,14 -8.284,0 -15,-6.268 -15,-14 z"
+       stroke-miterlimit="8"
+       id="path168"
+       inkscape:connector-curvature="0"
+       style="fill:#326ce5;fill-rule:evenodd;stroke:#172c51;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 550.5,536 c 0,-8.008 6.716,-14.5 15,-14.5 8.284,0 15,6.492 15,14.5 0,8.008 -6.716,14.5 -15,14.5 -8.284,0 -15,-6.492 -15,-14.5 z"
+       stroke-miterlimit="8"
+       id="path170"
+       inkscape:connector-curvature="0"
+       style="fill:#326ce5;fill-rule:evenodd;stroke:#172c51;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 578.5,292.5 c 0,-7.732 6.492,-14 14.5,-14 8.008,0 14.5,6.268 14.5,14 0,7.732 -6.492,14 -14.5,14 -8.008,0 -14.5,-6.268 -14.5,-14 z"
+       stroke-miterlimit="8"
+       id="path172"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 723.5,246.5 c 0,-7.732 6.492,-14 14.5,-14 8.008,0 14.5,6.268 14.5,14 0,7.732 -6.492,14 -14.5,14 -8.008,0 -14.5,-6.268 -14.5,-14 z"
+       stroke-miterlimit="8"
+       id="path174"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 959.5,284 c 0,-8.008 6.716,-14.5 15,-14.5 8.284,0 15,6.492 15,14.5 0,8.008 -6.716,14.5 -15,14.5 -8.284,0 -15,-6.492 -15,-14.5 z"
+       stroke-miterlimit="8"
+       id="path176"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 961.5,494.5 c 0,-7.732 6.492,-14 14.5,-14 8.008,0 14.5,6.268 14.5,14 0,7.732 -6.492,14 -14.5,14 -8.008,0 -14.5,-6.268 -14.5,-14 z"
+       stroke-miterlimit="8"
+       id="path178"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 1134.5,286 c 0,-8.008 6.72,-14.5 15,-14.5 8.28,0 15,6.492 15,14.5 0,8.008 -6.72,14.5 -15,14.5 -8.28,0 -15,-6.492 -15,-14.5 z"
+       stroke-miterlimit="8"
+       id="path180"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 1125.5,514.5 c 0,-7.732 6.72,-14 15,-14 8.28,0 15,6.268 15,14 0,7.732 -6.72,14 -15,14 -8.28,0 -15,-6.268 -15,-14 z"
+       stroke-miterlimit="8"
+       id="path182"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#b80000;stroke-width:2.66667008;stroke-miterlimit:8" />
+    <path
+       d="m 163.5,182 h 173.482 v 204.882 l -1.5,-1.5 h 200.924 v 3 H 333.982 V 183.5 l 1.5,1.5 H 163.5 Z m 371.406,197.382 15,7.5 -15,7.5 z"
+       id="path184"
+       inkscape:connector-curvature="0"
+       style="fill:#4472c4" />
+    <path
+       d="m 162.5,507 h 172.556 v 29.219 l -1.5,-1.5 h 204.04 v 3 H 332.056 V 508.5 l 1.5,1.5 H 162.5 Z m 373.596,21.719 15,7.5 -15,7.5 z"
+       id="path186"
+       inkscape:connector-curvature="0"
+       style="fill:#4472c4" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(455.939,209)"
+       id="text188"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Internet</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(453.025,231)"
+       id="text190"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(261.366,128)"
+       id="text192"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">HTTPS</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(271.613,150)"
+       id="text194"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">over</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(254.28,172)"
+       id="text196"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Interne</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(320.28,172)"
+       id="text198"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">t</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(611.456,219)"
+       id="text200"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Control plane</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(763.084,258)"
+       id="text202"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(755.004,280)"
+       id="text204"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(503.211,275)"
+       id="text206"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(495.131,297)"
+       id="text208"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <path
+       d="m 594,235.5 v 28.774 h -3 V 235.5 Z m 6,27.274 -7.5,15 -7.5,-15 z"
+       id="path210"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <path
+       d="M 1.5,-3.51519e-6 1.50007,31.3 h -3 L -1.5,3.51519e-6 Z M 7.50007,29.8 1.04987e-4,44.8 -7.49993,29.8 Z"
+       transform="matrix(1,0,0,-1,738.5,305.3)"
+       id="path212"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(587.67,334)"
+       id="text214"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Data plane Tenant A</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(586.408,486)"
+       id="text216"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Data plane Tenant B</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(601.518,383)"
+       id="text218"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Service instance</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(582.852,405)"
+       id="text220"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant A application</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(601.35,535)"
+       id="text222"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Service instance</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(582.85,557)"
+       id="text224"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant B application</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(471.939,414)"
+       id="text226"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Internet</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(469.025,436)"
+       id="text228"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(472.949,562)"
+       id="text230"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Internet</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(470.036,584)"
+       id="text232"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <path
+       d="m 0,-1.5 h 201.244 v 48.5544 h -3 V 0 l 1.5,1.5 H 0 Z m 207.244,47.0544 -7.5,15 -7.5,-15 z"
+       transform="matrix(1,0,0,-1,774.5,359.054)"
+       id="path234"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <path
+       d="m 0,-1.5 h 376.065 v 61.8667 h -3 V 0 l 1.5,1.5 H 0 Z m 382.065,60.3667 -7.5,15 -7.5,-15 z"
+       transform="matrix(1,0,0,-1,774.5,374.367)"
+       id="path236"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(918.195,220)"
+       id="text238"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">RDB service</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(933.276,242)"
+       id="text240"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">instance</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(931.442,264)"
+       id="text242"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant A</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(919.038,431)"
+       id="text244"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">RDB service</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(934.118,453)"
+       id="text246"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">instance</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(932.451,475)"
+       id="text248"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant B</text>
+    <path
+       d="m 0,-1.5 h 206.588 v 28.0316 h -3 V 0 l 1.5,1.5 H 0 Z m 212.588,26.5316 -7.5,15 -7.5,-15 z"
+       transform="matrix(1,0,0,-1,770.5,548.532)"
+       id="path250"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <path
+       d="m 0,-1.5 h 371.97 v 22.8212 h -3 V 0 l 1.5,1.5 H 0 Z m 377.97,21.3212 -7.5,15 -7.5,-15 z"
+       transform="matrix(1,0,0,-1,769.5,563.321)"
+       id="path252"
+       inkscape:connector-curvature="0"
+       style="fill:#ff0000" />
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(993.316,293)"
+       id="text254"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(985.236,315)"
+       id="text256"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(997.358,503)"
+       id="text258"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(989.278,525)"
+       id="text260"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(1161.91,527)"
+       id="text262"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(1153.83,549)"
+       id="text264"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(1172.01,297)"
+       id="text266"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Private</text>
+    <text
+       font-weight="400"
+       font-size="19"
+       transform="translate(1163.93,319)"
+       id="text268"
+       style="font-weight:400;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">endpoint</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1158.5,168)"
+       id="text270"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Documents</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1177.75,190)"
+       id="text272"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">bucket</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1168.75,212)"
+       id="text274"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant A</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1149.24,399)"
+       id="text276"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Documents</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1168.48,421)"
+       id="text278"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">bucket</text>
+    <text
+       font-weight="700"
+       font-size="19"
+       transform="translate(1159.65,443)"
+       id="text280"
+       style="font-weight:700;font-size:19px;font-family:'IBM Plex Sans', 'IBM Plex Sans_MSFontService', sans-serif">Tenant B</text>
+  </g>
+</svg>
