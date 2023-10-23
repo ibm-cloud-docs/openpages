@@ -81,4 +81,4 @@ toc:
        - include: ../openpages-cli-plugin/openpages_cli.md
        - link:
             label: IBM OpenPages REST API V2 for OpenPages as a Service
-            href: https://{ DomainName }/apidocs/openpages
+            href: https://{DomainName}/apidocs/openpages
