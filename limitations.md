@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-20"
+lastupdated: "2023-10-23"
 
 keywords: openpages features, limitations
 
@@ -15,6 +15,9 @@ content-type: learn
 
 # Product limitations
 {: #product_limitations}
+
+If you've used OpenPages on premises, OpenPages on Cloud Pak for Data, or OpenPages on Cloud, you'll notice some differences in
+{{site.data.keyword.openpages_full}}.
 
 The following is a list of features that are currently not supported in {{site.data.keyword.openpages_full}}.
 
