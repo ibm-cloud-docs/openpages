@@ -33,42 +33,42 @@ Most administration tasks are common between {{site.data.keyword.openpages_short
 ## Administration tasks
 {: #Administer_common}
 
-- Role-based security for users and groups
+- Role-based security for users and groups:
 
-    Access to objects and data in {{site.data.keyword.openpages_short}} is controlled through role-based security. A role defines access permissions, such as administrative rights, access to areas of the application, and so on. You configure roles and assign them to users and groups.
+     Access to objects and data in {{site.data.keyword.openpages_short}} is controlled through role-based security. A role defines access permissions, such as administrative rights, access to areas of the application, and so on. You configure roles and assign them to users and groups.
 
-    You can also use security rules, if needed, to further refine access.
+     You can also use security rules, if needed, to further refine access.
 
-    For more information, see [Security](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_granting_access_control_using_role_templates.html).
+     For more information, see [Security](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_granting_access_control_using_role_templates.html).
 
-- Setting up the application for users
+- Setting up the application for users:
 
-    Administrators set up {{site.data.keyword.openpages_short}} for users by creating views, workflows, calculations, dashboards, and more.
+     Administrators set up {{site.data.keyword.openpages_short}} for users by creating views, workflows, calculations, dashboards, and more.
 
-    For more information, see [Setting up the UI](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/t_adm_configuring_newui_overview.html).
+     For more information, see [Setting up the UI](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/t_adm_configuring_newui_overview.html).
 
-- Profiles
+- Profiles:
 
-    Profiles provide end users with a localized view of information that is directly related to their responsibilities. Each user has at least one profile. You can assign users to multiple profiles.
+     Profiles provide end users with a localized view of information that is directly related to their responsibilities. Each user has at least one profile. You can assign users to multiple profiles.
 
-    Use profiles to configure objects, fields, and views.
+     Use profiles to configure objects, fields, and views.
 
-    You can use profiles to restrict the object types that individual users can view. You can also define the fields in each object that are visible to them. If an object type is absent from a profile, that object type is hidden from users of that profile.
+     You can use profiles to restrict the object types that individual users can view. You can also define the fields in each object that are visible to them. If an object type is absent from a profile, that object type is hidden from users of that profile.
 
-    For more information, see [Profiles](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_managing_profiles.html).
+     For more information, see [Profiles](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_managing_profiles.html).
 
-- Migrate assets with ObjectManager
+- Migrate assets with ObjectManager:
 
-    Assets such as views, calculations, and workflows can be migrated by an administrator from a source environment to a target environment by using ObjectManager. ObjectManager is a command line utility.
+     Assets such as views, calculations, and workflows can be migrated by an administrator from a source environment to a target environment by using ObjectManager. ObjectManager is a command line utility.
 
-    With the ObjectManager tool, you can do the following tasks:
+     With the ObjectManager tool, you can do the following tasks:
 
-    - Import (load) data, such as objects and configuration data, into {{site.data.keyword.openpages_short}}.
-    - Export (dump) filtered or unfiltered data from {{site.data.keyword.openpages_short}}. You can use this functionality, for example, to migrate data from one instance to another.
-    - Batch-load multiple loader files in a single session.
+     - Import (load) data, such as objects and configuration data, into {{site.data.keyword.openpages_short}}.
+     - Export (dump) filtered or unfiltered data from {{site.data.keyword.openpages_short}}. You can use this functionality, for example, to migrate data from one instance to another.
+     - Batch-load multiple loader files in a single session.
 
-    For more information, see the following topics:
+     For more information, see the following topics:
 
-    - [Working with loader files](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_working_with_loader_files.html)
-    - [Running ObjectManager commands](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_running_objectmanager_commands.html)
-    - [Settings in the ObjectManager properties file](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/r_adm_objectmanager_file_properties.html)
+     - [Working with loader files](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_working_with_loader_files.html)
+     - [Running ObjectManager commands](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_running_objectmanager_commands.html)
+     - [Settings in the ObjectManager properties file](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/r_adm_objectmanager_file_properties.html)

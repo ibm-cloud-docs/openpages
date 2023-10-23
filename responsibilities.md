@@ -49,7 +49,7 @@ Identity and access management includes tasks such as authentication, authorizat
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
 | Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any user access that you create for your instances.\n This includes security rules, roles, users,and groups in IBM Cloud IAM and OpenPages application security.|
-{: caption="Table 3.Identity and access management" caption-side="bottom"}
+{: caption="Table 3. Identity and access management" caption-side="bottom"}
 
 ## Security and regulation compliance
 {: #security_comp}
@@ -59,7 +59,7 @@ Security and regulation compliance includes tasks such as security controls impl
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
 | General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.openpages_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.openpages_short}} instances.|
-{: caption="Table 4.Security and regulation compliance" caption-side="bottom"}
+{: caption="Table 4. Security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
 {: #security_comp}

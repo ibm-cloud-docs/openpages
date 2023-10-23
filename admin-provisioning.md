@@ -12,7 +12,7 @@ subcollection: openpages
 # Provisioning your {{site.data.keyword.openpages_short}} as a Service environment
 {: #provisioning_environment}
 
-Do the following steps to provision your {{site.data.keyword.openpages_short}} environment.
+Do the following steps to provision your {{site.data.keyword.openpages_short}} environment:
 {: shortdesc}
 
 1. Log in to [{{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/) by using your IBMid. 
