@@ -60,10 +60,16 @@ Review the following tables that outline what types of tasks each role allows fo
 {: #assign-access-console}
 {: ui}
 
+Before you assign access, consider federating identities with your {{site.data.keyword.cloud_notm}} account. This authentication option simplifies the process of adding users to your account, without requiring an IBMid with a separate password. 
+
+For more information, see [Which is the right federation option for you?](/docs-draft/account?topic=account-federation-option-for-you&interface=ui).
+
 There are two common ways to assign access in the console:
 
 * Access policies per user. You can manage access policies per user from the **Manage** > **Access (IAM)** > **Users** page in the console. For information about the steps to assign IAM access, see [Managing access to resources in the console](/docs/account?topic=account-assign-access-resources&interface=ui#access-resources-console).
 * Access groups. Access groups are used to streamline access management by assigning access to a group once, then you can add or remove users as needed from the group to control their access. You manage access groups and their access from the **Manage** > **Access (IAM)** > **Access groups** page in the console. For more information, see [Assigning access to a group in the console](/docs/account?topic=account-groups&interface=ui#access_ag).
+
+Users and groups are synchronized to {{site.data.keyword.openpages_short}}. Users are synchronized after they accept your invitation to join your account. Groups are synchronized when they are assigned access. For more information, see [User and group synchronization from {{site.data.keyword.Bluemix_notm}} to {{site.data.keyword.openpages_short}}](/docs/openpages?topic=openpages-iam-openpages-synchronization&interface=api).
 
 ## Assigning access to {{site.data.keyword.openpages_short}} in the CLI
 {: #assign-access-cli}

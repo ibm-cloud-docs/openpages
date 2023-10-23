@@ -36,8 +36,6 @@ toc:
            label: Managing access
            topics:
               - iam.md
-              - iam-adding-users.md
-              - iam-adding-groups.md
               - iam-synchronization.md
               - iam-assigning-access-openpages.md
        - topicgroup:
