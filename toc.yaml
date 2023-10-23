@@ -37,6 +37,7 @@ toc:
            topics:
               - iam.md
               - iam-synchronization.md
+              - iam_synch_users_groups.md
               - iam-assigning-access-openpages.md
        - topicgroup:
            label: Administering
@@ -79,5 +80,5 @@ toc:
        - responsibilities.md
        - include: ../openpages-cli-plugin/openpages_cli.md
        - link:
-            label: IBM OpenPages as a Service REST API V2 reference
-            href: ../../../apidocs/openpages
+            label: IBM OpenPages REST API V2 for OpenPages as a Service
+            href: https://{ DomainName }/apidocs/openpages
