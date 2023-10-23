@@ -13,8 +13,8 @@ content-type: learn
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Product limitations
-{: #product_limitations}
+# Product differences
+{: #product_differences}
 
 If you've used OpenPages on premises, OpenPages on Cloud Pak for Data, or OpenPages on Cloud, you'll notice some differences in
 {{site.data.keyword.openpages_full}}.

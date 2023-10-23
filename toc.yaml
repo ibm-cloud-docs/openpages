@@ -22,7 +22,7 @@ toc:
       - getting-started.md
       - topic: choosing-a-plan.md
         navtitle: Pricing
-      - limitations.md
+      - differences.md
       - topic: release-notes.md
         navtitle: Release notes
 
