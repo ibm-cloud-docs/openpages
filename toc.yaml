@@ -73,10 +73,13 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - ha.md
-      - bc-dr.md
-      - responsibilities.md
-      - include: ../openpages-cli-plugin/openpages_cli.md
-      - link:
+       - topicgroup:
+           label: High availability and disaster recovery
+           topics:
+            - ha.md
+            - bc-dr.md
+       - responsibilities.md
+       - include: ../openpages-cli-plugin/openpages_cli.md
+       - link:
             label: IBM OpenPages as a Service REST API V2 reference
             href: https://test.cloud.ibm.com/apidocs/openpages
