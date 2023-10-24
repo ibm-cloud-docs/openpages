@@ -51,4 +51,5 @@ The following table summarizes what is supported by each plan. The values in the
 | Number of permitted workflows    | 1 per object                  | 1 per object                  |
 | Number of permitted calculations | 2 per object                  | 10 per object                 |
 | Number of permitted operations   | 10 operations per calculation | 30 operations per calculation |
+| Custom objects                   | Not permitted                 |  Not permitted                |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
