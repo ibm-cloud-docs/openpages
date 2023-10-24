@@ -23,5 +23,7 @@ You can view the following metrics:
 - Database read IOPS
 - Database write IOPS
 
+To view the metrics for an instance, do the following steps:
+
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Usage**.
