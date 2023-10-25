@@ -12,7 +12,7 @@ subcollection: openpages
 {{site.data.keyword.attribute-definition-list}}
 
 # Getting started with {{site.data.keyword.openpages_short}}
-{: #getting-started}
+{: #getting-started-tutorial}
 
 In this getting started tutorial, we'll take you through what you need to do to set up your {{site.data.keyword.openpages_short}} service.
 {: shortdesc}
