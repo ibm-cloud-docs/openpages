@@ -14,7 +14,7 @@ subcollection: openpages
 <!--Do not change the anchor text for this topic. It's used by the link in the Catalog page for OpenPages.-->
 
 # Getting started with {{site.data.keyword.openpages_short}}
-{: #getting-startedtutorial}
+{: #gettingstartedtutorial}
 
 In this getting started tutorial, we'll take you through what you need to do to set up your {{site.data.keyword.openpages_short}} service.
 {: shortdesc}
