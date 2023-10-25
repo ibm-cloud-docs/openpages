@@ -1,15 +1,15 @@
 {
     "title": "OpenPages product docs",
-    "lastupdated": "2023-08-21",
-    "introduction": "This is a description of what the user will be able to access or find content-wise for your product.",
+    "lastupdated": "2023-10-25",
+    "introduction": "Use these links to get started with OpenPages.",
     "section_devtools": {
-      "api": "https://test.cloud.ibm.com/apidocs/openpages",
+      "api": "https://{DomainName}/apidocs/openpages",
       "cli": "/docs/openpages-cli-plugin"
     },
     "section_recommended": [
       {
         "title": "Getting started",
-        "description": "Create your first instance and log in to OpenPages.",
+        "description": "Get started with administering OpenPages.",
         "href": "/docs/openpages/getting-started.md"
       },
       {
