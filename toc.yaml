@@ -1,0 +1,84 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: openpages
+    service-name: openpages
+    category: analytics
+    audience: service
+    href: /docs/openpages
+    console-page: /catalog/services/openpages
+    product-page: https://www.ibm.com/products/openpages-with-watson
+    path: openpages
+    label: OpenPages
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - getting-started.md
+      - topic: choosing-a-plan.md
+        navtitle: Pricing
+      - differences.md
+      - topic: release-notes.md
+        navtitle: Release notes
+
+  - navgroup:
+      id: howto
+      topics:
+       - logging-in.md
+       - manage-instance.md
+
+       - topicgroup:
+           label: Managing access
+           topics:
+              - iam.md
+              - iam-synchronization.md
+              - iam_synch_users_groups.md
+              - iam-assigning-access-openpages.md
+       - topicgroup:
+           label: Administering
+           topics:
+              - administer.md
+              - admin-provisioning.md
+              - admin-updating-software.md
+              - admin-backup-restore.md
+              - admin-customize-hostname.md
+              - admin-add-remove-solutions.md
+              - admin-view-UI-utilization.md
+              - admin-change-plan.md
+              - admin-deprovisioning-instances.md
+       - topicgroup:
+           label: Enhancing security
+           topics:
+              - topic: architecture-workload-isolation.md
+                navtitle: Architecture and workload isolation
+              - data-security.md
+              - topic: service-endpoints.md
+                navtitle: Using service endpoints
+       - event-notifications-events.md
+       - topicgroup:
+           label: Logging and monitoring
+           topics:
+              - logging-in-openpages.md
+              - at-events.md
+  - navgroup:
+      id: help
+      topics:
+      - help.md
+  - navgroup:
+      id: reference
+      topics:
+       - topicgroup:
+           label: High availability and disaster recovery
+           topics:
+            - ha.md
+            - bc-dr.md
+       - responsibilities.md
+       - include: ../openpages-cli-plugin/openpages_cli.md
+       - link:
+            label: IBM OpenPages REST API V2 for OpenPages as a Service
+            href: https://{DomainName}/apidocs/openpages
