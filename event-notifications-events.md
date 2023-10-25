@@ -123,17 +123,6 @@ For a complete list of supported destinations, see the [{{site.data.keyword.en_s
 
 You can use the [{{site.data.keyword.cloud_notm}} email service](/docs/event-notifications?topic=event-notifications-en-destinations-email) as a delivery channel for {{site.data.keyword.openpages_short}} event notifications. [Create an {{site.data.keyword.en_short}} subscription](/docs/event-notifications?topic=event-notifications-en-create-en-subscription) between an existing topic and the {{site.data.keyword.cloud_notm}} email service to forward your alerts to various recipients by email.
 
-An email from {{site.data.keyword.cloud_notm}} that contains information about a {{site.data.keyword.openpages_short}} event resembles the following example:
-
-<!-- Replace this with an example from your service-->
-
-```plaintext
-Subject: IBM OpenPages - Run Test Plan calculation completed
-From: noreply <no-reply@ibmcloud.com>
-```
-![email body](images/event_email.png "Email body"){: caption="Figure 1. Sample email body" caption-side="bottom"}
-{: screen}
-
 To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
 {: tip}
 
