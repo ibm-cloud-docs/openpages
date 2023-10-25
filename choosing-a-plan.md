@@ -2,8 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-21"
-
+lastupdated: "2023-10-25
 keywords: choosing a plan, pricing plans
 
 subcollection: openpages
@@ -15,10 +14,21 @@ subcollection: openpages
 # How does {{site.data.keyword.openpages_short}} calculate pricing?
 {: #openpages-choose-plan}
 
-Pricing for {{site.data.keyword.openpages_short}} is based on the plan you choose. 
+Customers are charged for {{site.data.keyword.openpages_short}} on a monthly basis. The charge is based on the maximum amount of consumption over the course of the month. 
 {: shortdesc}
 
-For more information about {{site.data.keyword.openpages_short}} plan pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
+Solutions are charged at the account level. If the same solution is active in multiple environments, customers are only charged once for that solution.
+
+The following table shows some examples of monthly charges.
+
+| Scenario                                                                                                                                                                                       | Charge                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| A single instance is provisioned on day 1.<br>A second instance is provisioned on day 15.<br>The second instance is de-provisioned on day 25.                                                  | The charge for that month is for the two instances.             |
+| A customer has an instance being used as a production environment with ORM active.<br>The same customer also has a second instance being used as a non-production environment with ORM active. | The customer is only charged once for the use of that solution. |
+| A customer has an instance being used as a production environment with ORM active.<br>A customer has a second instance being used as a non-production environment with ORM and RCM active.     | The customer is charged for the two solutions: ORM and RCM.     |
+{: caption="Table 1. Examples of charges" caption-side="bottom"}
+
+For more information about {{site.data.keyword.openpages_short}} pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
 
 ## Plan types
 {: #plan-types}
