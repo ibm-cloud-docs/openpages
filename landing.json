@@ -3,7 +3,7 @@
     "lastupdated": "2023-10-25",
     "introduction": "Use these links to get started with OpenPages.",
     "section_devtools": {
-      "api": "https://{DomainName}/apidocs/openpages",
+      "api": "/apidocs/openpages",
       "cli": "/docs/openpages-cli-plugin"
     },
     "section_recommended": [
