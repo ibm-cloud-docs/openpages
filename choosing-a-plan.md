@@ -2,7 +2,8 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-25
+lastupdated: "2023-10-25"
+
 keywords: choosing a plan, pricing plans
 
 subcollection: openpages
@@ -23,9 +24,9 @@ The following table shows some examples of monthly charges.
 
 | Scenario                                                                                                                                                                                       | Charge                                                          |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| A customer provisions a single instance on day 1.<br>The customer provisions a second instance on day 15.<br>The customer deprovisions the second instance  on day 25.                                                  | The charge for that month is for the two instances.             |
-| A customer has an instance being used as a production environment with ORM active.<br>The customer also has a second instance being used as a non-production environment with ORM active. | The customer is only charged once for the use of that solution. |
-| A customer has an instance being used as a production environment with ORM active.<br>The  customer has a second instance being used as a non-production environment with ORM and RCM active.     | The customer is charged for the two solutions: ORM and RCM.     |
+| A customer provisions a single instance on day 1.\nThe customer provisions a second instance on day 15.\nThe customer deprovisions the second instance  on day 25.                                                  | The charge for that month is for the two instances.             |
+| A customer has an instance being used as a production environment with ORM active.\nThe customer also has a second instance being used as a non-production environment with ORM active. | The customer is only charged once for the use of that solution. |
+| A customer has an instance being used as a production environment with ORM active.\nThe  customer has a second instance being used as a non-production environment with ORM and RCM active.     | The customer is charged for the two solutions: ORM and RCM.     |
 {: caption="Table 1. Examples of charges" caption-side="bottom"}
 
 For more information about {{site.data.keyword.openpages_short}} pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
