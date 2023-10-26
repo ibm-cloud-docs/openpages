@@ -62,7 +62,7 @@ Security and regulation compliance includes tasks such as security controls impl
 {: caption="Table 4. Security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
-{: #security_comp}
+{: #security_dr}
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
