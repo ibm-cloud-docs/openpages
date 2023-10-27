@@ -132,7 +132,9 @@ User Management:
 {: caption="Table 3. Actions that generate user management events (UI)" caption-side="bottom"}
 
 <!-- `openpages.user-reporting-period.update`
-reporting-period.enable
+`openpages.user-reporting-period.enable`
+The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
+`openpages.user-reporting-period.disable`
 The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 -->
 
@@ -172,7 +174,7 @@ Currencies:
 | `openpages.currency.list`         | An event is generated when a currency is listed.                       |
 | `openpages.currency.update`       | An event is generated when a currency is updated.                      |
 | `openpages.currency.enable`       | An event is generated when a currency is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                     |
-| `openpages.currency.disable`      | An event is generated when a currency is disabled.                     |
+| `openpages.currency.disable`      | An event is generated when a currency is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                    |
 | `openpages.currency-history.list` | An event is generated when a currency update history is listed.        |
 | `openpages.currency.upload`       | An event is generated when currencies are updated by uploading a file. |
 {: caption="Table 6. Actions that generate currency events (UI)" caption-side="bottom"}
@@ -253,7 +255,7 @@ Role templates:
 | `openpages.role-template.get`                   | An event is generated when a role template is fetched.                                                       |
 | `openpages.role-template.list`                  | An event is generated when a role template list is fetched.                                                  |
 | `openpages.role-template.delete`                | An event is generated when a role template is deleted.                                                       |
-| `openpages.role-template.disable`               | An event is generated when a role template is disabled.                                                      |
+| `openpages.role-template.disable`               | An event is generated when a role template is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                                                     |
 | `openpages.role-template.enable`                | An event is generated when a role template is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                                                      |
 | `openpages.role-template.create`                | An event is generated when a role template is created.                                                       |
 | `openpages.role-template.lock`                  | An event is generated when a role template is locked.                                                        |
@@ -535,7 +537,7 @@ File attachments:
 | `openpages.file-resource.checkin`         | An event is generated when an attachment is checked in.         |
 | `openpages.file-resource.cancel-checkout` | An event is generated when an attachment checkout is canceled.  |
 | `openpages.file-type.create`              | An event is generated when an attachment file type is created.  |
-| `openpages.file-type.disable`             | An event is generated when an attachment file type is disabled. |
+| `openpages.file-type.disable`             | An event is generated when an attachment file type is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 | `openpages.file-type.enable`              | An event is generated when an attachment file type is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 {: caption="Table 28. Actions that generate file attachment events (UI)" caption-side="bottom"}
 
@@ -713,6 +715,7 @@ AI models:
 Cognos:
 
 - `openpages.cognos.enable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
+- `openpages.cognos.disable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 - `openpages.computed-field.execute`
 - `openpages.report-fragment.execute`
 - `openpages.reporting-schema.list`
