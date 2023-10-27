@@ -118,7 +118,7 @@ User Management:
 | `openpages.user.list`                   | An event is generated when user list is fetched.                      |
 | `openpages.user.create`                 | An event is generated when a user account is created.                 |
 | `openpages.user.update`                 | An event is generated when a user account is modified.                |
-| `openpages.user.enable`                 | An event is generated when a user account is enabled.                 |
+| `openpages.user.enable`                 | An event is generated when a user account is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                |
 | `openpages.user.disable`                | An event is generated when a user account is disabled.                |
 | `openpages.user.lock`                   | An event is generated when a user account is locked.                  |
 | `openpages.user.unlock`                 | An event is generated when a user account is unlocked.                |
@@ -131,7 +131,10 @@ User Management:
 | `openpages.user-association.update`     | An event is generated when user association to a group is replaced    |
 {: caption="Table 3. Actions that generate user management events (UI)" caption-side="bottom"}
 
-<!-- `openpages.user-reporting-period.update`-->
+<!-- `openpages.user-reporting-period.update`
+reporting-period.enable
+The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
+-->
 
 Group Management:
 
@@ -168,7 +171,7 @@ Currencies:
 | ------------------------------- | ---------------------------------------------------------------------- |
 | `openpages.currency.list`         | An event is generated when a currency is listed.                       |
 | `openpages.currency.update`       | An event is generated when a currency is updated.                      |
-| `openpages.currency.enable`       | An event is generated when a currency is enabled.                      |
+| `openpages.currency.enable`       | An event is generated when a currency is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                     |
 | `openpages.currency.disable`      | An event is generated when a currency is disabled.                     |
 | `openpages.currency-history.list` | An event is generated when a currency update history is listed.        |
 | `openpages.currency.upload`       | An event is generated when currencies are updated by uploading a file. |
@@ -250,7 +253,7 @@ Role templates:
 | `openpages.role-template.list`                  | An event is generated when a role template list is fetched.                                                  |
 | `openpages.role-template.delete`                | An event is generated when a role template is deleted.                                                       |
 | `openpages.role-template.disable`               | An event is generated when a role template is disabled.                                                      |
-| `openpages.role-template.enable`                | An event is generated when a role template is enabled.                                                       |
+| `openpages.role-template.enable`                | An event is generated when a role template is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                                                      |
 | `openpages.role-template.create`                | An event is generated when a role template is created.                                                       |
 | `openpages.role-template.lock`                  | An event is generated when a role template is locked.                                                        |
 | `openpages.role-template.unlock`                | An event is generated when a role template is unlocked.                                                     |
@@ -524,7 +527,7 @@ File attachments:
 | `openpages.file-resource.cancel-checkout` | An event is generated when an attachment checkout is canceled.  |
 | `openpages.file-type.create`              | An event is generated when an attachment file type is created.  |
 | `openpages.file-type.disable`             | An event is generated when an attachment file type is disabled. |
-| `openpages.file-type.enable`              | An event is generated when an attachment file type is enabled.  |
+| `openpages.file-type.enable`              | An event is generated when an attachment file type is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 {: caption="Table 28. Actions that generate file attachment events (UI)" caption-side="bottom"}
 
 
@@ -694,7 +697,7 @@ AI models:
 <!--
 Cognos:
 
-- `openpages.cognos.enable`
+- `openpages.cognos.enable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 - `openpages.computed-field.execute`
 - `openpages.report-fragment.execute`
 - `openpages.reporting-schema.list`
