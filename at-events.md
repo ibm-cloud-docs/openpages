@@ -60,6 +60,9 @@ The following lists describe {{site.data.keyword.openpages_short}} auditable eve
 <!--
 When we get descriptions, convert lists to tables:-->
 
+The `update` events do not fill `initialValue` and `newValue` under the `requestData.update` JSON field, unless noted in the event's description. The values are not included to avoid recording sensitive information.
+{: note}
+
 ## List of platform events
 {: #at_actions_platform}
 
@@ -176,7 +179,7 @@ Encryption keystore:
 | Action:                              | Description:                                             |
 | ------------------------------------ | -------------------------------------------------------- |
 | `openpages.encryption-keystore.get`    | An event is generated when a encryption key is retrived. |
-| `openpages.encryption-keystore.enable` | An event is generated when a encryption enabled.         |
+| `openpages.encryption-keystore.enable` | An event is generated when an encryption key is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.         |
 | `openpages.encryption-keystore.update` | An event is generated when a encryption key updated.     |
 {: caption="Table 7. Actions that generate encryption keystore events (UI)" caption-side="bottom"}
 
