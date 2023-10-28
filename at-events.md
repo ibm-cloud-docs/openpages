@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-27"
 
 keywords: audit events in openpages, audit activity in openpages
 
