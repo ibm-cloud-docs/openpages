@@ -18,7 +18,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: shortdesc}
 
 ## 2 November 2023
-{: #openpages-oct2523}
+{: #openpages-nov0223}
 {: release-note}
 
 Introducing {{site.data.keyword.openpages_short}}
