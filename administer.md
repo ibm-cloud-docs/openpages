@@ -69,6 +69,6 @@ Most administration tasks are common between {{site.data.keyword.openpages_short
 
      For more information, see the following topics:
 
-     - [ObjectManager CLI]("/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager)
+     - [ObjectManager CLI](/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager)
      - [Working with loader files](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_working_with_loader_files.html)
      - [Settings in the ObjectManager properties file](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/r_adm_objectmanager_file_properties.html)
