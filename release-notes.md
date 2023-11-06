@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-23"
+lastupdated: "2023-11-03"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -17,8 +17,8 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
-## 25 October 2023
-{: #openpages-nov0223}
+## 3 November 2023
+{: #openpages-nov0323}
 {: release-note}
 
 Introducing {{site.data.keyword.openpages_short}}
