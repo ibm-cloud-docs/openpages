@@ -52,5 +52,5 @@ The FastMap file is large and the import is taking longer than the time out for 
 To resolve the issue, use the following options:
 - Wait. The import process will complete in time. Refresh the UI to see the status of the import.
 - Make the changes in smaller increments by creating multiple, smaller FastMap files.
-- Load the changes by using ObjectManager instead of FastMap.
+- Load the changes by using ObjectManager instead of FastMap. For more information, see [ObjectManager CLI](/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager).
 {: tsResolve}
