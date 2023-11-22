@@ -25,7 +25,8 @@ The following is a list of features that are currently not supported in {{site.d
 - Integration with Cognos Analytics
 - Filtering on long string fields (full text search)
 - Custom code including custom workflow actions, custom triggers, custom helpers (JSPs), and custom jobs in the Scheduler
+- The ability to open and edit Microsoft Office files directly from {{site.data.keyword.openpages_short}}
 - Notification Manager
-- Loss Event Entries
+- Loss Event Entry
 - SDI Connectors
 - Connector for Thomson Reuters Regulatory Intelligence (TRRI)
