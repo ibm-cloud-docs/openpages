@@ -21,7 +21,7 @@ content-type: troubleshoot
 <!-- Remember that this is the individual topic template for each troubleshooting entry that belongs in a troubleshooting topic group in the Help left nav group. For more information, see the guidance page: https://test.cloud.ibm.com/docs/writing?topic=writing-troubleshooting-topics-->
 
 
-## How do I fix a FastMap time out error?
+# How do I fix a FastMap time out error?
 {: #troubleshoot-fastmap}
 {: troubleshoot}
 {: support} <!-- Only add this attribute to entries that you want to display in the support center. -->
