@@ -69,6 +69,7 @@ toc:
       id: help
       topics:
       - help.md
+      - troubleshooting_fastmap.md
   - navgroup:
       id: reference
       topics:
