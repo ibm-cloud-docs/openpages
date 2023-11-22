@@ -24,7 +24,10 @@ content-type: troubleshoot
 # How do I fix a FastMap time out error?
 {: #troubleshoot-fastmap}
 {: troubleshoot}
-{: support} <!-- Only add this attribute to entries that you want to display in the support center. -->
+
+<!-- {: support} -->
+
+<!-- Only add the supprt attribute to entries that you want to display in the support center. -->
 
 <!--The title of your H1 should be a problem statement in question format of the issue that the user is experiencing. Think about the user's language they might use to describe or search for the answer to the issue they are experiencing. Use keywords for other variations of ways to ask the question at the top of the file. -->
 
