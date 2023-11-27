@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2020
-lastupdated: "2023-11-22"
+lastupdated: "2023-11-27"
 
 keywords: question about Unexpected error, FastMap times out
 
@@ -46,13 +46,12 @@ You try to import a large FastMap file, but you get `Unexpected error`.
 * Set the `troubleshoot` content type attribute on a new line following each H1 ID.
 * Use the three attributes for the symptom, cause, and resolution.-->
 
-When you import a large FastMap file (.xlsx file), the import process times out after three minutes and you get the message: `Unexpected error`.
+When you select a large FastMap file to import (.xlsx file) and click **Validate**, you get the message: `Unexpected error` after three minutes.
 {: tsSymptoms}
 
-The FastMap file is large and the import is taking longer than the time out for FastMap.
+The FastMap file is large and the file validation process is taking longer than the time out for FastMap.
 {: tsCauses}
 
-- Wait. The import process will complete in time. Refresh the UI to see the status of the import.
 - Make the changes in smaller increments by creating multiple, smaller FastMap files.
 - Load the changes by using ObjectManager instead of FastMap. For more information, see [ObjectManager CLI](/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager).
 {: tsResolve}
