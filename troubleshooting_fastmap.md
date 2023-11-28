@@ -52,6 +52,6 @@ When you select a large FastMap file to import (.xlsx file) and click **Validate
 The FastMap file is large and the file validation process is taking longer than the time out for FastMap.
 {: tsCauses}
 
-- Make the changes in smaller increments by creating multiple, smaller FastMap files.
+- Make the changes in smaller increments by creating multiple, smaller FastMap files, or
 - Load the changes by using ObjectManager instead of FastMap. For more information, see [ObjectManager CLI](/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager).
 {: tsResolve}
