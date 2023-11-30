@@ -38,8 +38,7 @@ If you've already created objects, you can run the script but any existing objec
         cd <OP_HOME>\Module\loaderdata\AssessmentMethodUpdate 
         post_install_update_ORM_assessment_settings.bat <likelihood_count>
                                 <impact_count>
-                                <assessment_method_type>
-                                
+                                <assessment_method_type>                 
     ```
 
     The script parameters are as follows: 
