@@ -53,16 +53,12 @@ If you've already created objects, you can run the script but any existing objec
 
     **ObjectManager:**
 
-    Linux: 
+    Run the following command for Linux, Windows, and MacOS: 
     ```console 
         ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
     ```
-
-    Windows:
-    ```console
-        ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
-    ```
-    For more information, see [Load command example](https://www.ibm.com/docs/en/openpages/9.0.0?topic=commands-load-command-example).
+    
+    For more information, see [Load command example](https://www.ibm.com/docs/en/openpages/9.0.0?topic=commands-load-command-example). To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages?topic=openpages-openpages_CLI&interface=ui). 
 
     **Import Configuration:**
 
