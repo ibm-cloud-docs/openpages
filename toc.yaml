@@ -51,6 +51,7 @@ toc:
               - admin-view-UI-utilization.md
               - admin-change-plan.md
               - admin-deprovisioning-instances.md
+              - admin-changing-settings-orm.md
        - topicgroup:
            label: Enhancing security
            topics:
