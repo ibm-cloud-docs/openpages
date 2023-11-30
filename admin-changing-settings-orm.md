@@ -25,7 +25,7 @@ If you've already created objects, you can run the script but any existing objec
 2. Set java_home in `<OP_HOME>/Module/loaderdata/AssessmentMethodUpdate/post_install_update_ORM_assessment_settings.sh|.bat.`
 3. Run the following script:
 
-    **Linux:**
+    Linux:
     ```console
         cd <OP_HOME>/Module/loaderdata/AssessmentMethodUpdate 
         ./post_install_update_ORM_assessment_settings.sh <likelihood_count>
@@ -33,7 +33,7 @@ If you've already created objects, you can run the script but any existing objec
                                 <assessment_method_type>                     
     ```
 
-    **Windows:**
+    Windows:
     ```console
         cd <OP_HOME>\Module\loaderdata\AssessmentMethodUpdate 
         post_install_update_ORM_assessment_settings.bat <likelihood_count>
@@ -42,16 +42,17 @@ If you've already created objects, you can run the script but any existing objec
                                 
     ```
 
-    The parameters: 
+    The script parameters are as follows: 
     - `<likelihood_count>` is a value between 1 and 10.
     - `<impact_count>` is a value between 1 and 10.
     - `<assessment_method_type>` is qualitative or quantitative.
 
     The script modifies the following loader file with the settings that you passed to the script: `<OP_HOME>/Module/loaderdataORM/AssessmentMethodUpdate_PostInstall/ORM-assessment-settings-op-config.xml`
 
-4. Import the loader file into OpenPages. You can use ObjectManager or **Import Configuration**.
+4. Import the loader file into OpenPages. You can use **ObjectManager** or **Import Configuration**.
 
-    **ObjectManager**
+    **ObjectManager:**
+
     Linux: 
     ```console 
         ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
@@ -63,7 +64,8 @@ If you've already created objects, you can run the script but any existing objec
     ```
     For more information, see [Load command example](https://www.ibm.com/docs/en/openpages/9.0.0?topic=commands-load-command-example).
 
-    **Import Configuration**
+    **Import Configuration:**
+
     Click the **Administration menu** > **System Migration** > **Import Configuration**. Validate the `<OP_HOME>/Module/loaderdataORM/AssessmentMethodUpdate_PostInstall/ORM-assessment-settings-op-config.xml` file and then import it.
     For more information, see [Importing configuration items to the target environment](https://www.ibm.com/docs/en/openpages/9.0.0?topic=environments-importing-configuration-items-target-environment).
 
