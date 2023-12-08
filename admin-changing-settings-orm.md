@@ -28,12 +28,12 @@ If you've already created objects, you can run the script but any existing objec
 
     Linux:
     ```console
-        cd AssessmentMethodUpdate./post_install_update_ORM_assessment_settings.sh|.bat <likelihood_count><impact_count><assessment_method_type>                     
+        cd AssessmentMethodUpdate./post_install_update_ORM_assessment_settings.sh|.bat <likelihood_count> <impact_count> <assessment_method_type>                     
     ```
 
     Windows:
     ```console
-        cd AssessmentMethodUpdatepost_install_update_ORM_assessment_settings.bat <likelihood_count><impact_count><assessment_method_type>                 
+        cd AssessmentMethodUpdatepost_install_update_ORM_assessment_settings.bat <likelihood_count> <impact_count> <assessment_method_type>                 
     ```
 
     The script parameters are as follows: 
