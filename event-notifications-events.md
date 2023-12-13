@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-20"
+lastupdated: "2023-12-13"
 
 keywords: Enabling event notifications OpenPages, IBM Cloud,
 
@@ -41,8 +41,7 @@ The following table lists the {{site.data.keyword.openpages_short}} events. All 
 
 | Event type                                  | Description |
 |------------------------------------------|---------|
-| `openpages.instance.create`           | An event is generated when you provision a service instance. |
-| `openpages.instance.update`           | An event is generated when you rename a service instance or when you change the service plan. |
+| `com.ibm.cloud.openpages.event`           | An event is generated when you provision a service instance. |
 {: caption="Table 1. Actions that generate event notifications" caption-side="bottom"}
 
 ## Enabling notifications
@@ -131,6 +130,7 @@ To receive detailed information about an event notification in your email, selec
 
 You can configure a webhook destination so that an incoming notification can be consumed programmatically by an app or service. For more information about setting up webhooks, check out the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destinations-webhook).
 
+<!--
 ## Notification payload details
 {: #event-notifications-payload}
 
@@ -140,6 +140,7 @@ Event notifications from {{site.data.keyword.openpages_short}} contain only meta
 {: note}
 
 <!-- The following example is from Secrets Manager. Work with your service team to ensure that you have all of the correct details for your example event that you've chosen -->
+<!--
 
 The properties that are sent to {{site.data.keyword.en_short}} vary depending on the event type. For example, if an `<ExampleEventForYourService` event takes place, {{site.data.keyword.openpages_short}} sends a notification payload to {{site.data.keyword.en_short}} that is similar to the following example.
 
@@ -179,7 +180,7 @@ The properties that are sent to {{site.data.keyword.en_short}} vary depending on
 
 Review the following table for more information about event notification properties.
 
-<!-- The following table is an example. Work with your team to ensure that you have the correct properties listed -->
+<!-- The following table is an example. Work with your team to ensure that you have the correct properties listed
 
 | Property | Description |
 | ---- | ---- |
@@ -190,3 +191,5 @@ Review the following table for more information about event notification propert
 | `source_instance_dashboard_url` | The URL to your _service-name_ service dashboard in the UI. |
 | `source_service` | The display name of the service that sent the event notification. |
 {: caption="Table 2. Properties in an event notification payload" caption-side="bottom"}
+
+-->
