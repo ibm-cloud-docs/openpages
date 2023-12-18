@@ -55,7 +55,7 @@ If you've already created objects, you can run the script but any existing objec
     ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
     ```
 
-   To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages/openpages_cli.md).
+   To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages?topic=openpages-openpages_CLI).
 
     **Import Configuration:**
 
