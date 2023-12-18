@@ -112,24 +112,30 @@ A successful response returns the CRN value of your connected {{site.data.keywor
 ## Delivering notifications to select destinations
 {: #event-notifications-destinations}
 
-After you enable notifications for {{site.data.keyword.openpages_short}}, create topics and subscriptions in {{site.data.keyword.en_short}} so that alerts can be forwarded and delivered to your selected destinations.
+After you enable notifications for {{site.data.keyword.openpages_short}}, create topics and subscriptions in {{site.data.keyword.en_short}} so that alerts can be forwarded and delivered.
 
+{{site.data.keyword.openpages_short}} notifications are in HTML format and are intended for the email delivery channel.
+
+<!--
 For a complete list of supported destinations, see the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destination).
 {: tip}
+-->
 
 ### Email notifications
 {: #event-notifications-email}
 
 You can use the [{{site.data.keyword.cloud_notm}} email service](/docs/event-notifications?topic=event-notifications-en-destinations-email) as a delivery channel for {{site.data.keyword.openpages_short}} event notifications. [Create an {{site.data.keyword.en_short}} subscription](/docs/event-notifications?topic=event-notifications-en-create-en-subscription) between an existing topic and the {{site.data.keyword.cloud_notm}} email service to forward your alerts to various recipients by email.
-
+<!--
 To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
 {: tip}
+-->
 
+<!--
 ### Webhooks
 {: #event-notifications-webhook}
 
 You can configure a webhook destination so that an incoming notification can be consumed programmatically by an app or service. For more information about setting up webhooks, check out the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destinations-webhook).
-
+-->
 <!--
 ## Notification payload details
 {: #event-notifications-payload}
