@@ -21,7 +21,7 @@ You can change these settings later by running a script. The script updates a lo
 
 If you've already created objects, you can run the script but any existing objects are not updated. You might need to do some manual remediation. The script is designed for fresh installations of ORM.{: note}
 
-1. Download the [ORMAssessmentMethodUpdate.zip](https://github.ibm.com/OpenPages/backlog/files/1248551/ORMAssessmentMethodUpdate.zip) package from Fix Central.
+1. Download the **ORMAssessmentMethodUpdate.zip** package from Fix Central.
 2. Create a new directory called ORM.
 3. Extract the zip file into the ORM directory.
 4. Set `java_home` in `AssessmentMethodUpdate/post_install_update_ORM_assessment_settings.sh|.bat`
