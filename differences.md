@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-10-23"
+lastupdated: "2023-11-16"
 
 keywords: openpages features, limitations
 
@@ -23,8 +23,10 @@ The following is a list of features that are currently not supported in {{site.d
 
 - Global Search
 - Integration with Cognos Analytics
+- Filtering on long string fields (full text search)
 - Custom code including custom workflow actions, custom triggers, custom helpers (JSPs), and custom jobs in the Scheduler
+- The ability to open and edit Microsoft Office files directly from {{site.data.keyword.openpages_short}}
 - Notification Manager
-- Loss Event Entries
+- Loss Event Entry
 - SDI Connectors
 - Connector for Thomson Reuters Regulatory Intelligence (TRRI)

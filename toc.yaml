@@ -51,6 +51,7 @@ toc:
               - admin-view-UI-utilization.md
               - admin-change-plan.md
               - admin-deprovisioning-instances.md
+              - admin-changing-settings-orm.md
        - topicgroup:
            label: Enhancing security
            topics:
@@ -69,6 +70,7 @@ toc:
       id: help
       topics:
       - help.md
+      - troubleshooting_fastmap.md
   - navgroup:
       id: reference
       topics:
