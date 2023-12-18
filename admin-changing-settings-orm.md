@@ -29,14 +29,14 @@ If you've already created objects, you can run the script but any existing objec
 
     Linux:
     ```console
-        cd AssessmentMethodUpdate
-        ./post_install_update_ORM_assessment_settings.sh <likelihood_count> <impact_count> <assessment_method_type>
+    cd AssessmentMethodUpdate
+    ./post_install_update_ORM_assessment_settings.sh <likelihood_count> <impact_count> <assessment_method_type>
     ```
 
     Windows:
     ```console
-        cd AssessmentMethodUpdate
-        post_install_update_ORM_assessment_settings.bat <likelihood_count> <impact_count> <assessment_method_type>
+    cd AssessmentMethodUpdate
+    post_install_update_ORM_assessment_settings.bat <likelihood_count> <impact_count> <assessment_method_type>
     ```
 
     The script parameters are as follows:
@@ -52,7 +52,7 @@ If you've already created objects, you can run the script but any existing objec
 
     Run the following command for Linux, Windows, and MacOS:
     ```console
-        ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
+    ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
     ```
 
    To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages/openpages_cli.md).
