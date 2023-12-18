@@ -21,48 +21,47 @@ You can change these settings later by running a script. The script updates a lo
 
 If you've already created objects, you can run the script but any existing objects are not updated. You might need to do some manual remediation. The script is designed for fresh installations of ORM.{: note}
 
-1. Download the [ORMAssessmentMethodUpdate.zip](https://github.ibm.com/OpenPages/backlog/files/1248551/ORMAssessmentMethodUpdate.zip) package from Fix Central. 
-2. Then extract the zip file in the directory of the script.
-3. Set `java_home` in `AssessmentMethodUpdate/post_install_update_ORM_assessment_settings.sh|.bat`
-4. Run the following script:
+1. Download the [ORMAssessmentMethodUpdate.zip](https://github.ibm.com/OpenPages/backlog/files/1248551/ORMAssessmentMethodUpdate.zip) package from Fix Central.
+2. Create a new directory called ORM.
+3. Extract the zip file into the ORM directory.
+4. Set `java_home` in `AssessmentMethodUpdate/post_install_update_ORM_assessment_settings.sh|.bat`
+5. Run the following command:
 
     Linux:
     ```console
-        cd AssessmentMethodUpdate./post_install_update_ORM_assessment_settings.sh|.bat <likelihood_count> <impact_count> <assessment_method_type>                     
+        cd AssessmentMethodUpdate./post_install_update_ORM_assessment_settings.sh <likelihood_count> <impact_count> <assessment_method_type>
     ```
 
     Windows:
     ```console
-        cd AssessmentMethodUpdatepost_install_update_ORM_assessment_settings.bat <likelihood_count> <impact_count> <assessment_method_type>                 
+        cd AssessmentMethodUpdatepost_install_update_ORM_assessment_settings.bat <likelihood_count> <impact_count> <assessment_method_type>
     ```
 
-    The script parameters are as follows: 
+    The script parameters are as follows:
     - `<likelihood_count>` is a value between 1 and 10.
     - `<impact_count>` is a value between 1 and 10.
-    - `<assessment_method_type>` is qualitative or quantitative.
+    - `<assessment_method_type>` is `qualitative` or `quantitative`.
 
     The script modifies the following loader file with the settings that you passed to the script: `AssessmentMethodUpdate_PostInstall/ORM-assessment-settings-op-config.xml`
 
-5. Import the loader file into OpenPages. You can use **ObjectManager** or **Import Configuration**.
+6. Import the loader file into {{site.data.keyword.openpages_short}}. You can use **ObjectManager** or **Import Configuration**.
 
     **ObjectManager:**
 
-    Run the following command for Linux, Windows, and MacOS: 
-    ```console 
+    Run the following command for Linux, Windows, and MacOS:
+    ```console
         ibmcloud openpages objectmanager load ORM/AssessmentMethodUpdate_PostInstall ORM-assessment-settings
     ```
-    
-   To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages?topic=openpages-openpages_CLI&interface=ui). 
+
+   To learn more about the `ibmcloud CLI plugin`, see [{{site.data.keyword.openpages_short}} CLI (ibmcloud openpages)](/docs/openpages?topic=openpages-openpages_CLI&interface=ui).
 
     **Import Configuration:**
 
-    Click the **Administration menu** > **System Migration** > **Import Configuration**. Validate the `AssessmentMethodUpdate_PostInstall/ORM-assessment-settings-op-config.xml` file and then import it.
+    Click **Administration menu** > **System Migration** > **Import Configuration**. Validate the `AssessmentMethodUpdate_PostInstall/ORM-assessment-settings-op-config.xml` file and then import it.
     For more information, see [Importing configuration items to the target environment](https://www.ibm.com/docs/en/openpages/9.0.0?topic=environments-importing-configuration-items-target-environment).
 
-6. Verify the following changes:
-   - Log in to OpenPages.
-   - Click the **Administration menu** > **Solution Configuration** > **Calculations**.
+6. Verify the changes:
+   - Log in to {{site.data.keyword.openpages_short}}.
+   - Click **Administration menu** > **Solution Configuration** > **Calculations**.
    - Verify that the calculation for the assessment type that you chose is enabled.
     For example, if you changed the assessment type to Qualitative, verify that **Qualitative Risk Rating** is enabled and **Quantitative Risk Rating** is disabled.
-
-
