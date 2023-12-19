@@ -18,7 +18,7 @@ content-type: reference
 Learn about the management responsibilities and terms and conditions that you have when you use {{site.data.keyword.openpages_full}}. For a high-level view of the service types in {{site.data.keyword.cloud_notm}} and the breakdown of responsibilities between the customer and {{site.data.keyword.IBM_notm}} for each type, see [Shared responsibilities for {{site.data.keyword.cloud_notm}} offerings](/docs/overview?topic=overview-shared-responsibilities).
 {: shortdesc}
 
-Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use {{site.data.keyword.openpages_full_notm}}. For the overall terms of use, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview/terms-of-use?topic=overview-terms).
+Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use {{site.data.keyword.openpages_full_notm}}. For the overall terms of use, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
 
 ## Incident and operations management
@@ -29,7 +29,7 @@ Review the following sections for the specific responsibilities for you and for 
 |-------------------|-------------------------------------------------|-----------------------|
 | Incident and operations management   | Maintain {{site.data.keyword.openpages_full_notm}} service instances and infrastructure workloads. | Maintain incident and operations management of your data. |
 | Monitor incidents    | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set preferences to [receive emails about platform notifications](/docs/overview?topic=overview-ui#email-prefsl).  \n Monitor the [IBM Cloud status page](https://{DomainName}/status?selected=announcement) for general announcements. |
-| Maintain {{site.data.keyword.cloud_notm}} high availability SLA    | Provide Cloud Service across hosts.  \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Plan for and create new instances of the service. For more information, see[Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment).|
+| Maintain {{site.data.keyword.cloud_notm}} high availability SLA    | Provide Cloud Service across hosts.  \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Plan for and create new instances of the service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs-draft/openpages?topic=openpages-provisioning_environment).|
 | Monitor logs    | [Logging for IBM OpenPages](/docs/openpages?topic=openpages-service-logs) publish relevant log data to their subscribing clients. {{site.data.keyword.openpages_full_notm}} provides clients with the ability to receive the logs once the client configures their instance. | [Logging in IBM OpenPages](/docs/openpages?topic=openpages-service-logs) |
 {: caption="Table 1. Responsibilities for incident and operations" caption-side="top"}
 
