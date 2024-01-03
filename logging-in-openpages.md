@@ -18,7 +18,7 @@ subcollection: openpages
 Use the {{site.data.keyword.la_full}} service to view {{site.data.keyword.openpages_full}} logs for your instance.
 {: shortdesc}
 
-With {{site.data.keyword.la_full_notm}}, administrators, DevOps teams, and developers can review log data, define alerts, and design custom views to monitor application and system logs. For more information, see the [{{site.data.keyword.la_short}} docs](/docs/log-analysis?topic=log-analysis-getting-started).
+With {{site.data.keyword.la_full_notm}}, administrators, DevOps teams, and developers can review log data, define alerts, and design custom views to monitor application and system logs. For more information, see the [{{site.data.keyword.la_short}} docs](/docs/log-analysis?&interface=ui&topic=log-analysis-getting-started).
 
 ## Before you begin
 {: #before-logs}
@@ -50,7 +50,7 @@ To view {{site.data.keyword.openpages_short}} logs, complete the following steps
 
 You can create views and alerts from all of your {{site.data.keyword.openpages_short}} instances, or from a specific instance.
 
-To find all errors from a specific instance, run a query with `host:op-{INSTANCE_GUID}` filter. 
+To find all errors from a specific instance, run a query with `host:op-{INSTANCE_GUID}` filter.
 
 For example: `host:op-d1319025-5308-4168-b2d8-75bdc9e69af3`
 
