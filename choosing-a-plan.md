@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-25"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: choosing a plan, pricing plans
 
