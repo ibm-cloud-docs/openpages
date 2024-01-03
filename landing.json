@@ -1,26 +1,26 @@
 {
     "title": "OpenPages product docs",
-    "lastupdated": "2023-10-25",
+    "lastupdated": "2023-12-19",
     "introduction": "Use these links to get started with OpenPages.",
     "section_devtools": {
       "api": "/apidocs/openpages",
-      "cli": "/docs/openpages-cli-plugin"
+      "cli": "/docs/openpages?topic=openpages-openpages_CLI"
     },
     "section_recommended": [
       {
         "title": "Getting started",
         "description": "Get started with administering OpenPages.",
-        "href": "/docs/openpages/getting-started.md"
+        "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
       {
         "title": "Administering OpenPages",
         "description": "Manage your OpenPages instances.",
-        "href": "/docs/openpages/adminiser.md"
+        "href": "/docs/openpages?topic=openpages-Administer_op"
       },
       {
         "title": "Release notes",
         "description": "What's new and changed in OpenPages.",
-        "href": "/docs/openpages/release-notes.md"
+        "href": "/docs/openpages?topic=openpages-openpages-relnotes"
       }
     ],
     "section_learn": {

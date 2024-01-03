@@ -27,12 +27,12 @@ Create a group with the following settings:
 - Service: {{site.data.keyword.openpages_short}}
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} User, Viewer, Editor, or Operator
-   
-### Outcome in {{site.data.keyword.openpages_short}} 
+
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome1}
 
 If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}.
-   
+
 The group name is always prefixed by "Cloud IAM – " and is a subgroup under the "Workflow, Reporting and Others" group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
 
 ## Creating a administrator group
@@ -46,7 +46,7 @@ Create a group with the following settings:
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: Administrator
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome2}
 
 If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}. The group name is always prefixed by "Cloud IAM - " and is a subgroup under "Workflow, Reporting and Others" group.
@@ -66,7 +66,7 @@ Create a user with the following settings:
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} User, Viewer, Editor, or Operator
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome3}
 
 In {{site.data.keyword.openpages_short}}, the user is not a member of any groups by default.
@@ -94,7 +94,7 @@ Create a user with the following settings:
 - Resources: An {{site.data.keyword.openpages_short}} service
 - Roles and actions: {{site.data.keyword.openpages_short}} Administrator
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome4}
 
 In {{site.data.keyword.openpages_short}}, the user is a member of the "OPAdministrators" group by default.
@@ -122,7 +122,7 @@ Users are added to the OPAdministrators group and they are assigned the SaaS Adm
 
 Change the name of an existing group.
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome5}
 
 A new group is created in {{site.data.keyword.openpages_short}} with the new name in the "Workflow, Reporting and Others" group. Users are disassociated from the old group and associated with new group.
@@ -137,7 +137,7 @@ The status of the old group is set to **Inactive**.
 
 Change the description of an existing group.
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome6}
 
 The description of the group is updated in {{site.data.keyword.openpages_short}} to
@@ -164,7 +164,7 @@ The group associations in {{site.data.keyword.openpages_short}} change to match 
 
 Delete a group with user members.
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome8}
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved from the "Workflow, Reporting and Others" group to be a subgroup of the "Standalone Users and Group" group.
@@ -183,7 +183,7 @@ If a user associated with the deleted group is not associated with other groups 
 
 Delete a user.
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome9}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
@@ -196,7 +196,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 
 Remove all {{site.data.keyword.openpages_short}} roles from a user.
 
-### Outcome in {{site.data.keyword.openpages_short}} 
+### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome10}
 
 The status of the corresponding user in {{site.data.keyword.openpages_short}} is set to **Inactive**.
@@ -218,7 +218,7 @@ The status of the corresponding user in {{site.data.keyword.openpages_short}} is
 {: #change12}
 
 ### Action in {{site.data.keyword.Bluemix_notm}}
-{: #action11}
+{: #action12}
 
 Add a group that had been deleted.
 

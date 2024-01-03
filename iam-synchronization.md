@@ -22,7 +22,7 @@ A cron job synchronizes the users and groups from {{site.data.keyword.cloud}} to
 
 When a user logs in to {{site.data.keyword.openpages_short}} for the first time, the user is added to the user and group registry in {{site.data.keyword.openpages_short}}. They do not need to wait for the synchronization job to run.
 
-All the groups that are created in {{site.data.keyword.Bluemix_notm}} are created in {{site.data.keyword.openpages_short}} with the prefix "Cloud IAM -" added to the name of the group.
+All the groups that are created in {{site.data.keyword.Bluemix_notm}} are created in {{site.data.keyword.openpages_short}} with the prefix `Cloud IAM -` added to the name of the group.
 
 Users are assigned the profiles that are associated with their group. Administrators can associate groups to one or more profiles in {{site.data.keyword.openpages_short}}. If a user has no enabled profiles available, the fallback profile is used. The fallback profile allows a user who is either not associated with any profile, or whose profile is disabled or deleted, to log in to {{site.data.keyword.openpages_short}}.
 
@@ -55,7 +55,5 @@ properties in {{site.data.keyword.openpages_short}}, your changes are overwritte
 
 - Description
 
-If you add users to a group in {{site.data.keyword.openpages_short}}, and the group has a name that begins with "Cloud
-IAM – ", the synchronization job will remove those users from the group so that the list of users
+If you add users to a group in {{site.data.keyword.openpages_short}}, and the group has a name that begins with `Cloud IAM –`, the synchronization job will remove those users from the group so that the list of users
 in the group matches the list of users for the group in {{site.data.keyword.Bluemix_notm}}.
-
