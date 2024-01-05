@@ -23,7 +23,7 @@ With {{site.data.keyword.la_full_notm}}, administrators, DevOps teams, and devel
 ## Before you begin
 {: #before-logs}
 
-If you're working with {{site.data.keyword.la_short}} for the first time, be sure that you create an instance in the same location as your {{site.data.keyword.openpages_short}} instance. For more information, see [Configuring platform logs through the Observability dashboard](/docs/log-analysis?topic=log-analysis-config_svc_logs#config_svc_logs_ui).
+If you're working with {{site.data.keyword.la_short}} for the first time, be sure that you create an instance in the same location as your {{site.data.keyword.openpages_short}} instance. For more information, see [Configuring platform logs through the Observability dashboard](/docs/log-analysis?topic=log-analysis-config_svc_logs&interface=ui#config_svc_logs_ui).
 
 ## Viewing logs
 {: #view-logs-ui}
