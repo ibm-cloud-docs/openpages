@@ -415,10 +415,10 @@ Objects:
 | `openpages.resource.create`            | An event is generated when an object instance is created.                     |
 | `openpages.file-resource.create`       | An event is generated when an attachment is created.                          |
 | `openpages.resource.delete`            | An event is generated when an object instance is deleted.                     |
-| `openpages.resource.lock`              | An event is generated when an object instance is locked.                      |
-| `openpages.resource.unlock`            | An event is generated when an object instance is unlocked.                    |
+| `openpages.resource-lock.set-on`       | An event is generated when an object instance is locked.                      |
+| `openpages.resource-lock.set-off`      | An event is generated when an object instance is unlocked.                    |
 | `openpages.resource.search`            | An event is generated when global search query is issued.                     |
-| `openpages.resource.move`              | An event is generated when an object instance is moved.                       |
+| `openpages.resource-move.commit`       | An event is generated when an object instance is moved.                       |
 | `openpages.resource.list`              | An event is generated when object instance list is fetched.                   |
 | `openpages.resource.export`            | An event is generated when object instance list is exported.                  |
 {: caption="Table 20. Actions that generate object events (UI)" caption-side="bottom"}
@@ -442,7 +442,7 @@ Object type associations:
 | `openpages.resource.add`                     | An event is generated when an object instance relationship is added.           |
 | `openpages.resource.remove-all`              | An event is generated when all the object instance relationships are removed.  |
 | `openpages.resource.remove`                  | An event is generated when an object instance relationship is removed.         |
-| `openpages.resource.copy`                    | An event is generated when an object instances are copied recursively.         |
+| `openpages.resource-copy.commit`             | An event is generated when an object instances are copied recursively.         |
 | `openpages.resource-primary-parent.reassign` | An event is generated when an object primary parent is reassigned.             |
 | `openpages.object-relationship.enable`       | An event is generated when an object type relationship is enabled or disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 | `openpages.object-relationship.update`       | An event is generated when an object type relationship is updated.             |
@@ -710,7 +710,7 @@ Cognos:
 - `openpages.cognos.enable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 - `openpages.cognos.disable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 - `openpages.computed-field.execute`
-- `openpages.report-fragment.execute`
+- `openpages.report-fragment.evaluate`
 - `openpages.reporting-schema.list`
 - `openpages.reporting-schema.create`
 - `openpages.reporting-schema.recreate`
@@ -802,12 +802,12 @@ Wolters Kluwer:
 | `openpages.app-permission.get`                  | An event is generated when an application permission is fetched.                         |
 | `openpages.app-permission.list`                 | An event is generated when application permissions are listed.                           |
 | `openpages.base-currency.get`                   | An event is generated when base currency is fetched.                                     |
-| `openpages.configuration.decrypt`               | An event is generated when sensitive data decrypt operation is started.                  |
-| `openpages.configuration.encrypt`               | An event is generated when sensitive data encrypt operation is started.                  |
+| `openpages.configuration-encryption.set-off`    | An event is generated when sensitive data decrypt operation is started.                  |
+| `openpages.configuration-encryption.set-on`     | An event is generated when sensitive data encrypt operation is started.                  |
 | `openpages.currency.get`                        | An event is generated when a currency is fetched.                                        |
 | `openpages.currency.list`                       | An event is generated when currencies are listed.                                        |
 | `openpages.currency.update`                     | An event is generated when a currency is updated.                                        |
-| `openpages.exchange-rate.bulk-update`           | An event is generated when exchange rates are updated in bulk.                           |
+| `openpages.exchange-rate.list.update`           | An event is generated when exchange rates are updated in bulk.                                           |
 | `openpages.exchange-rate.list`                  | An event is generated when exchange rates are listed.                                    |
 | `openpages.exchange-rate.update`                | An event is generated when an exchange rate is updated.                                  |
 | `openpages.file-resource.get`                   | An event is generated when an attachment is fetched.                                     |
@@ -829,38 +829,38 @@ Wolters Kluwer:
 | `openpages.group-role-assignment.add`           | An event is generated when a role is assigned to a group.                                |
 | `openpages.group-role-assignment.delete`        | An event is generated when a role is removed from a group.                               |
 | `openpages.group-role-assignment.list`          | An event is generated when role assignments for a group is listed.                       |
-| `openpages.object-manager.fetch-dump`           | An event is generated when ObjectManager dump is fetched.                                |
-| `openpages.object-manager.get-load-log`         | An event is generated when ObjectManager load logs are fetched.                          |
-| `openpages.object-manager.get-validate-log`     | An event is generated when ObjectManager validate logs are fetched.                      |
-| `openpages.object-manager.submit-dump`          | An event is generated when ObjectManager dump is started.                                |
-| `openpages.object-manager.submit-load`          | An event is generated when ObjectManager load is started.                                |
-| `openpages.object-manager.submit-validate`      | An event is generated when ObjectManager validate is started.                            |
-| `openpages.object-manager.upload-load-data`     | An event is generated when ObjectManager load data is uploaded.                          |
-| `openpages.object-manager.upload-validate-data` | An event is generated when ObjectManager validate data is uploaded.                      |
+| `openpages.object-manager-dump.get`             | An event is generated when ObjectManager dump is fetched.                                |
+| `openpages.object-manager-load-log.get`         | An event is generated when ObjectManager load logs are fetched.                          |
+| `openpages.object-manager-validate-log.get`     | An event is generated when ObjectManager validate logs are fetched.                      |
+| `openpages. object-manager-dump.start`          | An event is generated when ObjectManager dump is started.                                |
+| `openpages.object-manager-load.start`           | An event is generated when ObjectManager load is started.                                |
+| `openpages.object-manager-validate.start`       | An event is generated when ObjectManager validate is started.                            |
+| `openpages.object-manager-load.push`            | An event is generated when ObjectManager load data is uploaded.                          |
+| `openpages.object-manager-validate.push`        | An event is generated when ObjectManager validate data is uploaded.                      |
 | `openpages.object-type.get`                     | An event is generated when an object type is fetched.                                    |
 | `openpages.object-type.list`                    | An event is generated when object types are listed.                                      |
 | `openpages.object-type-association.get`         | An event is generated when an object type association is fetched.                        |
 | `openpages.object-type-association.list`        | An event is generated when object type associtions are listed.                           |
 | `openpages.process.get`                         | An event is generated when a long running process is fetched.                            |
 | `openpages.process.list`                        | An event is generated when long running processes are listed.                            |
-| `openpages.process.terminate`                   | An event is generated when a long running process is terminated.                         |
+| `openpages.process.stop`                        | An event is generated when a long running process is terminated.                         |
 |`openpages.process-log.list`                    | An event is generated when long running process logs are fetched.                        |
 | `openpages.process-type.list`                   | An event is generated when long running process types are listed.                        |
 | `openpages.profile.get`                         | An event is generated when an object profile is fetched.                                 |
 | `openpages.profile.list`                        | An event is generated when object profiles are listed.                                   |
 | `openpages.profile-object-field.list`           | An event is generated when object profile fields are listed.                             |
-| `openpages.query.execute`                       | An event is generated when query API is executed.                                        |
+| `openpages.query.evaluate`                       | An event is generated when query API is executed.                                        |
 | `openpages.questionnaire.get`                   | An event is generated when a questionnaire is fetched.                                   |
 | `openpages.resource.add`                        | An event is generated when an object instance is created.                                |
 | `openpages.resource.associate`                  | An event is generated when object instance is associated to parent or child.             |
-| `openpages.resource.copy`                       | An event is generated when an object instance is copied recursively.                     |
+| `openpages.resource-copy.commit`                | An event is generated when an object instance is copied recursively.                     |
 | `openpages.resource.delete`                     | An event is generated when an object instance is deleted.                                |
 | `openpages.resource.get`                        | An event is generated when an object instance is fetched.                                |
 | `openpages.resource.list`                       | An event is generated when object instances are listed.                                  |
-| `openpages.resource.lock`                       | An event is generated when an object instance is locked.                                 |
-| `openpages.resource.move`                       | An event is generated when an object instance is moved recursively.                      |
-| `openpages.resource.unlock`                     | An event is generated when an object instance is unlocked.                               |
-| `openpages.resource.unlock-descendants`         | An event is generated when an object instance is unlocked recursively.                   |
+| `openpages.resource-lock.set-on`                | An event is generated when an object instance is locked.                                 |
+| `openpages.resource-move.commit`                | An event is generated when an object instance is moved recursively.                      |
+| `openpages.resource-lock.set-off`               | An event is generated when an object instance is unlocked.                               |
+| `openpages.resource-lock.set-off`               | An event is generated when an object instance is unlocked recursively.                   |
 | `openpages.resource.update`                     | An event is generated when an object instance is updated.                                |
 | `openpages.resource-activity.list`              | An event is generated when an object instance activities are listed.                     |
 | `openpages.resource-association.delete`         | An event is generated when an object instance is disassociated from a parent or a child. |
@@ -902,9 +902,9 @@ Wolters Kluwer:
 {: caption="Table 46. Actions that generate API events (UI)" caption-side="bottom"}
 
  <!---
-`openpages.cognos.integrate
+`openpages.cognos-integration.configure
 `openpages.current-reporting-period.get`
-`openpages.report-fragment.execute`
+`openpages.report-fragment.evaluate`
 `openpages.reporting-period.get`
 `openpages.reporting-period.list``-->
 
