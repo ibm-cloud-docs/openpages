@@ -805,7 +805,7 @@ Wolters Kluwer:
 | `openpages.currency.get`                        | An event is generated when a currency is fetched.                                        |
 | `openpages.currency.list`                       | An event is generated when currencies are listed.                                        |
 | `openpages.currency.update`                     | An event is generated when a currency is updated.                                        |
-| `openpages.exchange-rate.list.update`           | An event is generated when exchange rates are updated in bulk.                                           |
+| `openpages.exchange-rate-list.update`           | An event is generated when exchange rates are updated in bulk.                                           |
 | `openpages.exchange-rate.list`                  | An event is generated when exchange rates are listed.                                    |
 | `openpages.exchange-rate.update`                | An event is generated when an exchange rate is updated.                                  |
 | `openpages.file-resource.get`                   | An event is generated when an attachment is fetched.                                     |
