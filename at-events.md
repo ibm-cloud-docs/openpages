@@ -120,8 +120,8 @@ User Management:
 | `openpages.user.update`                 | An event is generated when a user account is modified.                |
 | `openpages.user.enable`                 | An event is generated when a user account is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                |
 | `openpages.user.disable`                | An event is generated when a user account is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                |
-| `openpages.user.lock`                   | An event is generated when a user account is locked.                  |
-| `openpages.user.unlock`                 | An event is generated when a user account is unlocked.                |
+| `openpages.user-lock.set-on`                   | An event is generated when a user account is locked.                  |
+| `openpages.user-lock.set-off`                 | An event is generated when a user account is unlocked.                |
 | `openpages.user-locale.update`          | An event is generated when a user switches locales in IBM OpenPages.  |
 | `openpages.user-current-profile.update` | An event is generated when a user switches profiles in IBM OpenPages. |
 | `openpages.user-password.update`        | An event is generated when user password is modified                  |
@@ -147,7 +147,7 @@ Group Management:
 | `openpages.group.update`                          | An event is generated when a group is updated.                                                     |
 | `openpages.group.get`                             | An event is generated when a group is fetched.                                                     |
 | `openpages.group-administrator-permission.revoke` | An event is generated when a admistrative permissions are revoked from a group.                    |
-| `openpages.group-administrator-permission.assign` | An event is generated when a admistrative permissions are granted to a group.                      |
+| `openpages.group-administrator-permission.allow`  | An event is generated when a admistrative permissions are granted to a group.                      |
 | `openpages.group-administrator-permission.update` | An event is generated when the admistrative permissions that are assigned to a group are modified. |
 | `openpages.group-membership.add`                  | An event is generated when users are added to a group.                                             |
 | `openpages.group-membership.remove`               | An event is generated when users are removed from a group.                                         |
@@ -160,8 +160,8 @@ Group Management:
 
 Audit trail:
 
-| Action:                          | Description:                                                             |
-| -------------------------------- | ------------------------------------------------------------------------ |
+| Action:                            | Description:                                                             |
+| ---------------------------------- | ------------------------------------------------------------------------ |
 | `openpages.resource-activity.list` | An event is generated when the Activity tab of a view list is displayed. |
 | `openpages.resource-activity.get`  | An event is generated when the Activity tab of a view is displayed.      |
 {: caption="Table 5. Actions that generate audit trail events (UI)" caption-side="bottom"}
@@ -169,20 +169,20 @@ Audit trail:
 
 Currencies:
 
-| Action:                         | Description:                                                           |
-| ------------------------------- | ---------------------------------------------------------------------- |
-| `openpages.currency.list`         | An event is generated when a currency is listed.                       |
-| `openpages.currency.update`       | An event is generated when a currency is updated.                      |
-| `openpages.currency.enable`       | An event is generated when a currency is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                     |
-| `openpages.currency.disable`      | An event is generated when a currency is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                    |
-| `openpages.currency-history.list` | An event is generated when a currency update history is listed.        |
-| `openpages.currency.upload`       | An event is generated when currencies are updated by uploading a file. |
+| Action:                           | Description:                                                             |
+| --------------------------------- | ----------------------------------------------------------------------   |
+| `openpages.currency.list`         | An event is generated when a currency is listed.                         |
+| `openpages.currency.update`       | An event is generated when a currency is updated.                        |
+| `openpages.currency.enable`       | An event is generated when a currency is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.  |
+| `openpages.currency.disable`      | An event is generated when a currency is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.   |
+| `openpages.currency-history.list` | An event is generated when a currency update history is listed.          |
+| `openpages.currency.import`       | An event is generated when currencies are updated by uploading a file.   |
 {: caption="Table 6. Actions that generate currency events (UI)" caption-side="bottom"}
 
 Encryption keystore:
 
-| Action:                              | Description:                                             |
-| ------------------------------------ | -------------------------------------------------------- |
+| Action:                                | Description:                                             |
+| -------------------------------------- | -------------------------------------------------------- |
 | `openpages.encryption-keystore.get`    | An event is generated when a encryption key is retrived. |
 | `openpages.encryption-keystore.enable` | An event is generated when an encryption key is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.         |
 | `openpages.encryption-keystore.update` | An event is generated when a encryption key updated.     |
@@ -191,21 +191,21 @@ Encryption keystore:
 
 Environment migration:
 
-| Action:                                 | Description:                                                                          |
-| --------------------------------------- | ------------------------------------------------------------------------------------- |
-| `openpages.configuration.list-import`     | An event is generated when configuration import history is listed in the UI.          |
-| `openpages.configuration.submit-import`   | An event is generated when an import is started by using the Import Configuration UI. |
-| `openpages.configuration.validate-import` | An event is generated when an import file is validated.                               |
-| `openpages.configuration.list-export`     | An event is generated when configuration export history is listed in the UI.          |
+| Action:                                   | Description:                                                                          |
+| ----------------------------------------- | ------------------------------------------------------------------------------------- |
+| `openpages.configuration-import.list`     | An event is generated when configuration import history is listed in the UI.          |
+| `openpages.configuration-import.start`    | An event is generated when an import is started by using the Import Configuration UI. |
+| `openpages.configuration-import-validation.start` | An event is generated when an import file is validated.                       |
+| `openpages.configuration-export.list`     | An event is generated when configuration export history is listed in the UI.          |
 | `openpages.configuration.get`             | An event is generated when a configuration export/import item is fetched.             |
-| `openpages.configuration.submit-export`   | An event is generated when an export is started by using the Export Configuration UI. |
+| `openpages.configuration-export.start`    | An event is generated when an export is started by using the Export Configuration UI. |
 {: caption="Table 8. Actions that generate environment migration events (UI)" caption-side="bottom"}
 
 
 Localization \(object text and application text\):
 
-| Action:                             | Description:                                                                    |
-| ----------------------------------- | ------------------------------------------------------------------------------- |
+| Action:                               | Description:                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
 | `openpages.object-text.list`          | An event is generated when an object text string list is fetched.               |
 | `openpages.object-text.update`        | An event is generated when an object text string is updated.                    |
 | `openpages.application-text.update`   | An event is generated when an application text string is updated.               |
@@ -217,22 +217,21 @@ Localization \(object text and application text\):
 
 Logs, processes, trace logs:
 
-| Action:                              | Description:                                                                                                       |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| `openpages.log-collector.launch`       | An event is generated when Log Collector is launched from the **Other > Logs** UI.                                      |
-| `openpages.log-collector.download-log` | An event is generated when logs that were generated by the Log Collector are downloaded.                           |
+| Action:                               | Description:                                                                       |
+| ------------------------------------- | ---------------------------------------------------------------------------------- |
+| `openpages.log-collector.launch`      | An event is generated when Log Collector is launched from the **Other > Logs** UI. |
+| `openpages.log-collector-logs.get`    | An event is generated when logs that were generated by the Log Collector are downloaded.  |
 | `openpages.process-log.list`           | An event is generated when background process logs are fetched.                                                    |
-| `openpages.log-collector.delete-log`   | An event is generated when a Log Collector log file is deleted from the **Other > Logs** UI.                            |
-| `openpages.trace-options.list`         | An event is generated when trace oprions are listed in the UI                                                      |
+| `openpages.log-collector-logs.delete`   | An event is generated when a Log Collector log file is deleted from the **Other > Logs** UI.  |
+| `openpages.trace-options.list`         | An event is generated when trace oprions are listed in the UI                     |
 | `openpages.trace-options.update`       | An event is generated when the trace logging settings are updated in the **Other > Logs > System tracing options** UI. |
-| `openpages.process.get`                | An event is generated when a background process is fetched.                                                        |
-| `openpages.process.list`               | An event is generated when a background process list is fetched.                                                   |
+| `openpages.process.get`                | An event is generated when a background process is fetched.                       |
+| `openpages.process.list`               | An event is generated when a background process list is fetched.                  |
 {: caption="Table 10. Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
-
 
 <!--
 - `openpages.cognos-reporting-framework.list`
-- `openpages.cognos-reporting-framework.generate`-->
+- `openpages.cognos-reporting-framework-generation.start`-->
 
 <!--
 Reporting periods:
@@ -242,23 +241,23 @@ Reporting periods:
 - `openpages.reporting-period.create`
 - `openpages.reporting-period.get`
 - `openpages.reporting-period.update`
-- `openpages.reporting-period.finalize`
+- `openpages.reporting-period.commit`
 - `openpages.reporting-period.enable`-->
 
 Role templates:
 
-| Action:                                       | Description:                                                                                                 |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `openpages.role.assign`                         | An event is generated when a role template is assigned to a user or group.                                   |
-| `openpages.role.revoke`                         | An event is generated when a role template is removed from a user or group.                                  |
-| `openpages.role-template.get`                   | An event is generated when a role template is fetched.                                                       |
-| `openpages.role-template.list`                  | An event is generated when a role template list is fetched.                                                  |
-| `openpages.role-template.delete`                | An event is generated when a role template is deleted.                                                       |
-| `openpages.role-template.enable`                | An event is generated when a role template is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                                                      |
-| `openpages.role-template.disable`               | An event is generated when a role template is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.                                                     |
+| Action:                               | Description:                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
+| `openpages.role.assign`               | An event is generated when a role template is assigned to a user or group.      |
+| `openpages.role.revoke`               | An event is generated when a role template is removed from a user or group.     |
+| `openpages.role-template.get`         | An event is generated when a role template is fetched.                          |
+| `openpages.role-template.list`        | An event is generated when a role template list is fetched.                     |
+| `openpages.role-template.delete`      | An event is generated when a role template is deleted.                          |
+| `openpages.role-template.enable`      | An event is generated when a role template is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.  |
+| `openpages.role-template.disable`               | An event is generated when a role template is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.   |
 | `openpages.role-template.create`                | An event is generated when a role template is created.                                                       |
-| `openpages.role-template.lock`                  | An event is generated when a role template is locked.                                                        |
-| `openpages.role-template.unlock`                | An event is generated when a role template is unlocked.                                                     |
+| `openpages.role-template-lock.set-on`           | An event is generated when a role template is locked.                                                        |
+| `openpages.role-template-lock.set-off`          | An event is generated when a role template is unlocked.                                                     |
 | `openpages.role-template.update`                | An event is generated when the properties of a role template, such as its Name and Description, are updated. |
 | `openpages.role-template-access.add`            | An event is generated when an object type is added to a role template.                                       |
 | `openpages.role-template-access.update`         | An event is generated when the access controls for object type are changed for a role template.              |
@@ -273,12 +272,12 @@ Security rules:
 | --------------------------------------------- | ---------------------------------------------------------------------------- |
 | `openpages.security-rule.list`                  | An event is generated when a security rules across object types are fetched. |
 | `openpages.security-rule.get`                   | An event is generated when a security rules for an object type is fetched.   |
-| `openpages.record-level-security-rule.validate` | An event is generated when a record level security rule is validated.        |
+| `openpages. record-level-security-rule-validation.evaluate` | An event is generated when a record level security rule is validated.        |
 | `openpages.record-level-security-rule.create`   | An event is generated when a record level security rule is created.          |
 | `openpages.record-level-security-rule.update`   | An event is generated when a record level security rule is modified.         |
 | `openpages.record-level-security-rule.enable`   | An event is generated when a record level security rule is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.         |
 | `openpages.record-level-security-rule.delete`   | An event is generated when a record level security rule is deleted.          |
-| `openpages.field-level-security-rule.validate`  | An event is generated when a field level security rule is validated          |
+| `openpages.field-level-security-rule-validation.evaluate`  | An event is generated when a field level security rule is validated          |
 | `openpages.field-level-security-rule.create`    | An event is generated when a field level security rule is created.           |
 | `openpages.field-level-security-rule.update`    | An event is generated when a field level security rule is modified.          |
 | `openpages.field-level-security-rule.enable`    | An event is generated when a field level security rule is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.          |
@@ -315,10 +314,10 @@ System files:
 | -------------------------------------------- | ------------------------------------------------------------------------- |
 | `openpages.page-and-template.list`             | An event is generated when pages and templates list is fetched.           |
 | `openpages.system-file-resource.list`          | An event is generated when system file resource list is fetched.          |
-| `openpages.system-file-resource.copy`          | An event is generated when system file resource is copied.                |
-| `openpages.system-file-resource.move`          | An event is generated when system file resource is moved.                 |
+| `openpages.system-file-resource-copy.commit`   | An event is generated when system file resource is copied.                |
+| `openpages.system-file-resource-move.commit`   | An event is generated when system file resource is moved.                 |
 | `openpages.system-file-resource.delete`        | An event is generated when system file resource is deleted.               |
-| `openpages.system-file-resource.rename`        | An event is generated when system file resource is renamed.               |
+| `openpages.system-file-resource-rename.commit` | An event is generated when system file resource is renamed.               |
 | `openpages.system-file-resource.get`           | An event is generated when system file resource is fetched.               |
 | `openpages.system-file-resource.create`        | An event is generated when system file resource is added.                 |
 | `openpages.system-file-resource.update`        | An event is generated when system file resource is modified.              |
@@ -410,14 +409,14 @@ Objects:
 | `openpages.resource.get`               | An event is generated when an object instance is fetched to a task view.      |
 | `openpages.file-resource-version.list` | An event is generated when an attachment versions are fetched to a task view. |
 | `openpages.resource.update`            | An event is generated when an object instance is modified.                    |
-| `openpages.resource.bulk-update`       | An event is generated when object instances are updated by a bulk operation.  |
+| `openpages.resource-list.update`       | An event is generated when object instances are updated by a bulk operation.  |
 | `openpages.file-resource.update`       | An event is generated when an attachment is modified.                         |
 | `openpages.resource.create`            | An event is generated when an object instance is created.                     |
 | `openpages.file-resource.create`       | An event is generated when an attachment is created.                          |
 | `openpages.resource.delete`            | An event is generated when an object instance is deleted.                     |
 | `openpages.resource-lock.set-on`       | An event is generated when an object instance is locked.                      |
 | `openpages.resource-lock.set-off`      | An event is generated when an object instance is unlocked.                    |
-| `openpages.resource.search`            | An event is generated when global search query is issued.                     |
+| `openpages.resource-search.submit`     | An event is generated when global search query is issued.                     |
 | `openpages.resource-move.commit`       | An event is generated when an object instance is moved.                       |
 | `openpages.resource.list`              | An event is generated when object instance list is fetched.                   |
 | `openpages.resource.export`            | An event is generated when object instance list is exported.                  |
@@ -485,8 +484,8 @@ Calculations:
 | `openpages.calculation.get`           | An event is generated when a calculation is fetched.                  |
 | `openpages.calculation.create`        | An event is generated when a calculation is created.                  |
 | `openpages.calculation.update`        | An event is generated when a calculation is updated.                  |
-| `openpages.calculation.publish`       | An event is generated when a calculation is published.                |
-| `openpages.calculation.discard-draft` | An event is generated when a draft calculation is discarded.          |
+| `openpages.calculation-draft.publish` | An event is generated when a calculation is published.                |
+| `openpages.calculation-draft.clear`   | An event is generated when a draft calculation is discarded.          |
 | `openpages.calculation.delete`        | An event is generated when a calculation is deleted.                  |
 | `openpages.calculation.enable`        | An event is generated when a calculation is enabled or disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.     |
 | `openpages.bulk-calculation.start`    | An event is generated when a calculation is run for object instances. |
@@ -501,11 +500,11 @@ Dashboards:
 | `openpages.admin-dashboard.create`        | An event is generated when an administrative dashboard is created.             |
 | `openpages.admin-dashboard.get`           | An event is generated when an administrative dashboard is fetched.             |
 | `openpages.admin-dashboard.update`        | An event is generated when an administrative dashboard is updated.             |
-| `openpages.admin-dashboard.publish`       | An event is generated when an administrative dashboard is published.           |
-| `openpages.admin-dashboard.discard-draft` | An event is generated when an administrative dashboard draft is discarded.     |
+| `openpages.admin-dashboard-draft.publish`       | An event is generated when an administrative dashboard is published.           |
+| `openpages.admin-dashboard-draft.clear` | An event is generated when an administrative dashboard draft is discarded.     |
 | `openpages.admin-dashboard.delete`        | An event is generated when an administrative dashboard is deleted.             |
 | `openpages.admin-dashboard.enable`        | An event is generated when an administrative dashboard is enabled or disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
-| `openpages.user-dashboard.load`           | An event is generated when a user dashboard is loaded.                         |
+| `openpages.user-dashboard.get`           | An event is generated when a user dashboard is loaded.                         |
 | `openpages.user-dashboard.update`         | An event is generated when a user dashboard is updated.                        |
 {: caption="Table 26. Actions that generate dashboard events (UI)" caption-side="bottom"}
 
@@ -514,7 +513,7 @@ FastMap:
 
 | Action:                    | Description:                                                       |
 | -------------------------- | ------------------------------------------------------------------ |
-| `openpages.fastmap.validate` | An event is generated when an import file is validated by FastMap. |
+| `openpages.fastmap-validation.start` | An event is generated when an import file is validated by FastMap. |
 | `openpages.fastmap.import`   | An event is generated when a FastMap import is started.            |
 {: caption="Table 27. Actions that generate FastMap events (UI)" caption-side="bottom"}
 
@@ -523,17 +522,17 @@ File attachments:
 
 | Action:                                 | Description:                                                    |
 | --------------------------------------- | --------------------------------------------------------------- |
-| `openpages.file-resource.download`        | An event is generated when an attachment is downloaded.         |
-| `openpages.file-resource.checkout`        | An event is generated when an attachment is checked out.        |
-| `openpages.file-resource.checkin`         | An event is generated when an attachment is checked in.         |
-| `openpages.file-resource.cancel-checkout` | An event is generated when an attachment checkout is canceled.  |
+| `openpages.file-resource.get`             | An event is generated when an attachment is downloaded.         |
+| `openpages.file-resource-checkout.set-on` | An event is generated when an attachment is checked out.        |
+| `openpages.file-resource-checkout.commit` | An event is generated when an attachment is checked in.         |
+| `openpages.file-resource-checkout.clear`  | An event is generated when an attachment checkout is canceled.  |
 | `openpages.file-type.create`              | An event is generated when an attachment file type is created.  |
 | `openpages.file-type.disable`             | An event is generated when an attachment file type is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 | `openpages.file-type.enable`              | An event is generated when an attachment file type is enabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field. |
 {: caption="Table 28. Actions that generate file attachment events (UI)" caption-side="bottom"}
 
 
-<!-- - `openpages.file-type.enable-search`-->
+<!--`openpages.file-type-search.enable`-->
 <!--
 Global search:
 {: #global-search}
@@ -633,18 +632,18 @@ Workflows:
 | `openpages.workflow.get`                      | An event is generated when a workflow definition is fetched.                |
 | `openpages.workflow.create`                   | An event is generated when a workflow definition is created.                |
 | `openpages.workflow.update`                   | An event is generated when a workflow definition is updated.                |
-| `openpages.workflow.publish`                  | An event is generated when a workflow definition is published.              |
+| `openpages.workflow-draft.publish`            | An event is generated when a workflow definition is published.              |
 | `openpages.workflow.delete`                   | An event is generated when a workflow definition is deleted.                |
 | `openpages.workflow.enable`                   | An event is generated when a workflow definition is enabled or disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.   |
 | `openpages.workflow.list`                     | An event is generated when a workflow definitions are listed.               |
-| `openpages.workflow.discard-draft`            | An event is generated when a draft of workflow definition is discarded.     |
-| `openpages.workflow-resorce.synchronize`      | An event is generated when a workflow is synchronized.                      |
+| `openpages.workflow-draft.clear`              | An event is generated when a draft of workflow definition is discarded.     |
+| `openpages.workflow-resource-synchronization.evaluate` | An event is generated when a workflow is synchronized.                      |
 | `openpages.workflow-resource.list`            | An event is generated when workflows are listed.                            |
 | `openpages.workflow-resource.terminate`       | An event is generated when workflows are terminated.                        |
-| `openpages.workflow-resource.validate-action` | An event is generated when a workflow action is validated.                  |
-| `openpages.workflow-resource.bulk-start`      | An event is generated when workflows are started for a workflow definition. |
-| `openpages.resource-workflow-action.bulk-run` | An event is generated when workflow action is processed in bulk             |
-| `openpages.resource-workflow-action.run`      | An event is generated when a workflow action is processed.                  |
+| `openpages.workflow-resource-action-validation.evaluate` | An event is generated when a workflow action is validated.                  |
+| `openpages.workflow-resource-list.start`      | An event is generated when workflows are started for a workflow definition. |
+| `openpages.workflow-resource-list-action.start` | An event is generated when workflow action is processed in bulk             |
+| `openpages.resource-workflow-action.start`    | An event is generated when a workflow action is processed.                  |
 | `openpages.resource-workflow.start`           | An event is generated when a workflow is started.                           |
 {: caption="Table 36. Actions that generate workflow events (UI)" caption-side="bottom"}
 
@@ -656,10 +655,10 @@ Views:
 | `openpages.view.get`           | An event is generated when a view is fetched.                   |
 | `openpages.view.create`        | An event is generated when a view is created.                   |
 | `openpages.view.update`        | An event is generated when a view is modified.                  |
-| `openpages.view.validate`      | An event is generated when a view is validated.                 |
-| `openpages.view.publish`       | An event is generated when a view is published.                 |
+| `openpages.view-validation.evaluate`      | An event is generated when a view is validated.                 |
+| `openpages.view-draft.publish` | An event is generated when a view is published.                 |
 | `openpages.view.delete`        | An event is generated when a view is deleted.                   |
-| `openpages.view.discard-draft` | An event is generated when the changes to a view are discarded. |
+| `openpages.view-draft.clear`   | An event is generated when the changes to a view are discarded. |
 | `openpages.view.enable`        | An event is generated when a view is enabled or disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.      |
 | `openpages.admin-view.create`  | An event is generated when an admin view is created.            |
 {: caption="Table 37. Actions that generate view events (UI)" caption-side="bottom"}
@@ -685,7 +684,7 @@ Loss Event Entry app:
 Loss Event Entry configuration:
 
 - `openpages.lossevent-config.update`
-- `openpages.lossevent-config.validate`
+- `openpages. lossevent-config-validation.evaluate`
 - `openpages.questionnaire-program.launch`-->
 
 ## Integration-related events
@@ -700,8 +699,8 @@ AI models:
 | `openpages.ai-model-configuration.create`   | An event is generated when an AI model configuration is created.   |
 | `openpages.ai-model-configuration.update`   | An event is generated when an AI model configuration is updated.   |
 | `openpages.ai-model-configuration.delete`   | An event is generated when an AI model configuration is deleted.   |
-| `openpages.ai-model-configuration.validate` | An event is generated when an AI model configuration is validated. |
-| `openpages.ai-model.suggest-insight`        | An event is generated when an AI model suggests an insight.        |
+| `openpages.ai-model-configuration-validation.evaluate` | An event is generated when an AI model configuration is validated. |
+| `openpages.ai-model-suggestion.evaluate`    | An event is generated when an AI model suggests an insight.        |
 {: caption="Table 38. Actions that generate AI model events (UI)" caption-side="bottom"}
 
 <!--
@@ -709,16 +708,15 @@ Cognos:
 
 - `openpages.cognos.enable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
 - `openpages.cognos.disable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
-- `openpages.computed-field.execute`
+- `openpages.computed-field.evaluate`
 - `openpages.report-fragment.evaluate`
 - `openpages.reporting-schema.list`
 - `openpages.reporting-schema.create`
-- `openpages.reporting-schema.recreate`
 - `openpages.reporting-schema.enable`
 - `openpages.reporting-schema.disable`
-- `openpages.reporting-schema.drop`
+- `openpages.reporting-schema.delete`
 - `openpages.reporting-schema.update`
-- `openpages.report.execute`
+- `openpages.report.evaluate`
 - `openpages.report.publish`-->
 
 Classifiers:
@@ -728,7 +726,7 @@ Classifiers:
 | `openpages.watson-classifier.create`   | An event is generated when a watson classifier is created.   |
 | `openpages.watson-classifier.update`   | An event is generated when a watson classifier is updated.   |
 | `openpages.watson-classifier.delete`   | An event is generated when a watson classifier is deleted.   |
-| `openpages.watson-classifier.validate` | An event is generated when a watson classifier is validated. |
+| `openpages.atson-classifier-validation.evaluate` | An event is generated when a watson classifier is validated. |
 {: caption="Table 39. Actions that generate watson classifier events (UI)" caption-side="bottom"}
 
 Microsoft Office:
@@ -736,7 +734,7 @@ Microsoft Office:
 | Action:                          | Description:                                                                 |
 | -------------------------------- | ---------------------------------------------------------------------------- |
 | `openpages.msoffice-resource.edit` | An event is generated when microsoft office file editing session is started. |
-| `openpages.msoffice-resource.save` | An event is generated when microsoft office file is saved.                   |
+| `openpages.msoffice-resource.commit` | An event is generated when microsoft office file is saved.                   |
 {: caption="Table 40. Actions that generate Microsoft Office events (UI)" caption-side="bottom"}
 
 watsonx Assistant:
@@ -744,7 +742,7 @@ watsonx Assistant:
 | Action:                              | Description:                                                              |
 | ------------------------------------ | ------------------------------------------------------------------------- |
 | `openpages.watson-assistant.get`       | An event is generated when a watson assistant configuration is fetched.   |
-| `openpages.watson-assistant.validate`  | An event is generated when a watson assistant configuration is validated. |
+| `openpages.watson-assistant-validation.evaluate`  | An event is generated when a watson assistant configuration is validated. |
 | `openpages.watson-assistant.configure` | An event is generated when a watson assistant is configured.              |
 {: caption="Table 41. Actions that generate watsonx Assistant events (UI)" caption-side="bottom"}
 
@@ -754,10 +752,10 @@ Watson Language Translator:
 | -------------------------------------------- | ------------------------------------------------------------------------ |
 | `openpages.watson-translator.get`              | An event is generated when Watson Translator configuration is fetched.    |
 | `openpages.watson-translator.update`           | An event is generated when Watson Translator configuration is updated.    |
-| `openpages.watson-translator.validate`         | An event is generated when Watson Translator configuration is validated. |
-| `openpages.watson-translator.translate`        | An event is generated when Watson Translator translates a text.           |
-| `openpages.watson-translator.translate-object` | An event is generated when Watson Translator translates object texts.    |
-| `openpages.watson-translator.translate-view`   | An event is generated when Watson Translator translates view labels.     |
+| `openpages.watson-translator-validation.evaluate` | An event is generated when Watson Translator configuration is validated. |
+| `openpages.watson-translator.evaluate`         | An event is generated when Watson Translator translates a text.           |
+| `openpages.watson-translator-object.evaluate`  | An event is generated when Watson Translator translates object texts.    |
+| `openpages.watson-translator-view.evaluate`    | An event is generated when Watson Translator translates view labels.     |
 {: caption="Table 42. Actions that generate Watson Language Translator events (UI)" caption-side="bottom"}
 
 ## Feed provider events
@@ -776,7 +774,7 @@ Thomson Reuters:
 
 | Action:                             | Description:                                                                    |
 | ----------------------------------- | ------------------------------------------------------------------------------- |
-| `openpages.taxonomy-mapping.download` | An event is generated when Thomson Reuters feed taxonomy mapping is downloaded. |
+| `openpages.taxonomy-mapping.get`      | An event is generated when Thomson Reuters feed taxonomy mapping is downloaded. |
 | `openpages.taxonomy-mapping.update`   | An event is generated when Thomson Reuters feed taxonomy mapping is updated.    |
 | `openpages.trri.import`               | An event is generated when Thomson Reuters feed is imported.                    |
 | `openpages.trri.get`                  | An event is generated when Thomson Reuters feed configuration is fetched.       |
@@ -889,7 +887,7 @@ Wolters Kluwer:
 | `openpages.tag-association.list`                | An event is generated when associated tags are listed for an object instance.            |
 | `openpages.trace-options.update`                | An event is generated when trace options are updated.                                    |
 | `openpages.user.add`                            | An event is generated when an user is created.                                           |
-| `openpages.user.anonymize`                      | An event is generated when user attributes are anonymized.                               |
+| `openpages.user-anonimization.set`                      | An event is generated when user attributes are anonymized.                               |
 | `openpages.user.get`                            | An event is generated when an user details are fetched.                                  |
 | `openpages.user.update`                         | An event is generated when an user detail is updated.                                    |
 | `openpages.user-app-permission.list`            | An event is generated when application permissions of a user is listed.                  |
