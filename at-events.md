@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-01-24"
 
 keywords: audit events in openpages, audit activity in openpages
 
@@ -68,28 +68,29 @@ The `update` events do not fill `initialValue` and `newValue` under the `request
 
 The following table lists the actions on service instances that generate an event:
 
-| Action                                   | Description |
-|------------------------------------------|---------|
-| `openpages.services.list`                  | An event is generated when the list of service instances is displayed in the Console UI. |
-| `openpages.services-filter.list`           | An event is generated when the list of service instances in the Console UI is filtered. |
-| `openpages.services.get`                   | An event is generated when service instance details are displayed in the Console UI. |
-| `openpages.services-configure.update`      | An event is generated when the configuration settings of a service instance are modified in the Console UI. |
+| Action                                       | Description |
+| -------------------------------------------- | ----------- |
+| `openpages.services.list`                    | An event is generated when the list of service instances is displayed in the Console UI. |
+| `openpages.services-filter.list`             | An event is generated when the list of service instances in the Console UI is filtered. |
+| `openpages.services.get`                     | An event is generated when service instance details are displayed in the Console UI. |
+| `openpages.services-configure.update`        | An event is generated when the configuration settings of a service instance are modified in the Console UI. |
 | `openpages.services-eventnotification.update`| An event is generated when the event notification settings for an instance are modified in the Console UI. |
-| `openpages.services-transfer-host.update`  | An event is generated when you transfer a custom host name to another instance by using the Console UI. |
-| `openpages.services-configure-host.update` | An event is generated when a custom host name is assigned to an instance by using the Console UI. |
-| `openpages.services.update`                | An event is generated when an instance is updated. |
-| `openpages.services.delete`                | An event is generated when an instance is deleted. |
-| `openpages.services.upgrade`               | An event is generated when an instance is upgraded. |
-| `openpages.service-allow-list.update`       | An event is generated when the allow list for an instance is updated by using the Console UI. |
-| `openpages.service-cpu-metrics.get`       | An event is generated when CPU metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
-| `openpages.service-user-metrics.get`      | An event is generated when user metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
-| `openpages.service-storage-metrics.get`   | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
-| `openpages.service-custom-resource.update`      | An event is generated when a service instance is patched. |
-| `openpages.services-sol-usage.update`      | An event is generated when the solution configuration for a service instance is updated. |
-| `openpages.services.add`                   | An event is generated when an instance is provisioned. |
-| `openpages.services.update`                | An event is generated when you update the properties of an instance. |
-| `openpages.services.delete`                | An event is generated when an instance is deleted. |
-| `openpages.services-status.enabled`,`disabled`   | An event is generated when a service instance is enabled or disabled, for example, when an instance is deleted by using the Console UI or when an instance is restored by reclamation.  |
+| `openpages.services-transfer-host.update`    | An event is generated when you transfer a custom host name to another instance by using the Console UI. |
+| `openpages.services-configure-host.update`   | An event is generated when a custom host name is assigned to an instance by using the Console UI. |
+| `openpages.services.update`                  | An event is generated when an instance is updated. |
+| `openpages.services.delete`                  | An event is generated when an instance is deleted. |
+| `openpages.services.upgrade`                 | An event is generated when an instance is upgraded. |
+| `openpages.service-allow-list.update`        | An event is generated when the allow list for an instance is updated by using the Console UI. |
+| `openpages.service-cpu-metrics.get`          | An event is generated when CPU metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-user-metrics.get`         | An event is generated when user metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-storage-metrics.get`      | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
+| `openpages.service-custom-resource.update`   | An event is generated when a service instance is patched. |
+| `openpages.services-sol-usage.update`        | An event is generated when the solution configuration for a service instance is updated. |
+| `openpages.services.add`                     | An event is generated when an instance is provisioned. |
+| `openpages.services.update`                  | An event is generated when you update the properties of an instance. |
+| `openpages.services.delete`                  | An event is generated when an instance is deleted. |
+| `openpages.services-status.enabled`          | An event is generated when a service instance is enabled. For example, when an instance is restored by reclamation, the instance is enabled.  |
+| `openpages.services-status.disabled`         | An event is generated when a service instance is disabled. For example, when an instance is deleted by using the Console UI, the instance is disabled.  |
 | `openpages.services-promoted-component-version.get`  | An event is generated when retrieving the most recent promoted version of a service instance. |
 {: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
 
@@ -103,11 +104,11 @@ The following tables list events that are generated when users log in, users log
 
 Login, Logout, Session, Authentication:
 
-| Action:                       | Description:                                                 |
-| ----------------------------- | ------------------------------------------------------------ |
+| Action:                         | Description:                                                                         |
+| ------------------------------- | ------------------------------------------------------------------------------------ |
 | `openpages.user.logoff`         | An event is generated when a user logs out of {{site.data.keyword.openpages_short}}. |
-| `openpages.user.logon`         | An event is generated when a user logs in to {{site.data.keyword.openpages_short}}   |
-| `openpages.user.session-expire` | An event is generated when a user session expires.           |
+| `openpages.user.logon`          | An event is generated when a user logs in to {{site.data.keyword.openpages_short}}   |
+| `openpages.user.session-expire` | An event is generated when a user session expires.                                   |
 {: caption="Table 2. Actions that generate login, logout, session authentication events (UI)" caption-side="bottom"}
 
 User Management:
@@ -118,7 +119,8 @@ User Management:
 | `openpages.user.list`                   | An event is generated when user list is fetched.                      |
 | `openpages.user.create`                 | An event is generated when a user account is created.                 |
 | `openpages.user.update`                 | An event is generated when a user account is modified.                |
-| `openpages.user.enable`                 | An event is generated when a user account is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the user account is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the user account is disabled.                |
+| `openpages.user.enable`                 | An event is generated when a user account is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the user account is enabled.  |
+| `openpages.user.disable`                | An event is generated when a user account is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the user account is disabled. |
 | `openpages.user-lock.set-on`            | An event is generated when a user account is locked.                  |
 | `openpages.user-lock.set-off`           | An event is generated when a user account is unlocked.                |
 | `openpages.user-locale.update`          | An event is generated when a user switches locales in IBM OpenPages.  |
@@ -170,18 +172,20 @@ Currencies:
 | --------------------------------- | ----------------------------------------------------------------------   |
 | `openpages.currency.list`         | An event is generated when a currency is listed.                         |
 | `openpages.currency.update`       | An event is generated when a currency is updated.                        |
-| `openpages.currency.enable`       | An event is generated when a currency is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the currency is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the currency is disabled.  |
+| `openpages.currency.enable`       | An event is generated when a currency is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the currency is enabled.   |
+| `openpages.currency.disable`      | An event is generated when a currency is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the currency is disabled. |
 | `openpages.currency-history.list` | An event is generated when a currency update history is listed.          |
 | `openpages.currency.import`       | An event is generated when currencies are updated by uploading a file.   |
 {: caption="Table 6. Actions that generate currency events (UI)" caption-side="bottom"}
 
 Encryption keystore:
 
-| Action:                                | Description:                                             |
-| -------------------------------------- | -------------------------------------------------------- |
-| `openpages.encryption-keystore.get`    | An event is generated when a encryption key is retrived. |
-| `openpages.encryption-keystore.enable` | An event is generated when an encryption key is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the encryption key is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the encryption key is disabled.         |
-| `openpages.encryption-keystore.update` | An event is generated when a encryption key updated.     |
+| Action:                                 | Description:                                             |
+| --------------------------------------- | -------------------------------------------------------- |
+| `openpages.encryption-keystore.get`     | An event is generated when a encryption key is retrived. |
+| `openpages.encryption-keystore.enable`  | An event is generated when an encryption key is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the encryption key is enabled.  |
+| `openpages.encryption-keystore.disable` | An event is generated when an encryption key is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the encryption key is disabled. |
+| `openpages.encryption-keystore.update`  | An event is generated when a encryption key updated.     |
 {: caption="Table 7. Actions that generate encryption keystore events (UI)" caption-side="bottom"}
 
 
@@ -217,12 +221,12 @@ Logs, processes, trace logs:
 | ------------------------------------- | ---------------------------------------------------------------------------------- |
 | `openpages.log-collector.launch`      | An event is generated when Log Collector is launched from the **Other > Logs** UI. |
 | `openpages.log-collector-logs.get`    | An event is generated when logs that were generated by the Log Collector are downloaded.  |
-| `openpages.process-log.list`           | An event is generated when background process logs are fetched.                                                    |
-| `openpages.log-collector-logs.delete`   | An event is generated when a Log Collector log file is deleted from the **Other > Logs** UI.  |
-| `openpages.trace-options.list`         | An event is generated when trace oprions are listed in the UI                     |
-| `openpages.trace-options.update`       | An event is generated when the trace logging settings are updated in the **Other > Logs > System tracing options** UI. |
-| `openpages.process.get`                | An event is generated when a background process is fetched.                       |
-| `openpages.process.list`               | An event is generated when a background process list is fetched.                  |
+| `openpages.process-log.list`          | An event is generated when background process logs are fetched.                    |
+| `openpages.log-collector-logs.delete` | An event is generated when a Log Collector log file is deleted from the **Other > Logs** UI.  |
+| `openpages.trace-options.list`        | An event is generated when trace oprions are listed in the UI                      |
+| `openpages.trace-options.update`      | An event is generated when the trace logging settings are updated in the **Other > Logs > System tracing options** UI. |
+| `openpages.process.get`               | An event is generated when a background process is fetched.                        |
+| `openpages.process.list`              | An event is generated when a background process list is fetched.                   |
 {: caption="Table 10. Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
 
 <!--
@@ -242,40 +246,43 @@ Reporting periods:
 
 Role templates:
 
-| Action:                               | Description:                                                                    |
-| ------------------------------------- | ------------------------------------------------------------------------------- |
-| `openpages.role.assign`               | An event is generated when a role template is assigned to a user or group.      |
-| `openpages.role.revoke`               | An event is generated when a role template is removed from a user or group.     |
-| `openpages.role-template.get`         | An event is generated when a role template is fetched.                          |
-| `openpages.role-template.list`        | An event is generated when a role template list is fetched.                     |
-| `openpages.role-template.delete`      | An event is generated when a role template is deleted.                          |
-| `openpages.role-template.enable`      | An event is generated when a role template is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the role template is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the role template is disabled.  |
-| `openpages.role-template.create`                | An event is generated when a role template is created.                                                       |
-| `openpages.role-template-lock.set-on`           | An event is generated when a role template is locked.                                                        |
-| `openpages.role-template-lock.set-off`          | An event is generated when a role template is unlocked.                                                     |
-| `openpages.role-template.update`                | An event is generated when the properties of a role template, such as its Name and Description, are updated. |
-| `openpages.role-template-access.add`            | An event is generated when an object type is added to a role template.                                       |
-| `openpages.role-template-access.update`         | An event is generated when the access controls for object type are changed for a role template.              |
-| `openpages.role-template-access.delete`         | An event is generated when an object type is removed from a role template.                                   |
-| `openpages.role-template-app-permission.update` | An event is generated when the application permissions that are assigned to a role template are changed.     |
+| Action:                                 | Description:                                                                    |
+| --------------------------------------- | ------------------------------------------------------------------------------- |
+| `openpages.role.assign`                 | An event is generated when a role template is assigned to a user or group.      |
+| `openpages.role.revoke`                 | An event is generated when a role template is removed from a user or group.     |
+| `openpages.role-template.get`           | An event is generated when a role template is fetched.                          |
+| `openpages.role-template.list`          | An event is generated when a role template list is fetched.                     |
+| `openpages.role-template.delete`        | An event is generated when a role template is deleted.                          |
+| `openpages.role-template.enable`        | An event is generated when a role template is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the role template is enabled.   |
+| `openpages.role-template.disable`       | An event is generated when a role template is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the role template is disabled.  |
+| `openpages.role-template.create`        | An event is generated when a role template is created.                          |
+| `openpages.role-template-lock.set-on`   | An event is generated when a role template is locked.                           |
+| `openpages.role-template-lock.set-off`  | An event is generated when a role template is unlocked.                         |
+| `openpages.role-template.update`        | An event is generated when the properties of a role template, such as its Name and Description, are updated. |
+| `openpages.role-template-access.add`    | An event is generated when an object type is added to a role template.          |
+| `openpages.role-template-access.update` | An event is generated when the access controls for object type are changed for a role template. |
+| `openpages.role-template-access.delete` | An event is generated when an object type is removed from a role template.      |
+| `openpages.role-template-app-permission.update` | An event is generated when the application permissions that are assigned to a role template are changed. |
 {: caption="Table 11. Actions that generate role template events (UI)" caption-side="bottom"}
 
 
 Security rules:
 
-| Action:                                       | Description:                                                                 |
-| --------------------------------------------- | ---------------------------------------------------------------------------- |
-| `openpages.security-rule.list`                  | An event is generated when a security rules across object types are fetched. |
+| Action:                                         | Description:                                                                                 |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `openpages.security-rule.list`                  | An event is generated when a security rules across object types are fetched.                 |
 | `openpages.security-rule.get`                   | An event is generated when a security rules for an object type is fetched.   |
 | `openpages. record-level-security-rule-validation.evaluate` | An event is generated when a record-level security rule is validated.        |
 | `openpages.record-level-security-rule.create`   | An event is generated when a record-level security rule is created.          |
 | `openpages.record-level-security-rule.update`   | An event is generated when a record-level security rule is modified.         |
-| `openpages.record-level-security-rule.enable`   | An event is generated when a record-level security rule is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the record-level security rule is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the record-level security rule is disabled.         |
+| `openpages.record-level-security-rule.enable`   | An event is generated when a record-level security rule is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the record-level security rule is enabled.  |
+| `openpages.record-level-security-rule.disable`  | An event is generated when a record-level security rule is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the record-level security rule is disabled.  |
 | `openpages.record-level-security-rule.delete`   | An event is generated when a record-level security rule is deleted.          |
-| `openpages.field-level-security-rule-validation.evaluate`  | An event is generated when a field-level security rule is validated          |
+| `openpages.field-level-security-rule-validation.evaluate`  | An event is generated when a field-level security rule is validated.          |
 | `openpages.field-level-security-rule.create`    | An event is generated when a field-level security rule is created.           |
 | `openpages.field-level-security-rule.update`    | An event is generated when a field-level security rule is modified.          |
-| `openpages.field-level-security-rule.enable`    | An event is generated when a field-level security rule is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the field-level security rule is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the field-level security rule is disabled.          |
+| `openpages.field-level-security-rule.enable`    | An event is generated when a field-level security rule is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the field-level security rule is enabled.  |
+| `openpages.field-level-security-rule.disable`   | An event is generated when a field-level security rule is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the field-level security rule is disabled. |
 | `openpages.field-level-security-rule.delete`    | An event is generated when a field-level security rule is deleted.           |
 {: caption="Table 12. Actions that generate security rule events (UI)" caption-side="bottom"}
 
@@ -332,7 +339,8 @@ Field dependencies:
 | `openpages.field-dependency.list`   | An event is generated when field dependencies are listed.  |
 | `openpages.field-dependency.create` | An event is generated when a field dependency is created.  |
 | `openpages.field-dependency.update` | An event is generated when a field dependency is modified. |
-| `openpages.field-dependency.enable` | An event is generated when a field dependency is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the field dependency is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the field dependency is disabled. |
+| `openpages.field-dependency.enable` | An event is generated when a field dependency is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the field dependency is enabled.  |
+| `openpages.field-dependency.disable`| An event is generated when a field dependency is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the field dependency is disabled. |
 | `openpages.field-dependency.delete` | An event is generated when a field dependency is deleted.  |
 {: caption="Table 16. Actions that generate field dependency events (UI)" caption-side="bottom"}
 
@@ -482,7 +490,8 @@ Calculations:
 | `openpages.calculation-draft.publish` | An event is generated when a calculation is published.                |
 | `openpages.calculation-draft.clear`   | An event is generated when a draft calculation is discarded.          |
 | `openpages.calculation.delete`        | An event is generated when a calculation is deleted.                  |
-| `openpages.calculation.enable`        | An event is generated when a calculation is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the calculation is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the calculation is disabled.     |
+| `openpages.calculation.enable`        | An event is generated when a calculation is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the calculation is enabled.   |
+| `openpages.calculation.disable`       | An event is generated when a calculation is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the calculation is disabled. |
 | `openpages.bulk-calculation.start`    | An event is generated when a calculation is run for object instances. |
 {: caption="Table 25. Actions that generate calculation events (UI)" caption-side="bottom"}
 
@@ -871,7 +880,6 @@ Wolters Kluwer:
 | `openpages.sub-group.delete`                    | An event is generated when a group member is removed from a group.                       |
 | `openpages.sub-group.list`                      | An event is generated when group members of a group is listed.                           |
 | `openpages.system-admin-mode.get`               | An event is generated when system admin mode flag is fetched.                            |
-| `openpages.system-admin-mode.update`            | An event is generated when system admin mode flag is updated.                            |
 | `openpages.tag.add`                             | An event is generated when a tag is added.                                               |
 | `openpages.tag.get`                             | An event is generated when a tag is fetched.                                             |
 | `openpages.tag.list`                            | An event is generated when tags are listed.                                              |
