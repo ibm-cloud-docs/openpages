@@ -68,27 +68,27 @@ The `update` events do not fill `initialValue` and `newValue` under the `request
 
 The following table lists the actions on service instances that generate an event:
 
-| Action                                       | Description |
-| -------------------------------------------- | ----------- |
+| Action                                       | Description                                                                              |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | `openpages.services.list`                    | An event is generated when the list of service instances is displayed in the Console UI. |
-| `openpages.services-filter.list`             | An event is generated when the list of service instances in the Console UI is filtered. |
-| `openpages.services.get`                     | An event is generated when service instance details are displayed in the Console UI. |
+| `openpages.services-filter.list`             | An event is generated when the list of service instances in the Console UI is filtered.  |
+| `openpages.services.get`                     | An event is generated when service instance details are displayed in the Console UI.     |
 | `openpages.services-configure.update`        | An event is generated when the configuration settings of a service instance are modified in the Console UI. |
 | `openpages.services-eventnotification.update`| An event is generated when the event notification settings for an instance are modified in the Console UI. |
 | `openpages.services-transfer-host.update`    | An event is generated when you transfer a custom host name to another instance by using the Console UI. |
 | `openpages.services-configure-host.update`   | An event is generated when a custom host name is assigned to an instance by using the Console UI. |
-| `openpages.services.update`                  | An event is generated when an instance is updated. |
-| `openpages.services.delete`                  | An event is generated when an instance is deleted. |
-| `openpages.services.upgrade`                 | An event is generated when an instance is upgraded. |
+| `openpages.services.update`                  | An event is generated when an instance is updated.                                       |
+| `openpages.services.delete`                  | An event is generated when an instance is deleted.                                       |
+| `openpages.services.upgrade`                 | An event is generated when an instance is upgraded.                                      |
 | `openpages.service-allow-list.update`        | An event is generated when the allow list for an instance is updated by using the Console UI. |
 | `openpages.service-cpu-metrics.get`          | An event is generated when CPU metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
 | `openpages.service-user-metrics.get`         | An event is generated when user metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
 | `openpages.service-storage-metrics.get`      | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI. |
-| `openpages.service-custom-resource.update`   | An event is generated when a service instance is patched. |
+| `openpages.service-custom-resource.update`   | An event is generated when a service instance is patched.                                |
 | `openpages.services-sol-usage.update`        | An event is generated when the solution configuration for a service instance is updated. |
-| `openpages.services.add`                     | An event is generated when an instance is provisioned. |
-| `openpages.services.update`                  | An event is generated when you update the properties of an instance. |
-| `openpages.services.delete`                  | An event is generated when an instance is deleted. |
+| `openpages.services.add`                     | An event is generated when an instance is provisioned.                                   |
+| `openpages.services.update`                  | An event is generated when you update the properties of an instance.                     |
+| `openpages.services.delete`                  | An event is generated when an instance is deleted.                                       |
 | `openpages.services-status.enabled`          | An event is generated when a service instance is enabled. For example, when an instance is restored by reclamation, the instance is enabled.  |
 | `openpages.services-status.disabled`         | An event is generated when a service instance is disabled. For example, when an instance is deleted by using the Console UI, the instance is disabled.  |
 | `openpages.services-promoted-component-version.get`  | An event is generated when retrieving the most recent promoted version of a service instance. |
@@ -99,8 +99,6 @@ The following table lists the actions on service instances that generate an even
 {: #users-groups}
 
 The following tables list events that are generated when users log in, users log out, and when user management actions occur.
-
-<!-- Saba, please convert these lists into tables. Put x if a description is blank. -->
 
 Login, Logout, Session, Authentication:
 
@@ -131,11 +129,6 @@ User Management:
 | `openpages.user-association.delete`     | An event is generated when user association to a group is deleted     |
 | `openpages.user-association.update`     | An event is generated when user association to a group is replaced    |
 {: caption="Table 3. Actions that generate user management events (UI)" caption-side="bottom"}
-
-<!-- `openpages.user-reporting-period.update`
-`openpages.user-reporting-period.enable`
-An event is generated when a user reporting period is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the user reporting period is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the user reporting period is disabled.
--->
 
 Group Management:
 
@@ -229,20 +222,6 @@ Logs, processes, trace logs:
 | `openpages.process.list`              | An event is generated when a background process list is fetched.                   |
 {: caption="Table 10. Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
 
-<!--
-- `openpages.cognos-reporting-framework.list`
-- `openpages.cognos-reporting-framework-generation.start`-->
-
-<!--
-Reporting periods:
-
-- `openpages.reporting-period.list`
-- `openpages.reporting-period.delete`
-- `openpages.reporting-period.create`
-- `openpages.reporting-period.get`
-- `openpages.reporting-period.update`
-- `openpages.reporting-period.commit`
-- `openpages.reporting-period.enable`-->
 
 Role templates:
 
@@ -289,8 +268,8 @@ Security rules:
 
 Settings:
 
-| Action:                      | Description:                                                                |
-| ---------------------------- | --------------------------------------------------------------------------- |
+| Action:                        | Description:                                                                |
+| ------------------------------ | --------------------------------------------------------------------------- |
 | `openpages.setting.get`        | An event is generated when a setting is fetched.                            |
 | `openpages.setting.update`     | An event is generated when the value of a setting is modified.              |
 | `openpages.setting.create`     | An event is generated when a setting is created.                            |
@@ -312,8 +291,8 @@ System admin mode:
 
 System files:
 
-| Action:                                      | Description:                                                              |
-| -------------------------------------------- | ------------------------------------------------------------------------- |
+| Action:                                        | Description:                                                              |
+| ---------------------------------------------- | ------------------------------------------------------------------------- |
 | `openpages.page-and-template.list`             | An event is generated when pages and templates list is fetched.           |
 | `openpages.system-file-resource.list`          | An event is generated when system file resource list is fetched.          |
 | `openpages.system-file-resource-copy.commit`   | An event is generated when system file resource is copied.                |
@@ -334,8 +313,8 @@ System files:
 
 Field dependencies:
 
-| Action:                           | Description:                                               |
-| --------------------------------- | ---------------------------------------------------------- |
+| Action:                             | Description:                                               |
+| ----------------------------------- | ---------------------------------------------------------- |
 | `openpages.field-dependency.list`   | An event is generated when field dependencies are listed.  |
 | `openpages.field-dependency.create` | An event is generated when a field dependency is created.  |
 | `openpages.field-dependency.update` | An event is generated when a field dependency is modified. |
@@ -346,8 +325,8 @@ Field dependencies:
 
 Field groups, fields, and schema:
 
-| Action:                         | Description:                                                              |
-| ------------------------------- | ------------------------------------------------------------------------- |
+| Action:                           | Description:                                                              |
+| --------------------------------- | ------------------------------------------------------------------------- |
 | `openpages.solution.get`          | An event is generated when a solution is fetched.                         |
 | `openpages.field-group.list`      | An event is generated when a field group list is fetched                  |
 | `openpages.field-group.create`    | An event is generated when a field group is created.                      |
@@ -367,8 +346,8 @@ Field groups, fields, and schema:
 
 Filters:
 
-| Action:                        | Description:                                                              |
-| ------------------------------ | ------------------------------------------------------------------------- |
+| Action:                          | Description:                                                              |
+| -------------------------------- | ------------------------------------------------------------------------- |
 | `openpages.object-filter.list`   | An event is generated when object filter list is fetched.                 |
 | `openpages.object-filter.get`    | An event is generated when an object filter is fetched.                   |
 | `openpages.object-filter.create` | An event is generated when a public filter is defined for an object type. |
@@ -378,8 +357,8 @@ Filters:
 
 Profiles:
 
-| Action:                                | Description:                                                                  |
-| -------------------------------------- | ----------------------------------------------------------------------------- |
+| Action:                                  | Description:                                                                  |
+| ---------------------------------------- | ----------------------------------------------------------------------------- |
 | `openpages.profile.list`                 | An event is generated when object profiles are listed.                        |
 | `openpages.profile.get`                  | An event is generated when an object profile is fetched.                      |
 | `openpages.profile.update`               | An event is generated when a profile is modified.                             |
@@ -407,8 +386,8 @@ Profiles:
 
 Objects:
 
-| Action:                              | Description:                                                                  |
-| ------------------------------------ | ----------------------------------------------------------------------------- |
+| Action:                                | Description:                                                                  |
+| -------------------------------------- | ----------------------------------------------------------------------------- |
 | `openpages.resource.get`               | An event is generated when an object instance is fetched to a task view.      |
 | `openpages.file-resource-version.list` | An event is generated when an attachment versions are fetched to a task view. |
 | `openpages.resource.update`            | An event is generated when an object instance is modified.                    |
@@ -428,8 +407,8 @@ Objects:
 
 Object resets:
 
-| Action:                      | Description:                                                              |
-| ---------------------------- | ------------------------------------------------------------------------- |
+| Action:                        | Description:                                                              |
+| ------------------------------ | ------------------------------------------------------------------------- |
 | `openpages.object-reset.get`   | An event is generated when an object-reset operation result is fetched.   |
 | `openpages.object-reset.list`  | An event is generated when object-reset operation result list is fetched. |
 | `openpages.object-reset.start` | An event is generated when object-reset operation is started.             |
@@ -438,8 +417,8 @@ Object resets:
 
 Object type associations:
 
-| Action:                                    | Description:                                                                   |
-| ------------------------------------------ | ------------------------------------------------------------------------------ |
+| Action:                                      | Description:                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------------ |
 | `openpages.object-relationship.list`         | An event is generated when object type relationships are listed.               |
 | `openpages.resource.add`                     | An event is generated when an object instance relationship is added.           |
 | `openpages.resource.remove-all`              | An event is generated when all the object instance relationships are removed.  |
@@ -453,8 +432,8 @@ Object type associations:
 
 Recursive object types:
 
-| Action:                                 | Description:                                                       |
-| --------------------------------------- | ------------------------------------------------------------------ |
+| Action:                                   | Description:                                                       |
+| ----------------------------------------- | ------------------------------------------------------------------ |
 | `openpages.recursive-object-level.list`   | An event is generated when recursive object level list is fetched. |
 | `openpages.recursive-object-level.create` | An event is generated when recursive object level is created.      |
 | `openpages.recursive-object-level.delete` | An event is generated when recursive object level is deleted.      |
@@ -463,8 +442,8 @@ Recursive object types:
 
 Solutions:
 
-| Action:                          | Description:                                                  |
-| -------------------------------- | ------------------------------------------------------------- |
+| Action:                            | Description:                                                  |
+| ---------------------------------- | ------------------------------------------------------------- |
 | `openpages.solution.list`          | An event is generated when solutions are listed.              |
 | `openpages.solution.create`        | An event is generated when a solution is created.             |
 | `openpages.solution.update`        | An event is generated when a solution is updated.             |
@@ -535,13 +514,6 @@ File attachments:
 | `openpages.file-type.enable`              | An event is generated when an attachment file type is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the attachment file type is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the attachment file type is disabled. |
 {: caption="Table 28. Actions that generate file attachment events (UI)" caption-side="bottom"}
 
-
-<!--`openpages.file-type-search.enable`-->
-<!--
-Global search:
-{: #global-search}
-- `openpages.search-config.list`
-- `openpages.search-config.update`-->
 
 Folders:
 
@@ -667,28 +639,6 @@ Views:
 | `openpages.admin-view.create`  | An event is generated when an admin view is created.            |
 {: caption="Table 37. Actions that generate view events (UI)" caption-side="bottom"}
 
-<!--
-| `openpages.encryption-keystore.disable` | An event is generated when an encryption key is disabled. The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.         |
-
-
-
--->
-
-<!--## Loss Event Entry
-{: #Loss-event-entry}
-
-Loss Event Entry app:
-
-- `openpages.lossevent.create`
-- `openpages.lossevent.invalid-access`
-- `openpages.lossevent-resource.create`
-- `openpages.lossevent-file-resource.create`
-
-Loss Event Entry configuration:
-
-- `openpages.lossevent-config.update`
-- `openpages. lossevent-config-validation.evaluate`
-- `openpages.questionnaire-program.launch`-->
 
 ## Integration-related events
 {: #integrations}
@@ -705,22 +655,6 @@ AI models:
 | `openpages.ai-model-configuration.validate` | An event is generated when an AI model configuration is validated. |
 | `openpages.ai-model-suggestion.evaluate`    | An event is generated when an AI model suggests an insight.        |
 {: caption="Table 38. Actions that generate AI model events (UI)" caption-side="bottom"}
-
-<!--
-Cognos:
-
-- `openpages.cognos.enable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
-- `openpages.cognos.disable` The `true` or `false` values are populated to the `initialValue` and `newValue` fields under the `requestData.update` JSON field.
-- `openpages.computed-field.evaluate`
-- `openpages.report-fragment.evaluate`
-- `openpages.reporting-schema.list`
-- `openpages.reporting-schema.create`
-- `openpages.reporting-schema.enable`
-- `openpages.reporting-schema.disable`
-- `openpages.reporting-schema.delete`
-- `openpages.reporting-schema.update`
-- `openpages.report.evaluate`
-- `openpages.report.publish`-->
 
 Classifiers:
 
@@ -901,12 +835,75 @@ Wolters Kluwer:
 | `openpages.user-role-assignment.lis`t           | An event is generated when a user roles are listed.                                      |
 {: caption="Table 46. Actions that generate API events (UI)" caption-side="bottom"}
 
- <!---
-`openpages.cognos-integration.configure
-`openpages.current-reporting-period.get`
-`openpages.report-fragment.evaluate`
-`openpages.reporting-period.get`
-`openpages.reporting-period.list``-->
+<!--
+## Reporting
+{: #reporting-events}
+
+| Action:                                                 | Description:                               |
+| ------------------------------------------------------- | ------------------------------------------ |
+| `openpages.cognos-integration.configure`                | Not supported in OpenPages as a Service.   |
+| `openpages.current-reporting-period.get`                | Not supported in OpenPages as a Service.   |
+| `openpages.report-fragment.evaluate`                    | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.get`                        | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.list`                       | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.list`                       | Not supported in OpenPages as a Service.   |
+| `openpages.user-reporting-period.enable`                | Not supported in OpenPages as a Service.   |
+| `openpages.user-reporting-period.disable`               | Not supported in OpenPages as a Service.   |
+| `openpages.cognos.enable`                               | Not supported in OpenPages as a Service.   |
+| `openpages.cognos.disable`                              | Not supported in OpenPages as a Service.   |
+| `openpages.computed-field.evaluate`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.list`                       | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.create`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.enable`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.disable`                    | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.delete`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-schema.update`                     | Not supported in OpenPages as a Service.   |
+| `openpages.report.evaluate`                             | Not supported in OpenPages as a Service.   |
+| `openpages.report.publish`                              | Not supported in OpenPages as a Service.   |
+| `openpages.cognos-reporting-framework.list`             | Not supported in OpenPages as a Service.   |
+| `openpages.cognos-reporting-framework-generation.start` | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.list`                       | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.delete`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.create`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.get`                        | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.update`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.commit`                     | Not supported in OpenPages as a Service.   |
+| `openpages.reporting-period.enable`                     | Not supported in OpenPages as a Service.   |
+{: caption="Table 45. Reporting actions that are not supported in OpenPages as a Service" caption-side="bottom"}
+
+## Encryption keystore
+{: #encryption-keystore-events}
+
+| Action:                                  | Description:                                                             |
+| ---------------------------------------- | ------------------------------------------------------------------------ |
+| `openpages.encryption-keystore.enable`   | Not supported in OpenPages as a Service.                                 |
+| `openpages.encryption-keystore.disable`  | Not supported in OpenPages as a Service.                                 |
+{: caption="Table 45. Encryption keystore actions that are not supported in OpenPages as a Service" caption-side="bottom"}
+
+## Loss event entries
+{: #loss-event-entry-events}
+
+| Action:                                          | Description:                                                             |
+| ------------------------------------------------ | ------------------------------------------------------------------------ |
+| `openpages.lossevent.create`                     | Not supported in OpenPages as a Service.                                 |
+| `openpages.lossevent.invalid-access`             | Not supported in OpenPages as a Service.                                 |
+| `openpages.lossevent-resource.create`            | Not supported in OpenPages as a Service.                                 |
+| `openpages.lossevent-file-resource.create`       | Not supported in OpenPages as a Service.                                 |
+| `openpages.lossevent-config.update`              | Not supported in OpenPages as a Service.                                 |
+| `openpages.lossevent-config-validation.evaluate` | Not supported in OpenPages as a Service.                                 |
+| `openpages.questionnaire-program.launch`         | Not supported in OpenPages as a Service.                                 |
+{: caption="Table 45. Loss event entry actions that are not supported in OpenPages as a Service" caption-side="bottom"}
+
+## Global search
+{: #global-search-events}
+
+| Action:                                  | Description:                                                             |
+| ---------------------------------------- | ------------------------------------------------------------------------ |
+| `openpages.search-config.list`           | Not supported in OpenPages as a Service.                                 |
+| `openpages.search-config.update`         | Not supported in OpenPages as a Service.                                 |
+{: caption="Table 45. Global search actions that are not supported in OpenPages as a Service" caption-side="bottom"}
+-->
+
 
 ## Viewing events
 {: #at_ui}
