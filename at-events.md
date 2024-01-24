@@ -603,8 +603,8 @@ Themes:
 
 Workflows:
 
-| Action:                                     | Description:                                                                |
-| ------------------------------------------- | --------------------------------------------------------------------------- |
+| Action:                                       | Description:                                                                |
+| --------------------------------------------- | --------------------------------------------------------------------------- |
 | `openpages.workflow.get`                      | An event is generated when a workflow definition is fetched.                |
 | `openpages.workflow.create`                   | An event is generated when a workflow definition is created.                |
 | `openpages.workflow.update`                   | An event is generated when a workflow definition is updated.                |
@@ -751,6 +751,7 @@ Wolters Kluwer:
 | `openpages.folder.get`                          | An event is generated when a folder is fetched.                                          |
 | `openpages.folder.list`                         | An event is generated when folders are listed.                                           |
 | `openpages.folder.update`                       | An event is generated when a folder is updated.                                          |
+| `openpages.folder.delete`                       | An event is generated when a folder is deleted.                                          |
 | `openpages.folder-permission.get`               | An event is generated when folder permissions are fetched.                               |
 | `openpages.folder-template.get`                 | An event is generated when a folder template is fetched.                                 |
 | `openpages.group.add`                           | An event is generated when a user group is added.                                        |
@@ -767,7 +768,7 @@ Wolters Kluwer:
 | `openpages.object-manager-dump.get`             | An event is generated when ObjectManager dump is fetched.                                |
 | `openpages.object-manager-load-log.get`         | An event is generated when ObjectManager load logs are fetched.                          |
 | `openpages.object-manager-validate-log.get`     | An event is generated when ObjectManager validate logs are fetched.                      |
-| `openpages. object-manager-dump.start`          | An event is generated when ObjectManager dump is started.                                |
+| `openpages.object-manager-dump.start`           | An event is generated when ObjectManager dump is started.                                |
 | `openpages.object-manager-load.start`           | An event is generated when ObjectManager load is started.                                |
 | `openpages.object-manager-validate.start`       | An event is generated when ObjectManager validate is started.                            |
 | `openpages.object-manager-load.push`            | An event is generated when ObjectManager load data is uploaded.                          |
@@ -779,7 +780,7 @@ Wolters Kluwer:
 | `openpages.process.get`                         | An event is generated when a long running process is fetched.                            |
 | `openpages.process.list`                        | An event is generated when long running processes are listed.                            |
 | `openpages.process.stop`                        | An event is generated when a long running process is terminated.                         |
-|`openpages.process-log.list`                    | An event is generated when long running process logs are fetched.                        |
+| `openpages.process-log.list`                    | An event is generated when long running process logs are fetched.                        |
 | `openpages.process-type.list`                   | An event is generated when long running process types are listed.                        |
 | `openpages.profile.get`                         | An event is generated when an object profile is fetched.                                 |
 | `openpages.profile.list`                        | An event is generated when object profiles are listed.                                   |
@@ -803,6 +804,7 @@ Wolters Kluwer:
 | `openpages.resource-association.list`           | An event is generated when object instance associations are listed.                      |
 | `openpages.resource-permission.get`             | An event is generated when an object instance effective permission is fetched.           |
 | `openpages.resource-template.get`               | An event is generated when an empty object instance template is fetched.                 |
+| `openpages.resourcetype.get`                    |                                                                                          |
 | `openpages.role-template.get`                   | An event is generated when a role template is fetched.                                   |
 | `openpages.role-template.list`                  | An event is generated when role templates are listed.                                    |
 | `openpages.role-template-access.list`           | An event is generated when accesses to a role template is listed.                        |
@@ -843,9 +845,8 @@ Wolters Kluwer:
 | ------------------------------------------------------- | ------------------------------------------ |
 | `openpages.cognos-integration.configure`                | Not supported in OpenPages as a Service.   |
 | `openpages.current-reporting-period.get`                | Not supported in OpenPages as a Service.   |
-| `openpages.report-fragment.evaluate`                    | Not supported in OpenPages as a Service.   |
+| `openpages.report-fragment.report`                      | Not supported in OpenPages as a Service.   |
 | `openpages.reporting-period.get`                        | Not supported in OpenPages as a Service.   |
-| `openpages.reporting-period.list`                       | Not supported in OpenPages as a Service.   |
 | `openpages.reporting-period.list`                       | Not supported in OpenPages as a Service.   |
 | `openpages.user-reporting-period.enable`                | Not supported in OpenPages as a Service.   |
 | `openpages.user-reporting-period.disable`               | Not supported in OpenPages as a Service.   |
