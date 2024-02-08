@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-12"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -23,7 +23,7 @@ Every user that accesses the {{site.data.keyword.openpages_short}} service in yo
 
 The access policy that you assign users in your account determines what actions a user can perform within the context of the service or specific instance that you select. The allowable actions are customized and defined by {{site.data.keyword.openpages_short}} as operations that are allowed to be performed on the service. Each action is mapped to an IAM platform or service role that you can assign to a user.
 
-If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles#custom-access-roles) and pick the actions to include.
+If a specific role and its actions don't fit the use case that you're looking to address, you can [create a custom role](/docs/account?topic=account-custom-roles&interface=ui#custom-access-roles) and pick the actions to include.
 {: tip}
 
 IAM access policies enable access to be granted at different levels. Some of the options include the following:
@@ -31,7 +31,7 @@ IAM access policies enable access to be granted at different levels. Some of the
 * Access across all instances of the service in your account
 * Access to an individual service instance in your account <!-- if this applies -->
 
-Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API. 
+Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API.
 
 | Platform role |  Description of actions |
 |---------------|-------------------------|
@@ -60,7 +60,7 @@ Review the following tables that outline what types of tasks each role allows fo
 {: #assign-access-console}
 {: ui}
 
-Before you assign access, consider federating identities with your {{site.data.keyword.cloud_notm}} account. This authentication option simplifies the process of adding users to your account, without requiring an IBMid with a separate password. 
+Before you assign access, consider federating identities with your {{site.data.keyword.cloud_notm}} account. This authentication option simplifies the process of adding users to your account, without requiring an IBMid with a separate password.
 
 For more information, see [Which is the right federation option for you?](/docs-draft/account?topic=account-federation-option-for-you&interface=ui).
 
@@ -307,4 +307,3 @@ fmt.Println(string(b))
 ```
 {: go}
 {: codeblock}
-

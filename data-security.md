@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-18"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: data encryption in openpages, data storage for openpages, personal data in openpages, data deletion for openpages, data in openpages, data security in openpages
 

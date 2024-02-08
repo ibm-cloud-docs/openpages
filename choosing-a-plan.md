@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-25"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: choosing a plan, pricing plans
 
@@ -51,16 +51,17 @@ The Standard plan is ideal for small to medium sized organizations or department
 
 The following table summarizes what is supported by each plan. The values in the table are maximums.
 
-| Category                         | Essentials plan               | Standard plan                 |
-| -------------------------------- | ----------------------------- | ----------------------------- |
-| Concurrent users                 | 10                            | 200                           |
-| Number of solutions              | 1                             | 5                             |
-| Ability to configure OpenPages   | Yes                           | Yes                           |
-| Initial number of objects        | 10,000                        | 50,000                        |
-| Number of objects per year       | 25,000                        | 100,000                       |
-| Security rules limitations       | Intra-object only             | Intra-object only             |
-| Number of permitted workflows    | 1 per object                  | 1 per object                  |
-| Number of permitted calculations | 2 per object                  | 10 per object                 |
-| Number of permitted operations   | 10 operations per calculation | 30 operations per calculation |
-| Custom objects                   | Not permitted                 |  Not permitted                |
+| Category                                     | Essentials plan               | Standard plan                 |
+| -------------------------------------------- | ----------------------------- | ----------------------------- |
+| Concurrent users                             | 10                            | 200                           |
+| Number of solutions                          | 1                             | 5                             |
+| Ability to configure OpenPages               | Yes                           | Yes                           |
+| Initial number of objects                    | 10,000                        | 50,000                        |
+| Number of objects per year                   | 25,000                        | 100,000                       |
+| Security rules limitations                   | Intra-object only             | Intra-object only             |
+| Number of permitted workflows                | 1 per object                  | 1 per object                  |
+| Number of permitted calculations             | 2 per object                  | 10 per object                 |
+| Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
+| Supports integration with watsonx.governance | No                            | Yes                           |
+| Custom objects                               | Not permitted                 | Not permitted                 |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-12"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: assigning access in openpages
 

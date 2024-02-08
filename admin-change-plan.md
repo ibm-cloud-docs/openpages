@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2023
-lastupdated: "2023-10-20"
+  years: 2024
+lastupdated: "2024-01-03"
 
 keywords: change OpenPages plan, IBM OpenPages as a Service
 subcollection: openpages

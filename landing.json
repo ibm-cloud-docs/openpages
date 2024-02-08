@@ -1,10 +1,10 @@
 {
     "title": "OpenPages product docs",
-    "lastupdated": "2023-10-25",
+    "lastupdated": "2023-12-19",
     "introduction": "Use these links to get started with OpenPages.",
     "section_devtools": {
       "api": "/apidocs/openpages",
-      "cli": "/docs/openpages-cli-plugin"
+      "cli": "/docs/openpages?topic=openpages-openpages_CLI"
     },
     "section_recommended": [
       {
@@ -25,8 +25,8 @@
     ],
     "section_learn": {
       "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/cloud/architecture",
+      "architecture": "https://www.ibm.com/architectures/hybrid",
       "training": "https://www.ibm.com/training/openpages",
-      "community": "https://community.ibm.com/community/user/publiccloud/home"
+      "community": "https://community.ibm.com/community/user/cloud/home"
     }
   }

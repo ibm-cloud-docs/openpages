@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2023-11-30"
+lastupdated: "2024-01-03"
 
 keywords: operational risk management, ORM, risk assessments
 subcollection: openpages
@@ -21,7 +21,7 @@ You can change these settings later by running a script. The script updates a lo
 
 If you've already created objects, you can run the script but any existing objects are not updated. You might need to do some manual remediation. The script is designed for fresh installations of ORM.{: note}
 
-1. Download the **ORM Assessment Method Update Utility** package from Fix Central.
+1. Download the **ORM Assessment Method Update Utility** package from [Fix Central](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=OpenPages&product=ibm/Information+Management/OpenPages+GRC+Platform&function=fixId&fixids=BA-OGP-ORM).
 2. Create a new directory.
 3. Extract the `ORMAssessmentMethodUpdate.zip` zip file into the directory.
 4. Set `java_home` in `AssessmentMethodUpdate/post_install_update_ORM_assessment_settings.sh|.bat`
