@@ -870,6 +870,7 @@ Wolters Kluwer:
 | `openpages.reporting-period.update`                     | Not supported in OpenPages as a Service.   |
 | `openpages.reporting-period.commit`                     | Not supported in OpenPages as a Service.   |
 | `openpages.reporting-period.enable`                     | Not supported in OpenPages as a Service.   |
+
 {: caption="Table 45. Reporting actions that are not supported in OpenPages as a Service" caption-side="bottom"}
 
 ## Encryption keystore
@@ -879,6 +880,7 @@ Wolters Kluwer:
 | ---------------------------------------- | ------------------------------------------------------------------------ |
 | `openpages.encryption-keystore.enable`   | Not supported in OpenPages as a Service.                                 |
 | `openpages.encryption-keystore.disable`  | Not supported in OpenPages as a Service.                                 |
+
 {: caption="Table 45. Encryption keystore actions that are not supported in OpenPages as a Service" caption-side="bottom"}
 
 ## Loss event entries
@@ -893,6 +895,7 @@ Wolters Kluwer:
 | `openpages.lossevent-config.update`              | Not supported in OpenPages as a Service.                                 |
 | `openpages.lossevent-config-validation.evaluate` | Not supported in OpenPages as a Service.                                 |
 | `openpages.questionnaire-program.launch`         | Not supported in OpenPages as a Service.                                 |
+
 {: caption="Table 45. Loss event entry actions that are not supported in OpenPages as a Service" caption-side="bottom"}
 
 ## Global search
@@ -902,6 +905,7 @@ Wolters Kluwer:
 | ---------------------------------------- | ------------------------------------------------------------------------ |
 | `openpages.search-config.list`           | Not supported in OpenPages as a Service.                                 |
 | `openpages.search-config.update`         | Not supported in OpenPages as a Service.                                 |
+
 {: caption="Table 45. Global search actions that are not supported in OpenPages as a Service" caption-side="bottom"}
 -->
 
