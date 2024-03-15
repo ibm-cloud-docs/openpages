@@ -17,8 +17,8 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
-## 20 March 2024
-{: #openpages-mar2024}
+## 18 March 2024
+{: #openpages-mar1824}
 {: release-note}
 
 Multiple reports in a single report view
@@ -46,14 +46,7 @@ Support for future integration with watsonx.governance
 :    {{site.data.keyword.openpages_full}} supports future integration with watsonx.governance (Standard Plan only)
 
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings. 
-
-## 18 March 2024
-{: #openpages-mar1824}
-{: release-note}
-
-Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings. 
+:    Bug fixes and security fixes were applied to fix errors and settings.  
 
 ## 6 February 2024
 {: #openpages-feb0624}
