@@ -23,22 +23,30 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 Release 9.0.0.2
 
-New features
+**New features**
 - Multiple reports in a single report view
+
   Administrators can now define multiple report views for object types, giving users more options for viewing and sharing information.
 - New operation to associate objects in a workflow action
+
   In a workflow, you can now add a new Associate objects operation on an action. This operation creates a relationship between the current object and other objects based on conditions that you specify.
 - Object creation based on questionnaire responses
+
   On a questionnaire template, a questionnaire author can now create response actions to automatically create or copy an object and set field values on the object.
 - Configure a model to suggest relationships between objects
+
   Administrators can now configure a model to suggest relationships between objects for the user. A relationship can be new or copied from an existing relationship.
 - Export and import questionnaire templates
+
   You can now import and export questionnaire templates by using the Environment Migration user interface.
 - View low score questionnaires in Questionnaire Assessments
+
   A questionnaire reviewer can now view questions with low scores by using the new View questions with low scores filter.
 - Translation services
+
   {{site.data.keyword.openpages_full}} now supports NeuralSeek.
 - Support for future integration with watsonx.governance
+
   {{site.data.keyword.openpages_full}} supports future integration with watsonx.governance (Standard Plan only)
 
 Bug fixes and security fixes
