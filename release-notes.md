@@ -23,6 +23,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 Multiple reports in a single report view
 :    Administrators can now define multiple report views for object types, giving users more options for viewing and sharing information.
+
 New operation to associate objects in a workflow action
 :    In a workflow, you can now add a new Associate objects operation on an action. This operation creates a relationship between the current object and other objects based on conditions that you specify.
 
