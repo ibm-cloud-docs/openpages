@@ -33,7 +33,7 @@ Create a group with the following settings:
 
 If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}.
 
-The group name is always prefixed by "Cloud IAM – " and is a subgroup under the "Workflow, Reporting and Others" group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
+The group name is always prefixed by **Cloud IAM -** and is a subgroup under the **Workflow, Reporting and Others** group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
 
 ## Creating a administrator group
 {: #change2}
@@ -49,7 +49,7 @@ Create a group with the following settings:
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome2}
 
-If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}. The group name is always prefixed by "Cloud IAM - " and is a subgroup under "Workflow, Reporting and Others" group.
+If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}. The group name is always prefixed by **Cloud IAM -** and is a subgroup under **Workflow, Reporting and Others** group.
 
 Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}}
 IAM are members of the group in {{site.data.keyword.openpages_short}} and the
@@ -97,7 +97,7 @@ Create a user with the following settings:
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome4}
 
-In {{site.data.keyword.openpages_short}}, the user is a member of the "OPAdministrators" group by default.
+In {{site.data.keyword.openpages_short}}, the user is a member of the **OPAdministrators** group by default.
 
 The user is created with the User Name, Display Name, Email, and Group associations that you specified in {{site.data.keyword.Bluemix_notm}}.
 
@@ -125,7 +125,7 @@ Change the name of an existing group.
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome5}
 
-A new group is created in {{site.data.keyword.openpages_short}} with the new name in the "Workflow, Reporting and Others" group. Users are disassociated from the old group and associated with new group.
+A new group is created in {{site.data.keyword.openpages_short}} with the new name in the **Workflow, Reporting and Others** group. Users are disassociated from the old group and associated with new group.
 
 The status of the old group is set to **Inactive**.
 
@@ -167,7 +167,7 @@ Delete a group with user members.
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome8}
 
-The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved from the "Workflow, Reporting and Others" group to be a subgroup of the "Standalone Users and Group" group.
+The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix **Cloud IAM -** is moved from the **Workflow, Reporting and Others** group to be a subgroup of the "Standalone Users and Group" group.
 
 Users associated with the deleted group that are members of other groups are no longer associated with the deleted group.
 
@@ -225,6 +225,6 @@ Add a group that had been deleted.
 ### Outcome in {{site.data.keyword.openpages_short}}*
 {: #outcome12}
 
-The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix "Cloud IAM -" is moved back to be a  subgroup under the "Workflow, Reporting and Others" group.
+The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix **Cloud IAM -** is moved back to be a subgroup under the **Workflow, Reporting and Others** group.
 
 If any users exist in this new group, they are associated with the re-created group.

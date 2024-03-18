@@ -23,6 +23,8 @@ toc:
       - topic: choosing-a-plan.md
         navtitle: Pricing
       - differences.md
+      - maintenance_windows.md      
+      - software_updates.md 
       - topic: release-notes.md
         navtitle: Release notes
 

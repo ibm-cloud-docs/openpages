@@ -19,7 +19,7 @@ configuration settings. These backups are retained for 35 days.
 A restore creates a new {{site.data.keyword.openpages_short}} instance that is a copy of the backed-up instance.
 
 To restore a backup, do the following steps:
-1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs-draft/openpages?topic=openpages-manage_op_instance).
+1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your IBM OpenPages instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
 3. Click **Backup and restore**.
 4. Enter a **Service name** for the new {{site.data.keyword.openpages_short}} instance.
