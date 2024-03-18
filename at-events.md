@@ -17,7 +17,7 @@ subcollection: openpages
 As a security officer, auditor, or manager, you can use the {{site.data.keyword.at_full}} service to track how users and applications interact with the {{site.data.keyword.openpages_short}} service in {{site.data.keyword.cloud_notm}}.
 {: shortdesc}
 
-{{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
+{{site.data.keyword.at_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [Getting started tutorial for {{site.data.keyword.at_full_notm}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
 
 ## List of platform events
 {: #at_actions_platform}
@@ -67,7 +67,7 @@ Login, Logout, Session, Authentication:
 | Action:                         | Description:                                                                         |
 | ------------------------------- | ------------------------------------------------------------------------------------ |
 | `openpages.user.logoff`         | An event is generated when a user logs out of {{site.data.keyword.openpages_short}}. |
-| `openpages.user.logon`          | An event is generated when a user logs in to {{site.data.keyword.openpages_short}}   |
+| `openpages.user.logon`          | An event is generated when a user logs in to {{site.data.keyword.openpages_short}}.  |
 | `openpages.user.session-expire` | An event is generated when a user session expires.                                   |
 {: caption="Table 2. Actions that generate login, logout, session authentication events (UI)" caption-side="bottom"}
 
@@ -87,7 +87,7 @@ User Management:
 | `openpages.user-membership.list` | An event is generated when a list of user group memberships is fetched. |
 | `openpages.user.enable` | An event is generated when a user account is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the user account is enabled. |
 | `openpages.user.get` | An event is generated when a user is fetched. |
-| `openpages.user.list` | An event is generated when user list is fetched. |
+| `openpages.user.list` | An event is generated when a list of users is fetched. |
 | `openpages.user.update` | An event is generated when a user  is modified. |
 {: caption="Table 3. Actions that generate user management events (UI)" caption-side="bottom"}
 
@@ -118,8 +118,8 @@ Audit trail:
 
 | Action:                            | Description:                                                             |
 | ---------------------------------- | ------------------------------------------------------------------------ |
-| `openpages.resource-activity.list` | An event is generated when the Activity tab of a view list is displayed. |
-| `openpages.resource-activity.get` | An event is generated when the Activity tab of a view is displayed. |
+| `openpages.resource-activity.list` | An event is generated when a list of changes to an object is displayed on the Activity tab. |
+| `openpages.resource-activity.get` | An event is generated when a change to an object is displayed on the Activity tab. |
 | `openpages.resource-activity.export` |  |
 {: caption="Table 5. Actions that generate audit trail events (UI)" caption-side="bottom"}
 
@@ -354,7 +354,7 @@ Objects:
 | `openpages.resource-lock.set-on` | An event is generated when an object instance is locked. |
 | `openpages.file-resource.create` | An event is generated when an attachment is created. |
 | `openpages.resource-move.commit` | An event is generated when an object instance is moved. |
-| `openpages.file-resource-version.list` | An event is generated when a list of attachment versions is fetched to a task view. |
+| `openpages.file-resource-version.list` | An event is generated when a list of attachment versions is fetched. |
 | `openpages.resource.export` | An event is generated when a list of object instances is exported. |
 | `openpages.resource.delete` | An event is generated when an object instance is deleted. |
 | `openpages.resource.list` | An event is generated when a list of object instances is fetched. |
@@ -695,7 +695,7 @@ Wolters Kluwer:
 | `openpages.app-permission.get` | An event is generated when an application permission is fetched. |
 | `openpages.currency.update` | An event is generated when a currency is updated. |
 | `openpages.folder.create` | An event is generated when a folder is created. |
-| `openpages.scim-schema.list` | An event is generated when SCIM schema is listed. |
+| `openpages.scim-schema.list` | An event is generated when a list of SCIM schemas is fetched. |
 | `openpages.folder-template.get` | An event is generated when a folder template is fetched. |
 | `openpages.resource.create` | An event is generated when an object instance is created. |
 | `openpages.resource-association.delete` | An event is generated when an object instance is dissociated from a parent or a child. |
@@ -703,7 +703,7 @@ Wolters Kluwer:
 | `openpages.trace-options.update` | An event is generated when the trace logging settings are updated in the **Other > Logs > System tracing options** UI. |
 | `openpages.user.update` | An event is generated when a user  is modified. |
 | `openpages.bulkRequest.bulk processing` |  |
-| `openpages.user-anonimization.set` | An event is generated when user attributes are anonymized. |
+| `openpages.user-anonimization.set` | An event is generated when user attributes are changed to remove private information that could be used to identify a user. |
 | `openpages.object-type-unclaimed.get` | An event is generated when a list of unentitled object types is fetched. |
 | `openpages.resource-copy.commit` | An event is generated when an object instances are copied recursively. |
 | `openpages.setting.get` | An event is generated when a setting is fetched. |
@@ -736,7 +736,7 @@ Wolters Kluwer:
 | `openpages.group-member.add` | An event is generated when a user is added to a group. |
 | `openpages.file-resource.upload` | An event is generated when a file is uploaded. |
 | `openpages.group-member.delete` | An event is generated when a user is removed from a group. |
-| `openpages.resource-activity.list` | An event is generated when the Activity tab of a view list is displayed. |
+| `openpages.resource-activity.list` | An event is generated when a list of changes to an object is displayed on the Activity tab. |
 | `openpages.user-password.reset` | An event is generated when a user password is reset. |
 | `openpages.role-template.get` | An event is generated when a role template is fetched. |
 | `openpages.setting.list` | An event is generated when a list of settings is fetched. |
@@ -745,6 +745,7 @@ Wolters Kluwer:
 | `openpages.profile.list` | An event is generated when a list of object profiles is fetched. |
 | `openpages.user-membership.list` | An event is generated when a list of user group memberships is fetched. |
 | `openpages.object-type-association.list` | An event is generated when a list of object type associations is fetched. |
+| `openpages.scim-resource-type.list` | An event is generated when an SCIM resource type is fetched. |
 | `openpages.resource.query` | An event is generated when object instances are queried. |
 | `openpages.resource.get` | An event is generated when an object instance is fetched to a task view. |
 | `openpages.system-admin-mode.get` | An event is generated when the System Admin Mode flag is fetched. |
