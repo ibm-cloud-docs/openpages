@@ -46,6 +46,8 @@ The Essentials plan is ideal for small organizations or departments within a lar
 
 The Standard plan is ideal for small to medium-sized organizations or departments in larger organization who are looking for expanded use of GRC solutions.
 
+[watsonx.governance]{: tag-blue} To integrate with watsonx.governance, the Standard plan is required.
+
 ## What is supported by the Essentials and Standard plans
 {: #what_is_supported}
 
