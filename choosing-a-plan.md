@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-04-11"
 
 keywords: choosing a plan, pricing plans
 

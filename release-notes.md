@@ -24,7 +24,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 Integration with watsonx.governance
 :    You can now integrate watsonx.governance with {{site.data.keyword.openpages_short}}. To use this integration, the {{site.data.keyword.openpages_short}} Standard plan is required.
 
-Db2 on AWS RDS
+Amazon RDS for Db2
 :    For new customers, {{site.data.keyword.openpages_short}} now uses Amazon RDS for Db2.
 
 Bug fixes and security fixes
