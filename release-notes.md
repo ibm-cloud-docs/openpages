@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-04-11"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,19 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 29 April 2024
+{: #openpages-apr2924}
+{: release-note}
+
+Integration with watsonx.governance
+:    You can now integrate watsonx.governance with {{site.data.keyword.openpages_short}}. To use this integration, the {{site.data.keyword.openpages_short}} Standard plan is required.
+
+Db2 on AWS RDS
+:    For new customers, {{site.data.keyword.openpages_short}} now uses Amazon RDS for Db2.
+
+Bug fixes and security fixes
+:    Bug fixes and security fixes were applied to fix errors and settings.
 
 ## 18 March 2024
 {: #openpages-mar1824}
@@ -32,42 +45,42 @@ Object creation based on questionnaire responses
 
 Configure a model to suggest relationships between objects
 :    Administrators can now configure a model to suggest relationships between objects for the user. A relationship can be new or copied from an existing relationship.
-  
+
 Export and import questionnaire templates
 :    You can now import and export questionnaire templates by using the Environment Migration user interface.
-  
+
 View low score questionnaires in Questionnaire Assessments
 :    A questionnaire reviewer can now view questions with low scores by using the new View questions with low scores filter.
 
 Translation services
 :    {{site.data.keyword.openpages_full}} now supports NeuralSeek.
-  
+
 Support for future integration with watsonx.governance
 :    {{site.data.keyword.openpages_full}} supports future integration with watsonx.governance (Standard Plan only)
 
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings.  
+:    Bug fixes and security fixes were applied to fix errors and settings.
 
 ## 6 February 2024
 {: #openpages-feb0624}
 {: release-note}
 
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings. 
+:    Bug fixes and security fixes were applied to fix errors and settings.
 
 ## 29 January 2024
 {: #openpages-jan2924}
 {: release-note}
 
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings. 
+:    Bug fixes and security fixes were applied to fix errors and settings.
 
 ## 4 December 2023
 {: #openpages-dec0423}
 {: release-note}
 
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied to fix errors and settings. 
+:    Bug fixes and security fixes were applied to fix errors and settings.
 
 ## 3 November 2023
 {: #openpages-nov0323}
