@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-04-26"
 
 keywords: starting IBM OpenPages
 subcollection: openpages

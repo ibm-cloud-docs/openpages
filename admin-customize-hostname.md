@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-04-11"
+lastupdated: "2024-04-26"
 
 keywords: customize OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages

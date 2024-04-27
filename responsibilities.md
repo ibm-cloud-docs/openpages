@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-04-26"
 
 keywords: customer responsibilities, IBM responsibilities, terms and conditions
 
