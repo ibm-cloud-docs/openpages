@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-04-26"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -62,7 +62,7 @@ Review the following tables that outline what types of tasks each role allows fo
 
 Before you assign access, consider federating identities with your {{site.data.keyword.cloud_notm}} account. This authentication option simplifies the process of adding users to your account, without requiring an IBMid with a separate password.
 
-For more information, see [Which is the right federation option for you?](/docs-draft/account?topic=account-federation-option-for-you&interface=ui).
+For more information, see [Which is the right federation option for you?](/docs/account?topic=account-federation-option-for-you&interface=ui).
 
 There are two common ways to assign access in the console:
 
