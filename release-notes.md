@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-11"
+lastupdated: "2024-04-30"
 
 keywords: OpenPages release notes
 subcollection: openpages
