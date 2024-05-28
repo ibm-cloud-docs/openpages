@@ -49,11 +49,11 @@ On the **Manage** page for your instance, you see a warning about solutions that
 On the **Manage** page for your instance, you see a warning that you are using objects that not included in the solutions that you selected. The warning states that the solutions will be added to your instance in ten days. The warning includes a list of object types and the solutions that include them.
 {: tsSymptoms}
 
-When you provisioned {{site.data.keyword.la_short}}, you installed the sample data. The sample data includes objects from all solutions. The warning indicates that your instance is using objects that are outside of the solutions that you are currently licensed to use.
+When you provisioned {{site.data.keyword.openpages_short}}, you installed the sample data. The sample data includes objects from all solutions. The warning indicates that your instance is using objects that are outside of the solutions that you are currently licensed to use.
 {: tsCauses}
 
 - Add the additional solutions to your instance, or
-- Delete the objects that are not in the solutions that you selected when you provisioned {{site.data.keyword.la_short}}.
+- Delete the objects that are not in the solutions that you selected when you provisioned {{site.data.keyword.openpages_short}}.
 
 To add solutions:
 1. Make a list of the solutions that are listed in the warning message.
