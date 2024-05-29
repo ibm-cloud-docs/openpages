@@ -167,7 +167,7 @@ Delete a group with user members.
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome8}
 
-The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix **Cloud IAM -** is moved from the **Workflow, Reporting and Others** group to be a subgroup of the "Standalone Users and Group" group.
+The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix **Cloud IAM -** is moved from the **Workflow, Reporting and Others** group to be a subgroup of the **Standalone Users and Group** group.
 
 Users associated with the deleted group that are members of other groups are no longer associated with the deleted group.
 
