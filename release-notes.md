@@ -17,6 +17,13 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
+## 6 February 2024
+{: #openpages-may2924}
+{: release-note}
+
+Bug fixes and security fixes
+:    Bug fixes and security fixes were applied.
+
 ## 29 April 2024
 {: #openpages-apr2924}
 {: release-note}
