@@ -46,7 +46,7 @@ On the **Manage** page for your instance, you see a warning about solutions that
 * Set the `troubleshoot` content type attribute on a new line following each H1 ID.
 * Use the three attributes for the symptom, cause, and resolution.-->
 
-On the **Manage** page for your instance, you see a warning that you are using objects that not included in the solutions that you selected. The warning states that the solutions will be added to your instance in ten days. The warning includes a list of object types and the solutions that include them. The warning is displayed for ten days.
+On the **Manage** page for your instance, you see a warning that you are using objects that not included in the solutions that you selected. The warning states that the solutions will be added to your instance and in how many days the change will take effect. The warning includes a list of object types and the solutions that include them. The warning is displayed for two weeks.
 {: tsSymptoms}
 
 When you provisioned {{site.data.keyword.openpages_short}}, you installed the sample data. The sample data includes objects from all solutions. The warning indicates that your instance is using objects that are outside of the solutions that you are currently subscribed to.
