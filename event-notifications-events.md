@@ -12,12 +12,12 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!--Include your file in the How to nav group in your toc.yaml file.-->
+
 
 # Enabling event notifications for {{site.data.keyword.openpages_short}}
 {: #event-notifications-events}
 
-<!-- The title of your H1 should be Enabling event notifications for _service-name_, where _service-name_ is the non-trademarked short version conref. -->
+
 
 As an administrator of {{site.data.keyword.openpages_short}}, you might want to send notifications of events in {{site.data.keyword.openpages_short}} to other users, or human destinations, by using email, SMS, or other supported delivery channels. Additionally, you might want to send these notifications of events to other applications to build logic by using event-driven programming that uses webhooks, for example. This is made possible by the integration between {{site.data.keyword.openpages_short}} and {{site.data.keyword.en_full}}.
 {: shortdesc}
@@ -31,15 +31,14 @@ When an event of interest takes place in your {{site.data.keyword.openpages_shor
 
 Currently, {{site.data.keyword.openpages_short}} supports only email destinations.
 
-<!--
-_List any additional detail about how your service collects events, the timing for checking for events, etc. that is specific to your service. Add a couple of example event types here to help the user know what to expect before they dive into the table below. See this example from Secrets Manager: https://test.cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-event-notifications&interface=ui#event-notifications-how_-->
+
 
 ## Events for {{site.data.keyword.openpages_short}}
 {: #event-notifications-list}
 
 The following table lists the {{site.data.keyword.openpages_short}} events. All events are under the `com.ibm.cloud.openpages.event` subtype.
 
-<!-- add a column for subtype, if you have need that level of detail -->
+
 
 | Event type                                  | Description |
 |------------------------------------------|---------|
@@ -69,7 +68,7 @@ Before you can enable notifications for {{site.data.keyword.openpages_short}}, a
 
 Connect {{site.data.keyword.openpages_short}} to the  {{site.data.keyword.en_short}} service instance by using **Settings > Event Notifications** section in the {{site.data.keyword.openpages_short}} UI to connect the services.
 
-<!-- There is a common component that is used by service dev teams to allow connections from the source service (your service) to Event Notifications, which is what the preceding sentence is referring to. Add a screen capture of this location if you'd like. If for some reason your service does not have this capability, then you should link to the Event Notifications docs for the how to steps for connecting from Event Notifications to your service-->
+
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. In the {{site.data.keyword.openpages_short}} navigation, click **Settings**.
@@ -88,29 +87,13 @@ After you enable notifications for {{site.data.keyword.openpages_short}}, create
 
 {{site.data.keyword.openpages_short}} notifications are in HTML format and are intended for the email delivery channel.
 
-<!--
-For a complete list of supported destinations, see the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destination).
-{: tip}
--->
+
 
 ### Email notifications
 {: #event-notifications-email}
 
 You can use the [{{site.data.keyword.cloud_notm}} email service](/docs/event-notifications?topic=event-notifications-en-destinations-email) as a delivery channel for {{site.data.keyword.openpages_short}} event notifications. [Create an {{site.data.keyword.en_short}} subscription](/docs/event-notifications?topic=event-notifications-en-create-en-subscription) between an existing topic and the {{site.data.keyword.cloud_notm}} email service to forward your alerts to various recipients by email. Recipients are automatically set based on the activity within {{site.data.keyword.openpages_short}} that caused the notification to be created.
-<!--
-To receive detailed information about an event notification in your email, select the **Add notification payload** option when you create an {{site.data.keyword.en_short}} subscription. Your email displays the [notification payload details](#event-notifications-payload) that are associated with the event.
-{: tip}
--->
 
-<!--
-### Webhooks
-{: #event-notifications-webhook}
 
-You can configure a webhook destination so that an incoming notification can be consumed programmatically by an app or service. For more information about setting up webhooks, check out the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destinations-webhook).
--->
-<!--
-## Notification payload details
-{: #event-notifications-payload}
 
-OpenPages team: if we need to provide this info in future, get it from the event notification teamplate
--->
+

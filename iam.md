@@ -29,7 +29,7 @@ If a specific role and its actions don't fit the use case that you're looking to
 IAM access policies enable access to be granted at different levels. Some of the options include the following:
 
 * Access across all instances of the service in your account
-* Access to an individual service instance in your account <!-- if this applies -->
+* Access to an individual service instance in your account 
 
 Review the following tables that outline what types of tasks each role allows for when you're working with the {{site.data.keyword.openpages_short}} service. Platform management roles enable users to perform tasks on service resources at the platform level, for example, assign user access to the service, create or delete instances, and bind instances to applications. Service access roles enable users access to {{site.data.keyword.openpages_short}} and the ability to call the {{site.data.keyword.openpages_short}}'s API.
 

@@ -12,7 +12,7 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!--Name your file `bc-dr.md` and include it in the **Reference** nav group in your `toc.yaml` file.-->
+
 
 # Understanding business continuity and disaster recovery for {{site.data.keyword.openpages_short}}
 {: #bc-dr}

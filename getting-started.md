@@ -11,7 +11,7 @@ subcollection: openpages
 ---
 {{site.data.keyword.attribute-definition-list}}
 
-<!--Do not change the anchor text for this topic. It's used by the link in the Catalog page for OpenPages.-->
+
 
 # Getting started with {{site.data.keyword.openpages_short}}
 {: #gettingstartedtutorial}
