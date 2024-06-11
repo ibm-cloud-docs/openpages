@@ -17,6 +17,8 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
+
+
 ## 29 May 2024
 {: #openpages-may2924}
 {: release-note}
