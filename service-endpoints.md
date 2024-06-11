@@ -12,10 +12,7 @@ subcollection: openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-<!--Name your file `service-endpoints.md` with the title Using service endpoints to privately connect to _servicename_. When nav titles are available you can use Using service endpoints as your title for the left nav entry while retaining the longer title as your H1 in the topic to ensure helpful search results.
-IMPORTANT:
-* If your service supports only service endpoints, include it in the **How to** nav group in the **Enhancing security** topic group in your `toc.yaml` file.
-* If your service supports both service endpoints and VPE for VPC, then refer to the guidance about placement in a nested topic group within the Enhancing security topic group: https://test.cloud.ibm.com/docs/writing?topic=writing-security-content-guidance-->
+
 
 # Managing IP addresses for {{site.data.keyword.openpages_short}}
 {: #service-endpoints}
@@ -25,7 +22,7 @@ To ensure that you have enhanced control and security over your data when you us
 
 By default, all IP addresses can be used to log in to {{site.data.keyword.openpages_short}} and access the API.
 
-<!--Document any customer data that goes over public routes even with the {{site.data.keyword.Bluemix_notm}} service endpoints feature enabled that uses a connection over private routes. For example, if your service sends customer data to a data-service that uses a public route or sends customer logs that uses public routes to LogDNA that should be documented.-->
+
 
 ## Before you begin
 {: #prereq-service-ip}
