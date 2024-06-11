@@ -15,7 +15,7 @@ subcollection: openpages
 # Securing your data in {{site.data.keyword.openpages_short}}
 {: #mng-data}
 
-To ensure that you can securely manage your data when you use {{site.data.keyword.openpages_full}}, it is important to know exactly what data is stored and encrypted and how you can delete it. 
+To ensure that you can securely manage your data when you use {{site.data.keyword.openpages_full}}, it is important to know exactly what data is stored and encrypted and how you can delete it.
 {: shortdesc}
 
 ## How your data is stored and encrypted in {{site.data.keyword.openpages_short}}
@@ -110,3 +110,5 @@ If you haven't permanently deleted your instance, you can restore it during the 
     {: pre}
 
     Replace `<reclamation_ID>` with the value that you retrieved in the previous step.
+
+[watsonx.governance]{: tag-blue} When you restore {{site.data.keyword.openpages_short}}, the integration with watsonx.governance is not restored. You need to re-enable the integration.
