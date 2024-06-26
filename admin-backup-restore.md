@@ -36,3 +36,5 @@ To restore a backup, do the following steps:
 - Ensure that you choose a date and time at least one hour after your instance was provisioned, or your instance might fail to restore.
 
 When the restore is complete, the new instance is available for you to access.
+
+[watsonx.governance]{: tag-blue} When you restore {{site.data.keyword.openpages_short}}, the integration with watsonx.governance is not restored. You need to re-enable the integration.
