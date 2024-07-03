@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+  lastupdated: "2024-06-26"
 
 keywords: add and remove solutions OpenPages, IBM OpenPages as a Service, Manage solutions
 subcollection: openpages

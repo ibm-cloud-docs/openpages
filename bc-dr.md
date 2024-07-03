@@ -2,8 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
-
+lastupdated: "2024-06-26"
 keywords: OpenPages as a Service, business continuity
 
 subcollection: openpages

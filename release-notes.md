@@ -17,6 +17,34 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
+## 1 July 2024
+{: #openpages-jul0124}
+{: release-note}
+
+Adding new locales
+:    Administrators can now add new locales to provide translation support for languages other than the ones that OpenPages supports by default.
+
+Adding images to rich text fields
+:    For string fields that have a display type of Rich Text, users have a toolbar and commands for text formatting and word processing. This toolbar now contains a tool with which users can add an image to the field.
+
+Exporting and importing dashboards by using the Environment Migration user interface
+:    Prior to 9.0.0.3, dashboards could only be exported as part of a profile. Now you can export dashboards directly by using the Environment Migration UI.
+
+Editing and deleting comments in questionnaires
+:    Both respondents and reviewers can now edit or delete comments that they created in a questionnaire.
+
+Make an answer exclusive for a multiple choice question
+:    When editing a questionnaire template, a user can make an answer exclusive for a multiple choice question. When a respondent chooses an exclusive answer, they can't select another answer for the question. An example of an exclusive answer is "None of the above".
+
+New endpoints available in the GRC REST API V2
+:    There are new endpoints to automate FastMap import and validation, LogCollector processes, the retrieval of supported locales, and updating the values of configuration settings.
+
+Additional security for your application
+:    The default OpenPages Content Security Policy (CSP) has been improved to provide additional security for your application. CSP is an HTTP response header that browsers use to enhance the security of the document or web page. The CSP header allows you to restrict which resources, such as JavaScript, CSS, and images, can be loaded, and the URLs that they can be loaded from. The enhancements to security change the way OpenPages works. For more information, see [Content-Security-Policy (CSP) registry settings](https://www.ibm.com/docs/SSFUEU_9.0.0/op_grc_admin/c_adm_content-security-policy.html).
+
+Bug fixes and security fixes
+:    Bug fixes and security fixes were applied.
+
 ## 29 May 2024
 {: #openpages-may2924}
 {: release-note}
