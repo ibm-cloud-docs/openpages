@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-07-03"
 
 keywords: data encryption in openpages, data storage for openpages, personal data in openpages, data deletion for openpages, data in openpages, data security in openpages
 
@@ -53,7 +53,7 @@ If your instance was automatically deleted as part of the release of new pricing
 
 The {{site.data.keyword.openpages_short}} data retention policy describes how long your data is stored after you delete the service. The data retention policy is included in the {{site.data.keyword.openpages_short}} service description, which you can find in the [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
-### Deleting a {{site.data.keyword.openpages_short}} instance
+### Deleting an {{site.data.keyword.openpages_short}} instance
 {: #service-delete}
 
 If you no longer need an instance of {{site.data.keyword.openpages_short}}, you can delete the service instance and any data that is stored. Your instance enters a disabled state, and after 7 days its data is permanently deleted. You can also choose to delete your service instance by using the console.
