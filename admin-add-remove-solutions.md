@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-  lastupdated: "2024-06-26"
+lastupdated: "2024-07-03"
 
 keywords: add and remove solutions OpenPages, IBM OpenPages as a Service, Manage solutions
 subcollection: openpages
@@ -29,4 +29,3 @@ To remove a solution:
 3. Click the toggle of the solution that you want to remove.
 
 Removing a solution does not delete any data in {{site.data.keyword.openpages_short}}. When you remove a solution, only your entitlement to the solution changes. {: .note}
-
