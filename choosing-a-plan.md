@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-11"
+lastupdated: "2024-07-08"
 
 keywords: choosing a plan, pricing plans
 
@@ -46,8 +46,6 @@ The Essentials plan is ideal for small organizations or departments within a lar
 
 The Standard plan is ideal for small to medium-sized organizations or departments in larger organization who are looking for expanded use of GRC solutions.
 
-[watsonx.governance]{: tag-blue} To integrate with watsonx.governance, the Standard plan is required.
-
 ## What is supported by the Essentials and Standard plans
 {: #what_is_supported}
 
@@ -65,5 +63,6 @@ The following table summarizes what is supported by each plan. The values in the
 | Number of permitted calculations             | 2 per object                  | 10 per object                 |
 | Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
 | Supports integration with watsonx.governance | No                            | Yes                           |
+| Supports integration with Amazon SageMaker                               | No                 | Yes                 |
 | Custom objects                               | Not permitted                 | Not permitted                 |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
