@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-26"
+lastupdated: "2024-08-12"
 
 keywords: Enabling event notifications OpenPages, IBM Cloud,
 
@@ -27,7 +27,7 @@ To send information to {{site.data.keyword.en_short}}, you must connect your {{s
 ## How events are collected and sent by {{site.data.keyword.openpages_short}}
 {: #event-notifications-how}
 
-When an event of interest takes place in your {{site.data.keyword.openpages_short}} instance, {{site.data.keyword.openpages_short}} communicates with a connected {{site.data.keyword.en_short}} instance to forward a notification to a [supported destination](/docs/event-notifications?topic=event-notifications-en-destination).
+When an event of interest takes place in your {{site.data.keyword.openpages_short}} instance, {{site.data.keyword.openpages_short}} communicates with a connected {{site.data.keyword.en_short}} instance to forward a notification to a [supported destination](/docs/event-notifications?topic=event-notifications-supported-destinations).
 
 Currently, {{site.data.keyword.openpages_short}} supports only email destinations.
 
