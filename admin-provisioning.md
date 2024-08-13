@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-07-03"
+lastupdated: "2024-08-12"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -15,6 +15,9 @@ subcollection: openpages
 Do the following steps to provision your {{site.data.keyword.openpages_short}} environment:
 {: shortdesc}
 
+To do this task, you must have the Editor or Administrator platform role on the {{site.data.keyword.openpages_short}} service or you must be the account owner.
+
+To provision an {{site.data.keyword.openpages_short}} instance, do the following steps:
 1. Log in to [{{site.data.keyword.Bluemix_notm}}](https://cloud.ibm.com/) by using your IBMid.
 2. On the **Dashboard**, click **Create resource**.
 3. On the **Catalog** page, in the search bar, type `openpages` and select **IBM OpenPages**.
