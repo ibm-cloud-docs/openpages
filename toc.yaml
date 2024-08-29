@@ -81,6 +81,7 @@ toc:
             - bc-dr.md
        - responsibilities.md
        - include: ../openpages-cli-plugin/openpages_cli.md
+         navtitle: OpenPages CLI
        - link:
-            label: IBM OpenPages REST API V2 for OpenPages as a Service
+            label: OpenPages REST API V2 for OpenPages as a Service
             href: https://{DomainName}/apidocs/openpages
