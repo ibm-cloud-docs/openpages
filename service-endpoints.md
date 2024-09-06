@@ -38,14 +38,18 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click the **Settings** tab.
 3. In the **IP Allowlisting** table, click **New**.
-4. Enter an IP address (IPv4, IPv6, or CIDR) and a description, then click **Save**.
+4. Enter an IP address (IPv4 or IPv6) or specify a range (CIDR). Type a description, and then click **Save**.
 
-     The IP addresses listed in the **IP Allowlisting** table are the only ones from which clients can access {{site.data.keyword.openpages_short}}.
+   For information about CIDR, see [What is CIDR]( https://aws.amazon.com/what-is/cidr/).
+
+The IP addresses listed in the **IP Allowlisting** table are the only ones from which clients can access {{site.data.keyword.openpages_short}}.
 
 ## Removing IP addresses from the allow-list
 {: #endpoint-disable}
 
-You can remove IP addresses from the **IP Allowlisting** table by following the next steps:
+If you remove all of the entries in the **IP Allowlisting** table, any IP addresses can access the instance. This is the default configuration.
+
+To remove IP addresses from the **IP Allowlisting** table, do the following steps:
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click the **Settings** tab.
