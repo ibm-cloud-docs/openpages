@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-04-26"
+lastupdated: "2024-09-06"
 
 keywords: customize OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -21,6 +21,8 @@ You can also transfer a custom hostname from one instance to another.
 ## Changing the hostname of an instance
 {: #changing_hostname_instance}
 
+To set a custom hostname, do the following steps:
+
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
 3. In the **Custom hostname** section, click the **Edit** icon.
@@ -33,11 +35,11 @@ You can now launch {{site.data.keyword.openpages_short}} by using the **Custom h
 ## Transferring a hostname to another instance
 {: #transferring_hostname_instance}
 
-If you have multiple instances, you can transfer a custom hostname from one instance to
-another.
+If you have multiple instances, you can transfer a custom hostname from one instance to another.
 
-This feature enables you to provision a new instance without the need to give users a different
-URL.
+This feature enables you to provision a new instance without the need to give users a different URL.
+
+To transfer a custom hostname to another instace, do the following steps:
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click **Environment**.
@@ -52,7 +54,9 @@ selected in step 3.
 ## Providing users with the {{site.data.keyword.openpages_short}} URL
 {: #provide_users_OP_url}
 
-As an administrator, you can provide the {{site.data.keyword.openpages_short}} URL to your user community. To get that URL, do the following steps:
+As an administrator, you can provide the {{site.data.keyword.openpages_short}} URL to your user community.
+
+To get that URL to share with your users, do the following steps:
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [How to manage your IBM OpenPages instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Choose one of the following options:
