@@ -35,6 +35,8 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 ## Setting up allowed IP addresses
 {: #add-service-ip}
 
+To set allowed IP addresses, do the following steps:
+
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. Click the **Settings** tab.
 3. In the **IP Allowlisting** table, click **New**.
