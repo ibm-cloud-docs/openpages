@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-09-06"
 
 keywords: high avalability, responsibilities
 
@@ -36,8 +36,7 @@ Service level objectives (SLOs) describe the design points that the {{site.data.
 
 | Availability target | Target Value   |
 |---|---|
-|  Availability % | 99.99  |
+|  Availability % | 99.9  |
 {: caption="Table 1. SLO for {{site.data.keyword.openpages_short}}" caption-side="bottom"}
 
 The SLO is not a warranty and {{site.data.keyword.IBM_notm}} will not issue credits for failure to meet an objective. Refer to the SLAs for commitments and credits that are issued for failure to meet any committed SLAs. For a summary of all SLOs, see [{{site.data.keyword.cloud_notm}} service level objectives](/docs/overview?topic=overview-slo).
-

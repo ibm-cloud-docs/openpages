@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-26"
+lastupdated: "2024-09-06"
 keywords: OpenPages as a Service, business continuity
 
 subcollection: openpages
@@ -37,7 +37,9 @@ To find out more about responsibility ownership for using {{site.data.keyword.cl
 |  RTO | Up to 72 hours  |
 {: caption="Table 1. RPO and RTO for {{site.data.keyword.openpages_short}}" caption-side="bottom"}
 
-The service is restored to another region based on the following table. The application URL domain is updated in the event of a restore. When the service is restored at the target region, the new application URL is sent to the account administrators.
+The service is restored to another region based on the following table. The application URL domain is updated in the event of a restore. When the service is restored at the target region, the new application URL is available in the console.
+
+If you customized the hostname, the URL uses the updated region, along with the custom hostname.
 
 | Primary region of the service | Target region to restore the service   |
 |---|---|
