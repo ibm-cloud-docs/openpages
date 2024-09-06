@@ -48,7 +48,7 @@ If you need to create an {{site.data.keyword.openpages_short}} instance, see [Pr
 You can remove IP addresses from the **IP Allowlisting** table by following the next steps:
 
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
-2. On the **{{site.data.keyword.openpages_short}} Overview** tab, go to the **Administrative Actions** section.
+2. Click the **Settings** tab.
 3. In the **IP Allowlisting** table, click the **Delete** icon in the **Actions** column.
 
     The IP address is removed from the **IP Allowlisting** table.
