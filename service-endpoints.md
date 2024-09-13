@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-06"
+lastupdated: "2024-09-10"
 
 keywords: Managing IP addresses OpenPages, IP addresses, IBM Cloud
 
@@ -42,7 +42,7 @@ To set allowed IP addresses, do the following steps:
 3. In the **IP Allowlisting** table, click **New**.
 4. Enter an IP address (IPv4 or IPv6) or specify a range (CIDR). Type a description, and then click **Save**.
 
-   For information about CIDR, see [What is CIDR]( https://aws.amazon.com/what-is/cidr/).
+   For information about CIDR, see [What is CIDR](https://aws.amazon.com/what-is/cidr/).
 
 The IP addresses listed in the **IP Allowlisting** table are the only ones from which clients can access {{site.data.keyword.openpages_short}}.
 
