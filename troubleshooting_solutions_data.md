@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-27"
+lastupdated: "2024-09-18"
 
 keywords: question about warning, solutions in use
 
@@ -42,7 +42,8 @@ On the **Manage** page for your instance, you see a warning about solutions that
 On the **Manage** page for your instance, you see a warning that you are using objects that not included in the solutions that you selected. The warning states that the solutions will be added to your instance and in how many days the change will take effect. The warning includes a list of object types and the solutions that include them. The warning is displayed for two weeks.
 {: tsSymptoms}
 
-When you provisioned {{site.data.keyword.openpages_short}}, you installed the sample data. The sample data includes objects from all solutions. The warning indicates that your instance is using objects that are outside of the solutions that you are currently subscribed to.
+When you provisioned {{site.data.keyword.openpages_short}}, you added one or more solutions to your IBM OpenPages instance. 
+When you add a solution, you can use the object types that belong to the solution. You’re billed for the solutions that you use. The warning indicates that your instance is using object types that are outside of the solutions that you are currently subscribed to.
 {: tsCauses}
 
 You can resolve the issue by taking one of the following actions:
