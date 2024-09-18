@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-06"
+lastupdated: "2024-09-18"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,29 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 25 September 2024
+{: #openpages-sep2524}
+{: release-note}
+
+Warning message not displayed for non-entitled solutions on instances with sample data
+:    If your instance of OpenPages as a Service is provisioned with sample data, you no longer see the warning that indicates your instance is using object types that are outside of the solutions that you are currently subscribed to.
+Multiple report and custom tabs can be added to the OpenPages dashboard
+:    The dashboard can now contain up to three tabs for Cognos® and OpenPages® reports and up to three custom tabs. 
+Ability to remove an added locale
+:    You can now remove a locale that was previously added if you don't need it anymore.
+Addition of stacked bar charts
+:    You can now configure a stacked bar chart on the dashboard and the Task View Designer.
+Addition of **Skip if it exists** functionality to questionnaire response actions that create a new object
+:    If you don't want a response action to try re-creating a new object if an object by the same name already exists, select **Skip if it exists**. 
+Expressions supported when setting an object's field values based on a questionnaire respondent's answers
+:    You can now enter an expression for the value of a field. For example, you can enter `[$TODAY$]` for the current date,`[$END_USER$]` for the name of the signed on user, or `[$System Fields:Description$]` to set the field to the value of the Description field of the object.
+Session tracing
+:    An administrator can set `/Applications/Common/Administration/Session Tracing` to enable tracing for a user's actions.
+Capture of diagnostic data for database performance
+:    You can use a new system tracing option to capture diagnostic data related to database performance.
+Bug fixes and security fixes
+:    Bug fixes and security fixes were applied.
 
 ## 26 August 2024
 {: #openpages-aug2624}
