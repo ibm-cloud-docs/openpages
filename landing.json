@@ -1,21 +1,25 @@
 {
   "version": 2,
+  "lastupdated": "2024-09-19",
   "title": "OpenPages as a Service",
-  "introduction": "Find useful information about OpenPages",
+  "introduction": "Use these links to get started with OpenPages.",
   "product_page": "https://www.ibm.com/products/openpages?mhsrc=ibmsearch_a&mhq=IBM%20OpenPages%20with%20Watson",
   "console_page": "/catalog/services/openpages",
   "section_topics": {
     "links": [
       {
         "title": "Getting started with IBM OpenPages",
+        "description": "Get started with administering OpenPages.",
         "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
      {
         "title": "Administering IBM OpenPages",
+        "description": "Manage your OpenPages instances.",
         "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
       },
       {
         "title": "Getting help and support for IBM OpenPages as a Service",
+        "description": "Use these resources If you experience an issue or have questions.", 
         "href": "/docs/openpages?topic=openpages-help-and-support&interface=ui"
       }
     ]
