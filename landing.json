@@ -1,5 +1,5 @@
 {
-  "version": 2024-09-19,
+  "version": 2,
   "title": "OpenPages as a Service",
   "introduction": "Find useful information about OpenPages",
   "product_page": "https://www.ibm.com/products/openpages?mhsrc=ibmsearch_a&mhq=IBM%20OpenPages%20with%20Watson",
@@ -25,7 +25,7 @@
       "title": "Navigating governance, risk management, and compliance in modern business",
       "description": "This article provides an overview of governance, risk management, and compliance in today’s modern business world.",
       "href": "https://developer.ibm.com/articles/navigating-governance-risk-compliance/?mhsrc=ibmsearch_a&mhq=openpages",
-      "type": "article"
+      "type": "article",
 	  "recommended": true
     },
     {
@@ -38,7 +38,7 @@
   ],
   "section_devtools": {
     "api": "/apidocs/openpages",
-    "cli": "/docs/openpages?topic=openpages-openpages_CLI",
+    "cli": "/docs/openpages?topic=openpages-openpages_CLI"
   },
   "section_updates": {
     "view_more": "/docs/openpages?topic=openpages-openpages-relnotes",
