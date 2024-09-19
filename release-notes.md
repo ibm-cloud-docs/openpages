@@ -17,15 +17,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
-## 25 September 2024
-{: #openpages-sep2524}
+## 23 September 2024
+{: #openpages-sep2324}
 {: release-note}
 
 Warning message not displayed for non-entitled solutions on instances with sample data
 :    If your instance of OpenPages as a Service is provisioned with sample data, you no longer see the warning that indicates your instance is using object types that are outside of the solutions that you are currently subscribed to.
 
-Multiple report and custom tabs can be added to the OpenPages dashboard
-:    The dashboard can now contain up to three tabs for Cognos® and OpenPages® reports and up to three custom tabs. 
+Multiple custom tabs can be added to the OpenPages dashboard
+:    The dashboard can now contain up to three custom tabs. 
 
 Ability to remove an added locale
 :    You can now remove a locale that was previously added if you don't need it anymore.
