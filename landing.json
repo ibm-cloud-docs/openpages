@@ -1,24 +1,29 @@
 {
   "version": 2,
   "lastupdated": "2024-09-19",
-  "title": "OpenPages as a Service",
+  "title": "IBM OpenPages as a Service",
   "introduction": "Use these links to get started with OpenPages.",
-  "product_page": "https://www.ibm.com/products/openpages?mhsrc=ibmsearch_a&mhq=IBM%20OpenPages%20with%20Watson",
+  "product_page": "https://www.ibm.com/products/openpages",
   "console_page": "/catalog/services/openpages",
   "section_topics": {
     "links": [
       {
-        "title": "Getting started with IBM OpenPages",
+        "title": "Getting started with OpenPages",
         "description": "Get started with administering OpenPages.",
         "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
      {
-        "title": "Administering IBM OpenPages",
+        "title": "Administering OpenPages",
         "description": "Manage your OpenPages instances.",
         "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
       },
+	  {
+        "title": "Logging for OpenPages",
+        "description": "Review log data, define alerts, and design custom views to monitor application and system logs.",
+        "href": "/docs/openpages?topic=openpages-service-logs"
+      },
       {
-        "title": "Getting help and support for IBM OpenPages as a Service",
+        "title": "Getting help and support for OpenPages",
         "description": "Use these resources If you experience an issue or have questions.", 
         "href": "/docs/openpages?topic=openpages-help-and-support&interface=ui"
       }
@@ -29,7 +34,7 @@
       "title": "Navigating governance, risk management, and compliance in modern business",
       "description": "This article provides an overview of governance, risk management, and compliance in today’s modern business world.",
       "href": "https://developer.ibm.com/articles/navigating-governance-risk-compliance/?mhsrc=ibmsearch_a&mhq=openpages",
-      "type": "article",
+      "type": "blog",
 	  "recommended": true
     },
     {
