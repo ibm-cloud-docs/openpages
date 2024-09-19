@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "lastupdated": "2024-09-19",
   "title": "IBM OpenPages as a Service",
   "introduction": "Use these links to get started with OpenPages.",
   "product_page": "https://www.ibm.com/products/openpages",
@@ -9,22 +8,18 @@
     "links": [
       {
         "title": "Getting started with OpenPages",
-        "description": "Get started with administering OpenPages.",
         "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
      {
         "title": "Administering OpenPages",
-        "description": "Manage your OpenPages instances.",
         "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
       },
 	  {
         "title": "Logging for OpenPages",
-        "description": "Review log data, define alerts, and design custom views to monitor application and system logs.",
         "href": "/docs/openpages?topic=openpages-service-logs"
       },
       {
         "title": "Getting help and support for OpenPages",
-        "description": "Use these resources If you experience an issue or have questions.", 
         "href": "/docs/openpages?topic=openpages-help-and-support&interface=ui"
       }
     ]
@@ -50,28 +45,6 @@
     "cli": "/docs/openpages?topic=openpages-openpages_CLI"
   },
   "section_updates": {
-    "view_more": "/docs/openpages?topic=openpages-openpages-relnotes",
-    "tiles": [
-      {
-        "date": "25 September 2024",
-        "title": "Warning message not displayed for non-entitled solutions on instances with sample data"
-      },
-      {
-        "date": "25 September 2024",
-        "title": "Addition of stacked bar charts"
-      },
-      {
-        "date": "01 July 2024",
-        "title": "Adding new locales"
-      },
-	        {
-        "date": "01 July 2024",
-        "title": "New endpoints available in the GRC REST API V2"
-      },
-      {
-        "date": "29 April 2024",
-        "title": "Integration with watsonx.governance"
-      }
-    ]
+    "view_more": "/docs/openpages?topic=openpages-openpages-relnotes"
   }
-}
+  }
