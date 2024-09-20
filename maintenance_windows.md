@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-09-20"
 
 keywords: openpages maintenance, availability of operations
 
@@ -42,3 +42,5 @@ During the maintenance window, the {{site.data.keyword.openpages_full}} system i
 - Questionnaire program launch operations
 
 The underlying infrastructure, relational database system, and application server pod are restarted with patches and updates during the maintenance window.
+
+For information about the overall status of the service, see the [Status Overview](https://cloud.ibm.com/status) page.
