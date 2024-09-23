@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-20"
+lastupdated: "2024-09-23"
 
 keywords: openpages maintenance, availability of operations
 
@@ -37,7 +37,7 @@ During the maintenance window, the {{site.data.keyword.openpages_full}} system i
 - Large volume copy, move, and associate operations
 - Start workflow operations for applicable objects from the administrative page
 - Start calculation operations for applicable objects from the administrative page
-- ObjectManager load, dump, and validate operations from the {{site.data.keyword.cloud}} command-line plugin
+- ObjectManager `load`, `dump`, `batch`, and `validate` operations from the {{site.data.keyword.cloud}} command-line plugin
 - Scheduler jobs
 - Questionnaire program launch operations
 
