@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-09-23"
 
 keywords: openpages maintenance, availability of operations
 
@@ -37,8 +37,10 @@ During the maintenance window, the {{site.data.keyword.openpages_full}} system i
 - Large volume copy, move, and associate operations
 - Start workflow operations for applicable objects from the administrative page
 - Start calculation operations for applicable objects from the administrative page
-- ObjectManager load, dump, and validate operations from the {{site.data.keyword.cloud}} command-line plugin
+- ObjectManager `load`, `dump`, `batch`, and `validate` operations from the {{site.data.keyword.cloud}} command-line plugin
 - Scheduler jobs
 - Questionnaire program launch operations
 
 The underlying infrastructure, relational database system, and application server pod are restarted with patches and updates during the maintenance window.
+
+For information about the overall status of the service, see the [Status Overview](https://cloud.ibm.com/status) page.

@@ -1,32 +1,50 @@
 {
-    "title": "OpenPages product docs",
-    "lastupdated": "2023-12-19",
-    "introduction": "Use these links to get started with OpenPages.",
-    "section_devtools": {
-      "api": "/apidocs/openpages",
-      "cli": "/docs/openpages?topic=openpages-openpages_CLI"
-    },
-    "section_recommended": [
+  "version": 2,
+  "title": "IBM OpenPages as a Service",
+  "introduction": "Use these links to get started with OpenPages.",
+  "product_page": "https://www.ibm.com/products/openpages",
+  "console_page": "/catalog/services/openpages",
+  "section_topics": {
+    "links": [
       {
-        "title": "Getting started",
-        "description": "Get started with administering OpenPages.",
+        "title": "Getting started with OpenPages",
         "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
-      {
+     {
         "title": "Administering OpenPages",
-        "description": "Manage your OpenPages instances.",
-        "href": "/docs/openpages?topic=openpages-Administer_op"
+        "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
+      },
+	  {
+        "title": "Logging for OpenPages",
+        "href": "/docs/openpages?topic=openpages-service-logs"
       },
       {
-        "title": "Release notes",
-        "description": "What's new and changed in OpenPages.",
-        "href": "/docs/openpages?topic=openpages-openpages-relnotes"
+        "title": "Getting help and support for OpenPages",
+        "href": "/docs/openpages?topic=openpages-help-and-support&interface=ui"
       }
-    ],
-    "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/architectures/hybrid",
-      "training": "https://www.ibm.com/training/data-analytics",
-      "community": "https://community.ibm.com/community/user/cloud/home"
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Navigating governance, risk management, and compliance in modern business",
+      "description": "This article provides an overview of governance, risk management, and compliance in today’s modern business world.",
+      "href": "https://developer.ibm.com/articles/navigating-governance-risk-compliance/?mhsrc=ibmsearch_a&mhq=openpages",
+      "type": "blog",
+	  "recommended": true
+    },
+    {
+      "title": "Data, Analytics, and Business Automation",
+      "description": "This page lists the courses available for OpenPages users.",
+      "href": "https://www.ibm.com/training/search?query=OpenPages",
+      "type": "training",
+      "recommended": true
     }
+  ],
+  "section_devtools": {
+    "api": "/apidocs/openpages",
+    "cli": "/docs/openpages?topic=openpages-openpages_CLI"
+  },
+  "section_updates": {
+    "view_more": "/docs/openpages?topic=openpages-openpages-relnotes"
+  }
   }

@@ -26,6 +26,8 @@ toc:
       - software_updates.md
       - topic: release-notes.md
         navtitle: Release notes
+      - topic: known-issues.md
+        navtitle: Known issues
   - navgroup:
       id: howto
       topics:
