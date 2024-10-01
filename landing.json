@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "IBM OpenPages as a Service",
-  "introduction": "Use these links to get started with OpenPages.",
+  "introduction": "Simplify how you manage risk and regulatory compliance with a unified GRC platform.",
   "product_page": "https://www.ibm.com/products/openpages",
   "console_page": "/catalog/services/openpages",
   "section_topics": {
@@ -15,8 +15,8 @@
         "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
       },
 	  {
-        "title": "Logging for OpenPages",
-        "href": "/docs/openpages?topic=openpages-service-logs"
+        "title": "Managing access for OpenPages",
+        "href": "/docs/openpages?topic=openpages-iam-openpages"
       },
       {
         "title": "Getting help and support for OpenPages",
@@ -33,9 +33,9 @@
 	  "recommended": true
     },
     {
-      "title": "Data, Analytics, and Business Automation",
-      "description": "This page lists the courses available for OpenPages users.",
-      "href": "https://www.ibm.com/training/search?query=OpenPages",
+      "title": "IBM OpenPages 9.0: Administration",
+      "description": "In this self-paced course with hands-on exercises, students will take on the pivotal role of an administrator of IBM OpenPages, an integrated environment designed to manage governance, risk, and compliance (GRC) challenges across the enterprise.",
+      "href": "https://www.ibm.com/training/course/ibm-openpages-90-administration-1OS530G",
       "type": "training",
       "recommended": true
     }
