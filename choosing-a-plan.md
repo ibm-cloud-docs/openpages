@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-08"
+lastupdated: "2024-10-09"
 
 keywords: choosing a plan, pricing plans
 
@@ -27,7 +27,7 @@ The following table shows some examples of monthly charges.
 | A customer provisions a single instance on day 1.\nThe customer provisions a second instance on day 15.\nThe customer deprovisions the second instance on day 25.                                                  | The charge for that month is for the two instances.             |
 | A customer has an instance that is being used as a production environment with ORM active.\nThe customer also has a second instance that is being used as a non-production environment with ORM active. | The customer is charged only once for the use of that solution. |
 | A customer has an instance that is being used as a production environment with ORM active.\nThe  customer has a second instance that is being used as a non-production environment with ORM and RCM active.     | The customer is charged for the two solutions: ORM and RCM.     |
-{: caption="Table 1. Examples of charges." caption-side="bottom"}
+{: caption="Examples of charges." caption-side="bottom"}
 
 For more information about {{site.data.keyword.openpages_short}} pricing, see the [catalog](https://cloud.ibm.com/catalog){: external}. Search for `{{site.data.keyword.openpages_short}}`, then click the {{site.data.keyword.openpages_short}} tile to go to the provisioning page.
 
