@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-10-09"
 
 keywords: Enabling event notifications OpenPages, IBM Cloud,
 
@@ -43,7 +43,7 @@ The following table lists the {{site.data.keyword.openpages_short}} events. All 
 | Event type                                  | Description |
 |------------------------------------------|---------|
 | `com.ibm.cloud.openpages.event`           | An event is generated when you provision a service instance. |
-{: caption="Table 1. Actions that generate event notifications" caption-side="bottom"}
+{: caption="Actions that generate event notifications" caption-side="bottom"}
 
 ## Enabling notifications
 {: #event-notifications-enable}
@@ -93,7 +93,3 @@ After you enable notifications for {{site.data.keyword.openpages_short}}, create
 {: #event-notifications-email}
 
 You can use the [{{site.data.keyword.cloud_notm}} email service](/docs/event-notifications?topic=event-notifications-en-destinations-email) as a delivery channel for {{site.data.keyword.openpages_short}} event notifications. [Create an {{site.data.keyword.en_short}} subscription](/docs/event-notifications?topic=event-notifications-en-create-en-subscription) between an existing topic and the {{site.data.keyword.cloud_notm}} email service to forward your alerts to various recipients by email. Recipients are automatically set based on the activity within {{site.data.keyword.openpages_short}} that caused the notification to be created.
-
-
-
-

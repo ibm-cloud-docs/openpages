@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-18"
+lastupdated: "2024-10-09"
 
 keywords: audit events in openpages, audit activity in openpages
 
@@ -55,7 +55,7 @@ The following table lists the actions on service instances that generate an even
 | `openpages.service-custom-resource.renew` | An event is generated when a service instance is patched.  |
 | `openpages.service-storage-metrics.get` | An event is generated when storage metrics are retrieved and displayed on the **Usage** tab in the Console UI.  |
 | `openpages.service.list` | An event is generated when the list of service instances is displayed in the Console UI.  |
-{: caption="Table 1. Actions that generate platform events (UI)" caption-side="bottom"}
+{: caption="Actions that generate platform events (UI)" caption-side="bottom"}
 
 ## Users, groups, login, and logout events
 {: #users-groups}
@@ -69,7 +69,7 @@ Login, Logout, Session, Authentication:
 | `openpages.user.logoff`         | An event is generated when a user logs out of {{site.data.keyword.openpages_short}}. |
 | `openpages.user.logon`          | An event is generated when a user logs in to {{site.data.keyword.openpages_short}}.  |
 | `openpages.user.session-expire` | An event is generated when a user session expires.                                   |
-{: caption="Table 2. Actions that generate login, logout, session authentication events (UI)" caption-side="bottom"}
+{: caption="Actions that generate login, logout, session authentication events (UI)" caption-side="bottom"}
 
 
 User Management:
@@ -89,7 +89,7 @@ User Management:
 | `openpages.user.get` | An event is generated when a user is fetched. |
 | `openpages.user.list` | An event is generated when a list of users is fetched. |
 | `openpages.user.update` | An event is generated when a user  is modified. |
-{: caption="Table 3. Actions that generate user management events (UI)" caption-side="bottom"}
+{: caption="Actions that generate user management events (UI)" caption-side="bottom"}
 
 
 Group Management:
@@ -109,7 +109,7 @@ Group Management:
 | `openpages.group.update` | An event is generated when a group is updated. |
 | `openpages.group-administrator-permission.revoke` | An event is generated when administrative permissions are revoked from a group. |
 | `openpages.group-member.add` | An event is generated when users are added to a group. |
-{: caption="Table 4. Actions that generate group management events (UI)" caption-side="bottom"}
+{: caption="Actions that generate group management events (UI)" caption-side="bottom"}
 
 ## System administration and security events
 {: #system-admin}
@@ -121,7 +121,7 @@ Audit trail:
 | `openpages.resource-activity.list` | An event is generated when a list of changes to an object is displayed on the Activity tab. |
 | `openpages.resource-activity.get` | An event is generated when a change to an object is displayed on the Activity tab. |
 | `openpages.resource-activity.export` |  |
-{: caption="Table 5. Actions that generate audit trail events (UI)" caption-side="bottom"}
+{: caption="Actions that generate audit trail events (UI)" caption-side="bottom"}
 
 Currencies:
 
@@ -132,7 +132,7 @@ Currencies:
 | `openpages.currency.update` | An event is generated when a currency is updated. |
 | `openpages.currency.disable` | An event is generated when a currency is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `true` and `newValue` is set to `false`, the currency is disabled. |
 | `openpages.currency.enable` | An event is generated when a currency is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the currency is enabled. |
-{: caption="Table 6. Actions that generate currency events (UI)" caption-side="bottom"}
+{: caption="Actions that generate currency events (UI)" caption-side="bottom"}
 
 
 
@@ -142,7 +142,7 @@ Encryption keystore:
 | --------------------------------------- | -------------------------------------------------------- |
 | `openpages.encryption-keystore.disable` | An event is generated when an encryption key is disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the encryption key is enabled.   |
 | `openpages.encryption-keystore.get` | An event is generated when a encryption key retrieve. |
-{: caption="Table 7. Actions that generate encryption keystore events (UI)" caption-side="bottom"}
+{: caption="Actions that generate encryption keystore events (UI)" caption-side="bottom"}
 
 Environment migration:
 
@@ -154,7 +154,7 @@ Environment migration:
 | `openpages.configuration-validation.start` |  |
 | `openpages.configuration-import.start` | An event is generated when an import is started in the Import Configuration UI. |
 | `openpages.configuration-import.list` | An event is generated when configuration import history is listed in the UI. |
-{: caption="Table 8. Actions that generate environment migration events (UI)" caption-side="bottom"}
+{: caption="Actions that generate environment migration events (UI)" caption-side="bottom"}
 
 Localization \(object text and application text\):
 
@@ -165,7 +165,7 @@ Localization \(object text and application text\):
 | `openpages.application-text-key.list` | An event is generated when a list of user-defined application text keys is fetched. |
 | `openpages.object-text.update` | An event is generated when an object text string is updated. |
 | `openpages.object-text.list` | An event is generated when a list of object text strings is fetched. |
-{: caption="Table 9. Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
+{: caption="Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
 
 Logs, processes, trace logs:
 
@@ -181,7 +181,7 @@ Logs, processes, trace logs:
 | `openpages.process.get` | An event is generated when a background process is fetched. |
 | `openpages.trace-options.update` | An event is generated when the trace logging settings are updated in the **Other > Logs > System tracing options** UI. |
 | `openpages.process.list` | An event is generated when a background process list is fetched. |
-{: caption="Table 10. Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
+{: caption="Actions that generate object text and application text localization events (UI)" caption-side="bottom"}
 
 Role templates:
 
@@ -202,7 +202,7 @@ Role templates:
 | `openpages.role-template-access.add` | An event is generated when an object type is added to a role template. |
 | `openpages.role-template.get` | An event is generated when a role template is fetched. |
 | `openpages.role-template-lock.set-off` | An event is generated when a role template is unlocked. |
-{: caption="Table 11. Actions that generate role template events (UI)" caption-side="bottom"}
+{: caption="Actions that generate role template events (UI)" caption-side="bottom"}
 
 Security rules:
 
@@ -220,7 +220,7 @@ Security rules:
 | `openpages.record-level-security-rule.delete` | An event is generated when a record-level security rule is deleted. |
 | `openpages.field-level-security-rule.create` | An event is generated when a field-level security rule is created. |
 | `openpages.record-level-security-rule.create` | An event is generated when a record-level security rule is created. |
-{: caption="Table 12. Actions that generate security rule events (UI)" caption-side="bottom"}
+{: caption="Actions that generate security rule events (UI)" caption-side="bottom"}
 
 Settings:
 
@@ -234,7 +234,7 @@ Settings:
 | `openpages.setting.list` | An event is generated when a list of settings is fetched. |
 | `openpages.setting.copy` | An event is generated when a setting is copied. |
 | `openpages.setting.update` | An event is generated when the value of a setting is modified. |
-{: caption="Table 13. Actions that generate settings events (UI)" caption-side="bottom"}
+{: caption="Actions that generate settings events (UI)" caption-side="bottom"}
 
 System admin mode:
 
@@ -242,7 +242,7 @@ System admin mode:
 | ------------------------------------- | --------------------------------------------------------- |
 | `openpages.system-admin-mode.disable` | An event is generated when System Admin Mode is disabled. |
 | `openpages.system-admin-mode.enable` | An event is generated when System Admin Mode is enabled. |
-{: caption="Table 14. Actions that generate system admin mode events (UI)" caption-side="bottom"}
+{: caption="Actions that generate system admin mode events (UI)" caption-side="bottom"}
 
 System files:
 
@@ -260,7 +260,7 @@ System files:
 | `openpages.system-file-resource-rename.commit` | An event is generated when a system file resource is renamed. |
 | `openpages.system-file-resource-access.list` | An event is generated when a list of accesses to the system file resource is fetched. |
 | `openpages.system-file-resource.update` | An event is generated when a system file resource is modified. |
-{: caption="Table 15. Actions that generate system files events (UI)" caption-side="bottom"}
+{: caption="Actions that generate system files events (UI)" caption-side="bottom"}
 
 
 ## Object types, profiles, schema, object instances events
@@ -276,7 +276,7 @@ Field dependencies:
 | `openpages.field-dependency.enable` | An event is generated when a field dependency is enabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the field dependency is enabled. |
 | `openpages.field-dependency.create` | An event is generated when a field dependency is created. |
 | `openpages.field-dependency.list` | An event is generated when a list of field dependencies is fetched. |
-{: caption="Table 16. Actions that generate field dependency events (UI)" caption-side="bottom"}
+{: caption="Actions that generate field dependency events (UI)" caption-side="bottom"}
 
 Field groups, fields, and schema:
 
@@ -298,7 +298,7 @@ Field groups, fields, and schema:
 | `openpages.field.create` | An event is generated when a field is created. |
 | `openpages.object-type.list` | An event is generated when a list of object types is fetched. |
 | `openpages.field-groups.create` | An event is generated when a field group is created. |
-{: caption="Table 17. Actions that generate field, field group, and schema events (UI)" caption-side="bottom"}
+{: caption="Actions that generate field, field group, and schema events (UI)" caption-side="bottom"}
 
 Filters:
 
@@ -309,7 +309,7 @@ Filters:
 | `openpages.object-filter-fields.list` | An event is generated when a list of object filter fields is fetched. |
 | `openpages.object-filter.create` | An event is generated when a public filter is defined for an object type. |
 | `openpages.object-filter.list` | An event is generated when a list of object filters is fetched. |
-{: caption="Table 18. Actions that generate filter events (UI)" caption-side="bottom"}
+{: caption="Actions that generate filter events (UI)" caption-side="bottom"}
 
 Profiles:
 
@@ -340,7 +340,7 @@ Profiles:
 | `openpages.profile-report.add` | An event is generated when reports are added to a profile. |
 | `openpages.profile-actor.add` | An event is generated when users or groups are added to a profile. |
 | `openpages.fallback-profile.get` |  |
-{: caption="Table 19. Actions that generate profile events (UI)" caption-side="bottom"}
+{: caption="Actions that generate profile events (UI)" caption-side="bottom"}
 
 Objects:
 
@@ -359,7 +359,7 @@ Objects:
 | `openpages.resource.delete` | An event is generated when an object instance is deleted. |
 | `openpages.resource.list` | An event is generated when a list of object instances is fetched. |
 | `openpages.file-resource.update` | An event is generated when an attachment is modified. |
-{: caption="Table 20. Actions that generate object events (UI)" caption-side="bottom"}
+{: caption="Actions that generate object events (UI)" caption-side="bottom"}
 
 Object resets:
 
@@ -367,7 +367,7 @@ Object resets:
 | ---------------------------- | ------------------------------------------------------------------------- |
 | `openpages.object-reset-logs.get` |  |
 | `openpages.object-reset.get` | An event is generated when the result of an object-reset operation is fetched. |
-{: caption="Table 21. Actions that generate object reset events (UI)" caption-side="bottom"}
+{: caption="Actions that generate object reset events (UI)" caption-side="bottom"}
 
 
 Object type associations:
@@ -383,7 +383,7 @@ Object type associations:
 | `openpages.resource.remove` | An event is generated when an object instance relationship is removed. |
 | `openpages.resource-list.remove` | An event is generated when a list of object instance relationships is removed. |
 | `openpages.resource.add` | An event is generated when an object instance relationship is added. |
-{: caption="Table 22. Actions that generate object type associations events (UI)" caption-side="bottom"}
+{: caption="Actions that generate object type associations events (UI)" caption-side="bottom"}
 
 Recursive object types:
 
@@ -392,7 +392,7 @@ Recursive object types:
 | `openpages.recursive-object-level.create` | An event is generated when a recursive object level is created. |
 | `openpages.recursive-object-level.list` | An event is generated when recursive object level list is fetched. |
 | `openpages.recursive-object-level.delete` | An event is generated when a recursive object level is deleted. |
-{: caption="Table 23. Actions that generate recursive object type events (UI)" caption-side="bottom"}
+{: caption="Actions that generate recursive object type events (UI)" caption-side="bottom"}
 
 Solutions:
 
@@ -407,7 +407,7 @@ Solutions:
 | `openpages.solution.list` | An event is generated when a list of solutions is fetched. |
 | `openpages.field-exclusion.list` | An event is generated when a list of field exclusions is fetched. |
 | `openpages.solution.update` | An event is generated when a solution is updated. |
-{: caption="Table 24. Actions that generate solution events (UI)" caption-side="bottom"}
+{: caption="Actions that generate solution events (UI)" caption-side="bottom"}
 
 ## Calculations, workflows, views, and other user interface events
 {: #calc-workflow}
@@ -426,7 +426,7 @@ Calculations:
 | `openpages.calculation.get` | An event is generated when a calculation is fetched. |
 | `openpages.calculation.delete` | An event is generated when a calculation is deleted. |
 | `openpages.calculation.create` | An event is generated when a calculation is created. |
-{: caption="Table 25. Actions that generate calculation events (UI)" caption-side="bottom"}
+{: caption="Actions that generate calculation events (UI)" caption-side="bottom"}
 
 Dashboards:
 
@@ -443,7 +443,7 @@ Dashboards:
 | `openpages.user-dashboard.get` | An event is generated when a user dashboard is loaded. |
 | `openpages.admin-dashboard-draft.publish` | An event is generated when an administrative dashboard is published. |
 | `openpages.admin-dashboard.delete` | An event is generated when an administrative dashboard is deleted. |
-{: caption="Table 26. Actions that generate dashboard events (UI)" caption-side="bottom"}
+{: caption="Actions that generate dashboard events (UI)" caption-side="bottom"}
 
 FastMap:
 
@@ -451,7 +451,7 @@ FastMap:
 | -------------------------- | ------------------------------------------------------------------ |
 | `openpages.fastmap.validate` | An event is generated when a FastMap validation is started. |
 | `openpages.fastmap.import` | An event is generated when a FastMap import is started. |
-{: caption="Table 27. Actions that generate FastMap events (UI)" caption-side="bottom"}
+{: caption="Actions that generate FastMap events (UI)" caption-side="bottom"}
 
 File attachments:
 
@@ -465,7 +465,7 @@ File attachments:
 | `openpages.file-resource.download` | An event is generated when a file is downloaded. |
 | `openpages.file-type.enable` | An event is generated when an attachment file type is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the attachment file type is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the attachment file type is disabled. |
 | `openpages.file-resource-checkout.commit` | An event is generated when an attachment is checked in. |
-{: caption="Table 28. Actions that generate file attachment events (UI)" caption-side="bottom"}
+{: caption="Actions that generate file attachment events (UI)" caption-side="bottom"}
 
 Folders:
 
@@ -473,7 +473,7 @@ Folders:
 | -------------------------------- | ----------------------------------------------- |
 | `openpages.folder.create` | An event is generated when a folder is created. |
 | `openpages.folder.delete` | An event is generated when a folder is deleted. |
-{: caption="Table 29. Actions that generate folder events (UI)" caption-side="bottom"}
+{: caption="Actions that generate folder events (UI)" caption-side="bottom"}
 
 
 Questionnaires:
@@ -489,7 +489,7 @@ Questionnaires:
 | `openpages.questionnaire-template.get` | An event is generated when a questionnaire template is fetched. |
 | `openpages.questionnaire.get` | An event is generated when a questionnaire assessment is fetched. |
 | `openpages.questionnaire-template-default-object.add` | An event is generated when default objects are added a questionnaire template. |
-{: caption="Table 30. Actions that generate questionnaire events (UI)" caption-side="bottom"}
+{: caption="Actions that generate questionnaire events (UI)" caption-side="bottom"}
 
 Rules \(Regulatory Event rules\):
 
@@ -503,7 +503,7 @@ Rules \(Regulatory Event rules\):
 | `openpages.rule-supported-types.list` | An event is generated when a list of supported object types of rules is fetched. |
 | `openpages.rule.enable` | An event is generated when a rule in the Regulatory Event Rules UI is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the rule in the Regulatory Event Rules UI is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the rule in the Regulatory Event Rules UI is disabled. |
 | `openpages.rule.disable` | An event is generated when a rule in the Regulatory Event Rules UI is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the rule in the Regulatory Event Rules UI is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the rule in the Regulatory Event Rules UI is disabled. |
-{: caption="Table 31. Actions that generate rule events in the Regulatory Event Rules (UI)" caption-side="bottom"}
+{: caption="Actions that generate rule events in the Regulatory Event Rules (UI)" caption-side="bottom"}
 
 Scheduler jobs:
 
@@ -518,7 +518,7 @@ Scheduler jobs:
 | `openpages.scheduler-job.update` | An event is generated when scheduler job is updated. |
 | `openpages.scheduler-job.list` |  |
 | `openpages.scheduler-job-log.list` | An event is generated when a job execution log is viewed. |
-{: caption="Table 32. Actions that generate schedular job events (UI)" caption-side="bottom"}
+{: caption="Actions that generate schedular job events (UI)" caption-side="bottom"}
 
 Tags:
 
@@ -533,7 +533,7 @@ Tags:
 | `openpages.tag.create` | An event is generated when a tag is created. |
 | `openpages.tag-association.add` | An event is generated when tags for a resource are added. |
 | `openpages.tag-association.create` | An event is generated when a tag is added object instance. |
-{: caption="Table 33. Actions that generate tag events (UI)" caption-side="bottom"}
+{: caption="Actions that generate tag events (UI)" caption-side="bottom"}
 
 Themes:
 
@@ -546,7 +546,7 @@ Themes:
 | `openpages.theme.update` | An event is generated when a theme is updated. |
 | `openpages.theme.get` | An event is generated when a theme is fetched. |
 | `openpages.theme.enable` | An event is generated when a theme is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the theme job is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the theme is disabled.  |
-{: caption="Table 34. Actions that generate theme events (UI)" caption-side="bottom"}
+{: caption="Actions that generate theme events (UI)" caption-side="bottom"}
 
 Workflows:
 
@@ -570,7 +570,7 @@ Workflows:
 | `openpages.workflow.get` | An event is generated when a workflow definition is fetched. |
 | `openpages.workflow-resource.stop` | An event is generated when workflows are stopped. |
 | `openpages.resource-workflow-action.start` | An event is generated when a workflow action is processed. |
-{: caption="Table 35. Actions that generate workflow events (UI)" caption-side="bottom"}
+{: caption="Actions that generate workflow events (UI)" caption-side="bottom"}
 
 Views:
 
@@ -587,7 +587,7 @@ Views:
 | `openpages.view.update` | An event is generated when a view is modified. |
 | `openpages.view.enable` | An event is generated when a view is enabled or disabled. Under the `requestData.update` JSON field, when `initialValue` is set to `false` and `newValue` is set to `true`, the view job is enabled. When `initialValue` is set to `true` and `newValue` is set to `false`, the view is disabled.     |
 | `openpages.view-draft.publish` | An event is generated when a view is published. |
-{: caption="Table 36. Actions that generate view events (UI)" caption-side="bottom"}
+{: caption="Actions that generate view events (UI)" caption-side="bottom"}
 
 
 ## Integration-related events
@@ -604,7 +604,7 @@ AI models:
 | `openpages.ai-model-suggestion.evaluate` | An event is generated when an AI model suggests an insight. |
 | `openpages.ai-model-configuration.get` | An event is generated when an AI model configurations is fetched. |
 | `openpages.ai-model-configuration.list` | An event is generated when AI model configurations are listed. |
-{: caption="Table 37. Actions that generate AI model events (UI)" caption-side="bottom"}
+{: caption="Actions that generate AI model events (UI)" caption-side="bottom"}
 
 
 Classifiers:
@@ -615,7 +615,7 @@ Classifiers:
 | `openpages.watson-classifier.validate` | An event is generated when a Watson™ classifier is validated. |
 | `openpages.watson-classifier.update` | An event is generated when a Watson™ classifier is updated. |
 | `openpages.watson-classifier.create` | An event is generated when a Watson™ classifier is created. |
-{: caption="Table 38. Actions that generate watson classifier events (UI)" caption-side="bottom"}
+{: caption="Actions that generate watson classifier events (UI)" caption-side="bottom"}
 
 Microsoft Office:
 
@@ -623,7 +623,7 @@ Microsoft Office:
 | -------------------------------- | ---------------------------------------------------------------------------- |
 | `openpages.msoffice-resource.commit` | An event is generated when a Microsoft™ Office file is saved. |
 | `openpages.msoffice-resource.edit` | An event is generated when a Microsoft™ Office file editing session is started. |
-{: caption="Table 39. Actions that generate Microsoft Office events (UI)" caption-side="bottom"}
+{: caption="Actions that generate Microsoft Office events (UI)" caption-side="bottom"}
 
 watsonx Assistant:
 
@@ -632,7 +632,7 @@ watsonx Assistant:
 | `openpages.watson-assistant.validate` | An event is generated when  an IBM watsonx™ Assistant  configuration is validated. |
 | `openpages.watson-assistant.get` | An event is generated when an IBM watsonx™ Assistant configuration is fetched. |
 | `openpages.watson-assistant.configure` | An event is generated when an IBM watsonx™ Assistant  is configured. |
-{: caption="Table 40. Actions that generate watsonx Assistant events (UI)" caption-side="bottom"}
+{: caption="Actions that generate watsonx Assistant events (UI)" caption-side="bottom"}
 
 
 ## Feed provider events
@@ -645,7 +645,7 @@ Reg-Track:
 | `openpages.reg-track.get` | An event is generated when a reg-track feed configuration is fetched. |
 | `openpages.reg-track.update` | An event is generated when a reg-track feed configuration is updated. |
 | `openpages.reg-track.import` | An event is generated when a reg-track feed is imported. |
-{: caption="Table 41. Actions that generate reg-track feed events (UI)" caption-side="bottom"}
+{: caption="Actions that generate reg-track feed events (UI)" caption-side="bottom"}
 
 Thomson Reuters:
 
@@ -656,7 +656,7 @@ Thomson Reuters:
 | `openpages.trri.get` | An event is generated when Thomson Reuters feed configuration is fetched. |
 | `openpages.taxonomy-mapping.download` | An event is generated when Thomson Reuters feed taxonomy mapping is downloaded. |
 | `openpages.trri.update` | An event is generated when Thomson Reuters feed configuration is updated. |
-{: caption="Table 42. Actions that generate Thomson Reuters feed events (UI)" caption-side="bottom"}
+{: caption="Actions that generate Thomson Reuters feed events (UI)" caption-side="bottom"}
 
 Wolters Kluwer:
 
@@ -665,7 +665,7 @@ Wolters Kluwer:
 | `openpages.wk.get` | An event is generated when Wolters Kluwer feed configuration is fetched. |
 | `openpages.wk.update` | An event is generated when Wolters Kluwer feed configuration is updated. |
 | `openpages.wk.import` | An event is generated when Wolters Kluwer feed is imported. |
-{: caption="Table 43. Actions that generate Wolters Kluwer feed events (UI)" caption-side="bottom"}
+{: caption="Actions that generate Wolters Kluwer feed events (UI)" caption-side="bottom"}
 
 ## API events
 {: #api-events}
@@ -784,7 +784,7 @@ Wolters Kluwer:
 | `openpages.process-log.list` | An event is generated when a list of background process logs is fetched. |
 | `openpages.folder.list` | An event is generated when folders are listed. |
 | `openpages.resource.list` | An event is generated when object instance list is fetched. |
-{: caption="Table 44. Actions that generate API events (UI)" caption-side="bottom"}
+{: caption="Actions that generate API events (UI)" caption-side="bottom"}
 
 ## Viewing events
 {: #at_ui}
@@ -792,7 +792,3 @@ Wolters Kluwer:
 Events that are generated by an instance of the {{site.data.keyword.openpages_short}} service are automatically forwarded to the {{site.data.keyword.at_full_notm}} service instance that is available in the same location.
 
 {{site.data.keyword.at_full_notm}} can have only one instance per location. To view events, you must access the web UI of the {{site.data.keyword.at_full_notm}} service in the same location where your service instance is available. For more information, see [Launching the UI](/docs/activity-tracker?topic=activity-tracker-launch).
-
-
-
-

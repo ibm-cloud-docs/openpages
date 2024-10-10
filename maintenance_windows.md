@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-09"
 
 keywords: openpages maintenance, availability of operations
 
@@ -22,7 +22,7 @@ The schedule is as follows:
 | Region             |  Schedule                |
 | ------------------ | ------------------------ |
 | AWS US East (Northern Virginia) | Sunday 11 PM - Monday 7 AM EST (Monday 4 AM - 12 PM UTC) |
-{: caption="Table 1. Schedule of maintenance windows by region" caption-side="bottom"}
+{: caption="Schedule of maintenance windows by region" caption-side="bottom"}
 
 The maintenance window might be extended in some circumstances, for example due to public holidays.
 {: note}

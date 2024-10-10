@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-04-26"
+lastupdated: "2024-10-09"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -41,7 +41,7 @@ Review the following tables that outline what types of tasks each role allows fo
 | Administrator          |  As an administrator, you can complete all platform actions for {{site.data.keyword.openpages_short}}, including the ability to assign access policies to other users. As an application administrator, you have complete access to all objects, folders, application permissions and security groups and users in {{site.data.keyword.openpages_short}}. You can log in to the {{site.data.keyword.openpages_short}} application as an Administrator.            |
 {: row-headers}
 {: class="simple-tab-table"}
-{: caption="Table 1. IAM platform roles" caption-side="bottom"}
+{: caption="IAM platform roles" caption-side="bottom"}
 {: #iamrolesplatform}
 {: tab-title="Platform roles"}
 {: tab-group="IAM"}
@@ -51,7 +51,7 @@ Review the following tables that outline what types of tasks each role allows fo
 | OpenPages User | As a User, you can log in to the {{site.data.keyword.openpages_short}} application. You can also make calls to the {{site.data.keyword.openpages_short}} REST API. Further access is defined in {{site.data.keyword.openpages_short}}.   |
 {: row-headers}
 {: class="simple-tab-table"}
-{: caption="Table 1. IAM service access roles" caption-side="bottom"}
+{: caption="IAM service access roles" caption-side="bottom"}
 {: #iamrolesservice}
 {: tab-title="Service roles"}
 {: tab-group="IAM"}
@@ -99,7 +99,7 @@ For step-by-step instructions for assigning, removing, and reviewing access, see
 | Editor                 | `crn:v1:bluemix:public:openpages::::serviceRole:Editor`        |
 | Administrator          | `crn:v1:bluemix:public:openpages::::serviceRole:Administrator` |
 | OpenPages User         | `crn:v1:bluemix:public:openpages::::serviceRole:GRCUser`       |
-{: caption="Table 2. Role ID values for API use" caption-side="bottom"}
+{: caption="Role ID values for API use" caption-side="bottom"}
 
 The following example is for assigning the `openpages.service.login` role for `openpages`:
 
