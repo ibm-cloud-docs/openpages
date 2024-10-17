@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-10-17"
 
 keywords: administer OpenPages, users and groups in OpenPages, administrator in OpenPages, GRC
 subcollection: openpages
@@ -71,4 +71,6 @@ Most administration tasks are common between {{site.data.keyword.openpages_short
 
      - [ObjectManager CLI](/docs/openpages?topic=openpages-openpages_CLI#ibmcloud_openpages_objectmanager)
      - [Working with loader files](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_working_with_loader_files.html)
-     - [Settings in the ObjectManager properties file](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/r_adm_objectmanager_file_properties.html)
+     - [Settings in the ObjectManager properties file](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/t_adm_modifying_the_objectmanager_properties_file.html)
+     - [Filtering data for export](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_filtering_data_for_export.html)
+     - [Examples](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_objmanagertool_examples.html)
