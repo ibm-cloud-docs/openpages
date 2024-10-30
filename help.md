@@ -4,7 +4,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-10-30"
 
 keywords:
 
@@ -29,10 +29,4 @@ If you experience an issue or have questions when using {{site.data.keyword.open
 
 
 
-If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/get-support?topic=get-support-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
-
-
-
-
-
-
+If you still can't resolve the problem, you can open a support case. For more information, see [Creating support cases](/docs/account?topic=account-open-case). And, if you're looking to provide feedback, see [Submitting feedback](/docs/overview?topic=overview-feedback).
