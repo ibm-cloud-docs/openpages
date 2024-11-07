@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-07"
 keywords: OpenPages as a Service, business continuity
 
 subcollection: openpages
@@ -44,4 +44,5 @@ If you customized the hostname, the URL uses the updated region, along with the 
 | Primary region of the service | Target region to restore the service   |
 |---|---|
 |  AWS US East (Northern Virginia) | AWS US East (Ohio)  |
+|  AWS Europe (Frankfurt) | AWS Europe (London) / eu-west-2  |
 {: caption="Regions for {{site.data.keyword.openpages_short}}" caption-side="bottom"}

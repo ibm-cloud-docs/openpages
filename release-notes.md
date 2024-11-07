@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-19"
+lastupdated: "2024-11-07"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -17,6 +17,15 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
+## 7 November 2024
+{: #openpages-nov0724}
+{: release-note}
+
+Region support
+:    You can now deploy {{site.data.keyword.openpages_short}} in the AWS Europe (Frankfurt) region.
+Bug fixes and security fixes
+:    Bug fixes and security fixes were applied.
+
 ## 23 September 2024
 {: #openpages-sep2324}
 {: release-note}
@@ -25,7 +34,7 @@ Warning message not displayed for non-entitled solutions on instances with sampl
 :    If your instance of OpenPages as a Service is provisioned with sample data, you no longer see the warning that indicates your instance is using object types that are outside of the solutions that you are currently subscribed to.
 
 Multiple custom tabs can be added to the OpenPages dashboard
-:    The dashboard can now contain up to three custom tabs. 
+:    The dashboard can now contain up to three custom tabs.
 
 Ability to remove an added locale
 :    You can now remove a locale that was previously added if you don't need it anymore.
@@ -34,7 +43,7 @@ Addition of stacked bar charts
 :    You can now configure a stacked bar chart on the dashboard and the Task View Designer.
 
 Addition of **Skip if it exists** functionality to questionnaire response actions that create a new object
-:    If you don't want a response action to try re-creating a new object if an object by the same name already exists, select **Skip if it exists**. 
+:    If you don't want a response action to try re-creating a new object if an object by the same name already exists, select **Skip if it exists**.
 
 Expressions supported when setting an object's field values based on a questionnaire respondent's answers
 :    You can now enter an expression for the value of a field. For example, you can enter `[$TODAY$]` for the current date,`[$END_USER$]` for the name of the signed on user, or `[$System Fields:Description$]` to set the field to the value of the Description field of the object.
