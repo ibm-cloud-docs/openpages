@@ -22,9 +22,10 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: release-note}
 
 Region support
-:    You can now deploy {{site.data.keyword.openpages_short}} in the AWS Europe (Frankfurt) region.
+:   You can now deploy {{site.data.keyword.openpages_short}} in the AWS Europe (Frankfurt) region.
+
 Bug fixes and security fixes
-:    Bug fixes and security fixes were applied.
+:   Bug fixes and security fixes were applied.
 
 ## 23 September 2024
 {: #openpages-sep2324}
