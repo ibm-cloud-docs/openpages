@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-11-07"
+lastupdated: "2024-11-08"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -23,6 +23,10 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 Region support
 :   You can now deploy {{site.data.keyword.openpages_short}} in the AWS Europe (Frankfurt) region.
+
+## 28 October 2024
+{: #openpages-oct2824}
+{: release-note}
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
