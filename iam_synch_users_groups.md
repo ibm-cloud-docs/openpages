@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-11-12"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -31,7 +31,7 @@ Create a group with the following settings:
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome1}
 
-If the group has users, it is created with the name and description you specified in {{site.data.keyword.Bluemix_notm}}.
+If the group has users, it is created with the name and description that you specified in {{site.data.keyword.Bluemix_notm}}.
 
 The group name is always prefixed by **Cloud IAM -** and is a subgroup under the **Workflow, Reporting and Others** group. Existing users that are added to the group in {{site.data.keyword.Bluemix_notm}} IAM are associated with the group in {{site.data.keyword.openpages_short}}.
 
@@ -79,7 +79,7 @@ Users are assigned allowed profiles through their group associations. If a user 
 
 When a user has no other enabled profiles available, a fallback profile is used. A fallback profile allows a user who is either not associated with any profile, or whose profile is disabled or deleted, to log in to {{site.data.keyword.openpages_short}}.
 
-When you are provisioning the service, you select the solutions you want from a list. The first solution you selected on the list determines which master profile is used as the fallback profile. For example, if you select the Business Continuity Management (BCM) and Financial Controls Management (FCM) solutions when you provisioned the service, the BCM Master profile is the fallback profile.
+When you are provisioning the service, you select the solutions that you want from a list. The first solution that you selected on the list determines which master profile is used as the fallback profile. For example, if you select the Business Continuity Management (BCM) and Financial Controls Management (FCM) solutions when you provisioned the service, the BCM Master profile is the fallback profile.
 
 Users are assigned role templates through their group associations.
 
@@ -101,15 +101,13 @@ In {{site.data.keyword.openpages_short}}, the user is a member of the **OPAdmini
 
 The user is created with the User Name, Display Name, Email, and Group associations that you specified in {{site.data.keyword.Bluemix_notm}}.
 
-The locale is U.S. English. In {{site.data.keyword.openpages_short}}, users and administrators can change a user’s locale. The
-synchronization job does not overwrite an existing user’s locale.
+The locale is U.S. English. In {{site.data.keyword.openpages_short}}, users and administrators can change a user’s locale. The synchronization job does not overwrite an existing user’s locale.
 
 Users have allowed profiles through associated groups. If the user has multiple allowed profiles, a preferred profile selection panel is displayed when the user logs in to {{site.data.keyword.openpages_short}} for the first time.
 
-When a user has no other enabled profiles available, a fallback profile is used. A fallback profile allows a user who
-is either not associated with any profile, or whose profile is disabled or deleted, to log in to {{site.data.keyword.openpages_short}}.
+When a user has no other enabled profiles available, a fallback profile is used. A fallback profile allows a user who is either not associated with any profile, or whose profile is disabled or deleted, to log in to {{site.data.keyword.openpages_short}}.
 
-When you are provisioning the service, you select the solutions you want from a list. The first solution you selected on the list determines which master profile is used as the fallback profile. For example, if you select the Business Continuity Management (BCM) and Financial Controls Management (FCM) solutions when you provisioned the service, the BCM Master profile is the
+When you are provisioning the service, you select the solutions that you want from a list. The first solution that you selected on the list determines which master profile is used as the fallback profile. For example, if you select the Business Continuity Management (BCM) and Financial Controls Management (FCM) solutions when you provisioned the service, the BCM Master profile is the
 fallback profile.
 
 Users are added to the OPAdministrators group and they are assigned the SaaS Administrator role template. Users also have role templates assigned through their group associations, if the associated groups have role template assignments.
@@ -140,8 +138,7 @@ Change the description of an existing group.
 ### Outcome in {{site.data.keyword.openpages_short}}
 {: #outcome6}
 
-The description of the group is updated in {{site.data.keyword.openpages_short}} to
-match the description in {{site.data.keyword.Bluemix_notm}}.
+The description of the group is updated in {{site.data.keyword.openpages_short}} to match the description in {{site.data.keyword.Bluemix_notm}}.
 
 ## Changing the groups that a user is associated with
 {: #change7}
@@ -169,9 +166,9 @@ Delete a group with user members.
 
 The corresponding {{site.data.keyword.openpages_short}} group that has a name with the prefix **Cloud IAM -** is moved from the **Workflow, Reporting and Others** group to be a subgroup of the **Standalone Users and Group** group.
 
-Users associated with the deleted group that are members of other groups are no longer associated with the deleted group.
+Users that are associated with the deleted group and that are members of other groups are no longer associated with the deleted group.
 
-If a user associated with the deleted group is not associated with other groups and the user has roles set in {{site.data.keyword.Bluemix_notm}}, they are removed from the group.
+If a user that is associated with the deleted group is not associated with other groups and the user has roles set in {{site.data.keyword.Bluemix_notm}}, they are removed from the group.
 
 If a user associated with the deleted group is not associated with other groups and the user doesn’t have roles set in {{site.data.keyword.Bluemix_notm}}, they are set to **Inactive**.
 
