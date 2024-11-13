@@ -1,9 +1,9 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-11-01"
+lastupdated: "2024-11-12"
 
-keywords: administer OpenPages, users and groups in OpenPages, administrator in OpenPages, GRC
+keywords: administering OpenPages, administrative tasks in OpenPages, OpenPages administrator, GRC, Governance Risk and Compliance
 subcollection: openpages
 
 ---
