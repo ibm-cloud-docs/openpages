@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-10-22"
+lastupdated: "2024-11-28"
 
 keywords: customer responsibilities, IBM responsibilities, terms and conditions
 
@@ -30,7 +30,7 @@ Review the following sections for the specific responsibilities for you and for 
 | Incident and operations management   | Maintain {{site.data.keyword.openpages_full_notm}} service instances and infrastructure workloads. | Maintain incident and operations management of your data. |
 | Monitor incidents    | Provide notifications for planned maintenance, security bulletins, or unplanned outages. | Set account preferences to receive emails about platform notifications.  \n Monitor the [IBM Cloud status page](https://{DomainName}/status?selected=announcement) for general announcements. |
 | Maintain {{site.data.keyword.cloud_notm}} high availability SLA    | Provide Cloud Service across hosts.  \n Provide replication, fail-over features, and infrastructure maintenance and updates. | Plan for and create new instances of the service. For more information, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment).|
-| Monitor logs    | [Logging for IBM OpenPages](/docs/openpages?topic=openpages-service-logs) publish relevant log data to their subscribing clients. {{site.data.keyword.openpages_full_notm}} provides clients with the ability to receive the logs once the client configures their instance. | [Logging in IBM OpenPages](/docs/openpages?topic=openpages-service-logs) |
+| Monitor logs    | Publish relevant log data to their subscribing clients. {{site.data.keyword.openpages_full_notm}} provides clients with the ability to receive the logs once the client configures their instance. | [Logging in IBM OpenPages](/docs/openpages?topic=openpages-service-logs) |
 {: caption="Responsibilities for incident and operations" caption-side="top"}
 
 ## Change management
