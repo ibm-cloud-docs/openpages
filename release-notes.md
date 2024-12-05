@@ -45,6 +45,9 @@ Search for object types in the Primary menu
 Mexican Spanish locale available
 :   Administrators can now add Mexican Spanish as a new locale.
 
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
+
 ## 7 November 2024
 {: #openpages-nov0724}
 {: release-note}
