@@ -16,7 +16,7 @@ subcollection: openpages
 {: #getting-started-op-logging-monitoring}
 
 1. Use **{{site.data.keyword.logs_full}}** to add log management capabilities to {{site.data.keyword.openpages_short}}. 
-For more information, see [Logging for IBM OpenPages](/docs/openpages?topic=openpages-service-logs).
+For more information, see [Logging for IBM OpenPages](/docs/openpages?topic=openpages-logging).
 
 2. Use the **{{site.data.keyword.atracker_full}}** service to capture a record of your {{site.data.keyword.openpages_short}} activities and 
 monitor the activity of your {{site.data.keyword.cloud_notm}} account. 
