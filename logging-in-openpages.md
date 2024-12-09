@@ -12,8 +12,6 @@ subcollection:  openpages
 
 {{site.data.keyword.attribute-definition-list}}
 
-_Include your logging topic in an Observability topic group in the How to nav group in your toc.yaml file._
-
 
 
 # Logging for {{site.data.keyword.openpages_short}}
@@ -41,7 +39,7 @@ As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecate
 
 
 
-_service-name_ sends logs by {{site.data.keyword.logs_routing_full_notm}} in the regions that are indicated in the following table.
+{{site.data.keyword.openpages_short}} sends logs by {{site.data.keyword.logs_routing_full_notm}} in the regions that are indicated in the following table.
 
 | Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
 |---------------------|-------------------------|-------------------|----------------------|
@@ -100,14 +98,14 @@ Create {{site.data.keyword.logs_full_notm}} and configure routing by setting the
 
 
 
-{{site.data.keyword.openpages_short}} logs can be viewed in on the {{site.data.keyword.logs_full_notm}} instance created. Go to the [Logging instance page](https://cloud.ibm.com/observability/logging){:external} and click on _Dashboard._
+{{site.data.keyword.openpages_short}} logs can be viewed in on the {{site.data.keyword.logs_full_notm}} instance created. Go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click on **Dashboard**.
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the {{site.data.keyword.openpages_short}} page
 {: #log-launch-integrated}
 
 
 
-Users can visit the {{site.data.keyword.openpages_short}} instance. Click on _Overview_ and scroll to the _Observability_ section. Click on *{{site.data.keyword.logs_full_notm}}* to view your logging instances. Click on _Dashboard_ to access the logs.
+Users can visit the {{site.data.keyword.openpages_short}} instance. Click on **Overview** and scroll to the **Observability** section. Click on *{{site.data.keyword.logs_full_notm}}* to view your logging instances. Click on **Dashboard** to access the logs.
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
