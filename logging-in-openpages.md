@@ -125,10 +125,6 @@ For information about fields included in every platform log, see [Fields for pla
 
 
 
-
-
-
-
 {{site.data.keyword.openpages_short}} logs include the following fields.
 
 | Field             | Type       | Description             |
@@ -141,16 +137,11 @@ For information about fields included in every platform log, see [Fields for pla
 
 {{site.data.keyword.openpages_short}} sends audit events as platform logs. For more information, see [Activity tracking for Cloud Databases](/cloud-databases?topic=cloud-databases-at_events).
 
-
-
-
-
-
 ## Analyzing {{site.data.keyword.openpages_short}} logs
 {: #cloud-logs}
 
 
 
-In the {{site.data.keyword.logs_full_notm}} Dashboard, users can filter based on _Application_, _Subsystem_, _Severity_  to find logs specific to an instance. Users can also create a custom dashboard, view logs or write a query to search for a log data. example label.region:"us-east"
+In the {{site.data.keyword.logs_full_notm}} Dashboard, users can filter based on **Application**, **Subsystem**, **Severity** to find logs specific to an instance. Users can also create a custom dashboard, view logs or write a query to search for a log data. example label.region:"us-east"
 
-They can also create _alerts_ in the {{site.data.keyword.logs_full_notm}}.
+They can also create **alerts** in the {{site.data.keyword.logs_full_notm}}.
