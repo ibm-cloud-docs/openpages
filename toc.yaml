@@ -65,6 +65,7 @@ toc:
        - topicgroup:
            label: Observability
            topics:
+              - logging-and-monitoring.md
               - logging-in-openpages.md
               - at-events.md
   - navgroup:
