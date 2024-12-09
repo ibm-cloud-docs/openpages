@@ -101,4 +101,4 @@ After you enable notifications for {{site.data.keyword.openpages_short}}, create
 
 You can use the [{{site.data.keyword.cloud_notm}} email service](/docs/event-notifications?topic=event-notifications-en-destinations-email) as a delivery channel for {{site.data.keyword.openpages_short}} event notifications. [Create an {{site.data.keyword.en_short}} subscription](/docs/event-notifications?topic=event-notifications-en-create-en-subscription) between an existing topic and the {{site.data.keyword.cloud_notm}} email service to forward your alerts to various recipients by email. Recipients are automatically set based on the activity within {{site.data.keyword.openpages_short}} that caused the notification to be created.
 
-When you create a subscription, you can specify the email address where any replies should be directed. However, the "From" address is always set to `noreply@ibm.com`.
+These emails originate from `no-reply@cloud.ibm.com` or `event-notifications@cloud.ibm.com`, but you can specify your own reply-to address.

@@ -63,7 +63,7 @@ toc:
                 navtitle: Using service endpoints
        - event-notifications-events.md
        - topicgroup:
-           label: Logging and monitoring
+           label: Observability
            topics:
               - logging-in-openpages.md
               - at-events.md
