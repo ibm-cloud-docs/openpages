@@ -76,7 +76,14 @@ As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecate
 
 
 
-{{site.data.keyword.openpages_short}} generates platform logs for the debug, error, info, warning, and critical severity types. 
+{{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types. 
+
+The following table shows the {{site.data.keyword.openpages_short}} service instance regions that generate platform logs and the {{site.data.keyword.logs_routing_full_notm}} regions that they can send them to:
+| {{site.data.keyword.openpages_short}} service instance region | Supported {{site.data.keyword.cloud_notm}} Logging service region |
+| --- | --- |
+| AWS US East ( us-east-1 ) |  IBM Cloud Dallas ( us-south ) |
+| AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
+{: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.en_short}} service regions" caption-side="bottom"}
 
 
 
@@ -99,13 +106,6 @@ Create {{site.data.keyword.logs_full_notm}} and configure routing by setting the
 
 
 To view {{site.data.keyword.openpages_short}} logs, go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click the {{site.data.keyword.logs_full_notm}} instance.
-
-### Launching {{site.data.keyword.logs_full_notm}} from the {{site.data.keyword.openpages_short}} page
-{: #log-launch-integrated}
-
-
-
-Users can visit the {{site.data.keyword.openpages_short}} instance. Click on **Overview** and scroll to the **Observability** section. Click on *{{site.data.keyword.logs_full_notm}}* to view your logging instances. Click on **Dashboard** to access the logs.
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
@@ -135,13 +135,13 @@ For information about fields included in every platform log, see [Fields for pla
 | `messageID`       | Required   | ID of the log that is generated. |
 {: caption="Log record fields" caption-side="bottom"}
 
-{{site.data.keyword.openpages_short}} sends audit events as platform logs. For more information, see [Activity tracking for Cloud Databases](/cloud-databases?topic=cloud-databases-at_events).
+{{site.data.keyword.openpages_short}} sends audit events as platform logs. For more information, see [Auditing events for IBM OpenPages](/docs/openpages?topic=openpages-at_events).
 
 ## Analyzing {{site.data.keyword.openpages_short}} logs
 {: #cloud-logs}
 
 
 
-In the {{site.data.keyword.logs_full_notm}} Dashboard, users can filter based on **Application**, **Subsystem**, **Severity** to find logs specific to an instance. Users can also create a custom dashboard, view logs or write a query to search for a log data. example label.region:"us-east"
+In the {{site.data.keyword.logs_full_notm}} dashboard, users can filter based on **Application**, **Subsystem**, and **Severity** to find logs specific to an instance. Users can also create a custom dashboard, view logs, or write a query to search for a log data.
 
 They can also create **alerts** in the {{site.data.keyword.logs_full_notm}}.
