@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-12-09"
+lastupdated: "2024-12-10"
 
 keywords: logging
 
@@ -76,7 +76,7 @@ As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecate
 
 
 
-{{site.data.keyword.openpages_short}} generates platform logs for the severity types debug, error, info, warning, and critical.
+{{site.data.keyword.openpages_short}} generates platform logs for the debug, error, info, warning, and critical severity types. 
 
 
 
@@ -98,7 +98,7 @@ Create {{site.data.keyword.logs_full_notm}} and configure routing by setting the
 
 
 
-{{site.data.keyword.openpages_short}} logs can be viewed in on the {{site.data.keyword.logs_full_notm}} instance created. Go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click on **Dashboard**.
+To view {{site.data.keyword.openpages_short}} logs, go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click the {{site.data.keyword.logs_full_notm}} instance.
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the {{site.data.keyword.openpages_short}} page
 {: #log-launch-integrated}
