@@ -34,37 +34,12 @@ As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecate
 
 
 
-{{site.data.keyword.openpages_short}} sends logs by {{site.data.keyword.logs_routing_full_notm}} in the regions that are indicated in the following table.
-
-| Dallas (`us-south`) | Washington (`us-east`)  | Toronto (`ca-tor`) | Sao Paulo (`br-sao`) |
-|---------------------|-------------------------|-------------------|----------------------|
-| [Yes]{: tag-green}  | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where platform logs are sent in Americas locations" caption-side="top"}
-{: #lr-table-1}
-{: tab-title="Americas"}
-{: tab-group="lr"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Tokyo (`jp-tok`)    | Sydney (`au-syd`) |  Osaka (`jp-osa`) | Chennai (`in-che`) |
-|---------------------|------------------|------------------|--------------------|
-| [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
-{: caption="Regions where platform logs are sent in Asia Pacific locations" caption-side="top"}
-{: #lr-table-2}
-{: tab-title="Asia Pacific"}
-{: tab-group="lr"}
-{: class="simple-tab-table"}
-{: row-headers}
-
-| Frankfurt (`eu-de`)  | London (`eu-gb`) | Madrid (`eu-es`) |
-|---------------------------------------------------------------|---------------------|------------------|
-| [Yes]{: tag-green}   | [No]{: tag-red}  | [No]{: tag-red}  |
-{: caption="Regions where platform logs are sent in Europe locations" caption-side="top"}
-{: #lr-table-3}
-{: tab-title="Europe"}
-{: tab-group="lr"}
-{: class="simple-tab-table"}
-{: row-headers}
+The following table shows the {{site.data.keyword.openpages_short}} service instance regions that generate platform logs and the {{site.data.keyword.logs_routing_full_notm}} locations that they can send them to:
+| {{site.data.keyword.openpages_short}} service instance region | {{site.data.keyword.logs_routing_full_notm}} location |
+| --- | --- |
+| AWS US East ( us-east-1 ) |  IBM Cloud Dallas ( us-south ) |
+| AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
+{: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.logs_routing_full_notm}} locations" caption-side="bottom"}
 
 ## Platform logs that are generated
 {: #log-platform}
@@ -72,13 +47,6 @@ As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecate
 
 
 {{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types. 
-
-The following table shows the {{site.data.keyword.openpages_short}} service instance regions that generate platform logs and the {{site.data.keyword.logs_routing_full_notm}} regions that they can send them to:
-| {{site.data.keyword.openpages_short}} service instance region | Supported {{site.data.keyword.cloud_notm}} Logging service region |
-| --- | --- |
-| AWS US East ( us-east-1 ) |  IBM Cloud Dallas ( us-south ) |
-| AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
-{: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.en_short}} service regions" caption-side="bottom"}
 
 
 
