@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-11-08"
+lastupdated: "2024-12-05"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,37 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 9 December 2024
+{: #openpages-dec0924}
+{: release-note}
+
+Object commenting
+:   Users can add their comments to objects if they are given permission by their administrator. For example, a user can add a comment on an Issue to ask a question, make an observation, or record their thoughts about the Issue.
+
+Answers populated for questionnaire assessments
+:   To populate the answers to a question with the values of a field, the questionnaire template authors associate the question with that field. An administrators adds the **Set questionnaire answers with related field value** operation to an action in the Questionnaire Assessment Workflow.
+
+Delete objects by using a workflow
+:   Administrators can define an end stage or an action in a workflow to delete objects.
+
+Translation integration with watsonx.ai
+:   When administrators use the watsonx.ai language translation service, they are able to define the prompt and the context for translation. With this feature, the large language model (LLM) can provide a translation that uses the industry-specific language of the Governance Risk and Compliance domain to provide more contextually appropriate translations.
+
+Contextual information can be shared with IBM watsonx Assistant
+:   Through the integration with IBM watsonx Assistant, OpenPages can share contextual information about the OpenPages user session. With this information, IBM watsonx Assistant knows the type of user that is logged on and where they are in the OpenPages UI. IBM watsonx Assistant can then use the OpenPages API to get more information, or perform actions on behalf of the user. For example, IBM watsonx Assistant can use generative AI to create an Action item for an issue in OpenPages.
+
+Track email activity
+:   Administrators can use a new system tracing option, **Email Notification**, to capture information about email activity that includes whether email messages are sent successfully.
+
+Search for object types in the Primary menu
+:   Users can now click the Primary menu and enter an object type in the **Search object type** box to find an object type.
+
+Mexican Spanish locale available
+:   Administrators can now add Mexican Spanish as a new locale.
+
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
 
 ## 7 November 2024
 {: #openpages-nov0724}
