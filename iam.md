@@ -69,7 +69,9 @@ To configure App ID, do the following steps:
 
 3. Get the URL for your identify provider.
 
-   From the Identity provider pages, click the Actions icon for the identify provider and click **Select View IdP URL**. Copy the IdP URL link. This is the URL to give to your users.
+   Click **Manage Access (IAM)**, and then click **Identity providers**.
+   - If you have only one identity provider, copy the default URL.
+   - If you have more than one identity provider, click the actions icon for the identify provider and click **View IdP URL**. Copy the URL.
 
 2. Test the identity provider URL. Verify that your {{site.data.keyword.cloud}} dashboard is displayed.
 3. Give the identity provider URL to your users. When users log in, they are added to {{site.data.keyword.cloud}} IAM.
