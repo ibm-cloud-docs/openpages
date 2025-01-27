@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-10-09"
+  years: 2025
+lastupdated: "2025-01-27"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 
@@ -55,6 +55,25 @@ Review the following tables that outline what types of tasks each role allows fo
 {: #iamrolesservice}
 {: tab-title="Service roles"}
 {: tab-group="IAM"}
+
+## Connecting to an external identity provider for authentication
+{: #idp-app-id}
+
+You can connect your external identity provider to an {{site.data.keyword.cloud}} App ID instance, and then configure that App ID to connect directly to {{site.data.keyword.cloud}} Identity and Access Management (IAM) to federate authentication users of an enterprise to an {{site.data.keyword.cloud}} account.
+
+To configure App ID, do the following steps:
+1. Configure the integration by doing the steps in the following topic: [Configuring App ID with your identity provider](https://www.ibm.com/docs/en/watsonx/saas?topic=overview-configuring-app-id-your-identity-provider).
+    The topic discusses watsonx, but the steps are the same for {{site.data.keyword.openpages_short}}.
+    {: tip}
+
+3. Get the URL for your identify provider.
+   From the Identity provider pages, click the Actions icon for the identify provider and click **Select View IdP URL**. Copy the IdP URL link. This is the URL to give to your users.
+2. Test the identity provider URL. Verify that your {{site.data.keyword.cloud}} dashboard is displayed.
+3. Give the identity provider URL to your users. When users log in, they are added to {{site.data.keyword.cloud}} IAM.
+4. Assign users access to {{site.data.keyword.openpages_short}}.
+    For example, see [Assigning access to {{site.data.keyword.openpages_short}} in the console](/docs/openpages?topic=assign-access-console&interface=ui)
+
+When users log in successfully by using the identity provider URL, they are taken to their {{site.data.keyword.cloud}} dashboard. From here, they can access {{site.data.keyword.openpages_short}}, for example by using the **Resource List**.
 
 ## Assigning access to {{site.data.keyword.openpages_short}} in the console
 {: #assign-access-console}
