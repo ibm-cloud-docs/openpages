@@ -42,9 +42,9 @@ To configure App ID, do the following steps:
 
 Give the identity provider URL to your users. Ask them to log in by using the identity provider URL. After they log in successfully, they are added to {{site.data.keyword.cloud}} IAM.
 
-Users must now use the identity provider URL to access {{site.data.keyword.openpages_short}}. After they log in, users access {{site.data.keyword.openpages_short}} through the **Resource List** or through .
+Users must now use the identity provider URL to access {{site.data.keyword.openpages_short}}. After they log in, users access {{site.data.keyword.openpages_short}} through the **Resource List** or by using a bookmark.
 
-## Assigning access in {{site.data.keyword.openpages_short}}
+## Assigning access
 {: #iam-appid-user-access}
 
 Assign users access to {{site.data.keyword.openpages_short}}. For more information, see [Assigning access to {{site.data.keyword.openpages_short}} in the console](/docs/openpages?topic=openpages-iam-openpages&interface=ui#assign-access-console).
