@@ -20,7 +20,7 @@ You can connect your external identity provider to an {{site.data.keyword.cloud}
 {: shortdesc}
 
 
-## Configure
+## Configuring App ID
 {: #iam-appid-config}
 
 To configure App ID, do the following steps:
@@ -42,9 +42,14 @@ To configure App ID, do the following steps:
 
 Give the identity provider URL to your users. Ask them to log in by using the identity provider URL. After they log in successfully, they are added to {{site.data.keyword.cloud}} IAM.
 
-Users must now use the identity provider URL to access {{site.data.keyword.openpages_short}}. After they log in, users access {{site.data.keyword.openpages_short}} through the **Resource List** or by using a bookmark.
+Next, give the users access to {{site.data.keyword.openpages_short}}. For more information, see [Managing IAM access for {{site.data.keyword.openpages_short}}](/docs/openpages?topic=openpages-iam-openpage).
 
-## Assigning access
-{: #iam-appid-user-access}
+## Results
+{: #iam-appid-result}
 
-Assign users access to {{site.data.keyword.openpages_short}}. For more information, see [Assigning access to {{site.data.keyword.openpages_short}} in the console](/docs/openpages?topic=openpages-iam-openpages&interface=ui#assign-access-console).
+Users must now use the identity provider URL to access {{site.data.keyword.openpages_short}}.
+
+The log in experience for users now follows these steps:
+1. A user goes to the identity provider URL. The identity provider page is displayed.
+2. The user authenticates with the identity provider. The user's {{site.data.keyword.cloud}} dashboard is displayed.
+3. The user can access {{site.data.keyword.openpages_short}} through the **Resource List**. Alternatively, the user can create a bookmark.
