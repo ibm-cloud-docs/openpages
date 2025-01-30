@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-01-30"
 
 keywords: IAM access for openpages, App ID, identity provider, IdP
 
@@ -20,7 +20,7 @@ You can connect your external identity provider to an {{site.data.keyword.cloud}
 {: shortdesc}
 
 
-## Configuring App ID
+## Configuring App ID and IAM
 {: #iam-appid-config}
 
 To configure App ID, do the following steps:
