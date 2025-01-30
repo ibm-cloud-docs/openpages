@@ -35,7 +35,7 @@ To configure App ID, do the following steps:
    - If you have only one identity provider, copy the default URL.
    - If you have more than one identity provider, click the actions icon for the identify provider and click **View IdP URL**. Copy the URL.
 
-2. Test the identity provider URL. Verify that your {{site.data.keyword.cloud}} dashboard is displayed.
+2. Test the identity provider URL. Verify that your {{site.data.keyword.cloud}} dashboard is displayed after the external identity provider authentication.
 
 ## Onboarding users
 {: #iam-appid-users}
