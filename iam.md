@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-10-09"
+  years: 2025
+lastupdated: "2025-01-29"
 
 keywords: assigning access in openpages, IAM access for openpages, service roles in openpages, access policies in openpages
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-12-05"
+  years: 2025
+lastupdated: "2025-01-23"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,13 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 27 January 2025
+{: #openpages-jan2725}
+{: release-note}
+
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
 
 ## 9 December 2024
 {: #openpages-dec0924}
