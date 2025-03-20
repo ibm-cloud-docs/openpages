@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-03-04"
+lastupdated: "2025-03-20"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,55 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 7 April 2025
+{: #openpages-apr0725}
+{: release-note}
+
+Using views to send input fields to custom models
+:   In previous versions of OpenPages, an administrator could specify object fields to use as input to a custom model. Administrators can now configure a Task or Report View that contains the OpenPages fields that they want the model to process. Except for chart relationship fields, all object fields and relationship fields in the view are sent as input to the model. Users can access the insights from a model from the View AI insights button that the administrators can add to a view in View Designer.
+
+Exporting data
+:   You can export data from OpenPages® to be used outside of OpenPages in dashboarding and reporting applications, for Retrieval-Augmented Generation (RAG), and for other AI-based models. You must have the All Permissions/SOX/Administration/Data Export permission to run data exports.
+
+Using @ mentions in object comments
+:   In a comment on an object, users can now use @ mentions to tag other users. When they type @ followed by a few characters of the first name, last name, or username, a list of users is displayed. The user can then choose a name from the list.
+
+Adding a Comment Activity panel to the dashboard
+:   Users can add a panel on the dashboard to see the comments that they made and the comments in which they were mentioned.
+
+Customizing email templates for comment notifications
+:   Administrators can customize the template for emails that users receive when they are mentioned in a comment.
+
+Reordering answers in questionnaire templates
+:   Questionnaire template authors can now reorder the answers to a question.
+
+Reflagging questions in questionnaire assessments
+:   When a reviewer flags a question in a questionnaire and sends it back to the user to make changes, even if the reviewer accepts the new answer, the reviewer can later reflag the same question.
+
+Using response actions in questionnaire templates to set an answer to an enumerated field
+:   A questionnaire author can now use enumerated fields to set a field in the response actions of a questionnaire template.
+
+Native support for OAuth 2.0 authentication for OpenPages REST API V1 and V2
+:   You can now configure native OAuth2.0 authentication for OpenPages IBM OpenPages REST API V1 and V2 on IBM OpenPages on premises or IBM OpenPages on Cloud. In this configuration, OpenPages performs the role of OAuth 2.0 Authorization Server. You can use an OpenID Connect (OIDC) provider as the Identity Provider (IdP).
+
+Nested grids
+:   An administrator can set up a nested grid for a Grid View or as a relationship field in a Task or Admin View. A nested grid displays the children of a specified object type and descendants of specified object types for each child. Each level of objects is indented to provide a visual representation of the relationships between the objects.
+
+Ordering workflow actions
+:   Administrators can now set the order of actions that a user sees when they click Action in a Task View. For example, an administrator can edit the properties of a stage to display the actions in the order of most often used to least often used.
+
+Determining where fields are referenced
+:   Administrators can now determine whether the references to a field are still needed by running a field reference analysis report. The report checks Views, Workflows, Profiles, Calculations, Security Rules, Filters, Dashboard Views, Field Dependencies, and Regulatory Event Rules for references to the field.
+
+System migration - Exporting dependencies
+:   You can export an item without exporting other items that it depends on. For example, you can export a view without its dependent object and field definitions. Also, unrelated content is no longer included in the export, which means that only items that are referenced by the exported item are included in the export.
+
+System workflows
+:   Only a scheduler job or another workflow can start a system workflow. When you use a system workflow, you ensure that the workflow runs consistently and at the right time, minimizing the risk of variations or errors.
+
+Arabic (Saudi Arabia) and Arabic (United Arab Emirates) locales are available
+:   Administrators can now add Arabic (Saudi Arabia) and Arabic (United Arab Emirates) as new locales. However, all numeric data such as currency, decimals, and time, use Western Arabic numerals, regardless of the regional preference.
 
 ## 28 February 2025
 {: #openpages-feb2825}
