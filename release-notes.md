@@ -47,9 +47,6 @@ Reflagging questions in questionnaire assessments
 Using response actions in questionnaire templates to set an answer to an enumerated field
 :   A questionnaire author can now use enumerated fields to set a field in the response actions of a questionnaire template.
 
-Native support for OAuth 2.0 authentication for OpenPages REST API V1 and V2
-:   You can now configure native OAuth2.0 authentication for OpenPages IBM OpenPages REST API V1 and V2 on IBM OpenPages on premises or IBM OpenPages on Cloud. In this configuration, OpenPages performs the role of OAuth 2.0 Authorization Server. You can use an OpenID Connect (OIDC) provider as the Identity Provider (IdP).
-
 Nested grids
 :   An administrator can set up a nested grid for a Grid View or as a relationship field in a Task or Admin View. A nested grid displays the children of a specified object type and descendants of specified object types for each child. Each level of objects is indented to provide a visual representation of the relationships between the objects.
 
@@ -67,6 +64,9 @@ System workflows
 
 Arabic (Saudi Arabia) and Arabic (United Arab Emirates) locales are available
 :   Administrators can now add Arabic (Saudi Arabia) and Arabic (United Arab Emirates) as new locales. However, all numeric data such as currency, decimals, and time, use Western Arabic numerals, regardless of the regional preference.
+
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
 
 ## 28 February 2025
 {: #openpages-feb2825}
