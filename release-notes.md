@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-07"
+lastupdated: "2025-04-09"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -21,7 +21,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: #openpages-apr0725}
 {: release-note}
 
-For AWS US East ( us-east-1 ) region
+For AWS US East ( us-east-1 ) and AWS Europe ( eu-central-1 ) regions
 
 Using views to send input fields to custom models
 :   In previous versions of OpenPages, an administrator could specify object fields to use as input to a custom model. Administrators can now configure a Task or Report View that contains the OpenPages fields that they want the model to process. Except for chart relationship fields, all object fields and relationship fields in the view are sent as input to the model. Users can access the insights from a model from the View AI insights button that the administrators can add to a view in View Designer.
