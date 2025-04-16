@@ -55,4 +55,4 @@ Next, give the users access to {{site.data.keyword.openpages_short}}. For more i
 {: #iam-appid-result}
 
 1. For users to access their {{site.data.keyword.openpages_short}} instance, they must follow the steps in the [{{site.data.keyword.openpages_short}} UI](https://cloud.ibm.com/docs/openpages?topic=openpages-log_in#method1).
-2. When the user launches their {{site.data.keyword.openpages_short}} instance, they will be redirected for authentication to their Custom identity provider and after successful authentication, the users will be logged into {{site.data.keyword.openpages_short}}.
+2. When the user launches their {{site.data.keyword.openpages_short}} instance, they are redirected for authentication to their Custom identity provider and after successful authentication, the users are logged into {{site.data.keyword.openpages_short}}.
