@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-12-11"
+  years: 2025
+lastupdated: "2025-04-21"
 
 keywords: logging
 
@@ -11,6 +11,10 @@ subcollection:  openpages
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
+
+
+_Include your logging topic in an Observability topic group in the How to nav group in your toc.yaml file._
 
 
 
@@ -26,8 +30,7 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on platf
 
 
 
-As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecated and will no longer be supported as of 30 March 2025. Customers will need to migrate to {{site.data.keyword.logs_full_notm}} before 30 March 2025. During the migration period, customers can use {{site.data.keyword.la_full_notm}} along with {{site.data.keyword.logs_full_notm}}. Logging is the same for both services. For information about migrating from {{site.data.keyword.la_full_notm}} to {{site.data.keyword.logs_full_notm}} and running the services in parallel, see [migration planning](/docs/cloud-logs?topic=cloud-logs-migration-intro).
-{: important}
+
 
 ## Locations where logs are sent by {{site.data.keyword.logs_routing_full_notm}}
 {: #lr-locations}
@@ -46,7 +49,7 @@ The following table shows the {{site.data.keyword.openpages_short}} service inst
 
 
 
-{{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types. 
+{{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types.
 
 
 
@@ -88,7 +91,7 @@ For information about fields included in every platform log, see [Fields that ar
 
 
 
-{{site.data.keyword.openpages_short}} logs include the following fields.
+{{site.data.keyword.openpages_short}} logs include the following fields:
 
 | Field             | Type       | Description             |
 |-------------------|------------|-------------------------|
