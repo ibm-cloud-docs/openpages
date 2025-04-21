@@ -73,6 +73,8 @@ Create {{site.data.keyword.logs_full_notm}} and configure routing by setting the
 
 To view {{site.data.keyword.openpages_short}} logs, go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click the {{site.data.keyword.logs_full_notm}} instance.
 
+Ensure that the instance is set to the same region as the region that users want to route logs to. For example, if users want to route logs to the Dallas region, then they must set the **To target instance** to the Dallas region as well.
+
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
 
