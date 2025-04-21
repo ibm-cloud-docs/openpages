@@ -23,7 +23,7 @@ subcollection: openpages
 
 The following image shows the main components of {{site.data.keyword.openpages_short}} as a Service.
 
-![Tenant isolation architecture](images/op_saas__tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service" caption-side="bottom"}
+![Tenant isolation architecture](images/op_saas_tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service" caption-side="bottom"}
 
 - A service instance of {{site.data.keyword.openpages_short}} uses a dedicated RDMS service instance and dedicated S3 document storage folder at the data layer.
 - Application pods on the {{site.data.keyword.redhat_openshift_full}} cluster are allocated in a dedicated fashion for {{site.data.keyword.openpages_short}} service instances. Tenant network is isolated by the {{site.data.keyword.redhat_openshift_full}} namespace with network policy.
