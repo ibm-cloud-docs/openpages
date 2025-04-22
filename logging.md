@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-21"
+lastupdated: "2025-04-22"
 
 keywords: logging
 
@@ -41,6 +41,10 @@ The following table shows the {{site.data.keyword.openpages_short}} service inst
 | AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
 {: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.logs_routing_full_notm}} locations" caption-side="bottom"}
 
+Ensure that the instance is set to the same region as the region that users want to route logs to. For example, if the {{site.data.keyword.logs_routing_full_notm}} location is set to Dallas, then configure the **To target instance** to Dallas:
+
+![Logs routing set to Dallas target instance](images/logs_routing_region_instance.png "Logs routing set to Dallas target instance"){: caption="Logs sent from Dallas location to Dallas target instance." caption-side="bottom"}
+
 ## Platform logs that are generated
 {: #log-platform}
 
@@ -69,8 +73,6 @@ Create {{site.data.keyword.logs_full_notm}} and configure routing by setting the
 
 
 To view {{site.data.keyword.openpages_short}} logs, go to the [Logging instance page](https://cloud.ibm.com/observability/logging){: external} and click the {{site.data.keyword.logs_full_notm}} instance.
-
-Ensure that the instance is set to the same region as the region that users want to route logs to. For example, if users want to route logs to the Dallas region, then they must set the **To target instance** to the Dallas region as well.
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
 {: #log-launch-standalone}
