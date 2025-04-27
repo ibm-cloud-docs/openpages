@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-07-03"
+  years: 2025
+lastupdated: "2025-04-27"
 
 keywords: openpages features, limitations
 
@@ -30,3 +30,4 @@ The following features are currently not supported in {{site.data.keyword.openpa
 - Loss Event Entry
 - SDI Connectors
 - Connector for Thomson Reuters Regulatory Intelligence (TRRI)
+- Adding Field Level Security Rules
