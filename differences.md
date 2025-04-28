@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-04-27"
+lastupdated: "2025-04-28"
 
 keywords: openpages features, limitations
 
@@ -19,7 +19,7 @@ content-type: learn
 If you've used OpenPages on premises, OpenPages on Cloud Pak for Data, or OpenPages on Cloud, you'll notice some differences in
 {{site.data.keyword.openpages_full}}.
 
-The following features are currently not supported in {{site.data.keyword.openpages_full}}.
+The following features are currently not supported in {{site.data.keyword.openpages_full}}:
 
 - Global Search
 - Integration with Cognos Analytics
@@ -30,4 +30,4 @@ The following features are currently not supported in {{site.data.keyword.openpa
 - Loss Event Entry
 - SDI Connectors
 - Connector for Thomson Reuters Regulatory Intelligence (TRRI)
-- Adding Field Level Security Rules
+- The ability to configure the hierarchical condition on security rules for Record Level Security Rules and Field Level Security Rules
