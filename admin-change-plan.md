@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-01-03"
+  years: 2025
+lastupdated: "2025-04-28"
 
 keywords: change OpenPages plan, IBM OpenPages as a Service
 subcollection: openpages
@@ -12,8 +12,7 @@ subcollection: openpages
 # Changing your {{site.data.keyword.openpages_short}} plan on {{site.data.keyword.Bluemix_notm}}
 {: #change_plan}
 
-When you provision an instance, you select an IBM Cloud plan. You can change the plan later, if
-needed. **Essentials** and **Standard** plans are available.
+When you provision an instance, you select an {{site.data.keyword.cloud_notm}} plan. You can change the plan later, if needed. **Essentials** and **Standard** plans are available.
 {: shortdesc}
 
 The plan change operation shuts down and restarts the {{site.data.keyword.openpages_short}} application. Before you change plans, let your users know that the {{site.data.keyword.openpages_short}} application will be shutting down and advise them to log off.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-12-11"
+  years: 2025
+lastupdated: "2025-04-22"
 
 keywords: logging
 
@@ -11,6 +11,7 @@ subcollection:  openpages
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
 
 
 
@@ -26,8 +27,7 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on platf
 
 
 
-As of 28 March 2024, the {{site.data.keyword.la_full_notm}} service is deprecated and will no longer be supported as of 30 March 2025. Customers will need to migrate to {{site.data.keyword.logs_full_notm}} before 30 March 2025. During the migration period, customers can use {{site.data.keyword.la_full_notm}} along with {{site.data.keyword.logs_full_notm}}. Logging is the same for both services. For information about migrating from {{site.data.keyword.la_full_notm}} to {{site.data.keyword.logs_full_notm}} and running the services in parallel, see [migration planning](/docs/cloud-logs?topic=cloud-logs-migration-intro).
-{: important}
+
 
 ## Locations where logs are sent by {{site.data.keyword.logs_routing_full_notm}}
 {: #lr-locations}
@@ -41,12 +41,16 @@ The following table shows the {{site.data.keyword.openpages_short}} service inst
 | AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
 {: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.logs_routing_full_notm}} locations" caption-side="bottom"}
 
+Ensure that the instance is set to the same region as the region that users want to route logs to. For example, if the {{site.data.keyword.logs_routing_full_notm}} location is set to Dallas, then configure the **To target instance** to Dallas:
+
+![Logs routing set to Dallas target instance](images/logs_routing_region_instance.png "Logs routing set to Dallas target instance"){: caption="Logs sent from Dallas location to Dallas target instance." caption-side="bottom"}
+
 ## Platform logs that are generated
 {: #log-platform}
 
 
 
-{{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types. 
+{{site.data.keyword.openpages_short}} generates platform logs for the error, warning, and critical severity types.
 
 
 
@@ -88,7 +92,7 @@ For information about fields included in every platform log, see [Fields that ar
 
 
 
-{{site.data.keyword.openpages_short}} logs include the following fields.
+{{site.data.keyword.openpages_short}} logs include the following fields:
 
 | Field             | Type       | Description             |
 |-------------------|------------|-------------------------|

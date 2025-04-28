@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-01-03"
+  years: 2025
+lastupdated: "2025-04-28"
 
 keywords: backing up OpenPages, restoring OpenPages
 subcollection: openpages
@@ -12,8 +12,7 @@ subcollection: openpages
 # Backing up and restoring the database and configuration settings for {{site.data.keyword.openpages_short}}
 {: #backing_up_and_restoring}
 
-Incremental backups run automatically when there is a change to the database or the
-configuration settings. These backups are retained for 35 days.
+Incremental backups run automatically when there is a change to the database or the configuration settings. These backups are retained for 35 days.
 {: shortdesc}
 
 A restore creates a new {{site.data.keyword.openpages_short}} instance that is a copy of the backed-up instance.
