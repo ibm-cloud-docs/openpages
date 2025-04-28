@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-16"
+lastupdated: "2025-04-28"
 
 keywords: IAM access for openpages, App ID, identity provider, IdP
 
@@ -16,9 +16,8 @@ subcollection: openpages
 # Connecting to an external identity provider for authentication
 {: #iam-appid}
 
-You can connect your external identity provider to an {{site.data.keyword.cloud}} App ID instance, and then configure that App ID to connect directly to {{site.data.keyword.cloud}} Identity and Access Management (IAM) to federate authentication users of an enterprise to an {{site.data.keyword.cloud}} account.
+IBM Cloud service offers multiple external identity provider integration options. For more information, see [Which is the right federation option for you?](https://cloud.ibm.com/docs/account?topic=account-federation-option-for-you). You can connect your external identity provider to an {{site.data.keyword.cloud}} App ID instance, and then configure that App ID to connect directly to {{site.data.keyword.cloud}} Identity and Access Management (IAM) to federate authentication users of an enterprise to an {{site.data.keyword.cloud}} account.
 {: shortdesc}
-
 
 ## Configuring App ID and IAM
 {: #iam-appid-config}
@@ -32,7 +31,6 @@ To configure App ID, do the following steps:
 2. Get the Realm ID for your identity provider.
 
     Click **Manage Access (IAM)**, and then click **Identity providers**. Identify your provider, and copy the Realm ID.
-   
 
 3. Ensure that you have an {{site.data.keyword.openpages_short}} instance. If you need to create an {{site.data.keyword.openpages_short}} instance, see [Provisioning your IBM OpenPages as a Service environment](/docs/openpages?topic=openpages-provisioning_environment).
 
@@ -42,14 +40,13 @@ To configure App ID, do the following steps:
 
     After the support case is addressed from the {{site.data.keyword.Bluemix_notm}} team and is closed, the Custom identity provider integration for the provided {{site.data.keyword.openpages_short}} instance CRN is completed.
 
-
-
 ## Onboarding users
 {: #iam-appid-users}
 
-Give the identity provider URL to your users. Ask them to log in by using the identity provider URL. After they log in successfully, they are added to {{site.data.keyword.cloud}} IAM.
+The following options are available to give users access to {{site.data.keyword.openpages_short}}:
 
-Next, give the users access to {{site.data.keyword.openpages_short}}. For more information, see [Managing IAM access for {{site.data.keyword.openpages_short}}](/docs/openpages?topic=openpages-iam-openpages&interface=ui).
+- Configure [dynamic rules](https://cloud.ibm.com/docs/account?topic=account-rules&interface=ui) to automatically assign users to an access group where the {{site.data.keyword.openpages_short}} access is granted by an {{site.data.keyword.Bluemix_notm}} IAM role, and where the role templates from {{site.data.keyword.openpages_short}} is assigned.
+- When users login to the {{site.data.keyword.openpages_short}} instance successfully, they are added to {{site.data.keyword.Bluemix_notm}} IAM. Next, give the users access to {{site.data.keyword.openpages_short}}. For more information, see [Managing IAM access for IBM OpenPages](https://cloud.ibm.com/docs/openpages?topic=openpages-iam-openpages&interface=ui).
 
 ## Results
 {: #iam-appid-result}
