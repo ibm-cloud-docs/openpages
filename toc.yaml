@@ -84,7 +84,7 @@ toc:
             - ha.md
             - bc-dr.md
        - responsibilities.md
-       - include: ../openpages-cli-plugin/openpages_cli.md
+       - topic: openpages_cli.md
          navtitle: OpenPages CLI
        - link:
             label: OpenPages REST API V2 for OpenPages as a Service
