@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-28"
+lastupdated: "2025-04-30"
 
 keywords: IAM access for openpages, App ID, identity provider, IdP
 
@@ -16,7 +16,9 @@ subcollection: openpages
 # Connecting to an external identity provider for authentication
 {: #iam-appid}
 
-IBM Cloud service offers multiple external identity provider integration options. For more information, see [Which is the right federation option for you?](https://cloud.ibm.com/docs/account?topic=account-federation-option-for-you). You can connect your external identity provider to an {{site.data.keyword.cloud}} App ID instance, and then configure that App ID to connect directly to {{site.data.keyword.cloud}} Identity and Access Management (IAM) to federate authentication users of an enterprise to an {{site.data.keyword.cloud}} account.
+IBM Cloud service offers multiple external identity provider integration options. For more information, see [Which is the right federation option for you?](https://cloud.ibm.com/docs/account?topic=account-federation-option-for-you). This topic describes the option of using App ID to connect to an external identify provider.
+
+You can connect your external identity provider to an {{site.data.keyword.cloud}} App ID instance, and then configure that App ID to connect directly to {{site.data.keyword.cloud}} Identity and Access Management (IAM) to federate authentication users of an enterprise to an {{site.data.keyword.cloud}} account. For more details on configuring the App ID, see .
 {: shortdesc}
 
 ## Configuring App ID and IAM
