@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-28"
+lastupdated: "2025-05-03"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -21,7 +21,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: #openpages-apr2825}
 {: release-note}
 
-For AWS US East ( us-east-1 ) region
+For AWS US East ( us-east-1 ) and AWS Europe ( eu-central-1 ) regions
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
