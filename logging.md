@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-22"
+lastupdated: "2025-05-08"
 
 keywords: logging
 
@@ -37,8 +37,9 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on platf
 The following table shows the {{site.data.keyword.openpages_short}} service instance regions that generate platform logs and the {{site.data.keyword.logs_routing_full_notm}} locations that they can send them to:
 | {{site.data.keyword.openpages_short}} service instance region | {{site.data.keyword.logs_routing_full_notm}} location |
 | --- | --- |
-| AWS US East ( us-east-1 ) |  IBM Cloud Dallas ( us-south ) |
-| AWS Europe ( eu-central-1 ) | IBM Cloud Frankfurt ( eu-de ) |
+| AWS US East ( us-east-1 ) |  {{site.data.keyword.Bluemix_notm}} Dallas ( us-south ) |
+| AWS Europe ( eu-central-1 ) | {{site.data.keyword.Bluemix_notm}} Frankfurt ( eu-de ) |
+| {{site.data.keyword.Bluemix_notm}} Sydney ( au-syd )  | {{site.data.keyword.Bluemix_notm}} Sydney ( au-syd )  |
 {: caption="{{site.data.keyword.openpages_short}} service instance regions and their corresponding {{site.data.keyword.logs_routing_full_notm}} locations" caption-side="bottom"}
 
 Ensure that the instance is set to the same region as the region that users want to route logs to. For example, if the {{site.data.keyword.logs_routing_full_notm}} location is set to Dallas, then configure the **To target instance** to Dallas:
