@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-09"
+lastupdated: "2025-05-12"
 
 keywords:
 
@@ -23,10 +23,10 @@ subcollection: openpages
 
 The following image shows the main components of {{site.data.keyword.openpages_short}} as a Service.
 
-![Tenant isolation architecture](images/op_saas_tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service" caption-side="bottom"}
+![Tenant isolation architecture](images/op_saas_tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service - AWS" caption-side="bottom"}
 
 
-![Tenant isolation architecture](images/op_saas_tenant_isolation_ibmcloud.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service" caption-side="bottom"}
+![Tenant isolation architecture](images/op_saas_tenant_isolation_ibmcloud.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service - {{site.data.keyword.Bluemix_notm}}" caption-side="bottom"}
 
 
 - A service instance of {{site.data.keyword.openpages_short}} uses a dedicated RDBMS service instance and a dedicated document storage folder at the data layer.
