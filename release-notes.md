@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-16"
+lastupdated: "2025-05-20"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -17,12 +17,12 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
-## 17 May 2025
-{: #openpages-may1725}
+## 21 May 2025
+{: #openpages-may2125}
 {: release-note}
 
 Platform and Region Support
-:   You can now deploy IBM OpenPages in the IBM Cloud Asia Pacific ( Sydney) region.
+:   You can now deploy IBM OpenPages in the IBM Cloud Asia Pacific ( Sydney ) region.
 
 ## 28 April 2025
 {: #openpages-apr2825}
