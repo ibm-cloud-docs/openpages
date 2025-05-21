@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-08"
+lastupdated: "2025-05-21"
 
 keywords: logging
 
@@ -35,6 +35,7 @@ You can use {{site.data.keyword.logs_full_notm}} to visualize and alert on platf
 
 
 The following table shows the {{site.data.keyword.openpages_short}} service instance regions that generate platform logs and the {{site.data.keyword.logs_routing_full_notm}} locations that they can send them to:
+
 | {{site.data.keyword.openpages_short}} service instance region | {{site.data.keyword.logs_routing_full_notm}} location |
 | --- | --- |
 | AWS US East ( us-east-1 ) |  {{site.data.keyword.Bluemix_notm}} Dallas ( us-south ) |
