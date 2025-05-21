@@ -113,4 +113,4 @@ For information about fields included in every platform log, see [Fields that ar
 
 In the {{site.data.keyword.logs_full_notm}} dashboard, users can filter based on **Application**, **Subsystem**, and **Severity** to find logs specific to an instance. Users can also create a custom dashboard, view logs, or write a query to search for a log data.
 
-They can also create **alerts** in the {{site.data.keyword.logs_full_notm}}.
+They can also create **alerts** in {{site.data.keyword.logs_full_notm}}.
