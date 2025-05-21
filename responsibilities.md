@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-12-11"
+  years: 2025
+lastupdated: "2025-05-21"
 
 keywords: customer responsibilities, IBM responsibilities, terms and conditions
 
@@ -38,7 +38,7 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task                                                    | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |---------------------------------------------------------|-----------------------|--------|
-| Update the {{site.data.keyword.openpages_full_notm}} service   | Provide major, minor, and patch version updates for {{site.data.keyword.openpages_full_notm}} interfaces.  \n Document changes in the release notes. | Keep your IBM OpenPages software up to date. \n For more information, see [Updating your instance of IBM OpenPages to the latest software version](/docs/openpages?topic=openpages-updating-openpages).|
+| Update the {{site.data.keyword.openpages_full_notm}} service   | Provide major, minor, and patch version updates for {{site.data.keyword.openpages_full_notm}} interfaces.  \n Document changes in the release notes. | Keep your IBM OpenPages software up to date. \n For more information, see [Updating your instance of IBM OpenPages to the latest software version](/docs/openpages?topic=openpages-updating-openpages). |
 {: caption="Responsibilities for change management" caption-side="top"}
 
 ## Identity and access management
@@ -48,7 +48,7 @@ Identity and access management includes tasks such as authentication, authorizat
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any user access that you create for your instances.\n This includes security rules, roles, users,and groups in IBM Cloud IAM and OpenPages application security.|
+| Access control of the service instance through IAM| Verify the user's permissions on the service instance before allowing access.| Maintain responsibility for any user access that you create for your instances.\n This includes security rules, roles, users,and groups in IBM Cloud IAM and OpenPages application security. |
 {: caption="Identity and access management" caption-side="bottom"}
 
 ## Security and regulation compliance
@@ -58,7 +58,7 @@ Security and regulation compliance includes tasks such as security controls impl
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.openpages_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.openpages_short}} instances.|
+| General| * Maintain controls commensurate to various industry compliance standards. \n * Monitor, isolate, and recover instances. \n * Monitor and report the health of instances in the various interfaces. \n * Secure cluster access through TLS (data plane in the IBM Services account). \n * Integrate {{site.data.keyword.openpages_short}} with IBM Cloud Identity and Access Management (IAM).| Set up and maintain security and regulation compliance for the {{site.data.keyword.openpages_short}} instances. |
 {: caption="Security and regulation compliance" caption-side="bottom"}
 
 ## Disaster recovery
@@ -66,5 +66,5 @@ Security and regulation compliance includes tasks such as security controls impl
 
 | Task | IBM responsibilities |Your responsibilities |
 |--------------------------|----------------|----------------|
-| General| * Restore or rebuild the service instances in alternatively available regions. \n * Restore existing {{site.data.keyword.openpages_short}} instances, where possible. | * Track instance state. \n * Configure external integrations, if they exist, with a newly assigned application URL.|
+| General| * Restore or rebuild the service instances in alternatively available regions. \n * Restore existing {{site.data.keyword.openpages_short}} instances, where possible. | * Track instance state. \n * Configure external integrations, if they exist, with a newly assigned application URL. |
 {: caption="Disaster recovery" caption-side="bottom"}
