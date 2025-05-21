@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-04-21"
+lastupdated: "2025-05-12"
 
 keywords:
 
@@ -23,9 +23,14 @@ subcollection: openpages
 
 The following image shows the main components of {{site.data.keyword.openpages_short}} as a Service.
 
-![Tenant isolation architecture](images/op_saas_tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service" caption-side="bottom"}
+![Tenant isolation architecture](images/op_saas_tenant_isolation.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service - AWS" caption-side="bottom"}
 
-- A service instance of {{site.data.keyword.openpages_short}} uses a dedicated RDMS service instance and dedicated S3 document storage folder at the data layer.
+
+![Tenant isolation architecture](images/op_saas_tenant_isolation_ibmcloud.png "Tenant isolation architecture"){: caption="Main components of OpenPages as a Service - {{site.data.keyword.Bluemix_notm}}" caption-side="bottom"}
+
+
+- A service instance of {{site.data.keyword.openpages_short}} uses a dedicated RDBMS service instance and a dedicated document storage folder at the data layer.
+
 - Application pods on the {{site.data.keyword.redhat_openshift_full}} cluster are allocated in a dedicated fashion for {{site.data.keyword.openpages_short}} service instances. Tenant network is isolated by the {{site.data.keyword.redhat_openshift_full}} namespace with network policy.
 - The {{site.data.keyword.openpages_short}} service assigns a dedicated URL for each service instance for accessing the application by using the web UI, API, or CLI. The network edge nodes and load balancers are shared across tenants and the requests are dispatched to the application per the service instance URL.
 

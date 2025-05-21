@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-04-28"
+lastupdated: "2025-05-21"
 
 keywords: backing up OpenPages, restoring OpenPages
 subcollection: openpages
@@ -14,6 +14,9 @@ subcollection: openpages
 
 Incremental backups run automatically when there is a change to the database or the configuration settings. These backups are retained for 35 days.
 {: shortdesc}
+
+Restoring a backup is not yet supported in {{site.data.keyword.Bluemix_notm}}.
+{: note}
 
 A restore creates a new {{site.data.keyword.openpages_short}} instance that is a copy of the backed-up instance.
 

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-04-29"
+lastupdated: "2025-05-06"
 
 subcollection: openpages
 
@@ -111,14 +111,14 @@ No OpenPages application targeted.
 
 With the **`ibmcloud openpages objectmanager`** command, you can perform the following tasks:
 
--  Import (load) configuration data, such as object types and views, into OpenPages.
--  Export (dump) filtered or unfiltered configuration data from OpenPages. You can use this functionality, for example, to migrate configuration data from one instance to another.
--  Batch-load multiple loader files in a single session.
+- Import (load) configuration data, such as object types and views, into OpenPages.
+- Export (dump) filtered or unfiltered configuration data from OpenPages. You can use this functionality, for example, to migrate configuration data from one instance to another.
+- Batch-load multiple loader files in a single session.
 
 If you want to import and export instance data, you can use FastMap.
 {: tip}
 
-If you want to migrate data from an OpenPages on-premises environment to OpenPages as a Service, contact Support.
+If you want to migrate data from an {{site.data.keyword.openpages_short}} on-premises environment to {{site.data.keyword.openpages_short}} as a Service, contact Support.
 
 The ObjectManager commands are:
 
