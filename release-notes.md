@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-20"
+lastupdated: "2025-05-28"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -16,6 +16,15 @@ content-type: release-note
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
+
+## 26 May 2025
+{: #openpages-may2625}
+{: release-note}
+
+For AWS US East ( us-east-1 ) and AWS Europe ( eu-central-1 ) regions
+
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
 
 ## 21 May 2025
 {: #openpages-may2125}
