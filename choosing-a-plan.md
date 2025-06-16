@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-10-09"
+  years: 2025
+lastupdated: "2025-06-16"
 
 keywords: choosing a plan, pricing plans
 
@@ -62,7 +62,7 @@ The following table summarizes what is supported by each plan. The values in the
 | Number of permitted workflows                | 1 per object                  | 1 per object                  |
 | Number of permitted calculations             | 2 per object                  | 10 per object                 |
 | Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
-| Supports integration with watsonx.governance | No                            | Yes                           |
-| Supports integration with Amazon SageMaker                               | No                 | Yes                 |
+| Supports integration with watsonx.governance | Yes                            | Yes                           |
+| Supports integration with Amazon SageMaker                               | Yes                 | Yes                 |
 | Custom objects                               | Not permitted                 | Not permitted                 |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
