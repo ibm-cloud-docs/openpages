@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-07-02"
+lastupdated: "2025-07-09"
 
 keywords: choosing a plan, pricing plans
 
@@ -52,7 +52,7 @@ The Standard plan is ideal for small to medium-sized organizations or department
 The following table summarizes what is supported by each plan. The values in the table are maximums.
 
 | Category                                     | Essentials plan               | Standard plan                 |
-| -------------------------------------------- | ----------------------------- | ----------------------------- |
+| ----------------------------- | ----------------------------- | ----------------------------- |
 | Concurrent users                             | 10                            | 200                           |
 | Number of solutions                          | 1                             | 5                             |
 | Ability to configure OpenPages               | Yes                           | Yes                           |
@@ -61,7 +61,7 @@ The following table summarizes what is supported by each plan. The values in the
 | Security rules limitations                   | Intra-object only             | Intra-object only             |
 | Number of permitted calculations             | 2 per object                  | 10 per object                 |
 | Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
-| Supports integration with watsonx.governance | Yes                            | Yes                           |
-| Supports integration with Amazon SageMaker                               | Yes                 | Yes                 |
+| Supports integration with watsonx.governance | Yes, supported in AWS Europe and AWS US East                            | Yes, supported in AWS Europe and AWS US East                           |
+| Supports integration with Amazon SageMaker                               | No                 | Yes, supported in AWS Europe and AWS US East                 |
 | Custom objects                               | Not permitted                 | Not permitted                 |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
