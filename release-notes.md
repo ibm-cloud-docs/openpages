@@ -32,6 +32,7 @@ Bug fixes and security fixes
 {: release-note}
 
 For IBM Openpages Cloud Asia Pacific ( Mumbai ) region
+
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
