@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-05-20"
+lastupdated: "2025-06-17"
 
 keywords: openpages maintenance, availability of operations
 
@@ -24,7 +24,7 @@ The schedule is as follows:
 | ------------------ | ------------------------ |
 | AWS US East (Northern Virginia) | Sunday 11 PM - Monday 7 AM EST (Monday 4 AM - 12 PM UTC) |
 | AWS Europe (Frankfurt) | Friday 8 PM - Saturday 4 AM CET (Friday 7 PM - Saturday 3 AM UTC) |
-| {{site.data.keyword.Bluemix_notm}} Sydney ( au-syd ) | Monday 9 PM - Tuesday 5 AM AEST ( Monday 11AM - 7 PM UTC )
+| {{site.data.keyword.Bluemix_notm}} Sydney (au-syd) | Monday 9 PM - Tuesday 5 AM AEST (Monday 11 AM - 7 PM UTC)
 {: caption="Schedule of maintenance windows by region" caption-side="bottom"}
 
 The maintenance window might be extended in some circumstances, for example due to public holidays.
