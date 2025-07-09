@@ -21,6 +21,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 #### 9.1.1 Release notes
 {: #openpages-jun2725}
 {: release-note}
+
 For IBM Openpages Cloud Asia Pacific ( Sydney ) region
 
 Bug fixes and security fixes
@@ -40,6 +41,7 @@ Bug fixes and security fixes
 #### 9.1.1 Release notes
 {: #openpages-jun2325}
 {: release-note}
+
 For AWS US East ( us-east-1 ) region
 
 Bug fixes and security fixes
