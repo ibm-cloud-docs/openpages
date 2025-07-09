@@ -18,7 +18,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: shortdesc}
 
 ## 27 June 2025
-#### 9.1.1 Release notes
+### 9.1.1 Release notes
 {: #openpages-jun2725}
 {: release-note}
 
@@ -28,7 +28,7 @@ Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
 ## 25 June 2025
-#### 9.1.1 Release notes
+### 9.1.1 Release notes
 {: #openpages-jun2525}
 {: release-note}
 
@@ -38,7 +38,7 @@ Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
 ## 23 June 2025
-#### 9.1.1 Release notes
+### 9.1.1 Release notes
 {: #openpages-jun2325}
 {: release-note}
 
@@ -48,7 +48,7 @@ Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
 ## 22 June 2025
-#### 9.1.1 Release notes
+### 9.1.1 Release notes
 {: #openpages-jun2225}
 {: release-note}
 
