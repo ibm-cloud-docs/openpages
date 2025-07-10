@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-07-04"
+lastupdated: "2025-07-09"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -18,36 +18,52 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: shortdesc}
 
 ## 27 June 2025
-#### 9.1.1 Release notes
 {: #openpages-jun2725}
 {: release-note}
+
+### 9.1.1 Release notes
+{: #911-June27}
+
 For IBM Openpages Cloud Asia Pacific ( Sydney ) region
+
 Bug fixes and security fixes
-: Bug fixes and security fixes were applied.
+:   Bug fixes and security fixes were applied.
 
 ## 25 June 2025
-#### 9.1.1 Release notes
 {: #openpages-jun2525}
 {: release-note}
+
+### 9.1.1 Release notes
+{: #911-June25}
+
 For IBM Openpages Cloud Asia Pacific ( Mumbai ) region
+
 Bug fixes and security fixes
-: Bug fixes and security fixes were applied.
+:   Bug fixes and security fixes were applied.
 
 ## 23 June 2025
-#### 9.1.1 Release notes
 {: #openpages-jun2325}
 {: release-note}
+
+### 9.1.1 Release notes
+{: #911-June23}
+
 For AWS US East ( us-east-1 ) region
+
 Bug fixes and security fixes
-: Bug fixes and security fixes were applied.
+:   Bug fixes and security fixes were applied.
 
 ## 22 June 2025
-#### 9.1.1 Release notes
 {: #openpages-jun2225}
 {: release-note}
+
+### 9.1.1 Release notes
+{: #911-June22}
+
 For AWS Europe ( eu-central-1 ) region
+
 Bug fixes and security fixes
-Bug fixes and security fixes were applied.
+:   Bug fixes and security fixes were applied.
 
 ## 26 May 2025
 {: #openpages-may2625}
