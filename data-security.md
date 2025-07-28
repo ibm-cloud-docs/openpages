@@ -21,7 +21,7 @@ To ensure that you can securely manage your data when you use {{site.data.keywor
 ## How your data is stored and encrypted in {{site.data.keyword.openpages_short}}
 {: #data-storage}
 
-{{site.data.keyword.openpages_short}} service instance data is stored to a RDBMS on AWS / {{site.data.keyword.Bluemix_notm}} and S3 or {{site.data.keyword.cos_full_notm}} bucket` The data on the storage is encrypted by using a 256-bit Advanced Encryption Standard (AES) cipher. The encryption key is owned by the {{site.data.keyword.openpages_short}} service.
+{{site.data.keyword.openpages_short}} service instance data is stored to a RDBMS on AWS / {{site.data.keyword.Bluemix_notm}} and S3 or {{site.data.keyword.cos_full_notm}} bucket The data on the storage is encrypted by using a 256-bit Advanced Encryption Standard (AES) cipher. The encryption key is owned by the {{site.data.keyword.openpages_short}} service.
 
 In addition to the storage level encryption, {{site.data.keyword.openpages_short}} settings that are marked for encryption are further encrypted before they are stored to the relational database table. The encryption is done by using a 256-bit Advanced Encryption Standard (AES) cipher, and the encryption key is owned by the {{site.data.keyword.openpages_short}} service.
 
