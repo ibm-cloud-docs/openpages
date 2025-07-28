@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023
-lastupdated: "2024-01-03"
+lastupdated: "2025-07-28"
 
 keywords: operational risk management, ORM, risk assessments
 subcollection: openpages
@@ -12,7 +12,7 @@ subcollection: openpages
 # Changing the settings for assessments in {{site.data.keyword.openpages_short}} Operational Risk Management
 {: #set_orc}
 
-If you haven't created any objects yet, you can change the settings for risk assessments. These settings are used by IBM OpenPages® Operational Risk Management.
+If you haven't created any objects yet, you can change the settings for risk assessments. These settings are used by {{site.data.keyword.openpages_short}} Operational Risk Management (ORM).
 {: shortdesc}
 
 When you provision {{site.data.keyword.openpages_full_notm}} environment, the ORM module's assessment method is configured as qualitative with 10 total likelihood count and 10 total impact count.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-07-09"
+lastupdated: "2025-07-28"
 
 keywords: choosing a plan, pricing plans
 
@@ -55,7 +55,7 @@ The following table summarizes what is supported by each plan. The values in the
 | ----------------------------- | ----------------------------- | ----------------------------- |
 | Concurrent users                             | 10                            | 200                           |
 | Number of solutions                          | 1                             | 5                             |
-| Ability to configure OpenPages               | Yes                           | Yes                           |
+| Ability to configure {{site.data.keyword.openpages_short}}               | Yes                           | Yes                           |
 | Initial number of objects                    | 10,000                        | 50,000                        |
 | Number of objects per year                   | 25,000                        | 100,000                       |
 | Security rules limitations                   | Intra-object only             | Intra-object only             |

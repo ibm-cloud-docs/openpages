@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-08"
+lastupdated: "2025-07-28"
 keywords: OpenPages as a Service, business continuity
 
 subcollection: openpages
@@ -22,7 +22,7 @@ subcollection: openpages
 ## Responsibilities
 {: #bc-dr-responsibilities}
 
-To find out more about responsibility ownership for using {{site.data.keyword.cloud}} products between {{site.data.keyword.IBM_notm}} and customer see [Shared responsibilities for {{site.data.keyword.cloud_notm}} products](/docs/overview?topic=overview-shared-responsibilities).
+To find out more about responsibility ownership for using {{site.data.keyword.cloud}} products between {{site.data.keyword.IBM_notm}} and customers see [Shared responsibilities for {{site.data.keyword.cloud_notm}} products](/docs/overview?topic=overview-shared-responsibilities).
 
 ## Disaster recovery strategy
 {: #bc-dr-strategy}

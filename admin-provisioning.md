@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-07-09"
+lastupdated: "2025-07-28"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -12,7 +12,7 @@ subcollection: openpages
 # Provisioning your {{site.data.keyword.openpages_short}} as a Service environment
 {: #provisioning_environment}
 
-Do the following steps to provision your {{site.data.keyword.openpages_short}} environment:
+Do the following steps to provision your {{site.data.keyword.openpages_short}} environment.
 {: shortdesc}
 
 To do this task, you must have the Editor or Administrator platform role on the {{site.data.keyword.openpages_short}} service or you must be the account owner.

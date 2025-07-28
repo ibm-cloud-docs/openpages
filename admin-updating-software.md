@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-05-29"
+  years: 2025
+lastupdated: "2025-07-28"
 
 keywords: updating OpenPages, upgrading OpenPages
 subcollection: openpages
@@ -27,3 +27,5 @@ date and time.
    **Tip:** If you decide to change the date later, click **Schedule** and select a different date.
 
 When the software update begins to run, you can’t schedule or run another update for a few minutes. While the update is running, the instance is offline for 30 minutes to an hour. Ensure that you inform your end users to avoid accessing the {{site.data.keyword.openpages_short}} instance until the software update is complete.
+
+[watsonx.governance]{: tag-blue} After the update, disable and then re-enable the integration with watsonx.governance to update solutions.
