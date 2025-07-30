@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-07-10"
+lastupdated: "2025-07-30"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -73,7 +73,7 @@ Bug fixes and security fixes
 {: release-note}
 
 Platform and Region Support
-:   You can now deploy IBM OpenPages in the IBM Cloud Asia Pacific ( Sydney ) region.
+:   You can now deploy IBM OpenPages in the IBM Cloud Asia Pacific (Sydney) region.
 
 ## 28 April 2025
 {: #openpages-apr2825}
@@ -251,7 +251,7 @@ Editing and deleting comments in questionnaires
 :    Both respondents and reviewers can now edit or delete comments that they created in a questionnaire.
 
 Make an answer exclusive for a multiple choice question
-:    When editing a questionnaire template, a user can make an answer exclusive for a multiple choice question. When a respondent chooses an exclusive answer, they can't select another answer for the question. An example of an exclusive answer is "None of the above".
+:    When editing a questionnaire template, a user can make an answer exclusive for a multiple choice question. When a respondent chooses an exclusive answer, they can't select another answer for the question. An example of an exclusive answer is `None of the above`.
 
 New endpoints available in the GRC REST API V2
 :    There are new endpoints to automate FastMap import and validation, LogCollector processes, the retrieval of supported locales, and updating the values of configuration settings.
