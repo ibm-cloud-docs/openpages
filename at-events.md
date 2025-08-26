@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-03-26"
+lastupdated: "2025-07-28"
 
 keywords: audit events in openpages, audit activity in openpages
 
@@ -26,7 +26,6 @@ The same instance of {{site.data.keyword.logs_full_notm}} service can be used fo
 
 
 The following table lists the actions on service instances that generate an event:
-
 
 | Action                                       | Description |
 | -------------------------------------------- | ----------- |

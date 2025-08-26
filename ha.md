@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-21"
+lastupdated: "2025-07-28"
 
 keywords: high avalability, responsibilities
 
@@ -21,9 +21,9 @@ subcollection: openpages
 
 In addition to synchronous data replication across zones in one region, the underlying relational database takes full snapshot backup daily automatically and it is stored to regional S3 storage. The daily snapshot backup is kept for up to 35 days along with transaction logs, which is utilized by the service instance restore operation with point-in-time data.
 
-For {{site.data.keyword.Bluemix_notm}}, IBM Db2 on Cloud Performance Plans provide high availability through a two-node High Availability Disaster Recovery (HADR) configuration. Each transaction is synchronously committed on both nodes, and in the event of a failure, the standby node automatically assumes write operations, minimizing downtime. The daily snapshot backup along with transaction logs is kept for up to 14 days. 
+For {{site.data.keyword.Bluemix_notm}}, {{site.data.keyword.IBM_notm}} Db2 on Cloud Performance Plans provide high availability through a two-node High Availability Disaster Recovery (HADR) configuration. Each transaction is synchronously committed on both nodes, and in the event of a failure, the standby node automatically assumes write operations, minimizing downtime. The daily snapshot backup along with transaction logs is kept for up to 14 days.
 
-For more information on the restore operation, see [Backing up and restoring the database and configuration settings for IBM OpenPages](/docs/openpages?topic=openpages-backing_up_and_restoring&interface=ui). 
+For more information on the restore operation, see [Backing up and restoring the database and configuration settings for IBM OpenPages](/docs/openpages?topic=openpages-backing_up_and_restoring&interface=ui).
 
 
 ## Responsibilities

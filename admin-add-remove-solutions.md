@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-04-28"
+lastupdated: "2025-07-28"
 
 keywords: add and remove solutions OpenPages, IBM OpenPages as a Service, Manage solutions
 subcollection: openpages
@@ -23,7 +23,7 @@ To add a solution:
 
 It can take several minutes for the process to complete. When the update is complete, the {{site.data.keyword.openpages_short}} overview page is displayed.
 
-To remove a solution:
+To remove a solution, do the following steps:
 1. Go to the UI where you manage your {{site.data.keyword.openpages_short}} instance. For more information, see [Managing your {{site.data.keyword.openpages_short}} instance](/docs/openpages?topic=openpages-manage_op_instance).
 2. On the **Manage** page, click **Manage Solutions**.
 3. Click the toggle of the solution that you want to remove.

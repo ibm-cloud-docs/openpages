@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-05-09"
+lastupdated: "2025-07-28"
 
 keywords: viewing admin UI, IBM OpenPages as a Service, utilization
 subcollection: openpages
@@ -19,10 +19,9 @@ You can view the following metrics:
 
 - Application CPU utilization
 - Number of concurrent users on the OpenPages system
-- Database CPU utilization  
-- Database read IOPS  
-- Database write IOPS  
-
+- Database CPU utilization
+- Database read IOPS
+- Database write IOPS
 
 Database CPU utilization, Database read IOPS, and Database write IOPS are not reported for {{site.data.keyword.Bluemix_notm}} instances. {: note}
 

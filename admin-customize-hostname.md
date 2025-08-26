@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024
-lastupdated: "2024-09-06"
+  years: 2025
+lastupdated: "2025-07-28"
 
 keywords: customize OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -48,8 +48,7 @@ To transfer a custom hostname to another instace, do the following steps:
 3. Click a custom hostname, and then click **Transfer**.
 4. Click **Transfer** to confirm the change.
 
-When users go to the URL with the custom hostname, they are now using the instance that you
-selected in step 3.
+When users go to the URL with the custom hostname, they are now using the instance that you selected in step 3.
 
 ## Providing users with the {{site.data.keyword.openpages_short}} URL
 {: #provide_users_OP_url}
