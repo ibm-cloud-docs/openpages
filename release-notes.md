@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-08-28"
+lastupdated: "2025-09-05"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -18,6 +18,13 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: shortdesc}
 
 
+
+## 28 Aug 2025
+{: #openpages-aug2825}
+{: release-note}
+
+Region support
+:   You can now deploy {{site.data.keyword.openpages_short}} in the IBM Cloud Dallas (us-south) region.
 
 ## 23 Aug 2025
 {: #openpages-aug2325}
