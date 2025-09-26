@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-09-24"
+lastupdated: "2025-09-26"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -42,13 +42,13 @@ Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
 **9.1.2 Release notes**
-For IBM Openpages Cloud Dallas ( us-south ) region
+For IBM OpenPages Cloud Dallas ( us-south ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
 **9.1.2 Release notes**
-For IBM Openpages Cloud Asia Pacific ( Sydeny ) region
+For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
@@ -75,7 +75,7 @@ Bug fixes and security fixes
 {: release-note}
 
 **9.1.1.1 Release notes**
-For IBM Openpages Cloud Asia Pacific ( Mumbai ) region
+For IBM OpenPages Cloud Asia Pacific ( Mumbai ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
@@ -95,7 +95,7 @@ Bug fixes and security fixes
 {: release-note}
 
 **9.1.1 Release notes**
-For IBM Openpages Cloud Asia Pacific ( Sydney ) region
+For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
@@ -105,7 +105,7 @@ Bug fixes and security fixes
 {: release-note}
 
 **9.1.1 Release notes**
-For IBM Openpages Cloud Asia Pacific ( Mumbai ) region
+For IBM OpenPages Cloud Asia Pacific ( Mumbai ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
