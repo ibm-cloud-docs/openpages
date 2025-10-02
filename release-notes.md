@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-09-26"
+lastupdated: "2025-10-02"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -52,6 +52,9 @@ For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
+
+You can refer to the {{site.data.keyword.openpages_short}} [New Features Guide](https://www.ibm.com/docs/en/openpages/9.1.0?topic=features-new-in-version-912) or [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list) to learn more.
+
 
 ## 28 Aug 2025
 {: #openpages-aug2825}
