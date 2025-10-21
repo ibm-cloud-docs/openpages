@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-10-20"
 
 keywords: choosing a plan, pricing plans
 
@@ -53,7 +53,7 @@ The following table summarizes what is supported by each plan. The values in the
 
 | Category                                     | Essentials plan               | Standard plan                 |
 | ----------------------------- | ----------------------------- | ----------------------------- |
-| Concurrent users                             | 10                            | 200                           |
+| Concurrent users                             | 25                            | 200                           |
 | Number of solutions                          | 1                             | 5                             |
 | Ability to configure {{site.data.keyword.openpages_short}}               | Yes                           | Yes                           |
 | Initial number of objects                    | 10,000                        | 50,000                        |

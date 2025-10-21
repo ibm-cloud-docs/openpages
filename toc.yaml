@@ -1,7 +1,3 @@
-#  Name your file `toc.yaml`
-#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
-#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
----
 toc:
   properties:
     subcollection: openpages
@@ -13,7 +9,6 @@ toc:
     product-page: https://www.ibm.com/products/openpages
     path: openpages
     label: OpenPages
-#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
   - navgroup:
       id: learn
@@ -31,44 +26,44 @@ toc:
   - navgroup:
       id: howto
       topics:
-       - logging-in.md
-       - manage-instance.md
-       - topicgroup:
-           label: Managing access
-           topics:
-              - iam.md
-              - iam-appid.md
-              - iam-synchronization.md
-              - iam_synch_users_groups.md
-              - iam-assigning-access-openpages.md
-       - topicgroup:
-           label: Administering
-           topics:
-              - administer.md
-              - admin-provisioning.md
-              - admin-updating-software.md
-              - admin-backup-restore.md
-              - admin-customize-hostname.md
-              - admin-add-remove-solutions.md
-              - admin-view-UI-utilization.md
-              - admin-change-plan.md
-              - admin-deprovisioning-instances.md
-              - admin-changing-settings-orm.md
-       - topicgroup:
-           label: Enhancing security
-           topics:
-              - topic: architecture-workload-isolation.md
-                navtitle: Architecture and workload isolation
-              - data-security.md
-              - topic: service-endpoints.md
-                navtitle: Using service endpoints
-       - event-notifications-events.md
-       - topicgroup:
-           label: Observability
-           topics:
-              - logging-and-monitoring.md
-              - logging.md
-              - at-events.md
+      - logging-in.md
+      - manage-instance.md
+      - topicgroup:
+          label: Managing access
+          topics:
+          - iam.md
+          - iam-appid.md
+          - iam-synchronization.md
+          - iam_synch_users_groups.md
+          - iam-assigning-access-openpages.md
+      - topicgroup:
+          label: Administering
+          topics:
+          - administer.md
+          - admin-provisioning.md
+          - admin-updating-software.md
+          - admin-backup-restore.md
+          - admin-customize-hostname.md
+          - admin-add-remove-solutions.md
+          - admin-view-UI-utilization.md
+          - admin-change-plan.md
+          - admin-deprovisioning-instances.md
+          - admin-changing-settings-orm.md
+      - topicgroup:
+          label: Enhancing security
+          topics:
+          - topic: architecture-workload-isolation.md
+            navtitle: Architecture and workload isolation
+          - data-security.md
+          - topic: service-endpoints.md
+            navtitle: Using service endpoints
+      - event-notifications-events.md
+      - topicgroup:
+          label: Observability
+          topics:
+          - logging-and-monitoring.md
+          - logging.md
+          - at-events.md
   - navgroup:
       id: help
       topics:
@@ -78,14 +73,14 @@ toc:
   - navgroup:
       id: reference
       topics:
-       - topicgroup:
-           label: High availability and disaster recovery
-           topics:
-            - ha.md
-            - bc-dr.md
-       - responsibilities.md
-       - topic: openpages_cli.md
-         navtitle: OpenPages CLI
-       - link:
-            label: OpenPages REST API V2 for OpenPages as a Service
-            href: https://{DomainName}/apidocs/openpages
+      - topicgroup:
+          label: High availability and disaster recovery
+          topics:
+          - ha.md
+          - bc-dr.md
+      - responsibilities.md
+      - topic: openpages_cli.md
+        navtitle: OpenPages CLI
+      - link:
+          label: OpenPages REST API V2 for OpenPages as a Service
+          href: https://{DomainName}/apidocs/openpages
