@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-10-29"
+lastupdated: "2025-10-30"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -24,31 +24,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {: release-note}
 
 **9.1.2.1 Release notes**
-For AWS US East ( us-east-1 ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2.1 Release notes**
-For AWS Europe ( eu-central-1 ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2.1 Release notes**
-For AWS Asia Pacific ( Mumbai ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2.1 Release notes**
-For IBM OpenPages Cloud Dallas ( us-south ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2.1 Release notes**
-For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
+For AWS US East ( us-east-1 ), AWS Europe ( eu-central-1 ), IBM Cloud Asia Pacific (Sydney) and IBM Cloud Dallas (us-south) regions
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
@@ -68,12 +44,6 @@ Bug fixes and security fixes
 
 **9.1.2 Release notes**
 For AWS Europe ( eu-central-1 ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2 Release notes**
-For AWS Asia Pacific ( Mumbai ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
@@ -110,16 +80,6 @@ For AWS US East ( us-east-1 ) region
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
-## 22 Aug 2025
-{: #openpages-aug2225}
-{: release-note}
-
-**9.1.1.1 Release notes**
-For IBM OpenPages Cloud Asia Pacific ( Mumbai ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
 ## 11 Aug 2025
 {: #openpages-aug1125}
 {: release-note}
@@ -136,16 +96,6 @@ Bug fixes and security fixes
 
 **9.1.1 Release notes**
 For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-## 25 June 2025
-{: #openpages-jun2525}
-{: release-note}
-
-**9.1.1 Release notes**
-For IBM OpenPages Cloud Asia Pacific ( Mumbai ) region
 
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
