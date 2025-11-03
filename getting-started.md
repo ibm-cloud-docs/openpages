@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-01-03"
+  years: 2025
+lastupdated: "2025-11-03"
 
 keywords: openpages, tutorial, managing openpages instance
 
@@ -49,6 +49,7 @@ To get the fixed URL, do the following steps:
 2. Under **Fixed URL**, click the **Copy** icon.
 3. Paste the URL in your browser to ensure that the new URL opens your {{site.data.keyword.openpages_short}} instance.
 
+
 To customize the URL, do the following steps:
 
 1. Click **Environment**.
@@ -64,11 +65,11 @@ After you've added users to your {{site.data.keyword.openpages_short}} instance,
 
 Now you'll want to begin applying security and granting access to users and groups.
 
-1. Learn how to enhance security for your {{site.data.keyword.openpages_short}} instance and your data. 
+1. Learn how to enhance security for your {{site.data.keyword.openpages_short}} instance and your data.
 
-   For example, to ensure that you have enhanced control and security over your data when you use {{site.data.keyword.openpages_short}}, you can specify the IP addresses that are allowed to connect to your {{site.data.keyword.openpages_short}} service instance. 
-   
+   For example, to ensure that you have enhanced control and security over your data when you use {{site.data.keyword.openpages_short}}, you can specify the IP addresses that are allowed to connect to your {{site.data.keyword.openpages_short}} service instance.
+
    For more information, see [Managing IP addresses for IBM OpenPages](/docs/openpages?topic=openpages-service-endpoints&interface=ui) and [Securing your data in IBM OpenPages](/docs/openpages?topic=openpages-mng-data&interface=ui).
-2. Learn how to manage access to your {{site.data.keyword.openpages_short}} instance, including how to add users and groups, how to assign them access in {{site.data.keyword.openpages_short}}, and how {{site.data.keyword.Bluemix_notm}} synchronizes users and groups with {{site.data.keyword.openpages_short}}. 
+2. Learn how to manage access to your {{site.data.keyword.openpages_short}} instance, including how to add users and groups, how to assign them access in {{site.data.keyword.openpages_short}}, and how {{site.data.keyword.Bluemix_notm}} synchronizes users and groups with {{site.data.keyword.openpages_short}}.
 
    For more information, see [Managing IAM access for IBM OpenPages](/docs/openpages?topic=openpages-iam-openpages&interface=ui) and [User and group synchronization from IBM Cloud to IBM OpenPages](/docs/openpages?topic=openpages-iam-openpages-synchronization&interface=ui).
