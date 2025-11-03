@@ -43,12 +43,17 @@ Here you can open your instance of {{site.data.keyword.openpages_short}} by clic
 
 Set up a URL that you and your users can use to access your {{site.data.keyword.openpages_short}} instance. You can use the default fixed URL or you can customize the URL.
 
+### Fixed URL
+{: #step2-fixed}
+
 To get the fixed URL, do the following steps:
 
 1. Click **Environment**.
 2. Under **Fixed URL**, click the **Copy** icon.
 3. Paste the URL in your browser to ensure that the new URL opens your {{site.data.keyword.openpages_short}} instance.
 
+### Custom URL
+{: #step2-custom}
 
 To customize the URL, do the following steps:
 1. Click **Environment**.
