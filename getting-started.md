@@ -51,10 +51,9 @@ To get the fixed URL, do the following steps:
 
 
 To customize the URL, do the following steps:
-
 1. Click **Environment**.
-2. In the **Custom hostname** section, click the **Edit** icon.
-3. Type a name, and then click **Save**. Wait a few minutes for the change to take effect.
+1. In the **Custom hostname** section, click the **Edit** icon.
+1. Type a name, and then click **Save**. Wait a few minutes for the change to take effect.
 
    The last character in the hostname must not be a minus sign or a period. {:note: .note}
 
