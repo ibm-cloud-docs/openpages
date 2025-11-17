@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-07-28"
+lastupdated: "2025-11-17"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -26,6 +26,8 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
 | Supported {{site.data.keyword.Bluemix_notm}} regions  |
 |---|
 |  Sydney ( au-syd )  |
+|  Dallas ( us-south )  |
+|  Frankfurt ( eu-de )  |
 {: caption="Supported {{site.data.keyword.Bluemix_notm}} regions for {{site.data.keyword.openpages_short}}" caption-side="bottom"}
 
 5. Select the **Essentials** plan or the **Standard** plan.
