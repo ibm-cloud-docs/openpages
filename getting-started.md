@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-11-03"
+lastupdated: "2025-11-17"
 
 keywords: openpages, tutorial, managing openpages instance
 
@@ -58,10 +58,10 @@ To get the fixed URL, do the following steps:
 To customize the URL, do the following steps:
 
 1. Click **Environment**.
-1. In the **Custom hostname** section, click the **Edit** icon.
-1. Type a name, and then click **Save**. Wait a few minutes for the change to take effect.
+2. In the **Custom hostname** section, click the **Edit** icon.
+3. Type a name, and then click **Save**. Wait a few minutes for the change to take effect.
 
-The last character in the hostname must not be a minus sign or a period. {:note: .note}
+The last character in the hostname must not be a minus sign or a period. {: note}
 
 After you've added users to your {{site.data.keyword.openpages_short}} instance, you can provide the {{site.data.keyword.openpages_short}} URL to your user community.
 
