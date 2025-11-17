@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2025
-lastupdated: "2025-05-06"
+lastupdated: "2025-11-04"
 
 subcollection: openpages
 
@@ -37,37 +37,10 @@ You're notified on the command line when updates to the {{site.data.keyword.clou
 {{site.data.keyword.cloud_notm}} CLI requires Java&trade; 1.8.0.
 {: note}
 
-## `ibmcloud openpages help`
-{: #ibmcloud_openpages_help}
+The **`ibmcloud openpages help`** command displays a list of all the available top-level commands. When followed by another command, it displays specific help for that command.
+{: note}
 
-On its own, the **`ibmcloud openpages help`** command displays the available top-level commands. When followed by another command, it displays specific help for that command.
 
-```sh
-ibmcloud (openpages|op) (help|h) [command]
-```
-{: pre}
-
-### Command options
-{: #ibmcloud-openpages-help-options}
-
-`command` (string)
-:   An **`ibmcloud openpages`** command. Optional.
-
-### Examples
-{: #ibmcloud-openpages-help-examples}
-
-Get a list of all **`ibmcloud openpages`** commands.
-```sh
-ibmcloud openpages help
-```
-{: screen}
-
-Get help with the **`ibmcloud openpages objectmanager`** command.
-
-```sh
-ibmcloud openpages help objectmanager
-```
-{: screen}
 
 ## `ibmcloud openpages list`
 {: #ibmcloud_openpages_list}
