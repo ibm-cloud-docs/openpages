@@ -42,6 +42,8 @@ For AWS US East ( us-east-1 ), AWS Europe ( eu-central-1 ), IBM Cloud Asia Pacif
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
+You can refer to the {{site.data.keyword.openpages_short}} [New Features Guide](https://www.ibm.com/docs/en/openpages/9.1.x?topic=features-new-in-version-913) or [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list#91MOD3) to learn more.
+
 
 ## 27 Oct 2025
 {: #openpages-oct2725}
