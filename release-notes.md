@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-01-27"
+lastupdated: "2026-01-29"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -19,8 +19,8 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
-## 27 Jan 2026
-{: #openpages-jan2726}
+## 26 Jan 2026
+{: #openpages-jan2626}
 {: release-note}
 
 **9.1.3.1 Release notes**
