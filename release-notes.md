@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-01-29"
+lastupdated: "2026-02-06"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -39,9 +39,6 @@ You can refer to the {{site.data.keyword.openpages_short}} [Fix list](https://ww
 **9.1.3 Release notes**
 For AWS US East ( us-east-1 ), AWS Europe ( eu-central-1 ), IBM Cloud Asia Pacific (Sydney), IBM Cloud Dallas (us-south) and IBM Cloud Frankfurt (eu-de) regions
 
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
 You can refer to the {{site.data.keyword.openpages_short}} [New Features Guide](https://www.ibm.com/docs/en/openpages/9.1.x?topic=features-new-in-version-913) or [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list#91MOD3) to learn more.
 
 
@@ -63,28 +60,7 @@ You can refer to the {{site.data.keyword.openpages_short}} [Fix list](https://ww
 {: release-note}
 
 **9.1.2 Release notes**
-For AWS US East ( us-east-1 ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2 Release notes**
-For AWS Europe ( eu-central-1 ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2 Release notes**
-For IBM OpenPages Cloud Dallas ( us-south ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
-
-**9.1.2 Release notes**
-For IBM OpenPages Cloud Asia Pacific ( Sydney ) region
-
-Bug fixes and security fixes
-:   Bug fixes and security fixes were applied.
+For AWS US East ( us-east-1 ), AWS Europe ( eu-central-1 ), IBM Cloud Dallas (us-south) and IBM Cloud Asia Pacific (Sydney) regions
 
 You can refer to the {{site.data.keyword.openpages_short}} [New Features Guide](https://www.ibm.com/docs/en/openpages/9.1.0?topic=features-new-in-version-912) or [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list) to learn more.
 
