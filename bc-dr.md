@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-11-03"
+  years: 2026
+lastupdated: "2026-02-17"
 keywords: OpenPages as a Service, business continuity
 
 subcollection: openpages
@@ -43,7 +43,7 @@ If you customized the hostname, the URL uses the updated region, along with the 
 
 | Primary region of the service | Target region to restore the service   |
 |---|---|
-|  AWS US East (Northern Virginia)  | AWS US East (Ohio)  |
+|  AWS US East (Northern Virginia)  | AWS US West (Oregon)  |
 |  AWS Europe (Frankfurt) | AWS Europe (London)  |
 |  {{site.data.keyword.Bluemix_notm}} Sydney (au-syd) | {{site.data.keyword.Bluemix_notm}} Tokyo (jp-tok) |
 |  {{site.data.keyword.Bluemix_notm}} Dallas (us-south) | {{site.data.keyword.Bluemix_notm}} Washington (us-east) |
