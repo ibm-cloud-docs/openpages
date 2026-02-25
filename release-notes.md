@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-02-06"
+lastupdated: "2026-02-25"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -17,6 +17,19 @@ content-type: release-note
 Use these release notes to learn about the latest updates to {{site.data.keyword.openpages_short}} that are grouped by date.
 {: shortdesc}
 
+
+
+## 23 Feb 2026
+{: #openpages-feb2326}
+{: release-note}
+
+**9.1.3.2 Release notes**
+For AWS US East ( us-east-1 ), AWS Europe ( eu-central-1 ), IBM Cloud Asia Pacific (Sydney), IBM Cloud Dallas (us-south) and IBM Cloud Frankfurt (eu-de) regions
+
+Bug fixes and security fixes
+:   Bug fixes and security fixes were applied.
+
+You can refer to the {{site.data.keyword.openpages_short}} [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list) to learn more.
 
 
 ## 26 Jan 2026
