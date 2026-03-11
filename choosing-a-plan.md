@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-10-20"
+  years: 2026
+lastupdated: "2026-03-11"
 
 keywords: choosing a plan, pricing plans
 
@@ -54,10 +54,7 @@ The following table summarizes what is supported by each plan. The values in the
 | Category                                     | Essentials plan               | Standard plan                 |
 | ----------------------------- | ----------------------------- | ----------------------------- |
 | Concurrent users                             | 25                            | 200                           |
-| Number of solutions                          | 1                             | 5                             |
 | Ability to configure {{site.data.keyword.openpages_short}}               | Yes                           | Yes                           |
-| Initial number of objects                    | 10,000                        | 50,000                        |
-| Number of objects per year                   | 25,000                        | 100,000                       |
 | Security rules limitations                   | Intra-object only             | Intra-object only             |
 | Number of permitted calculations             | 2 per object                  | 10 per object                 |
 | Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
