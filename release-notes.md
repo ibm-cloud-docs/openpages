@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-03-23"
+lastupdated: "2026-03-27"
 
 keywords: OpenPages release notes
 subcollection: openpages
@@ -32,7 +32,7 @@ Infrastructure updates
 Bug fixes and security fixes
 :   Bug fixes and security fixes were applied.
 
-You can refer to the {{site.data.keyword.openpages_short}} [Fix list](https://www.ibm.com/support/pages/ibm-openpages-91-fix-list) to learn more.
+You can refer to the {{site.data.keyword.openpages_short}} [Fix list](https://www.ibm.com/support/pages/ibm-openpages-92-fix-list) to learn more.
 
 
 ## 23 Feb 2026
