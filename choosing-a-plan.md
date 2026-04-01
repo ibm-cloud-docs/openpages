@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-03-11"
+lastupdated: "2026-04-01"
 
 keywords: choosing a plan, pricing plans
 
@@ -60,5 +60,5 @@ The following table summarizes what is supported by each plan. The values in the
 | Number of permitted operations               | 10 operations per calculation | 30 operations per calculation |
 | Supports integration with watsonx.governance | Yes, supported in Europe and US East                            | Yes, supported in Europe and US East                           |
 | Supports integration with Amazon SageMaker                               | No                 | Yes                 |
-| Custom objects                               | Not permitted                 | Not permitted                 |
+| Custom objects                               | Allowed                 | Allowed                 |
 {: caption="Table 1: What is supported by each plan." caption-side="bottom"}
