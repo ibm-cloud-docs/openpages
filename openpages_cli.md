@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-04-27"
+lastupdated: "2026-04-28"
 
 subcollection: openpages
 
@@ -221,7 +221,7 @@ Review the following documentation:
 * Generate the template files for **`ibmcloud openpages objectmanager`**. See [**`ibmcloud openpages objectmanager create templates`**](#ibmcloud_openpages_create-templates)
 * Copy the `ObjectManager.properties` file to the `EXPORT_DIR`.
 * If you're using export filters, copy the `ObjectManagerExportFilters.xml` file to the `EXPORT_DIR`.
-   For more information, see - [Filtering data for export](https://www.ibm.com/docs/SSFUEU_latest/op_grc_admin/c_adm_filtering_data_for_export.html).
+   For more information, see - [Filtering data for export](https://www.ibm.com/docs/en/openpages/9.2.0?topic=objectmanager-filtering-data-export).
 * Use the **`ObjectManager.properties`** file to specify the data to export.
    For more information, see [Modifying the ObjectManager properties file](https://www.ibm.com/docs/en/openpages/9.2.0?topic=objectmanager-modifying-properties).
 * Set a target instance by using the **`ibmcloud openpages select`** command.
