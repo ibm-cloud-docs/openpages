@@ -1,11 +1,13 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-04-28"
+lastupdated: "2026-05-01"
 
 subcollection: openpages
 
 keywords: _OpenPages_ CLI, _OpenPages_ command line , _OpenPages CLI_ terminal, _OpenPages CLI_ shell, _ObjectManager_
+
+content-type: cli-docs
 
 ---
 
