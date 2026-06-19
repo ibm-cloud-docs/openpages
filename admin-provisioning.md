@@ -47,4 +47,4 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
 
 ## Next steps to consider
 
-After provisioning your environment, follow the instructions for configuring customer-managed encryption keys in the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-ibm-openpages-customer-managed-encryption-key-configuration-guide).
+After provisioning your environment, follow the instructions for configuring customer-managed encryption keys in the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-customer-managed-encryption-key-configuration-guide).
