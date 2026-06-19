@@ -1,4 +1,4 @@
-# {{site.data.keyword.openpages_short}}: Customer-managed encryption key configuration guide
+# Customer-managed encryption key configuration guide
 
 This document provides instructions for configuring customer-managed encryption keys using {{site.data.keyword.keymanagementservicelong_notm}} for {{site.data.keyword.openpages_short}} application provisioning.
 
