@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2025
-lastupdated: "2025-11-17"
+  years: 2026
+lastupdated: "2026-06-19"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -44,3 +44,7 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
 
    You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: tip}
 10. Click the name of your {{site.data.keyword.openpages_short}} instance. The overview page for the {{site.data.keyword.openpages_short}} instance is displayed.
+
+## Next steps to consider
+
+After provisioning your environment, follow the instructions for configuring customer-managed encryption keys in the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-ibm-openpages-customer-managed-encryption-key-configuration-guide).
