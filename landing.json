@@ -10,11 +10,11 @@
         "title": "Getting started with OpenPages",
         "href": "/docs/openpages?topic=openpages-gettingstartedtutorial"
       },
-     {
+      {
         "title": "Administering OpenPages",
         "href": "/docs/openpages?topic=openpages-Administer_op&interface=ui"
       },
-	  {
+      {
         "title": "Managing access for OpenPages",
         "href": "/docs/openpages?topic=openpages-iam-openpages"
       },
@@ -30,7 +30,7 @@
       "description": "This article provides an overview of governance, risk management, and compliance in today’s modern business world.",
       "href": "https://developer.ibm.com/articles/navigating-governance-risk-compliance/?mhsrc=ibmsearch_a&mhq=openpages",
       "type": "blog",
-	  "recommended": true
+      "recommended": true
     },
     {
       "title": "IBM OpenPages 9.0: Administration",
@@ -47,4 +47,4 @@
   "section_updates": {
     "view_more": "/docs/openpages?topic=openpages-openpages-relnotes"
   }
-  }
+}
