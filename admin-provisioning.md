@@ -45,5 +45,5 @@ While provisioning your environment, ensure that you have configured your custom
 
    Your instance is listed twice because {{site.data.keyword.openpages_short}} is associated with two categories in the {{site.data.keyword.Bluemix_notm}} catalog.
 
-   You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: tip}
+   You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: .tip}
 10. Click the name of your {{site.data.keyword.openpages_short}} instance. The overview page for the {{site.data.keyword.openpages_short}} instance is displayed.
