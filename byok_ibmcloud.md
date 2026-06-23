@@ -6,12 +6,12 @@ This document provides instructions for configuring customer-managed encryption 
 
 ## Prerequisites: Information required from {{site.data.keyword.openpages_short}}
 
-Before starting the configuration, contact your {{site.data.keyword.openpages_short}} representative to obtain the following values:
+Before starting the configuration, you will need the following values:
 
 | Item | Description | Placeholder |
 |------|-------------|-------------|
-| {{site.data.keyword.IBM_notm}} service ID | {{site.data.keyword.Bluemix_notm}} service identifier | `<IBM_SERVICE_ID>` |
-| {{site.data.keyword.IBM_notm}} account ID | {{site.data.keyword.Bluemix_notm}} account ID | `<IBM_ACCOUNT_ID>` |
+| {{site.data.keyword.IBM_notm}} service ID | {{site.data.keyword.Bluemix_notm}} service identifier | `ServiceId-423b717e-9a51-4033-a663-961285fb8716` |
+| {{site.data.keyword.IBM_notm}} account ID | {{site.data.keyword.Bluemix_notm}} account ID | `c4cf7573920c4b98b883fb63ab00b556` |
 
 ---
 
