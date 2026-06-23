@@ -38,7 +38,7 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
     - Click **Solutions** and choose at least one.
 7. Read and agree to the terms, then click **Create**. Your {{site.data.keyword.openpages_short}} instance is being created.
 
-   While provisioning your environment, ensure that you have configured your customer-managed encryption keys. For mor information, see the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-customer-managed-encryption-key-configuration-guide).{ :note}
+   While provisioning your environment, ensure that you have configured your customer-managed encryption keys. For mor information, see the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-customer-managed-encryption-key-configuration-guide).{: .note}
 
 8. To see the progress, go to the **Resource list**.
 9. In the search box, type **openpages**.
