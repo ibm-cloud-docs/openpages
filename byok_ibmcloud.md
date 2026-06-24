@@ -8,10 +8,10 @@ This document provides instructions for configuring customer-managed encryption 
 
 Before starting the configuration, you will need the following values:
 
-| Item | Description | Placeholder |
-|------|-------------|-------------|
-| {{site.data.keyword.IBM_notm}} service ID | {{site.data.keyword.Bluemix_notm}} service identifier | `ServiceId-423b717e-9a51-4033-a663-961285fb8716` |
-| {{site.data.keyword.IBM_notm}} account ID | {{site.data.keyword.Bluemix_notm}} account ID | `c4cf7573920c4b98b883fb63ab00b556` |
+| Item | Description | Value |
+|------|-------------|-------|
+| {{site.data.keyword.openpages_short}} service ID | Service identifier for {{site.data.keyword.openpages_short}} trusted profile configuration | `ServiceId-423b717e-9a51-4033-a663-961285fb8716` |
+| {{site.data.keyword.openpages_short}} account ID | Account identifier for {{site.data.keyword.openpages_short}} service-to-service authorizations | `c4cf7573920c4b98b883fb63ab00b556` |
 
 ---
 
@@ -48,7 +48,7 @@ crn:v1:bluemix:public:kms:<REGION>:a/<YOUR_ACCOUNT_ID>:<KEY_PROTECT_INSTANCE_ID>
 Create a trusted profile in {{site.data.keyword.iamshort}} → Trusted profiles to establish secure access between your account and {{site.data.keyword.openpages_short}} services.
 
 Configure the following:
-- Establish trust with service ID: `<IBM_SERVICE_ID>` (provided by {{site.data.keyword.IBM_notm}})
+- Establish trust with service ID (refer to Prerequisites table for the {{site.data.keyword.openpages_short}} service ID value)
 - Assign access policy to {{site.data.keyword.keymanagementservicelong_notm}} service with Reader and ReaderPlus roles for your encryption key
 
 Capture the profile ID for provisioning.
@@ -68,7 +68,7 @@ Configure authorizations in {{site.data.keyword.iamshort}} → Authorizations to
 
 Configure the following:
 - Source service: {{site.data.keyword.Db2_on_Cloud_short}}
-- Source account: `<IBM_ACCOUNT_ID>` (provided by {{site.data.keyword.IBM_notm}})
+- Source account: Refer to Prerequisites table for the {{site.data.keyword.openpages_short}} account ID value
 - Target service: {{site.data.keyword.keymanagementservicelong_notm}} (your instance)
 - Roles: Reader, Authorization Delegator
 
@@ -76,7 +76,7 @@ Configure the following:
 
 Configure the following:
 - Source service: {{site.data.keyword.cos_full_notm}}
-- Source account: `<IBM_ACCOUNT_ID>` (provided by {{site.data.keyword.IBM_notm}})
+- Source account: Refer to Prerequisites table for the {{site.data.keyword.openpages_short}} account ID value
 - Target service: {{site.data.keyword.keymanagementservicelong_notm}} (your instance)
 - Roles: Reader
 
