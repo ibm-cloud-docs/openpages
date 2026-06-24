@@ -47,3 +47,6 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
 
    You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: .tip}
 10. Click the name of your {{site.data.keyword.openpages_short}} instance. The overview page for the {{site.data.keyword.openpages_short}} instance is displayed.
+
+After provisioning, you can configure monthly snapshot retention policies (1, 3, 7, or 10 years) for your instance to meet compliance and auditing requirements. This feature is available only for {{site.data.keyword.openpages_short}} on AWS Marketplace. For more information, see [Configuring snapshot retention for {{site.data.keyword.openpages_short}}](/docs/openpages?topic=openpages-snapshot-retention).
+{: note}
