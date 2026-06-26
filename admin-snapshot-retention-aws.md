@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-06-24"
+lastupdated: "2026-06-26"
 
 keywords: snapshot retention, monthly snapshots, backup retention, compliance
 
@@ -13,7 +13,7 @@ subcollection: openpages
 # Configuring snapshot retention for {{site.data.keyword.openpages_short}}
 {: #snapshot-retention}
 
-You can configure monthly snapshot retention policies for your dedicated DB2 instances to meet compliance and auditing requirements. Monthly snapshots are automatically created and retained according to your configured policy.
+You can configure monthly snapshot retention policies for your instances to meet compliance and auditing requirements. Monthly snapshots are automatically created and retained according to your configured policy.
 {: shortdesc}
 
 Snapshot retention is available for all plan types.
@@ -81,14 +81,3 @@ To configure different retention policies, do the following steps:
    - **Production instances**: Typically require longer retention (7 or 10 years) for compliance
    - **QA or staging instances**: May use shorter retention (1 or 3 years)
    - **Development instances**: Often use the minimum retention (1 year)
-
-## Restoring from a snapshot
-{: #restore-snapshot}
-
-To restore your instance from a monthly snapshot, contact IBM Support with the following information:
-
-- Your instance CRN (Cloud Resource Name)
-- The specific snapshot date you want to restore from
-- The target instance for restoration
-
-Restoration from monthly snapshots may take several hours depending on the size of your database and the storage tier (warm or cold storage).
