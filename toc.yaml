@@ -40,10 +40,14 @@ toc:
           label: Administering
           topics:
           - administer.md
-          - admin-provisioning.md
-          - byok_ibmcloud.md
+          - topicgroup:
+              label: Provisioning your instance
+              topics:
+              - admin-provisioning.md
+              - byok_ibmcloud.md
           - admin-updating-software.md
           - admin-backup-restore.md
+          - admin-snapshot-retention-aws.md
           - admin-customize-hostname.md
           - admin-add-remove-solutions.md
           - admin-view-UI-utilization.md

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-06-19"
+lastupdated: "2026-06-24"
 
 keywords: provisioning OpenPages, IBM OpenPages as a Service, OpenPages environment
 subcollection: openpages
@@ -37,14 +37,16 @@ To provision an {{site.data.keyword.openpages_short}} instance, do the following
       - You can choose to include sample data.
     - Click **Solutions** and choose at least one.
 7. Read and agree to the terms, then click **Create**. Your {{site.data.keyword.openpages_short}} instance is being created.
+
+**OPTIONAL:** While provisioning your environment, ensure that you have configured your customer-managed encryption keys. For more information, see the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-customer-managed-encryption-key-configuration-guide).{: .note}
+
 8. To see the progress, go to the **Resource list**.
 9. In the search box, type **openpages**.
 
    Your instance is listed twice because {{site.data.keyword.openpages_short}} is associated with two categories in the {{site.data.keyword.Bluemix_notm}} catalog.
 
-   You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: tip}
+   You might need to refresh the page to update it. Your instance is ready when the **Status** column shows **Active**. {: .tip}
 10. Click the name of your {{site.data.keyword.openpages_short}} instance. The overview page for the {{site.data.keyword.openpages_short}} instance is displayed.
 
-## Next steps to consider
-
-After provisioning your environment, follow the instructions for configuring customer-managed encryption keys in the [Customer-managed encryption key configuration guide](/docs/openpages?topic=openpages-customer-managed-encryption-key-configuration-guide).
+After provisioning, you can configure monthly snapshot retention policies (1, 3, 7, or 10 years) for your instance to meet compliance and auditing requirements. This feature is available only for {{site.data.keyword.openpages_short}} on AWS Marketplace. For more information, see [Configuring snapshot retention for {{site.data.keyword.openpages_short}}](/docs/openpages?topic=openpages-snapshot-retention).
+{: note}
