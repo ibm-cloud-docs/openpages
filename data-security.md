@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-07-28"
+  years: 2026
+lastupdated: "2026-07-30"
 
 keywords: data encryption in openpages, data storage for openpages, personal data in openpages, data deletion for openpages, data in openpages, data security in openpages
 
@@ -31,6 +31,17 @@ In addition to the storage level encryption, {{site.data.keyword.openpages_short
    - mTLS for internal communications
    - Web App Firewall and DDoS protection
    - Ingress and Egress network rules to isolate your dedicated instance
+
+## AWS Key Management Service (KMS) key rotation enabled for {{site.data.keyword.openpages_short}}
+{: #kms-key-rotation}
+
+AWS KMS key rotation is now enabled for all {{site.data.keyword.openpages_short}} instances for 365 days.
+
+The AWS KMS key rotation is enabled for 365 days for only the following offerings:
+- IBM Cloud Hybrid on AWS
+- watsonx.governance on AWS Marketplace
+- {{site.data.keyword.openpages_short}} as a Service on AWS Marketplace
+{: note}
 
 ## Protecting your sensitive data in {{site.data.keyword.openpages_short}}
 {: #data-encryption}
